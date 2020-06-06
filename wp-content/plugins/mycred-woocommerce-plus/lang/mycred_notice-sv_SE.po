@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myCRED Notifications Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-20 22:17+0000\n"
+"PO-Revision-Date: 2017-04-20 22:28+0000\n"
+"Last-Translator: Gabriel Merovingi <gabriel.s@merovingi.com>\n"
+"Language-Team: Swedish\n"
+"Language: sv-SE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /Users/gabriel/sites/notifications/wp-"
+"content/plugins/mycred-notice-plus\n"
+"X-Loco-Target-Locale: sv_SE"
+
+#: modules/mycred-notifications.php:531
+msgid "Setup"
+msgstr "Inställningar"
+
+#: modules/mycred-notifications.php:541
+msgid ""
+"Select the point type or point types that you want to enable notifications "
+"for."
+msgstr "Välj vilken eller vilka poäng typer som skall generera ett meddelande."
+
+#: modules/mycred-notifications.php:562
+msgid "Badges"
+msgstr "Badges"
+
+#: modules/mycred-notifications.php:568
+msgid "Use custom notifications when a user earns a badge."
+msgstr "Använd ett särskilt mall för meddelanden för Badges."
+
+#: modules/mycred-notifications.php:574
+#, php-format
+msgid ""
+"Available template tags: %s - badge title, %s - badge logo, %s - badge level."
+msgstr ""
+"Användbara template tags: %s - badge titel, %s - badge logo, %s - badge "
+"level."
+
+#: modules/mycred-notifications.php:580 modules/mycred-notifications.php:616
+msgid "Add-on not used."
+msgstr "Funktionen används inte"
+
+#: modules/mycred-notifications.php:587
+msgid "Ranks"
+msgstr "Ranks"
+
+#: modules/mycred-notifications.php:593
+msgid "Use custom notifications for rank demotions."
+msgstr "Använd ett särskilt mall för meddelanden för degradering."
+
+#: modules/mycred-notifications.php:599 modules/mycred-notifications.php:610
+#, php-format
+msgid "Available template tags: %s - rank title, %s - rank logo."
+msgstr "Available template tags: %s - badge title, %s - badge logo."
+
+#: modules/mycred-notifications.php:604
+msgid "Use custom notifications for rank promotions."
+msgstr "Använd ett särskilt mall för meddelanden för befordran."
+
+#: modules/mycred-notifications.php:639
+msgid "The update frequency in seconds."
+msgstr "Uppdaterings frekvensen i sekunder."
+
+#: modules/mycred-notifications.php:694
+msgid ""
+"Number of pixels between the edge of the screen and the notification box. "
+"Applied both horizontally and vertically depending on the set position."
+msgstr ""
+"Antalet pixlar mellan hemsidans yttre kant och meddelandets yttre kant. "
+"Används både horisontellt och vertikalt beroende på meddelandets position."
+
+#: modules/mycred-notifications.php:702
+msgid "Border Width"
+msgstr "Kant Bredd"
+
+#: modules/mycred-notifications.php:704
+msgid "Border width in pixels."
+msgstr "Kantens bredd i pixels."
+
+#: modules/mycred-notifications.php:709
+msgid "Border Radius"
+msgstr "Kant Radie"
+
+#: modules/mycred-notifications.php:711
+msgid "Border radius in pixels."
+msgstr "Kantens radie i pixels."
+
+#: modules/mycred-notifications.php:772
+msgid "CSS"
+msgstr "CSS"
+
+#: modules/mycred-notifications.php:796
+msgid "Content Template"
+msgstr "Meddelande Mall"
+
+#: modules/mycred-notifications.php:869
+msgid "Template can not be empty."
+msgstr "Mallen kan inte vara tom."
+
+#: modules/mycred-notifications.php:871
+msgid "Log entry description"
+msgstr "Log mall beskrivning"
+
+#. Description of the plugin
+msgid ""
+"Notifications with options to style, show notifications for ranks and badges "
+"and optional instant notifications."
+msgstr ""
+
+#: mycred-notice-plus.php:260
+msgid "More information about this plugin"
+msgstr "Mer information om denna plugin"
+
+#: mycred-notice-plus.php:262
+msgid "View details"
+msgstr "Se detaljer"
+
+#: modules/mycred-notifications.php:528
+msgid "Notifications Plus"
+msgstr "Notifications Plus"
+
+#: modules/mycred-notifications.php:535
+msgid "Point Types"
+msgstr "Poäng Typer"
+
+#: modules/mycred-notifications.php:546
+msgid "Lifespan"
+msgstr "Livslängd"
+
+#: modules/mycred-notifications.php:548
+msgid ""
+"The number of days a users notification is saved before being automatically "
+"deleted."
+msgstr "Antalet dagar ett meddelande sparas innan den automatiskt raderas."
+
+#: modules/mycred-notifications.php:553
+msgid "Duration"
+msgstr "Visnings längd"
+
+#: modules/mycred-notifications.php:555
+msgid ""
+"Number of seconds before a notice is automatically removed after being shown "
+"to user. Use zero to disable."
+msgstr ""
+"Antalet sekunder innan meddelandet automatiskt försvinner. Använd noll om du "
+"inte vill använda denna funktion."
+
+#: modules/mycred-notifications.php:572 modules/mycred-notifications.php:597
+#: modules/mycred-notifications.php:608
+msgid "Template"
+msgstr "Mall"
+
+#: modules/mycred-notifications.php:574 modules/mycred-notifications.php:599
+#: modules/mycred-notifications.php:610
+msgid "Restore to default"
+msgstr "Återställ"
+
+#: modules/mycred-notifications.php:624
+msgid "Instant Notifications"
+msgstr "Omedelbara Notifieringar"
+
+#: modules/mycred-notifications.php:628
+msgid "Enable Instant Notifications"
+msgstr "Aktivera"
+
+#: modules/mycred-notifications.php:637
+msgid "Update Frequency"
+msgstr "Uppdateringsfrekvens"
+
+#: modules/mycred-notifications.php:652
+msgid "Styling"
+msgstr "Styling"
+
+#: modules/mycred-notifications.php:659
+msgid "Top Left"
+msgstr "Överst till vänster"
+
+#: modules/mycred-notifications.php:667
+msgid "Top Right"
+msgstr "Överst till höger"
+
+#: modules/mycred-notifications.php:675
+msgid "Bottom Left"
+msgstr "Längst nere på sidan till vänster"
+
+#: modules/mycred-notifications.php:683
+msgid "Bottom Right"
+msgstr "Längst ner på sidan till höger"
+
+#: modules/mycred-notifications.php:692
+msgid "Padding"
+msgstr "Fyllnad"
+
+#: modules/mycred-notifications.php:719 modules/mycred-notifications.php:751
+msgid "Background Color"
+msgstr "Bakgrunds färg"
+
+#: modules/mycred-notifications.php:725 modules/mycred-notifications.php:757
+msgid "Border Color"
+msgstr "Kant färg"
+
+#: modules/mycred-notifications.php:731 modules/mycred-notifications.php:763
+msgid "Text Color"
+msgstr "Text färg"
+
+#: modules/mycred-notifications.php:741
+msgid "Use different colors when users loose %plural%."
+msgstr "Använd andra färger när användaren förlorar %plural%."
+
+#: modules/mycred-notifications.php:778
+msgid "Use the included CSS Styling for notifications."
+msgstr "Använd det medföljande CSS-Styling för meddelanden."
+
+#: modules/mycred-notifications.php:787
+msgid "Custom CSS"
+msgstr "Din egen CSS"
+
+#: modules/mycred-notifications.php:805
+msgid "Preview Notice"
+msgstr "Förhandsvisning"
+
+#: includes/mycred-notice-functions.php:218
+msgid "This myCRED Add-on requires WordPress 4.0 or higher. Version detected:"
+msgstr "Denna plugin kräver WordPress 4.0 eller högre. Din version:"
+
+#: includes/mycred-notice-functions.php:223
+msgid "This myCRED Add-on requires PHP 5.3 or higher. Version detected: "
+msgstr ""
+"Denna myCRED Add-on kräver minst PHP 5.3 eller bättre. Installerad version:"
+
+#: includes/mycred-notice-functions.php:228
+msgid "This myCRED Add-on requires SQL 5.0 or higher. Version detected: "
+msgstr ""
+"Denna myCRED Add-on kräver minst SQL 5.0 eller bättre. Installerad version:"
+
+#: includes/mycred-notice-functions.php:232
+msgid "This add-on requires myCRED 1.6 or higher. Version detected:"
+msgstr "Denna plugin kräver myCRED 1.6 eller högre. Din version:"
+
+#: includes/mycred-notice-functions.php:238
+msgid ""
+"Sorry but your WordPress installation does not reach the minimum "
+"requirements for running this add-on. The following errors were given:"
+msgstr ""
+"Tyvärr så uppnår inte din WordPress installation de minimum krav som denna "
+"add-on har. Följande problem uppstod:"

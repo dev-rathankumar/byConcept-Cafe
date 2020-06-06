@@ -1,0 +1,876 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/css?family=La+Belle+Aurore|Shadows+Into+Light|Nothing+You+Could+Do|Zeyada|Dawning+of+a+New+Day|Herr+Von+Muellerhoff|Over+the+Rainbow);
+/* CSS Document */
+
+
+
+body 
+{
+    background:#FFFFFF!important;
+    margin-top:0px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-size: 14px;
+
+}
+
+a:hover
+{
+    color: #46b1cd;
+}
+
+a 
+{
+    color: #46b1cd;
+    text-decoration: none;
+}
+
+a:link
+{
+    color: #46b1cd;
+}
+/* setting all elements font family */
+*{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+pre {
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+
+}
+
+@media print 
+{
+
+    .page-break-before 
+    { 
+        page-break-before:always;
+    }
+
+    .noPrint 
+    {
+        display:none;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+
+}
+
+.esig-sitename
+{
+    text-shadow: none;
+}
+
+
+.navbar-inverse .navbar-brand 
+{
+    color: #fff;
+    letter-spacing: .1em;
+}
+
+.navbar-brand 
+{
+    text-shadow: none;
+    color: #fff!important;
+
+}
+.navbar-brand .logo
+{
+    height:30px;
+
+}
+.first-page
+{
+    margin-top: 0px;	 
+}
+.signer-header
+{
+    display:none; 
+}
+
+.document_id
+{
+    position : relative; 
+    display:inline; 
+    float:left; 
+    width:72%; 
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+
+.document_date 
+{
+    position: relative; 
+    float:right; 
+    display:inline; 
+    width:27%;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+.document-sign-page
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px;
+
+}
+.document-signer
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-size:14px;
+}
+.signed_on 
+{
+    margin-top:0px; 
+    display:inline; 
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px;
+
+}
+
+.col-sm-8 
+{ 
+    float:left;
+    width:70%;
+}
+.col-sm-4 
+{
+    float :right;
+    width:30%;
+}
+
+.doc-name
+{
+    float: left;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    padding-top: 5px;
+    letter-spacing: .1em;
+}
+
+.doc_page
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    background-color: white;
+    font-weight: normal;
+    font-size:14px;
+
+}
+
+.doc-terms
+{
+    text-shadow: 0px 1px 1px #000;
+}
+
+.doclogo-right 
+{
+    padding: 10px;
+}
+
+.footer-btn
+{
+    padding: 13px;
+}
+
+.footer-agree
+{
+    display : none; 
+}
+.message 
+{
+    display : none; 
+}
+
+.doc_page input[type="button"], .doc_page input[type="submit"]{}
+
+.doc_title
+{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    color:#000;
+}
+
+.success_title
+{
+    display:none; 
+}
+
+.s_logo 
+{
+    display:none; 
+}
+
+input[type=text]
+{
+    background-color: #FFF;
+    border:solid 1px #FFF;
+    color: #000;
+    height: 28px;
+    padding-left:10px;
+}
+
+.signers_label
+{
+    font-weight: 200;
+    text-transform: none;
+    color: #504f4f;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+
+.pdf-footer 
+{
+    position: relative ;
+    display : block ; 
+    width:100% ;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+.footer-left 
+{
+    position : relative ;
+    display : block ;
+    float:left ;
+    width:35% ; 
+}
+.footer-right 
+{
+    position : relative ;
+    display : block ;
+    float:right;
+    width:63% ; 
+    text-align:right ; 
+}
+
+.signatures 
+{
+    position: relative ;
+    display : block ; 
+    width:100% ;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+
+.signature-left 
+{
+    position:relative ;
+    display:inline-block ; 
+    float:left ;
+    text-align:center ;
+    width:50% ; 
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+   
+}
+
+
+.signature-top
+{
+    display:block ; 
+    position:relative ; 
+    float:left ;
+    text-align:left ;
+    width:100%;
+    min-width: 450px;
+    margin-top:20px;
+    margin-left:10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px;  
+   
+}
+
+.signature-top-signed {
+     display:block ; 
+    position:relative ; 
+    float:left ;
+    text-align:left ;
+    width:100%;
+    min-width: 450px;
+   
+    margin-left:10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px; 
+}
+.signature-top-typed {
+     display:block ; 
+    position:relative ; 
+    float:left ;
+    text-align:left ;
+    width:100%;
+    min-width: 450px;
+    margin-top:-10px;
+    margin-left:10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px; 
+}
+
+.signature-top-admin
+{
+    display:block ; 
+    position:relative ; 
+    float:left ;
+    text-align:left ;
+    width:100%;
+    min-width: 255px;
+    margin-top:-10px; 
+     margin-left:10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px;  
+   
+}
+
+.signature-top-admin-signed
+{
+    display:block ; 
+    position:relative ; 
+    float:left ;
+    text-align:left ;
+    width:100%;
+    min-width: 255px;
+    margin-top:0px; 
+     margin-left:10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px;  
+   
+}
+
+.signature-top-admin-typed
+{
+    display:block ; 
+    position:relative ; 
+    float:left ;
+    text-align:left ;
+    width:100%;
+    min-width: 255px;
+    margin-top:-10px; 
+     margin-left:10px;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    font-weight: normal;
+    font-size:14px;  
+   
+}
+
+.signed-value
+{
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    padding:.2em .5em .15em .5em;
+}
+.audit-wrapper 
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+
+    font-weight: normal;
+    font-size:14px;
+
+}
+
+.time
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    width:18%;
+    font-weight: normal;
+    font-size:14px;
+}
+.log
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    width:82%;
+    font-weight: normal;
+    font-size:14px;
+}
+
+/* sif css here */
+/* This stylesheet is used for the public-facing components of the plugin. */
+
+input.esig-sif-textfield
+{
+    background-color: #FFFFFF;
+    height: 2.5em !important;
+    width: inherit !important;
+    border: 1px solid #9B9B9B;
+    padding: 0 7px;
+}
+input.esig-sif-textfield.esig-error
+{
+    border-color:#c00;
+}
+label.esig-error
+{
+    display:inline-block;
+    background: #c00;
+    color:#fff;
+    font-weight:normal;
+    padding:2px .5em;
+    font-size:13px;
+    vertical-align:middle;
+}
+.esig-sif-textfield.signed
+{
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    padding:.2em .5em .15em .5em;
+
+}
+
+input.esig-sif-todaydate
+{
+    height:2.5em !important;
+    width: 110px;
+    padding: 5px;
+}
+input.esig-sif-todaydate.signed
+{
+    border-width: 0 0 1px 0 !important;
+}
+
+.document-sign-page .radio
+{
+    display:block;	
+    height:1em;
+}
+.radio-horizental
+{
+    display:inline-block;
+    padding-right:1em;
+    height:1em;
+    float:left ; 
+    position:relative;
+    width:10%;
+
+}
+.checkbox-horizental
+{
+    display:inline-block;
+    padding-right:1em;
+    height:1em;
+    float:left ; 
+    width:auto ;
+    width:10%;
+}
+.esig-sif-radio, .esig-sif-checkbox
+{
+    white-space: nowrap;
+    padding:5px;
+}
+.esig-sif-radio input[type="radio"]
+{
+    height:1em !important;
+    float:none;
+    margin-left:0px;
+    width:1.5em !important;
+
+}
+
+/*.document-sign-page .checkbox
+{
+    display:block;
+    margin-left:0px;
+    height:1em;
+
+}*/
+.esig-sif-checkbox input[type="checkbox"]
+{
+    height:1em !important;
+    width:1.5em !important;
+}
+ 
+.sifreadonly
+{
+    opacity: 0.5!important;
+    border: 1px solid #E7DEDE!important;
+    background: #e9f4ff!important;
+}
+
+.esig-sif-none 
+{
+    opacity:0.4;
+    padding-right:5px;
+}
+
+
+/* error msg start hree */
+
+/* esig document top part */
+.esig_header_top
+{
+    margin-top:20px;
+    display:inline-block;
+    position:relative;
+    width:100%;
+
+}
+
+.esig_top_left 
+{   
+    position:relative;
+    float:left;
+    display:inline-block ; 
+    width:65% ;
+} 
+
+.esig_top_right
+{   
+    position:relative;
+    float:right;
+    display:inline-block ; 
+    width:35% ; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}  
+
+
+/* branding style  */
+
+
+.cover_container 
+{
+    width:auto ;
+    position: relative;
+    display:block;
+    margin-top:30px;
+    text-align: center;
+}
+.cover-image{
+    display: block;
+    position: relative;
+}
+.company_logo
+{
+    margin-bottom:22px !important;
+}
+
+
+.cover_title 
+{   
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    text-align:center;
+    padding:0px;
+    position:relative ;
+    display:block ; 
+    width:100%;   
+}
+
+.cover_title h1
+{   
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    text-align:center;
+    width:100%;
+}
+
+.language_title h1
+{   
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    text-align:center;
+    top:250px;
+    width:100%;
+}
+
+.cover_title h2
+{  
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    text-align:center;
+    padding:0px;
+    font-weight:100;
+    margin-top:200px;
+}
+
+.esig_branding_cover_footer
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+.cover_title span
+{   
+    text-align:center;
+    margin:5px 0px; 
+}
+
+.cover_body
+{
+    position:relative;
+    margin-top : 200px;
+    width:100%;
+    text-align:center;
+}
+
+.cover_body .company_title
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+.cover_body .document_sender
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+.cover_body .document_signer
+{
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+
+
+.cover_body img
+{
+    margin-bottom:20%;
+    padding-bottom:100px;
+}	
+
+/* Start of Bootstrap Table for Documents */
+
+.document-sign-page .table-bordered {
+    border: 1px solid #ddd;
+}
+.document-sign-page .table-bordered tr th {
+    border-right: 1px solid #ddd;
+    padding: 8px;
+}
+.document-sign-page .table-bordered tr td {
+    border-right: 1px solid #ddd;
+    padding: 8px;
+}
+
+/** adding table space without border **/
+.document-sign-page .table-spacing {
+    border: 0px solid #ddd;
+     padding: 8px;
+}
+.document-sign-page .table-spacing tr th {
+    padding: 8px;
+}
+.document-sign-page .table-spacing tr td {
+    padding: 8px;
+}
+
+
+
+.document-sign-page .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.document-sign-page table {
+    background-color: transparent;
+}
+
+.document-sign-page table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.document-sign-page thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.document-sign-page tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table th td {
+    border-top: 0;
+}
+
+.table-bordered tr{
+    padding: 8px;
+    border-bottom:1px solid #ddd;
+}
+
+.table-bordered>tbody>tr>th, .document-sign-page .table-bordered>tfoot>tr>th, .document-sign-page .table-bordered>thead>tr>td, .document-sign-page .table-bordered>tbody>tr>td, .document-sign-page .table-bordered>tfoot>tr>td {
+    border: 1px solid red;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid red;
+}
+
+.table>thead>tr>th,  .table>tbody>tr>th,  .table>tfoot>tr>th,  .table>thead>tr>td,  .table>tbody>tr>td,  .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid red;
+}
+
+th {
+    text-align: left;
+}
+
+td,  th {
+    padding: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.day_label
+{
+    font-weight: normal;
+    font-size:14px;
+}
+/* End of Bootstrap Table for Documents */
+
+
+/* signature type font family */
+.col-sm-6
+{
+    display:inline-block;
+    position:relative;
+    width : 355px !important ;
+}
+
+.signature-wrapper-displayonly-signed
+{
+    width:350px;
+    display:inline-block;
+    position:relative;
+    background:#FFF;	
+    margin-top:50px;	                      
+}
+
+
+
+.signature-wrapper-displayonly .sign-here.signed
+{
+    background: url('../images/sign-here_blank_small.jpg') no-repeat;
+    border-width:0px;
+    background-position:left bottom;
+
+}
+.signature-wrapper-displayonly-signed .signed
+{
+    cursor:pointer;
+    width:350px;
+    height:auto !important ;
+    background: url('../../assets/images/sign-here_blank.jpg') no-repeat;
+    background-position:bottom left;
+    border-width:1px;
+    border-radius:0;    
+    height:100px;
+
+}
+
+.esig-signature-type-font
+{
+    font-size:64px;
+
+}
+
+.sign-text 
+{
+    display:block;
+    position:relative;
+    padding-left:15px;
+    width:100% ; 
+}
+
+.sign-text-pdf
+{
+    display: block;
+    position: relative;
+    padding-left:25px;
+    width:100% ;  
+}
+
+
+.your-div {
+    position: relative;
+}
+
+.your-div span {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+.sig-type 
+{  
+    position:absolute;
+    bottom: 0; 
+    left: 0;
+    text-align:left !important;
+    vertical-align:text-bottom;
+    width:100% ;
+    height:auto !important;
+}
+.esig-sig-type
+{   
+    position:relative;
+    vertical-align:text-bottom;
+    text-align:center; 
+    width:100% ; 
+}
+
+/* signature type font family */
+.esig-signature-type-font1
+{
+    font-family: 'La Belle Aurore', cursive;
+    font-size:64px;
+}
+.esig-signature-type-font2
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:64px;
+}
+.esig-signature-type-font3
+{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size:64px;
+}
+.esig-signature-type-font4
+{
+    font-family: 'Zeyada', cursive;
+    font-size:64px;
+}
+.esig-signature-type-font5
+{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size:64px;
+}
+.esig-signature-type-font6
+{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size:64px;
+}
+.esig-signature-type-font7
+{
+    font-family: 'Over the Rainbow', cursive;
+    font-size:64px;
+}
+/*input field style */
+
+/* Sif textbox style */
+.esig-sif-pdf
+{
+    background-color: transparent;
+    border: 1px solid #ccc;  
+    padding: 10px;
+}
+
+/* E-signature tick mark has been added. */
+.esig-checkbox-tick, .esig-checkbox-tick .tick{
+    list-style-type: none;
+}
+/* e-signature tick mark code here  */
+
+/* gravity style  */
+.document-sign-page .gfield_list {
+    
+    border-spacing: 0;
+    padding: 0;
+    margin: 2px 0 6px;
+    width: 100%;
+}

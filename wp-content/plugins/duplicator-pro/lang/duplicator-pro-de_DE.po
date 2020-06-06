@@ -1,0 +1,5937 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Duplicator Pro\n"
+"POT-Creation-Date: 2020-03-16 15:02-0700\n"
+"PO-Revision-Date: 2020-03-16 15:02-0700\n"
+"Last-Translator: Gerd Zimmermann <mail@gerdzim.ch>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/js/javascript.php:168 views/settings/general/inc.general.php:347
+#: views/settings/general/inc.general.php:392
+#: views/settings/general/inc.general.php:422
+#: views/tools/diagnostics/tests.php:391
+msgid "RESPONSE ERROR!"
+msgstr ""
+
+#: assets/js/javascript.php:176 views/settings/general/inc.general.php:342
+#: views/tools/diagnostics/tests.php:241
+#, fuzzy
+#| msgid "ERROR!"
+msgid "AJAX ERROR!"
+msgstr "FEHLER!"
+
+#: assets/js/javascript.php:176 views/settings/general/inc.general.php:342
+#: views/tools/diagnostics/tests.php:242
+msgid "Ajax request error"
+msgstr ""
+
+#: classes/class.logging.php:302
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: classes/class.logging.php:304
+msgid "No Log"
+msgstr "Kein Protokoll"
+
+#: classes/class.server.php:336 classes/class.server.php:341
+msgid "(directory)"
+msgstr "(Verzeichnis)"
+
+#: classes/class.wp.list.table.php:152
+msgid "List View"
+msgstr "Ansicht auflisten"
+
+#: classes/class.wp.list.table.php:153
+msgid "Excerpt View"
+msgstr "Auszug ansehen"
+
+#: classes/class.wp.list.table.php:324
+msgid "No items found."
+msgstr "Keine Einträge gefunden."
+
+#: classes/class.wp.list.table.php:451
+msgid "Select bulk action"
+msgstr "Sammelaktion auswählen"
+
+#: classes/class.wp.list.table.php:453 views/schedules/schedule.list.php:103
+#: views/settings/package/inc.brand.list.php:110
+#: views/storage/storage.list.php:68
+msgid "Bulk Actions"
+msgstr "Sammelaktion"
+
+#: classes/class.wp.list.table.php:463 views/packages/screen.php:153
+msgid "Apply"
+msgstr "Ausführen"
+
+#: classes/class.wp.list.table.php:513 classes/class.wp.list.table.php:1314
+msgid "Show more details"
+msgstr "Zeige mehr Details"
+
+#: classes/class.wp.list.table.php:576
+msgid "Filter by date"
+msgstr "Nach Datum filtern"
+
+#: classes/class.wp.list.table.php:578
+msgid "All dates"
+msgstr "Alle Temine"
+
+#: classes/class.wp.list.table.php:591
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: classes/class.wp.list.table.php:650 classes/class.wp.list.table.php:662
+#: classes/class.wp.list.table.php:675
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: classes/class.wp.list.table.php:662
+msgid "No approved comments"
+msgstr "Keine freigegebenen Kommentare"
+
+#: classes/class.wp.list.table.php:675
+msgid "No pending comments"
+msgstr "Keine wartenden Kommentare"
+
+#: classes/class.wp.list.table.php:788
+msgid "First page"
+msgstr "Erste Seite"
+
+#: classes/class.wp.list.table.php:798
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: classes/class.wp.list.table.php:805 classes/class.wp.list.table.php:808
+msgid "Current Page"
+msgstr "Aktuelle Seite"
+
+#: classes/class.wp.list.table.php:821
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: classes/class.wp.list.table.php:831
+msgid "Last page"
+msgstr "Letzte Seite"
+
+#: classes/class.wp.list.table.php:1059
+msgid "Select All"
+msgstr "Alle Auswählen"
+
+#: classes/entities/class.brand.entity.php:117
+#: classes/entities/class.schedule.entity.php:591
+#: classes/entities/class.storage.entity.php:979
+#: classes/entities/class.storage.entity.php:2012
+#: classes/entities/class.storage.entity.php:2874
+#: classes/package/class.pack.php:2162
+#: classes/package/class.pack.upload.info.php:71
+#: classes/utilities/class.u.license.php:296 ctrls/class.web.services.php:700
+#: ctrls/class.web.services.php:2286 views/packages/details/detail.php:380
+#: views/packages/main/packages.php:384
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: classes/entities/class.brand.entity.php:121
+msgid "Keep Plugin"
+msgstr "Behalte das Plugin"
+
+#: classes/entities/class.brand.entity.php:124
+msgid "Remove Plugin"
+msgstr "Plugin entfernen"
+
+#: classes/entities/class.brand.entity.php:191
+#: classes/entities/class.package.template.entity.php:141
+#: classes/entities/class.storage.entity.php:2925
+#: classes/package/class.pack.php:1347 classes/package/class.pack.php:2200
+msgid "Default"
+msgstr "Standard"
+
+#: classes/entities/class.brand.entity.php:192
+msgid "The default content used when a brand is not defined"
+msgstr ""
+"Der Standardinhalt, der verwendet wird, wenn ein Brand nicht definiert ist"
+
+#: classes/entities/class.brand.entity.php:194
+#: views/packages/main/packages.php:255
+msgid "Duplicator Pro"
+msgstr "Duplicator Pro"
+
+#: classes/entities/class.global.entity.php:834
+msgid "ZipArchive: multi-thread"
+msgstr "ZipArchiv: Multithread"
+
+#: classes/entities/class.global.entity.php:835
+msgid "ZipArchive: single-thread"
+msgstr "ZipArchive: single-thread"
+
+#: classes/entities/class.global.entity.php:839
+#: views/packages/details/detail.php:394
+msgid "DupArchive"
+msgstr "DupArchive"
+
+#: classes/entities/class.global.entity.php:843
+msgid "Shell Zip"
+msgstr "Shell Zip"
+
+#: classes/entities/class.package.template.entity.php:71
+msgid "New Template"
+msgstr "Neue Vorlage"
+
+#: classes/entities/class.package.template.entity.php:142
+msgid "The default template."
+msgstr "Die Standardvorlage."
+
+#: classes/entities/class.package.template.entity.php:161
+msgid "[Manual Mode]"
+msgstr "[Manueller Modus]"
+
+#: classes/entities/class.package.template.entity.php:320
+#: views/tools/templates/template.edit.php:140
+#, fuzzy
+#| msgid "Advanced Settings"
+msgid "Active Build Settings"
+msgstr "Erweiterte Optionen"
+
+#: classes/entities/class.package.template.entity.php:321
+#: classes/entities/class.schedule.entity.php:140
+#: classes/entities/class.storage.entity.php:359
+#, php-format
+msgid "%1$s - Copy"
+msgstr "%1$s - Kopieren"
+
+#: classes/entities/class.schedule.entity.php:74
+msgid "New Schedule"
+msgstr "Neuer Zeitplan"
+
+#: classes/entities/class.schedule.entity.php:266
+msgid "System"
+msgstr "System"
+
+#: classes/entities/class.schedule.entity.php:505
+msgid "Unscheduled"
+msgstr "Nicht geplant"
+
+#: classes/entities/class.schedule.entity.php:522
+msgid "Never Ran"
+msgstr "Nie durchgeführt"
+
+#: classes/entities/class.schedule.entity.php:529
+msgid "Success"
+msgstr "Erfolgreich"
+
+#: classes/entities/class.schedule.entity.php:529
+#: classes/package/class.pack.upload.info.php:80
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: classes/entities/class.schedule.entity.php:575
+msgid "Daily"
+msgstr "Täglich"
+
+#: classes/entities/class.schedule.entity.php:579
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: classes/entities/class.schedule.entity.php:583
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: classes/entities/class.schedule.entity.php:587
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: classes/entities/class.storage.entity.php:155
+msgid "New Storage"
+msgstr "Neuer Speicherort"
+
+#: classes/entities/class.storage.entity.php:983
+#: classes/entities/class.storage.entity.php:2865
+msgid "Local"
+msgstr "Lokal"
+
+#: classes/entities/class.storage.entity.php:987
+#: classes/entities/class.storage.entity.php:2853
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: classes/entities/class.storage.entity.php:991
+#: classes/entities/class.storage.entity.php:2856
+msgid "FTP"
+msgstr "FTP"
+
+#: classes/entities/class.storage.entity.php:995
+#: classes/entities/class.storage.entity.php:2862
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: classes/entities/class.storage.entity.php:999
+#: classes/entities/class.storage.entity.php:2868
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: classes/entities/class.storage.entity.php:999
+#: classes/entities/class.storage.entity.php:2868
+msgid "S3-Compatible (Generic)"
+msgstr ""
+
+#: classes/entities/class.storage.entity.php:1002
+#: classes/entities/class.storage.entity.php:2870
+#, fuzzy
+#| msgid "OneDrive"
+msgid "OneDrive v0.1"
+msgstr "OneDrive"
+
+#: classes/entities/class.storage.entity.php:1002
+#: classes/entities/class.storage.entity.php:2870
+#, fuzzy
+#| msgid "OneDrive"
+msgid "OneDrive v0.1 (B)"
+msgstr "OneDrive"
+
+#: classes/entities/class.storage.entity.php:1015
+#, php-format
+msgid "Copying to directory %1$s"
+msgstr "In das Verzeichnis %1$s Kopieren"
+
+#: classes/entities/class.storage.entity.php:1019
+#, php-format
+msgid "Transferring to Dropbox folder %1$s"
+msgstr "Übertrage zum Dropbox Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1023
+#, php-format
+msgid "Transferring to FTP server %1$s in folder %2$s"
+msgstr "Übertrage zum FTP Server %1$s im Ordner %2$s"
+
+#: classes/entities/class.storage.entity.php:1027
+#, php-format
+msgid "Transferring to SFTP server %1$s in folder %2$s"
+msgstr "Übertrage zum SFTP Server %1$s im Ordner %2$s"
+
+#: classes/entities/class.storage.entity.php:1031
+#, php-format
+msgid "Transferring to Google Drive folder %1$s"
+msgstr "Übertrage zum Google Drive Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1035
+#, php-format
+msgid "Transferring to Amazon S3 folder %1$s"
+msgstr "Zum Amazon S3 Ordner %1$s übertragen"
+
+#: classes/entities/class.storage.entity.php:1038
+#, php-format
+msgid "Transferring to OneDrive folder %1$s"
+msgstr "Zum OneDrive Ordner %1$s übertragen"
+
+#: classes/entities/class.storage.entity.php:1051
+#, php-format
+msgid "Copy to directory %1$s is pending"
+msgstr "Das Kopieren ins Verzeichnis %1$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1055
+#, php-format
+msgid "Transfer to Dropbox folder %1$s is pending"
+msgstr "Die Übertragung zum Dropbox-Ordner %1$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1059
+#, php-format
+msgid "Transfer to FTP server %1$s in folder %2$s is pending"
+msgstr "Übertragung zum FTP Server %1$s Ordner %2$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1063
+#, php-format
+msgid "Transfer to SFTP server %1$s in folder %2$s is pending"
+msgstr "Übertragung zum SFTP Server %1$s im Ordner %2$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1067
+#, php-format
+msgid "Transfer to Google Drive folder %1$s is pending"
+msgstr "Übertragung zum Google Drive Ordner %1$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1071
+#, php-format
+msgid "Transfer to Amazon S3 folder %1$s is pending"
+msgstr "Übertragung zum Amazon S3 Ordner %1$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1074
+#, php-format
+msgid "Transfer to OneDrive folder %1$s is pending"
+msgstr "Die Übertragung zum OneDrive-Ordner %1$s steht aus"
+
+#: classes/entities/class.storage.entity.php:1087
+#, php-format
+msgid "Failed to copy to directory %1$s"
+msgstr "Fehler beim Kopieren in das Verzeichnis %1$s"
+
+#: classes/entities/class.storage.entity.php:1091
+#, php-format
+msgid "Failed to transfer to Dropbox folder %1$s"
+msgstr "Fehler beim Kopieren zum Dropbox Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1095
+#, php-format
+msgid "Failed to transfer to FTP server %1$s in folder %2$s"
+msgstr "Fehler beim Kopieren zum FTP Server %1$s in Ordner %2$s"
+
+#: classes/entities/class.storage.entity.php:1099
+#, php-format
+msgid "Failed to transfer to SFTP server %1$s in folder %2$s"
+msgstr "Fehler beim Übertragen zum SFTP Server %1$s im Ordner %2$s"
+
+#: classes/entities/class.storage.entity.php:1103
+#, php-format
+msgid "Failed to transfer to Google Drive folder %1$s"
+msgstr "Fehler beim Kopieren zum Google Drive Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1107
+#, php-format
+msgid "Failed to transfer to Amazon S3 folder %1$s"
+msgstr "Fehler beim Kopieren zum Amazon S3 Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1110
+#, php-format
+msgid "Failed to transfer to OneDrive folder %1$s"
+msgstr "Fehler beim Kopieren zum OneDrive Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1123
+#, php-format
+msgid "Cancelled before could copy to directory %1$s"
+msgstr "Vor der Übertragung zum Verzeichnis %1$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1127
+#, php-format
+msgid "Cancelled before could transfer to Dropbox folder %1$s"
+msgstr "Vor der Übertragung zum Googel Drive Ordner %1$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1131
+#, php-format
+msgid "Cancelled before could transfer to FTP server:<br/>%1$s in folder %2$s"
+msgstr ""
+"Vor der Übertragung zum FTP Server:<br/>%1$s in Ordner %2$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1135
+#, php-format
+msgid "Cancelled before could transfer to SFTP server:<br/>%1$s in folder %2$s"
+msgstr "Vor der Übertragung zum SFTP Server %1$s im Ordner %2$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1139
+#, php-format
+msgid "Cancelled before could transfer to Google Drive folder %1$s"
+msgstr "Vor der Übertragung zum Google Drive Ordner %1$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1143
+#, php-format
+msgid "Cancelled before could transfer to Amazon S3 folder %1$s"
+msgstr "Vor der Übertragung zum Amazon S3 Ordner %1$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1146
+#, php-format
+msgid "Cancelled before could transfer to OneDrive folder %1$s"
+msgstr "Vor der Übertragung zum OneDrive Ordner %1$s abgebrochen"
+
+#: classes/entities/class.storage.entity.php:1159
+#, php-format
+msgid "Copied the package to directory %1$s"
+msgstr "Kopiert das Archiv in das Verzeichnis %1$s"
+
+#: classes/entities/class.storage.entity.php:1163
+#, php-format
+msgid "Transferred the package to Dropbox folder %1$s"
+msgstr "Kopiert das Archiv in den Dropbox Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1167
+#, php-format
+msgid "Transferred the package to FTP server:<br/>%1$s in folder %2$s"
+msgstr "Kopiere das Archiv zum FTP server:<br/>%1$s in Ordner %2$s"
+
+#: classes/entities/class.storage.entity.php:1171
+#, php-format
+msgid "Transferred the package to SFTP server:<br/>%1$s in folder %2$s"
+msgstr "Übertrage das Archiv zum SFTP Server %1$s im Ordner %2$s"
+
+#: classes/entities/class.storage.entity.php:1175
+#, php-format
+msgid "Transferred the package to Google Drive folder %1$s"
+msgstr "Kopiert das Archiv in den Google Drive Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1179
+#, php-format
+msgid "Transferred the package to Amazon S3 folder %1$s"
+msgstr "Kopiert das Archiv in den Amazon S3 Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1182
+#, php-format
+msgid "Transferred the package to OneDrive folder %1$s"
+msgstr "Kopiert das Archiv in den One Drive Ordner %1$s"
+
+#: classes/entities/class.storage.entity.php:1999
+#, fuzzy
+#| msgid "Storage Folder"
+msgid "Can't read storage folder"
+msgstr "Speicherort Verzeichnis"
+
+#: classes/entities/class.storage.entity.php:2003
+msgid "Not Authenticated"
+msgstr ""
+
+#: classes/entities/class.storage.entity.php:2045
+#: classes/entities/class.storage.entity.php:2186
+#, php-format
+msgid "Error uploading %1$s to %2$s"
+msgstr "Fehler beim hochladen %1$s zu %2$s"
+
+#: classes/entities/class.storage.entity.php:2859
+msgid "SFTP"
+msgstr "SFTP"
+
+#: classes/entities/class.storage.entity.php:2872
+msgid "OneDrive"
+msgstr "OneDrive"
+
+#: classes/entities/class.storage.entity.php:2926
+msgid "The default location for storage on this server."
+msgstr "Der Standard-Speicherort ist der lokale Server."
+
+#: classes/environment/class.db.checker.php:131
+msgid "couldn't create table"
+msgstr "konnte Tabelle nicht erstellen"
+
+#: classes/environment/class.db.checker.php:138
+msgid "couldn't insert data"
+msgstr "konnte keine Daten eintragen"
+
+#: classes/environment/class.db.checker.php:140
+#, php-format
+msgid ""
+"Duplicator Pro has been disabled due to insufficient database rights (%1$s). "
+"Please give database user %2$s full rights to database %3$s"
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:67
+#, php-format
+msgid "Successfully FTP connected to %1$s:%2$d"
+msgstr "Erfolgreiche FTP-Verbindung zu %1$s:%2$d"
+
+#: classes/net/class.ftp.chunker.php:74
+#, php-format
+msgid "Logged user %1$s into %2$s"
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:97
+#, php-format
+msgid "Error logging in user %1$s into %2$s"
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:103
+#, php-format
+msgid "Error connecting to FTP server %1$s:%2$d"
+msgstr "Fehler bei der Verbindung zum FTP-Server %1$s:%2$d"
+
+#: classes/net/class.ftp.chunker.php:241
+#, php-format
+msgid "Couldnt seek to $offset in %1$s"
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:298
+#, php-format
+msgid "FTP failed during transfer of %1$s"
+msgstr "FTP während der Übertragung von %1$s fehlgeschlagen"
+
+#: classes/net/class.ftp.chunker.php:313 classes/net/class.ftp.chunker.php:361
+msgid "Problem finishing file chunk transfer"
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:336
+#, php-format
+msgid ""
+"FTP size mismatch for %1$s. Local file=%2$d bytes while server's file is "
+"%3$d bytes."
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:347
+#, php-format
+msgid ""
+"FTP sizes match for %1$s. Local file=%2$d bytes while server's file is %3$d "
+"bytes."
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:380
+#, php-format
+msgid "Error opening %1$ for FTP"
+msgstr ""
+
+#: classes/net/class.ftp.chunker.php:434
+#, php-format
+msgid "Server:%1$s Port:%2$d User:%3$s SSL:%4$s Passive:%5$s"
+msgstr ""
+
+#: classes/package/class.pack.archive.shellzip.php:24
+msgid "Zip process getting killed due to limited server resources."
+msgstr ""
+
+#: classes/package/class.pack.archive.shellzip.php:25
+msgid "Click to switch Archive Engine DupArchive to fix this error."
+msgstr ""
+"Klicke hier, um das Archiv-Modul auf DupArchive zu wechseln, und diesen "
+"Fehler zu beheben."
+
+#: classes/package/class.pack.archive.shellzip.php:93
+#: classes/package/class.pack.archive.zip.php:132
+#: classes/package/class.pack.archive.zip.php:416
+#: classes/package/duparchive/class.pack.archive.duparchive.php:110
+msgid "Click on \"Resolve This\" button to fix the JSON settings."
+msgstr ""
+
+#: classes/package/class.pack.archive.shellzip.php:195
+msgid ""
+"Account out of space so purge large files or talk to your host about "
+"increasing quota."
+msgstr ""
+
+#: classes/package/class.pack.archive.shellzip.php:198
+#: classes/package/class.pack.archive.zip.php:199
+#: classes/package/class.pack.archive.zip.php:234
+#: classes/package/class.pack.archive.zip.php:329
+#: classes/package/class.pack.archive.zip.php:478
+#: classes/package/class.pack.archive.zip.php:522
+#: classes/package/class.pack.archive.zip.php:621
+#: classes/package/class.pack.archive.zip.php:673
+#: classes/package/class.pack.runner.php:293
+msgid "See FAQ:"
+msgstr "Siehe FAQ:"
+
+#: classes/package/class.pack.archive.shellzip.php:199
+msgid "How to resolve \"zip warning: No such file or directory\"?"
+msgstr ""
+"Wie kann man die \"zip-Warnung: Keine solche Datei oder ein solches "
+"Verzeichnis\" lösen kann?"
+
+#: classes/package/class.pack.archive.shellzip.php:202
+#: classes/package/class.pack.archive.shellzip.php:241
+msgid "Click on button to switch to the DupArchive engine."
+msgstr "Klicke auf den Button, um zum DupArchive-Modul zu wechseln."
+
+#: classes/package/class.pack.archive.zip.php:94
+msgid ""
+"Package build appears stuck so marking package as failed. Is the PHP or Web "
+"Server timeouts too low?"
+msgstr ""
+
+#: classes/package/class.pack.archive.zip.php:95
+#: classes/package/class.pack.archive.zip.php:540
+#: classes/package/duparchive/class.pack.archive.duparchive.php:48
+#: classes/package/duparchive/class.pack.archive.duparchive.php:319
+msgid "Build Failure"
+msgstr "Erstellen fehlgeschlagen"
+
+#: classes/package/class.pack.archive.zip.php:236
+#: classes/package/class.pack.archive.zip.php:330
+#: classes/package/class.pack.archive.zip.php:480
+#: classes/package/class.pack.archive.zip.php:524
+#: classes/package/class.pack.archive.zip.php:623
+#: classes/package/class.pack.archive.zip.php:675
+msgid ""
+"I'm getting a ZipArchive close failure when building. How can I resolve this?"
+msgstr ""
+
+#: classes/package/class.pack.archive.zip.php:539
+#: classes/package/duparchive/class.pack.archive.duparchive.php:47
+msgid ""
+"Package build appears stuck so marking package as failed. Is the Max Worker "
+"Time set too high?."
+msgstr ""
+
+#: classes/package/class.pack.archive.zip.php:762
+msgid ""
+"Click on \"Resolve This\" button what will fix JSON setup or go to: Settings "
+"> Packages Tab > Advanced Settings > JSON to Custom."
+msgstr ""
+
+#: classes/package/class.pack.archive.zip.php:771
+#: classes/package/class.pack.php:1530
+#, php-format
+msgid ""
+"ERROR: Can't find Scanfile %s. Please ensure there no non-English characters "
+"in the package or schedule name."
+msgstr ""
+"FEHLER: Kann den Scanfile %s nicht finden. Bitte stellen Sie sicher, keine "
+"nicht-englischen Zeichen im Namen des Backups oder im Zeitplan vorkommen."
+
+#: classes/package/class.pack.database.php:569
+msgid "Shell mysql dump error"
+msgstr ""
+
+#: classes/package/class.pack.database.php:569
+msgid "Change Mysql dump engine in PHP mode"
+msgstr ""
+
+#: classes/package/class.pack.database.php:715
+#: classes/package/class.pack.database.php:1196
+#, php-format
+msgid ""
+"Detected that database table %1$s is corrupt. Run repair tool or execute SQL "
+"command %2$s"
+msgstr ""
+
+#: classes/package/class.pack.database.php:717
+#: classes/package/class.pack.database.php:1198
+#, fuzzy
+#| msgid "Please contact the server administrator to enable this feature."
+msgid "Please contact your DataBase administrator to fix the error."
+msgstr "Please contact the server administrator to enable this feature."
+
+#: classes/package/class.pack.installer.php:137
+msgid "Error reading DupArchive mini expander"
+msgstr ""
+
+#: classes/package/class.pack.installer.php:151
+msgid "Error writing installer contents"
+msgstr ""
+
+#: classes/package/class.pack.installer.php:623
+#: classes/package/class.pack.installer.php:646
+#: classes/package/class.pack.php:1992
+msgid "Click on button to set archive engine to DupArchive."
+msgstr ""
+"Klicken Sie auf die Schaltfläche, um die Archiv-Engine auf DupArchive zu "
+"setzen."
+
+#: classes/package/class.pack.installer.php:645
+#, fuzzy
+#| msgid "Problem adding items to archive."
+msgid "Problem adding installer to archive"
+msgstr "Problem beim Hinzufügen von Elementen zum Archiv."
+
+#: classes/package/class.pack.php:110
+msgid "Couldn't determine the build mode of the package!"
+msgstr ""
+
+#: classes/package/class.pack.php:425
+msgid "Validating"
+msgstr "Validierung"
+
+#: classes/package/class.pack.php:431
+msgid "Building"
+msgstr "Erstellen"
+
+#: classes/package/class.pack.php:569
+#, fuzzy
+#| msgid "Password cannot be empty."
+msgid "Package name can't be empty"
+msgstr "Passwort kann nicht leer sein."
+
+#: classes/package/class.pack.php:575
+#, php-format
+msgid "Directories: <b>%1$s</b> isn't a valid path"
+msgstr ""
+
+#: classes/package/class.pack.php:581
+#, php-format
+msgid "File extension: <b>%1$s</b> isn't a valid extension"
+msgstr ""
+
+#: classes/package/class.pack.php:587
+#, php-format
+msgid "Files: <b>%1$s</b> isn't a valid file name"
+msgstr ""
+
+#: classes/package/class.pack.php:595
+#, php-format
+msgid "MySQL Server Host: <b>%1$s</b> isn't a valid host"
+msgstr ""
+
+#: classes/package/class.pack.php:1348
+#, fuzzy
+#| msgid "The default content used when a brand is not defined"
+msgid "The default content used when a brand is not defined."
+msgstr ""
+"Der Standardinhalt, der verwendet wird, wenn ein Brand nicht definiert ist"
+
+#: classes/package/class.pack.php:1535
+#, fuzzy, php-format
+#| msgid ""
+#| "ERROR: Can't find Scanfile %s. Please ensure there no non-English "
+#| "characters in the package or schedule name."
+msgid ""
+"ERROR: Can't find list of files %s. Please ensure there no non-English "
+"characters in the package or schedule name."
+msgstr ""
+"FEHLER: Kann den Scanfile %s nicht finden. Bitte stellen Sie sicher, keine "
+"nicht-englischen Zeichen im Namen des Backups oder im Zeitplan vorkommen."
+
+#: classes/package/class.pack.php:1540
+#, fuzzy, php-format
+#| msgid ""
+#| "ERROR: Can't find Scanfile %s. Please ensure there no non-English "
+#| "characters in the package or schedule name."
+msgid ""
+"ERROR: Can't find list of directories %s. Please ensure there no non-English "
+"characters in the package or schedule name."
+msgstr ""
+"FEHLER: Kann den Scanfile %s nicht finden. Bitte stellen Sie sicher, keine "
+"nicht-englischen Zeichen im Namen des Backups oder im Zeitplan vorkommen."
+
+#: classes/package/class.pack.php:1546
+#, php-format
+msgid "Scan file %s is empty!"
+msgstr ""
+
+#: classes/package/class.pack.php:1884
+msgid "Click button to switch database engine to PHP"
+msgstr "Klicke auf die Schaltfläche, um das Datenbankmodul auf PHP umzustellen"
+
+#: classes/package/class.pack.php:1887
+msgid "Click button to switch database engine to MySQLDump"
+msgstr ""
+"Klicke auf die Schaltfläche, um das Datenbankmodul auf MySQLDump umzustellen"
+
+#: classes/package/class.pack.php:1941
+#, php-format
+msgid ""
+"Can't find Scanfile %s. Please ensure there no non-English characters in the "
+"package or schedule name."
+msgstr ""
+"Kann den Scanfile %s nicht finden. Bitte stellen Sie sicher, keine nicht-"
+"englischen Zeichen im Namen des Backups oder im Zeitplan vorkommen."
+
+#: classes/package/class.pack.php:1956
+#, php-format
+msgid "EXPECTED FILE/DIRECTORY COUNT: %1$s"
+msgstr ""
+
+#: classes/package/class.pack.php:1957
+#, php-format
+msgid "ACTUAL FILE/DIRECTORY COUNT: %1$s"
+msgstr ""
+
+#: classes/package/class.pack.php:2020
+#, php-format
+msgid "ERROR: Cannot open created archive. Error code = %1$s"
+msgstr ""
+
+#: classes/package/class.pack.php:2025
+msgid "ERROR: Archive is not valid zip archive."
+msgstr ""
+
+#: classes/package/class.pack.php:2028
+msgid "ERROR: Archive doesn't pass consistency check."
+msgstr ""
+
+#: classes/package/class.pack.php:2031
+msgid "ERROR: Archive checksum is bad."
+msgstr ""
+
+#: classes/package/class.pack.php:2042
+msgid "ARCHIVE CONSISTENCY TEST: Pass"
+msgstr ""
+
+#: classes/package/class.pack.php:2095
+#, php-format
+msgid "Backup of %1$s Succeeded"
+msgstr "Backup von %1$s erfolgreich"
+
+#: classes/package/class.pack.php:2096
+msgid "BACKUP SUCCEEDED"
+msgstr "BACKUP ERFOLGREICH"
+
+#: classes/package/class.pack.php:2099
+#, php-format
+msgid "Backup of %1$s Failed"
+msgstr "Backup von %1$s fehlgeschlagen"
+
+#: classes/package/class.pack.php:2100
+msgid "BACKUP FAILED"
+msgstr "BACKUP FEHLGESCHLAGEN"
+
+#: classes/package/class.pack.php:2103
+msgid "DURING BUILD PHASE"
+msgstr "WÄHREND DER ERSTELLUNGSPHASE"
+
+#: classes/package/class.pack.php:2105
+msgid "DURING STORAGE PHASE. CHECK SITE FOR DETAILS."
+msgstr ""
+
+#: classes/package/class.pack.php:2112
+msgid "Package"
+msgstr "Archiv"
+
+#: classes/package/class.pack.php:2115 views/packages/main/packages.php:634
+#: views/schedules/schedule.list.php:225
+msgid "Time"
+msgstr "Zeit"
+
+#: classes/package/class.pack.php:2118 classes/package/class.pack.php:2158
+#: views/packages/main/packages.php:377 views/packages/main/packages.php:381
+#: views/packages/main/packages.php:542
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: classes/package/class.pack.php:2124
+msgid "Log is attached."
+msgstr "Log ist angehängt."
+
+#: classes/package/class.pack.php:2152
+msgid "Template"
+msgstr "Vorlage"
+
+#: classes/package/class.pack.php:2155 views/packages/main/packages.php:374
+#: views/packages/main/packages.php:542
+msgid "Manual"
+msgstr "Manuell"
+
+#: classes/package/class.pack.php:2160
+msgid "Schedule (Run Now)"
+msgstr "Zeiplan jetzt ausführen"
+
+#: classes/package/class.pack.runner.php:229
+msgid "Package was cancelled because it exceeded Max Build Time."
+msgstr ""
+"Die Erstellung des Archivs wurde abgebrochen, da es die Max Build Time "
+"überschritten wurde."
+
+#: classes/package/class.pack.runner.php:230
+msgid "Click button to increase Max Build Time."
+msgstr "Klicken den Button, um die maximale Erstellungszeit zu erhöhen."
+
+#: classes/package/class.pack.runner.php:256
+msgid "Communication to AJAX is blocked."
+msgstr "Kommunikation to AJAX ist blockiert."
+
+#: classes/package/class.pack.runner.php:267
+msgid ""
+"The Plugin is configured for HTTP, but site is HTTPS. Click button to fix "
+"this issue."
+msgstr ""
+
+#: classes/package/class.pack.runner.php:276
+msgid ""
+"The Plugin is configured for the secure (SSL) admin-ajax protocol. Click "
+"button to fix this issue."
+msgstr ""
+
+#: classes/package/class.pack.runner.php:285
+msgid ""
+"The Plugin is configured for the wrong admin-ajax URL. Click button to fix "
+"this issue."
+msgstr ""
+
+#: classes/package/class.pack.runner.php:293
+msgid "Why is the package build stuck at 5%?"
+msgstr ""
+
+#: classes/package/class.pack.runner.php:302
+#, fuzzy
+#| msgid "Show package debug status on Packages Screen"
+msgid ". Button is on Packages screen."
+msgstr "Zeige den Archiv Debug-Status auf dem Archiv-Bildschirm"
+
+#: classes/package/class.pack.runner.php:511
+#: views/packages/main/packages.php:531
+msgid "Requirements Failed"
+msgstr "Anforderungen fehlgeschlagen"
+
+#: classes/package/class.pack.upload.info.php:74
+msgid "Pending"
+msgstr "Anstehend"
+
+#: classes/package/class.pack.upload.info.php:76
+msgid "Running"
+msgstr "Wird ausgeführt"
+
+#: classes/package/class.pack.upload.info.php:78
+msgid "Succeeded"
+msgstr "Erfolgreich"
+
+#: classes/package/class.pack.upload.info.php:82
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: classes/package/duparchive/class.pack.archive.duparchive.php:228
+msgid ""
+"Package build failure due to building a large package on 32 bit PHP. Please "
+"see "
+msgstr ""
+
+#: classes/package/duparchive/class.pack.archive.duparchive.php:229
+msgid "Tech docs"
+msgstr ""
+
+#: classes/package/duparchive/class.pack.archive.duparchive.php:230
+msgid "for instructions on how to resolve."
+msgstr ""
+
+#: classes/package/duparchive/class.pack.archive.duparchive.php:236
+msgid "Problem adding items to archive."
+msgstr "Problem beim Hinzufügen von Elementen zum Archiv."
+
+#: classes/package/duparchive/class.pack.archive.duparchive.php:238
+msgid "Problems adding items to archive."
+msgstr "Probleme beim Hinzufügen von Elementen zum Archiv."
+
+#: classes/ui/class.ui.alert.php:106
+msgid "Some of the Duplicator tables have been corrupted!"
+msgstr ""
+
+#: classes/ui/class.ui.alert.php:107
+msgid "Please fix the issue."
+msgstr ""
+
+#: classes/ui/class.ui.alert.php:260
+#, fuzzy, php-format
+#| msgid "Activate"
+msgid "Activate %s"
+msgstr "Aktivieren"
+
+#: classes/ui/class.ui.dialog.php:90
+msgid "Processing please wait..."
+msgstr "Wird bearbeitet, bitte warten..."
+
+#: classes/ui/class.ui.dialog.php:93
+msgid "OK"
+msgstr "OK"
+
+#: classes/ui/class.ui.dialog.php:94
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: classes/ui/class.ui.notice.php:58
+msgid "Safe Mode:"
+msgstr "Sicherer Modus:"
+
+#: classes/ui/class.ui.notice.php:59
+msgid ""
+"During the install safe mode was enabled deactivating all plugins.<br/> "
+"Please be sure to "
+msgstr ""
+
+#: classes/ui/class.ui.notice.php:60
+msgid "re-activate the plugins"
+msgstr "reaktiviere die Plugins"
+
+#: classes/ui/class.ui.notice.php:67 views/tools/diagnostics/diagnostic.php:163
+msgid "This site has been successfully migrated!"
+msgstr "Die Website wurde erfolgreich migriert!"
+
+#: classes/ui/class.ui.notice.php:68
+msgid "Final step:"
+msgstr "Letzter Schritt:"
+
+#: classes/ui/class.ui.notice.php:69
+msgid ""
+"This message will be removed after all installer files are removed.  "
+"Installer files must be removed to maintain a secure site.<br/>Click the "
+"link above or button below to remove all installer files and complete the "
+"migration."
+msgstr ""
+
+#: classes/ui/class.ui.notice.php:80
+msgid "Migration Almost Complete!"
+msgstr "Migration fast abgeschlossen!"
+
+#: classes/ui/class.ui.screen.base.php:44
+msgid "<b>Need Help?</b>  Please check out these resources:<ul>"
+msgstr ""
+
+#: classes/ui/class.ui.screen.base.php:66
+msgid "Resources"
+msgstr "Ressourcen"
+
+#: classes/ui/class.ui.screen.base.php:67
+msgid "Knowledge Base"
+msgstr "Wissensdatenbank"
+
+#: classes/ui/class.ui.screen.base.php:68
+msgid "Full User Guide"
+msgstr "Vollständige Benutzeranleitung"
+
+#: classes/ui/class.ui.screen.base.php:69
+msgid "Technical FAQs"
+msgstr "Technische FAQ"
+
+#: classes/ui/class.ui.screen.base.php:70
+msgid "Package Settings"
+msgstr "Archiv Einstellungen"
+
+#: classes/utilities/class.u.license.php:278
+msgid "Valid"
+msgstr "Gültig"
+
+#: classes/utilities/class.u.license.php:281
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: classes/utilities/class.u.license.php:284
+#: classes/utilities/class.u.license.php:293
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: classes/utilities/class.u.license.php:287
+msgid "Disabled"
+msgstr "Abgeschaltet"
+
+#: classes/utilities/class.u.license.php:290
+msgid "Site Inactive"
+msgstr "Seite Inaktiv"
+
+#: classes/utilities/class.u.settings.php:87
+msgid "Export data file has been created!<br/>"
+msgstr ""
+
+#: classes/utilities/class.u.settings.php:122
+msgid "All data has been succesfully imported and updated! <br/>"
+msgstr "Alle Daten wurden erfolgreich importiert und aktualisiert! <br/>"
+
+#: classes/utilities/class.u.string.php:76
+#: views/packages/main/s2.scan2.server.php:87
+msgid "True"
+msgstr "Wahr"
+
+#: classes/utilities/class.u.string.php:76
+#: views/packages/main/s2.scan2.server.php:87
+msgid "False"
+msgstr "Falsch"
+
+#: classes/utilities/class.u.zip.php:137
+msgid "Zip executable not present"
+msgstr "Zip-Datei nicht vorhanden"
+
+#: classes/utilities/class.u.zip.php:138
+msgid "Install the zip executable and make it accessible to PHP."
+msgstr "Installiere die Zip-Datei und mache sie für PHP ausführbar."
+
+#: classes/utilities/class.u.zip.php:149
+msgid "Required functions disabled in the php.ini."
+msgstr "Benötigte Funktionen in der php.ini deaktiviert."
+
+#: classes/utilities/class.u.zip.php:150
+msgid ""
+"Remove any of the following from the disable_functions setting in the php."
+"ini files: shell_exec, escapeshellarg, escapeshellcmd, and extension_loaded."
+msgstr ""
+
+#: classes/utilities/class.u.zip.php:160
+msgid "Suhosin is blocking PHP shell_exec."
+msgstr ""
+
+#: classes/utilities/class.u.zip.php:161
+msgid ""
+"In the php.ini file - Remove the following from the suhosin.executor.func."
+"blacklist setting: shell_exec, escapeshellarg, escapeshellcmd, and "
+"extension_loaded."
+msgstr ""
+
+#: ctrls/class.web.services.php:736
+#, php-format
+msgid "Could not find package ID %d!"
+msgstr "Finde Archiv ID %d nicht!"
+
+#: ctrls/class.web.services.php:900
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package scan error"
+msgstr "Archiv-Name"
+
+#: ctrls/class.web.services.php:908
+msgid "Couldn't get temporary package"
+msgstr ""
+
+#: ctrls/class.web.services.php:953 ctrls/class.web.services.php:998
+#: ctrls/class.web.services.php:1051
+#, fuzzy
+#| msgid "Building Package"
+msgid "Couldn't get package"
+msgstr "Archiv erstellen"
+
+#: ctrls/class.web.services.php:1005
+#, fuzzy
+#| msgid "PHP error log not found"
+msgid "Log file not found"
+msgstr "PHP Fehlerprotokoll nicht gefunden"
+
+#: ctrls/class.web.services.php:1157
+#, php-format
+msgid "Exception occurred. Exception message: %s"
+msgstr ""
+
+#: ctrls/class.web.services.php:1161
+#, php-format
+msgid "Fatal Error occurred. Error message: %s"
+msgstr ""
+
+#: ctrls/class.web.services.php:1185
+msgid ""
+"Unable to encode to JSON data.  Please validate that no invalid characters "
+"exist in your file tree."
+msgstr ""
+
+#: ctrls/class.web.services.php:1458
+msgid "Settings reset to defaults successfully"
+msgstr ""
+
+#: ctrls/class.web.services.php:1552
+msgid "Retrieved storage information"
+msgstr ""
+
+#: ctrls/class.web.services.php:1555
+#, php-format
+msgid "Unknown package %1$d"
+msgstr ""
+
+#: ctrls/class.web.services.php:1603
+msgid "Couldn't create the temp file for the FTP send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:1635
+msgid "Couldn't create the destination temp file for the FTP send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:1662
+msgid ""
+"FTP server doesn't support REST command. It will cause problem in chunk "
+"upload. Error: "
+msgstr ""
+
+#: ctrls/class.web.services.php:1664 ctrls/class.web.services.php:1667
+#: ctrls/class.web.services.php:1961 ctrls/class.web.services.php:2061
+msgid "Successfully stored and retrieved file"
+msgstr ""
+
+#: ctrls/class.web.services.php:1670
+msgid ""
+"Successfully stored and retrieved file however couldn't delete the temp file "
+"on the server"
+msgstr ""
+
+#: ctrls/class.web.services.php:1674 ctrls/class.web.services.php:2064
+msgid ""
+"There was a problem storing or retrieving the temporary file on this account."
+msgstr ""
+
+#: ctrls/class.web.services.php:1680
+msgid "Error downloading file"
+msgstr "Fehler beim Herunterladen der Datei"
+
+#: ctrls/class.web.services.php:1683
+msgid "Error uploading file"
+msgstr ""
+
+#: ctrls/class.web.services.php:1686
+msgid "Directory doesn't exist"
+msgstr "Verzeichnis existiert nicht"
+
+#: ctrls/class.web.services.php:1689
+msgid "Error opening FTP connection"
+msgstr ""
+
+#: ctrls/class.web.services.php:1711 ctrls/class.web.services.php:1719
+msgid ""
+"For additional help see the online <a href=\"https://snapcreek.com/"
+"duplicator/docs/faqs-tech/#faq-trouble-400-q\" target=\"_blank\">FTP "
+"troubleshooting steps</a>."
+msgstr ""
+
+#: ctrls/class.web.services.php:1750
+msgid "Couldn't create the temp file for the SFTP send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:1774
+msgid "Connection successful"
+msgstr "Verbindung erfolgreich"
+
+#: ctrls/class.web.services.php:1779
+msgid "Error uploading test file."
+msgstr "Fehler beim Hochladen der Testdatei."
+
+#: ctrls/class.web.services.php:1818
+msgid "Couldn't create the temp file for the Google Drive send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:1854
+msgid ""
+"Couldn't create the destination temp file for the Google Drive send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:1942
+msgid "Couldn't create the temp file for the S3 send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:1969 views/storage/storage.edit.php:1558
+msgid "Test failed. Check configuration."
+msgstr ""
+
+#: ctrls/class.web.services.php:2021
+msgid "Couldn't create the temp file for the Dropbox send test"
+msgstr ""
+
+#: ctrls/class.web.services.php:2272 ctrls/class.web.services.php:2278
+msgid "N/A"
+msgstr "Nicht verfügbar"
+
+#: ctrls/class.web.services.php:2314
+msgid "No package is building."
+msgstr "Es wurde kein Archiv erstellt."
+
+#: ctrls/class.web.services.php:2326
+msgid "Synchronizing with server..."
+msgstr "Synchronisation mit dem Server..."
+
+#: ctrls/class.web.services.php:2329
+msgid "Another package is presently running."
+msgstr "Ein anderes Archiv wird gerade erstellt."
+
+#: ctrls/class.web.services.php:2334
+msgid "Cancellation pending..."
+msgstr ""
+
+#: ctrls/ctrl.package.php:170 ctrls/ctrl.package.php:188
+msgid "Couldn't find a local copy of the file requested."
+msgstr ""
+
+#: duplicator-pro.php:452 views/tools/diagnostics/log.php:210
+msgid "Turn Off"
+msgstr "Abschalten"
+
+#: duplicator-pro.php:456
+msgid "(P)"
+msgstr "(P)"
+
+#: duplicator-pro.php:459
+msgid "TRACE LOG OPTIONS"
+msgstr "ABLAUFPROTOKOLL OPTIONEN"
+
+#: duplicator-pro.php:460
+msgid "View"
+msgstr "View"
+
+#: duplicator-pro.php:461 duplicator-pro.php:462
+msgid "Download"
+msgstr "Herunterladen"
+
+#: duplicator-pro.php:463 views/packages/main/packages.php:285
+msgid "Clear"
+msgstr "Ausblenden"
+
+#: duplicator-pro.php:634 views/packages/main/controller.php:48
+#: views/packages/main/controller.php:52 views/packages/main/controller.php:56
+#: views/packages/main/packages.php:244
+msgid "Packages"
+msgstr "Archive"
+
+#: duplicator-pro.php:641 views/schedules/controller.php:19
+msgid "Schedules"
+msgstr "Zeitpläne"
+
+#: duplicator-pro.php:644 views/schedules/schedule.edit.php:276
+#: views/storage/controller.php:19
+msgid "Storage"
+msgstr "Speicherorte"
+
+#: duplicator-pro.php:650 views/tools/controller.php:25
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: duplicator-pro.php:653 views/settings/controller.php:82
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: duplicator-pro.php:657
+msgid "Debug"
+msgstr "Fehlersuche"
+
+#: duplicator-pro.php:795
+msgid "Manage"
+msgstr "Verwalten"
+
+#: duplicator-pro.php:813
+msgid "Get Help"
+msgstr "Hilfe bekommen"
+
+#: duplicator-pro.php:813
+msgid "Help"
+msgstr "Hilfe"
+
+#: lib/DropPHP/DropboxClient.php:396
+msgid "Response error present:"
+msgstr ""
+
+#: lib/DropPHP/DropboxV2Client.php:341
+msgid "Error reading archive for Dropbox transmission"
+msgstr ""
+
+#: lib/edd/EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sSchaue Versions %3$s details"
+"%4$s."
+
+#: lib/edd/EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sSchaue Versions %3$s details"
+"%4$s an oder %5$saktualisiere jetzt%6$s."
+
+#: lib/edd/EDD_SL_Plugin_Updater.php:409
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: lib/edd/EDD_SL_Plugin_Updater.php:409
+msgid "Error"
+msgstr "Fehler"
+
+#: views/packages/details/controller.php:38
+msgid "Package Log"
+msgstr "Archiv Protokoll"
+
+#: views/packages/details/controller.php:39
+msgid "FAQ Pages"
+msgstr "FAQ Seiten"
+
+#: views/packages/details/controller.php:40
+msgid "Help Ticket"
+msgstr "Support Ticket"
+
+#: views/packages/details/controller.php:62
+#, php-format
+msgid ""
+"Unable to find package id %d.  The package does not exist or was deleted."
+msgstr ""
+
+#: views/packages/details/controller.php:68
+#, fuzzy, php-format
+#| msgid "Package Settings"
+msgid "Package Details » %1$s"
+msgstr "Archiv Einstellungen"
+
+#: views/packages/details/controller.php:82
+msgid "Error encountered building package. Review "
+msgstr "Fehler beim Erstellen des Archivs. Überprüfe das "
+
+#: views/packages/details/controller.php:82
+msgid " for details."
+msgstr " für Details."
+
+#: views/packages/details/controller.php:83
+msgid "For more help read "
+msgstr "Für weitere Hilfe lese "
+
+#: views/packages/details/controller.php:83
+msgid " or submit a "
+msgstr " oder übertrage ein "
+
+#: views/packages/details/controller.php:98
+#: views/tools/templates/template.edit.php:586
+msgid "Transfer Error"
+msgstr "Übertragungs Fehler"
+
+#: views/packages/details/controller.php:99
+msgid "No package in default location so transfer is disabled."
+msgstr ""
+"Kein Archiv im Standard-Verzeichnis, die Übertragung wurde abgeschaltet."
+
+#: views/packages/details/controller.php:103
+#: views/packages/main/s2.scan3.archive.php:462 views/tools/import.php:255
+msgid "WARNING!"
+msgstr "WARNUNG!"
+
+#: views/packages/details/controller.php:104
+#: views/packages/main/packages.php:692
+msgid "A package is being processed. Retry later."
+msgstr "Ein Archiv wird gerade erstellt. Bitte später erneut versuchen."
+
+#: views/packages/details/detail.php:62
+msgid "- not set -"
+msgstr "- nicht festgelegt -"
+
+#: views/packages/details/detail.php:143
+#: views/packages/main/s2.scan3.archive.php:480
+msgid "- no notes -"
+msgstr "- keine Notizen -"
+
+#: views/packages/details/detail.php:157
+msgid " years, "
+msgstr " Jahre, "
+
+#: views/packages/details/detail.php:157
+msgid " months, "
+msgstr " Monat(e) "
+
+#: views/packages/details/detail.php:157 views/packages/details/detail.php:158
+msgid " days old"
+msgstr " Tage alt"
+
+#: views/packages/details/detail.php:384
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: views/packages/details/detail.php:388
+msgid "ZipArchive ST"
+msgstr ""
+
+#: views/packages/details/detail.php:392
+msgid "Shell Exec"
+msgstr "Shell Exec"
+
+#: views/packages/details/detail.php:411 views/packages/details/detail.php:444
+msgid "User defined filted directories"
+msgstr ""
+
+#: views/packages/details/detail.php:413 views/packages/details/detail.php:446
+msgid "User Defined"
+msgstr "Benutzerdefiniert"
+
+#: views/packages/details/detail.php:415 views/packages/details/detail.php:424
+#: views/packages/details/detail.php:448 views/packages/details/detail.php:457
+msgid "- filter type not found -"
+msgstr ""
+
+#: views/packages/details/detail.php:420 views/packages/details/detail.php:453
+msgid "These paths are filtered because they are unreadable by the system"
+msgstr ""
+
+#: views/packages/details/detail.php:422 views/packages/details/detail.php:455
+msgid "Unreadable"
+msgstr "Nicht lesbar"
+
+#: views/packages/details/detail.php:510
+msgid "- no filters -"
+msgstr "- keine Filter -"
+
+#: views/packages/details/detail.php:617
+msgid "Create A New Database"
+msgstr "Erstelle eine neue Datanbank"
+
+#: views/packages/details/detail.php:617
+msgid "Connect to Existing Database and Remove All Data"
+msgstr ""
+
+#: views/packages/details/detail.php:660
+msgid "DATABASE"
+msgstr "DATENBANK"
+
+#: views/packages/details/detail.php:661
+msgid "ARCHIVE"
+msgstr ""
+
+#: views/packages/details/detail.php:662
+msgid "LOG"
+msgstr "LOG"
+
+#: views/packages/details/transfer.php:47
+msgid "Installer"
+msgstr "Installer"
+
+#: views/packages/details/transfer.php:50 views/packages/main/packages.php:431
+msgid "Archive"
+msgstr "Zip-Archiv"
+
+#: views/packages/details/transfer.php:53
+#: views/tools/templates/template.edit.php:510
+#: views/tools/templates/template.edit.php:565
+msgid "Database"
+msgstr "Datenbank"
+
+#: views/packages/details/transfer.php:213
+#, fuzzy
+#| msgid "Storrage Warning!"
+msgid "Storage Warning!"
+msgstr "Speicherort Warnung!"
+
+#: views/packages/details/transfer.php:214
+msgid "At least one storage location must be checked."
+msgstr ""
+
+#: views/packages/details/transfer.php:218
+msgid "Transfer Failure!"
+msgstr "Übertragung fehlgeschlagen!"
+
+#: views/packages/details/transfer.php:219
+msgid "Transfer failure when calling duplicator_pro_manual_transfer_storage."
+msgstr ""
+
+#: views/packages/details/transfer.php:223
+msgid "Build Error"
+msgstr "Fehler beim Erstellen"
+
+#: views/packages/details/transfer.php:224
+#, fuzzy
+#| msgid "Failed to get details."
+msgid "Failed to stop build"
+msgstr "Fehler beim Abrufen von Details."
+
+#: views/packages/details/transfer.php:229
+msgid "Failed to stop build due to ajax error."
+msgstr ""
+
+#: views/packages/details/transfer.php:274
+msgid "Initiating transfer. Please wait."
+msgstr "Transfer gestartet. Bitte warten."
+
+#: views/packages/main/controller.php:48
+msgid "All"
+msgstr "Alle"
+
+#: views/packages/main/controller.php:52 views/packages/main/controller.php:56
+msgid "New"
+msgstr "Neu"
+
+#: views/packages/main/create.package.nav.buttons.php:3
+msgid "Create New"
+msgstr "Neu erstellen"
+
+#: views/packages/main/packages.php:196
+#, php-format
+msgid ""
+"There are currently (%1$s) orphaned package files taking up %2$s of space.  "
+"These package files are no longer visible in the packages list below and are "
+"safe to remove."
+msgstr ""
+
+#: views/packages/main/packages.php:197
+msgid ""
+"Go to: Tools > Diagnostics > Stored Data > look for the [Delete Package "
+"Orphans] button for more details."
+msgstr ""
+
+#: views/packages/main/packages.php:198
+msgid "Take me there now!"
+msgstr "Bring mich dort hin!"
+
+#: views/packages/main/packages.php:256
+#, fuzzy
+#| msgid "Configuration Error(s) Detected:"
+msgid "Error(s) Detected:"
+msgstr "Konfigurationsfehler gefunden:"
+
+#: views/packages/main/packages.php:273
+msgid "Resolve This"
+msgstr "Fehler beheben"
+
+#: views/packages/main/packages.php:335
+msgid "Database Only"
+msgstr "Nur Datenbank"
+
+#: views/packages/main/packages.php:359
+msgid "No local files, click for more info..."
+msgstr "Keine lokalen Dateien, klicke hier für mehr Informationen..."
+
+#: views/packages/main/packages.php:500
+msgid "Stop Transfer"
+msgstr "Übertragung stoppen"
+
+#: views/packages/main/packages.php:504
+msgid "Stop Build"
+msgstr "Erstellen stoppen"
+
+#: views/packages/main/packages.php:508
+msgid "Cancel Pending"
+msgstr "Wartende abbrechen"
+
+#: views/packages/main/packages.php:516
+msgid "Error Processing"
+msgstr "Fehlerbehandlung"
+
+#: views/packages/main/packages.php:518
+msgid "Build Cancelled"
+msgstr "Erstellen abgebrochen"
+
+#: views/packages/main/packages.php:520
+msgid "Cancelling Build"
+msgstr "Erstellen abbrechen"
+
+#: views/packages/main/packages.php:580
+msgid "Building Package"
+msgstr "Archiv erstellen"
+
+#: views/packages/main/packages.php:581
+msgid "Please allow it to finish before creating another one."
+msgstr ""
+"Bitte bis zur Fertigstellung warten, bevor ein neues Archiv erstellt wird."
+
+#: views/packages/main/packages.php:588
+msgid "Transferring Package"
+msgstr "Übertrage Archiv"
+
+#: views/packages/main/packages.php:589
+msgid "Getting Transfer State..."
+msgstr ""
+
+#: views/packages/main/packages.php:661
+msgid "items"
+msgstr "Einträge"
+
+#: views/packages/main/packages.php:673
+msgid "Remote Storage Locations"
+msgstr "Remotespeicherorte"
+
+#: views/packages/main/packages.php:674
+msgid "Loading Please Wait..."
+msgstr "Wird geladen, bitte warten..."
+
+#: views/packages/main/packages.php:678 views/schedules/schedule.list.php:234
+#: views/settings/package/inc.brand.list.php:281
+#: views/storage/storage.list.php:246
+#: views/tools/templates/template.list.php:151
+msgid "Bulk Action Required"
+msgstr "Sammelaktion erforderlich"
+
+#: views/packages/main/packages.php:680
+msgid ""
+"No selections made! Please select an action from the \"Bulk Actions\" drop "
+"down menu!"
+msgstr ""
+
+#: views/packages/main/packages.php:684 views/schedules/schedule.list.php:239
+#: views/settings/package/inc.brand.list.php:286
+#: views/storage/storage.list.php:251
+#: views/tools/templates/template.list.php:156
+msgid "Selection Required"
+msgstr "Auswahl erforderlich"
+
+#: views/packages/main/packages.php:687
+#, fuzzy
+#| msgid "Please select at least one storage to delete!"
+msgid "No selections made! Please select at least one package to delete!"
+msgstr "Bitte mindestens einen Speicherort zum Löschen auswählen!"
+
+#: views/packages/main/packages.php:691
+msgid "Alert!"
+msgstr "Warnung!"
+
+#: views/packages/main/packages.php:696
+#: views/packages/main/s1.setup3.archive.php:403
+msgid "ERROR!"
+msgstr "FEHLER!"
+
+#: views/packages/main/packages.php:697
+msgid "Got an error or a warning: undefined"
+msgstr ""
+
+#: views/packages/main/packages.php:702
+msgid "Failed to get details."
+msgstr "Fehler beim Abrufen von Details."
+
+#: views/packages/main/packages.php:707
+msgid "Download Status"
+msgstr "Download Status"
+
+#: views/packages/main/packages.php:708
+msgid ""
+"No package files are available for direct download from this server using "
+"the 'Download' button. Please use the <b><i class='fa fa-bars small-fa'></i> "
+"More Items &#10095; Storage option</b> to get the package from its non-"
+"default stored location.<br/><br/><small><i>- To enable the direct download "
+"button be sure the local default storage type is enabled when creating a "
+"package. <br/><br/>- If the Storage &#10095; Default &#10095; 'Max Packages' "
+"is set then packages will be removed but the entry will still be visible.</"
+"i></small>"
+msgstr ""
+
+#: views/packages/main/packages.php:715
+msgid "Delete Packages?"
+msgstr "Archiv löschen?"
+
+#: views/packages/main/packages.php:717
+#, fuzzy
+#| msgid "Are you sure, you want to delete the selected storage(s)?"
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr "Bist du sicher, du möchtest alle ausgewählten Speicherorte löschen?"
+
+#: views/packages/main/packages.php:719
+msgid ""
+"<small><i>Note: This action removes only packages located on this server.  "
+"If a remote package was created then it will not be removed or affected.</"
+"i></small>"
+msgstr ""
+
+#: views/packages/main/packages.php:720
+msgid "Removing Packages, Please Wait..."
+msgstr "Entferne Archive, bitte warten..."
+
+#: views/packages/main/packages.php:725
+#, fuzzy
+#| msgid "Delete selected package(s)"
+msgid "Restore selected backup?"
+msgstr "Lösche gewählte Archiv(e)"
+
+#: views/packages/main/packages.php:727
+#, fuzzy
+#| msgid "Are you sure, you want to delete the selected storage(s)?"
+msgid "Are you sure you want restore the selected package backup ?"
+msgstr "Bist du sicher, du möchtest alle ausgewählten Speicherorte löschen?"
+
+#: views/packages/main/packages.php:729
+msgid ""
+"This function runs the installer of the selected package by deleting all the "
+"current data of the site.<br><br><b>Once the operation has started there is "
+"no possibility to go back and the restore of the backup must be terminated "
+"otherwise the site will not be reachable.</b>"
+msgstr ""
+
+#: views/packages/main/s1.setup0.base.php:20
+msgid "Package settings have been reset."
+msgstr "Archive Einstellungen wurden zurückgesetzt."
+
+#: views/packages/main/s1.setup0.base.php:158
+msgid "No Templates"
+msgstr "Keine Vorlage"
+
+#: views/packages/main/s1.setup0.base.php:206
+msgid "Would you like to continue"
+msgstr "Willst du fortfahren"
+
+#: views/packages/main/s1.setup0.base.php:207
+msgid "This will clear all of the current package settings."
+msgstr "Dadurch werden alle aktuellen Paketeinstellungen gelöscht."
+
+#: views/packages/main/s1.setup0.base.php:208
+#: views/tools/diagnostics/diagnostic.php:222 views/tools/import.php:257
+msgid "Please Wait..."
+msgstr "Bitte warten..."
+
+#: views/packages/main/s1.setup1.reqs.php:46
+#: views/packages/main/s2.scan2.server.php:38
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: views/packages/main/s1.setup1.reqs.php:147
+msgid "For additional help please see the "
+msgstr "Für weitere Hilfe bitte hier sehen"
+
+#: views/packages/main/s1.setup1.reqs.php:148
+msgid "help page"
+msgstr "help page"
+
+#: views/packages/main/s1.setup2.store.php:77
+#: views/tools/diagnostics/tests.php:173
+msgid "Unable to load storage type.  Please validate the setup."
+msgstr ""
+
+#: views/packages/main/s1.setup3.archive.php:160
+msgid ""
+"<b>Overview:</b><br> This advanced option excludes all files from the "
+"archive.  Only the database and a copy of the installer.php will be included "
+"in the archive.zip file. The option can be used for backing up and moving "
+"only the database."
+msgstr ""
+
+#: views/packages/main/s1.setup3.archive.php:170
+msgid ""
+"<b><i class='fa fa-exclamation-circle'></i> Notice:</b><br/>  Installing "
+"only the database over an existing site may have unintended consequences.  "
+"Be sure to know the state of your system before installing the database "
+"without the associated files."
+msgstr ""
+
+#: views/packages/main/s1.setup3.archive.php:259
+msgid "Checked tables will be <u>excluded</u> from the database script. "
+msgstr "Markierte Tabellen werden nicht in die Datenbanksicherung einbezogen. "
+
+#: views/packages/main/s1.setup3.archive.php:325
+#, php-format
+msgid ""
+"This Duplicator Pro <a href='admin.php?page=duplicator-pro-"
+"settings&tab=licensing' target='lic'>%s</a> has Multisite Basic capability, "
+msgstr ""
+
+#: views/packages/main/s1.setup3.archive.php:327
+msgid ""
+"which backs up and migrates an entire multisite network. Subsite to "
+"standalone conversion is not supported with Multisite Basic, only with "
+"Multisite Plus+.<br/><br/>To gain access to Multisite Plus+ please login to "
+"your dashboard and upgrade to either a <a href='https://snapcreek.com/"
+"dashboard/' target='snap'>Business or Gold License</a>."
+msgstr ""
+
+#: views/packages/main/s1.setup3.archive.php:348
+msgid ""
+"<u><b>Important:</b></u> Full network restoration is an installer option "
+"only if you include <b>all</b> subsites. If any subsites are filtered then "
+"you may only restore individual subsites as standalones sites at install-"
+"time."
+msgstr ""
+
+#: views/packages/main/s1.setup3.archive.php:355
+msgid "Unlicensed"
+msgstr "Nicht lizenziert"
+
+#: views/packages/main/s1.setup3.archive.php:404
+msgid "You can't exclude all sites."
+msgstr "Du kannst nicht alle Webseiten ausschließen."
+
+#: views/packages/main/s2.scan1.base.php:355
+msgid ""
+"Scan checks are not required to pass, however they could cause issues on "
+"some systems."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:357
+msgid ""
+"Please review the details for each section by clicking on the detail title."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:440
+msgid "Please Retry:"
+msgstr "Bitte noch mal versuchen:"
+
+#: views/packages/main/s2.scan1.base.php:441
+msgid ""
+"Unable to perform a full scan and read JSON file, please try the following "
+"actions."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:442
+msgid ""
+"1. Go back and create a root path directory filter to validate the site is "
+"scan-able."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:443
+msgid ""
+"2. Continue to add/remove filters to isolate which path is causing issues."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:444
+msgid "3. This message will go away once the correct filters are applied."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:446
+msgid "Common Issues:"
+msgstr "Bekannte Probleme:"
+
+#: views/packages/main/s2.scan1.base.php:447
+msgid ""
+"- On some budget hosts scanning over 30k files can lead to timeout/gateway "
+"issues. Consider scanning only your main WordPress site and avoid trying to "
+"backup other external directories."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:448
+msgid ""
+"- Symbolic link recursion can cause timeouts.  Ask your server admin if any "
+"are present in the scan path.  If they are add the full path as a filter and "
+"try running the scan again."
+msgstr ""
+
+#: views/packages/main/s2.scan1.base.php:450
+msgid "Details:"
+msgstr "Details:"
+
+#: views/packages/main/s2.scan1.base.php:451
+msgid "JSON Service:"
+msgstr "JSON Service:"
+
+#: views/packages/main/s2.scan1.base.php:452
+msgid "Scan Path:"
+msgstr "Scan-Pfad:"
+
+#: views/packages/main/s2.scan2.server.php:31
+msgid "Web Server"
+msgstr "Web Server"
+
+#: views/packages/main/s2.scan2.server.php:41
+#: views/packages/main/s2.scan2.server.php:49
+#: views/packages/main/s2.scan2.server.php:58
+#: views/packages/main/s2.scan2.server.php:65
+#: views/packages/main/s2.scan2.server.php:74
+#: views/packages/main/s2.scan2.server.php:83
+#: views/packages/main/s2.scan2.server.php:91
+#: views/packages/main/s2.scan2.server.php:221
+msgid "details"
+msgstr "details"
+
+#: views/packages/main/s2.scan2.server.php:46
+msgid "PHP Open Base Dir"
+msgstr ""
+
+#: views/packages/main/s2.scan2.server.php:54
+#, fuzzy
+#| msgid "Max Execution Time"
+msgid "PHP Max Execution Time"
+msgstr "Max Auführungszeit"
+
+#: views/packages/main/s2.scan2.server.php:56
+#, php-format
+msgid ""
+"Issues might occur for larger packages when the [max_execution_time] value "
+"in the php.ini is too low.  The minimum recommended timeout is \"%1$s\" "
+"seconds or higher. An attempt is made to override this value if the server "
+"allows it.  A value of 0 (recommended) indicates that PHP has no time limits."
+msgstr ""
+
+#: views/packages/main/s2.scan2.server.php:62
+msgid "MySQLi"
+msgstr "MySQLi"
+
+#: views/packages/main/s2.scan2.server.php:70
+msgid "Open SSL"
+msgstr "Open SSL"
+
+#: views/packages/main/s2.scan2.server.php:80
+msgid "Allow URL Fopen"
+msgstr "Allow URL Fopen"
+
+#: views/packages/main/s2.scan2.server.php:88
+msgid "cURL Available"
+msgstr "cURL verfügbar"
+
+#: views/packages/main/s2.scan2.server.php:154
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#: views/packages/main/s2.scan2.server.php:156
+#, php-format
+msgid ""
+"It is recommended to have a version of WordPress that is greater than %1$s.  "
+"Older version of WordPress can lead to migration issues and are a  security "
+"risk.  If possible please update your WordPress site to the latest version."
+msgstr ""
+
+#: views/packages/main/s2.scan2.server.php:161
+msgid "Core Files"
+msgstr ""
+
+#: views/packages/main/s2.scan2.server.php:166
+msgid ""
+"The core WordPress paths below will <u>not</u> be included in the archive. "
+"These paths are required for WordPress to function!"
+msgstr ""
+
+#: views/packages/main/s2.scan2.server.php:177
+msgid ""
+"The core WordPress file below will <u>not</u> be included in the archive. "
+"This file is required for WordPress to function!"
+msgstr ""
+
+#: views/packages/main/s2.scan2.server.php:218
+msgid "Multisite: N/A"
+msgstr "Multisite: N/A"
+
+#: views/packages/main/s2.scan2.server.php:226
+#: views/packages/main/s2.scan2.server.php:239
+msgid "Multisite: Detected"
+msgstr "Multisite: Erkannt"
+
+#: views/packages/main/s2.scan2.server.php:234
+msgid "Personal"
+msgstr "Personal"
+
+#: views/packages/main/s2.scan2.server.php:236
+msgid "Freelancer"
+msgstr "Freelancer"
+
+#: views/packages/main/s2.scan2.server.php:244
+msgid "upgrade"
+msgstr "Upgrade"
+
+#: views/packages/main/s2.scan3.archive.php:5
+msgid "Root Path"
+msgstr "Hauptverzeichnis"
+
+#: views/packages/main/s2.scan3.archive.php:11
+msgid "Compatibility Mode Enabled"
+msgstr "Kompatibilitätsmodus aktiviert"
+
+#: views/packages/main/s2.scan3.archive.php:85
+msgid ""
+"Compressing larger sites on <i>some budget hosts</i> may cause timeouts.  "
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:86
+msgid "more details..."
+msgstr "mehr Details..."
+
+#: views/packages/main/s2.scan3.archive.php:90 views/packages/screen.php:56
+msgid "Overview"
+msgstr "Überblick"
+
+#: views/packages/main/s2.scan3.archive.php:95
+#, php-format
+msgid ""
+"This notice is triggered at <b>%s</b> and can be ignored on most hosts.  If "
+"the build process hangs or is unable to complete then this host has strict "
+"processing limits.  Below are some options you can take to overcome "
+"constraints setup on this host."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:101
+msgid "Timeout Options"
+msgstr "Zeitüberschreitung Optionen"
+
+#: views/packages/main/s2.scan3.archive.php:103
+msgid ""
+"Apply the \"Quick Filters\" below or click the back button to apply on "
+"previous page."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:104
+msgid "See the FAQ link to adjust this hosts timeout limits: "
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:104
+msgid "What can I try for Timeout Issues?"
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:107
+#, php-format
+msgid ""
+"Files over %1$s are listed below. Larger files such as movies or zipped "
+"content can cause timeout issues on some budget hosts.  If you are having "
+"issues creating a package try excluding the directory paths below or go back "
+"to Step 1 and add them."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:110
+#: views/packages/main/s2.scan3.archive.php:217
+msgid "Right click on tree node to open the bulk actions menu"
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:161
+msgid ""
+"An \"Addon Site\" is a separate WordPress site(s) residing in subdirectories "
+"within this site. If you confirm these to be separate sites, then it is "
+"recommended that you exclude them by checking the corresponding boxes below "
+"and clicking the 'Add Filters & Rescan' button.  To backup the other sites "
+"install the plugin on the sites needing to be backed-up."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:215
+msgid ""
+"If this environment/system and the system where it will be installed are "
+"setup to support Unicode and long paths then these filters can be ignored.  "
+"If you run into issues with creating or installing a package, then is "
+"recommended to filter these paths."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:259
+msgid ""
+"PHP is unable to read the following items and they will <u>not</u> be "
+"included in the package.  Please work with your host to adjust the "
+"permissions or resolve the symbolic-link(s) shown in the lists below.  If "
+"these items are not needed then this notice can be ignored."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:398
+msgid "TOTAL SIZE"
+msgstr "GESAMTGRÖSSE"
+
+#: views/packages/main/s2.scan3.archive.php:403
+#, php-format
+msgid ""
+"Total size and row count are approximate values.  The thresholds that "
+"trigger warnings are <i>%1$s OR %2$s records</i> toal for the entire "
+"database.  Large databases take time to process and can cause issues with "
+"server timeout and memory settings on some budget hosts.  If your server "
+"supports shell_exec and mysqldump you can try to enable this option from the "
+"settings menu."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:412
+msgid "TABLE DETAILS:"
+msgstr "TABELLEN DETAILS:"
+
+#: views/packages/main/s2.scan3.archive.php:413
+#, php-format
+msgid ""
+"The notices for tables are <i>%1$s, %2$s records or names with upper-case "
+"characters</i>.  Individual tables will not trigger a notice message, but "
+"can help narrow down issues if they occur later on."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:422
+msgid "RECOMMENDATIONS:"
+msgstr "EMPFEHLUNGEN:"
+
+#: views/packages/main/s2.scan3.archive.php:425
+msgid "repair and optimization"
+msgstr "reparieren und optimieren"
+
+#: views/packages/main/s2.scan3.archive.php:426
+#, php-format
+msgid "1. Run a %1$s on the table to improve the overall size and performance."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:428
+msgid ""
+"2. Remove post revisions and stale data from tables.  Tables such as logs, "
+"statistical or other non-critical data should be cleared."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:430
+msgid "Enable mysqldump"
+msgstr "Mysqldump aktivieren"
+
+#: views/packages/main/s2.scan3.archive.php:431
+#, php-format
+msgid "3. %1$s if this host supports the option."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:433
+msgid "lower_case_table_names"
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:434
+#, php-format
+msgid ""
+"4. For table name case sensitivity issues either rename the table with lower "
+"case characters or be prepared to work with the %1$s system variable setting."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:450
+msgid "Scan Details"
+msgstr "Scan Details"
+
+#: views/packages/main/s2.scan3.archive.php:457
+msgid "Copy Quick Filter Paths"
+msgstr "Kopieren Sie Schnellfilterpfade"
+
+#: views/packages/main/s2.scan3.archive.php:463
+msgid "Manual copy of selected text required on this browser."
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:468
+msgid ""
+"Error applying filters.  Please go back to Step 1 to add filter manually!"
+msgstr ""
+
+#: views/packages/main/s2.scan3.archive.php:497
+msgid "Is currently enabled"
+msgstr "Ist aktuell aktiviert"
+
+#: views/packages/main/s2.scan3.archive.php:497
+msgid "Is currently disabled"
+msgstr "Ist aktuell DEaktiviert"
+
+#: views/packages/main/s2.scan3.archive.php:901
+#: views/packages/main/s2.scan3.archive.php:935
+#, fuzzy
+#| msgid "Show All"
+msgid "show all"
+msgstr "Zeige alle"
+
+#: views/packages/main/s2.scan3.archive.php:910
+msgid "show warning only"
+msgstr ""
+
+#: views/packages/screen.php:67
+msgid ""
+"<b><i class='fa fa-archive'></i> Packages » All</b><br/> The 'Packages' "
+"section is the main interface for managing all the packages that have been "
+"created.  A Package consists of two core files. The first is the 'installer."
+"php' file and the second is the 'archive.zip/daf' file.  The installer file "
+"is a php file that when browsed to via a web browser presents a wizard that "
+"redeploys or installs the website by extracting the archive file.  The "
+"archive file is a zip/daf file containing all your WordPress files and a "
+"copy of your WordPress database. To create a package, click the 'Create New' "
+"button and follow the prompts. <br/><br/><b><i class='fa fa-download'></i> "
+"Downloads</b><br/>To download the package files click on the Download "
+"button.  Choosing the 'Both Files' option will popup two separate save "
+"dialogs.\n"
+"\t\t\t\t\tOn some browsers you may have to enable popups on this site.  In "
+"order to download just the 'Installer' or 'Archive' click on that menu item. "
+"<i>Note:\n"
+"\t\t\t\t\tthe archive file will have a copy of the installer inside of it "
+"named installer-backup.php</i><br/><br/><b><i class='fa fa-bars'></i> More "
+"Items</b><br/> To see the details, transfer or view remote store locations "
+"of a package click the 'More Items' menu button.  If a package contains "
+"remote storage endpoints a\n"
+"\t\t\t\t\tblue dot will show as &nbsp; <i class='fa fa-bars remote-data-"
+"pass'></i> &nbsp; on the more items menu button.  If a red icon shows \n"
+"\t\t\t\t\t<i class='fa fa-bars remote-data-fail'></i> &nbsp; then one or "
+"more of the storage locations failed during the transfer phase.<br/><br/"
+"><b><i class='far fa-file-archive fa-sm'></i> Archive Types</b><br/>An "
+"archive file can be saved as either a .zip file or .daf file.  A zip file is "
+"a common archive format used to compress and group files.  The daf file "
+"short for 'Duplicator Archive Format' is a custom format used specifically  "
+"for working with larger packages and scale-ability issues on many shared "
+"hosting platforms.  Both formats work very similar the main difference is "
+"that the daf file can only be extracted using the installer.php file or the "
+"<a href='https://snapcreek.com/duplicator/docs/faqs-tech/#faq-trouble-052-q' "
+"target='_blank'>DAF extraction tool</a>.  The zip file can be used by other "
+"zip tools like winrar/7zip/winzip or other client-side tools. <br/><br/"
+"><b><i class='fa fa-bolt'></i> How to Install a Package</b><br/> Installing "
+"a package is pretty straight forward, however it does require a quick primer "
+"if you have never done it before.  To get going with a step by step guide "
+"and quick video check out the <a href='https://snapcreek.com/duplicator/docs/"
+"quick-start/' target='_blank'>quick start guide.</a> <br/><br/>"
+msgstr ""
+
+#: views/packages/screen.php:98
+msgid ""
+"<b>Packages New » 1 Setup</b> <br/>The setup screen allows users to choose "
+"where they would like to store thier package, such as Google Drive, Dropbox, "
+"on the local server or a combination of both.Setup also allow users to setup "
+"optional filtered directory paths, files and database tables to change what "
+"is included in the archive file.  The optional option to also have the "
+"installer pre-filled can be used.  To expedited the workflow consider using "
+"a Template. <br/><br/>"
+msgstr ""
+
+#: views/packages/screen.php:107
+msgid ""
+"<b>Packages » 2 Scan</b> <br/>The plugin will scan your system, files and "
+"database to let you know if there are any concerns or issues that may be "
+"present.  All items in green mean the checks looked good.  All items in red "
+"indicate a warning.  Warnings will not prevent the build from running, "
+"however if you do run into issues with the build then checking the warnings "
+"should be considered. <br/><br/>"
+msgstr ""
+
+#: views/packages/screen.php:115
+msgid ""
+"<b>Packages » Details</b> <br/>The details view will give you a full break-"
+"down of the package including any errors that may have occured during the "
+"install. <br/><br/>"
+msgstr ""
+
+#: views/packages/screen.php:157
+msgid "Packages Per Page"
+msgstr "Archive pro Seite"
+
+#: views/packages/screen.php:161
+msgid "Created Format"
+msgstr "Erstelle Format"
+
+#: views/packages/screen.php:168
+msgid "By Year"
+msgstr "Pro Jahr"
+
+#: views/packages/screen.php:175
+msgid "By Month"
+msgstr "Jeden Monat"
+
+#: views/packages/screen.php:182
+msgid "By Day"
+msgstr "Pro Tag"
+
+#: views/schedules/schedule.edit.php:19
+msgid ""
+"If you have a large site, it's recommended you schedule backups during lower "
+"traffic periods.  If you're on a shared host then be aware that running "
+"multiple schedules too close together (i.e. every 10 minutes) may alert your "
+"host to a spike in system resource usage.  Be sure that your schedules do "
+"not overlap and give them plenty of time to run."
+msgstr ""
+
+#: views/schedules/schedule.edit.php:183 views/schedules/schedule.edit.php:195
+#: views/storage/storage.edit.php:398 views/storage/storage.edit.php:407
+#: views/tools/templates/template.edit.php:185
+msgid "Copy From"
+msgstr "Kopieren von"
+
+#: views/schedules/schedule.edit.php:225
+msgid "Schedule Name"
+msgstr "Zeitplan Name"
+
+#: views/schedules/schedule.edit.php:231
+msgid "Package Template"
+msgstr "Archiv-Vorlage"
+
+#: views/schedules/schedule.edit.php:240
+msgid "No Templates Found"
+msgstr "Keine Vorlage gefunden"
+
+#: views/schedules/schedule.edit.php:366 views/schedules/schedule.edit.php:387
+msgid "Every"
+msgstr "Jeden"
+
+#: views/schedules/schedule.edit.php:379
+msgid "hours"
+msgstr "Stunden"
+
+#: views/schedules/schedule.edit.php:380
+msgid "Package will build every x hours starting at 00:00."
+msgstr ""
+
+#: views/schedules/schedule.edit.php:396
+msgid "days"
+msgstr "Tage"
+
+#: views/schedules/schedule.edit.php:405
+msgid "Monday"
+msgstr "Montag"
+
+#: views/schedules/schedule.edit.php:406
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: views/schedules/schedule.edit.php:407
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: views/schedules/schedule.edit.php:408
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: views/schedules/schedule.edit.php:409
+msgid "Friday"
+msgstr "Freitag"
+
+#: views/schedules/schedule.edit.php:410
+msgid "Saturday"
+msgstr "Samstag"
+
+#: views/schedules/schedule.edit.php:411
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: views/schedules/schedule.edit.php:431
+msgid "of every"
+msgstr "of every"
+
+#: views/schedules/schedule.edit.php:440
+msgid "month(s)"
+msgstr "Monat(e)"
+
+#: views/schedules/schedule.edit.php:479
+msgid ""
+"<b>Note:</b> Schedules require web site traffic in order to start a build.  "
+"If you set a start time of 06:00 daily but do not get any traffic till 10:00 "
+"then the build will not start until 10:00.  If you have low traffic consider "
+"setting up a cron job to periodically hit your site or check out the free "
+"web monitoring tools found on our <a href=\"https://snapcreek.com/partners/"
+"#tools\" target=\"_blank\">partners page</a>."
+msgstr ""
+
+#: views/schedules/schedule.edit.php:496
+msgid "Activated"
+msgstr "Aktiviert"
+
+#: views/schedules/schedule.edit.php:500
+msgid "When checked this schedule will run"
+msgstr "Wenn aktiviert, wird dieser Zeitplan ausgeführt"
+
+#: views/schedules/schedule.list.php:104
+#: views/settings/package/inc.brand.list.php:111
+#: views/storage/storage.list.php:69
+msgid "Delete"
+msgstr "Löschen"
+
+#: views/schedules/schedule.list.php:199
+msgid "Package Template:"
+msgstr "Archiv-Vorlage:"
+
+#: views/schedules/schedule.list.php:203
+msgid "Summary:"
+msgstr "Zusammenfassung:"
+
+#: views/schedules/schedule.list.php:204
+#, php-format
+msgid "Runs %1$s"
+msgstr ""
+
+#: views/schedules/schedule.list.php:207
+msgid "Last Ran:"
+msgstr "Letzte Durchführung:"
+
+#: views/schedules/schedule.list.php:211
+msgid "Times Run:"
+msgstr ""
+
+#: views/schedules/schedule.list.php:223
+#: views/settings/package/inc.brand.list.php:270
+#: views/storage/storage.list.php:237
+msgid "Total"
+msgstr "Gesamt"
+
+#: views/schedules/schedule.list.php:224
+msgid "Active"
+msgstr "Aktiv"
+
+#: views/schedules/schedule.list.php:235
+#: views/settings/package/inc.brand.list.php:282
+#: views/storage/storage.list.php:247
+#: views/tools/templates/template.list.php:152
+msgid "Please select an action from the \"Bulk Actions\" drop down menu!"
+msgstr ""
+
+#: views/schedules/schedule.list.php:241
+msgid "Please select at least one schedule to delete!"
+msgstr "Bitte mindestens einen Zeitplan zum Löschen auswählen!"
+
+#: views/schedules/schedule.list.php:245
+msgid "Delete Schedule?"
+msgstr "Zeitplan löschen?"
+
+#: views/schedules/schedule.list.php:247
+#, fuzzy
+#| msgid "Are you sure, you want to delete the selected schedule(s)?"
+msgid "Are you sure you want to delete the selected schedule(s)?"
+msgstr "Bist du sicher, du möchtest alle ausgewählten Zeitpläne löschen?"
+
+#: views/schedules/schedule.list.php:249
+msgid "<small><i>Note: This action removes all schedules.</i></small>"
+msgstr "<small><i>Hinweis: Diese Aktion löscht alle Zeitpläne.</i></small>"
+
+#: views/schedules/schedule.list.php:250
+msgid "Removing Schedules, Please Wait..."
+msgstr "Zeitpläne werden gelöscht, bitte warten..."
+
+#: views/schedules/schedule.list.php:255
+msgid "RUN SCHEDULE?"
+msgstr "ZEITPLAN STARTEN?"
+
+#: views/schedules/schedule.list.php:256
+#, fuzzy
+#| msgid "Are you sure, you want to run schedule now?"
+msgid "Are you sure you want to run schedule now?"
+msgstr "Bist du sicher, den Zeitplan jetzt laufen zu lassen?"
+
+#: views/schedules/schedule.list.php:257
+msgid "Running Schedule, Please Wait..."
+msgstr "Zeitplan arbeitet, bitte warten..."
+
+#: views/schedules/schedule.list.php:263
+#, fuzzy
+#| msgid "Are you sure, you want to delete this schedule?"
+msgid "Are you sure you want to delete this schedule?"
+msgstr "Bist du sicher, den Zeitplan zu löschen?"
+
+#: views/settings/general/inc.feature.php:10
+msgid "Profile Settings Updated"
+msgstr "Profil Einstellungen aktualisiert"
+
+#: views/settings/general/inc.feature.php:74
+msgid ""
+"<sup class='new-badge'>new</sup> <b>OneDrive for Business Support</b> - Use "
+"Microsoft OneDrive for Business to store and manage packages. Note:One Drive "
+"Personal support was already present."
+msgstr ""
+
+#: views/settings/general/inc.feature.php:79
+#, php-format
+msgid "<small>Go to <a href='%s'>Storage > Add New</a> to setup.</small>"
+msgstr ""
+
+#: views/settings/general/inc.feature.php:92
+msgid "Just answer this single question"
+msgstr ""
+
+#: views/settings/general/inc.feature.php:92
+msgid " to tell us what feature you want added!"
+msgstr ""
+
+#: views/settings/general/inc.feature.php:123
+msgid ""
+"<b>Drag & Drop Install:</b> Overwrite a site by dragging a package into the "
+"plugin. No need to FTP a package!"
+msgstr ""
+
+#: views/settings/general/inc.feature.php:128
+#, php-format
+msgid ""
+"<small>Go to <a href='%s'>Tools > Import</a> to overwrite the current site. "
+"</small>"
+msgstr ""
+
+#: views/settings/general/inc.general.php:16
+msgid "General settings updated."
+msgstr "Allgemeine Einstellungen aktualisiert."
+
+#: views/settings/general/inc.general.php:188
+msgid "To enable custom roles with Duplicator Pro please install the"
+msgstr ""
+
+#: views/settings/general/inc.general.php:189
+#, fuzzy
+#| msgid "The User Role Editor Plugin"
+msgid "User Role Editor Free"
+msgstr "Das 'User Role Editor Plugin' als"
+
+#: views/settings/general/inc.general.php:190
+msgid "OR"
+msgstr ""
+
+#: views/settings/general/inc.general.php:191
+#, fuzzy
+#| msgid "The User Role Editor Plugin"
+msgid "User Role Editor Professional"
+msgstr "Das 'User Role Editor Plugin' als"
+
+#: views/settings/general/inc.general.php:192
+msgid "plugins. For more information on the User Role Editor plugin please see"
+msgstr ""
+
+#: views/settings/general/inc.general.php:193
+#, fuzzy
+#| msgid "Complete Online Documentation"
+msgid "the documentation."
+msgstr "Vollständige Online-Dokumentation"
+
+#: views/settings/general/inc.general.php:208
+msgid "Trace Log"
+msgstr "Verlaufsprotokoll"
+
+#: views/settings/general/inc.general.php:223
+msgid "Download Trace Log"
+msgstr "Verlaufsprotokoll herunterladen"
+
+#: views/settings/general/inc.general.php:260
+#, fuzzy
+#| msgid "Reset Settings"
+msgid "Reset All Settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: views/settings/general/inc.general.php:321
+msgid "Reset Settings?"
+msgstr "Einstellungen zurücksetzen?"
+
+#: views/settings/general/inc.general.php:322
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr ""
+
+#: views/settings/general/inc.general.php:323
+#: views/settings/general/inc.general.php:334
+msgid "Resetting settings, Please Wait..."
+msgstr ""
+
+#: views/settings/general/inc.general.php:326
+#: views/settings/general/inc.general.php:337
+#: views/settings/package/inc.brand.edit.php:173
+msgid "Yes"
+msgstr "Ja"
+
+#: views/settings/general/inc.general.php:327
+#: views/settings/general/inc.general.php:338
+#: views/settings/package/inc.brand.edit.php:173
+msgid "No"
+msgstr "Nein"
+
+#: views/settings/general/inc.general.php:332
+#, fuzzy
+#| msgid "Delete Packages?"
+msgid "Reset Packages ?"
+msgstr "Archiv löschen?"
+
+#: views/settings/general/inc.general.php:333
+#, fuzzy
+#| msgid "This will clear all of the current package settings."
+msgid ""
+"This will clear and reset all of the current temporary packages.  Would you "
+"like to continue?"
+msgstr "Dadurch werden alle aktuellen Paketeinstellungen gelöscht."
+
+#: views/settings/general/inc.general.php:386
+#, fuzzy
+#| msgid "Connection successful"
+msgid "Settings successfully reset"
+msgstr "Verbindung erfolgreich"
+
+#: views/settings/general/inc.general.php:416
+msgid "Packages successfully reset"
+msgstr ""
+
+#: views/settings/general/inc.migrate.php:12
+#, php-format
+msgid ""
+"This feature is only available in Freelancer, Business or Gold licenses. For "
+"details on how to upgrade your license %s."
+msgstr ""
+
+#: views/settings/general/inc.migrate.php:12
+#: views/settings/package/inc.basic.php:135
+#: views/settings/package/inc.basic.php:184
+msgid "click here"
+msgstr "hier klicken"
+
+#: views/settings/general/main.php:9
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: views/settings/general/main.php:10
+msgid "Features"
+msgstr "Funktionen"
+
+#: views/settings/general/main.php:11
+msgid "Migrate Settings"
+msgstr "Migrationseinstellungen"
+
+#: views/settings/licensing.php:44
+msgid "License Activated"
+msgstr "Lizenz aktiviert"
+
+#: views/settings/licensing.php:48 views/settings/licensing.php:81
+#, php-format
+msgid ""
+"Cannot communicate with snapcreek.com. Please see <a target='_blank' "
+"href='%s'>this FAQ entry</a> for possible causes and resolutions."
+msgstr ""
+
+#: views/settings/licensing.php:54
+msgid "Error activating license."
+msgstr "Fehler beim Aktivieren der Lizenz."
+
+#: views/settings/licensing.php:58
+msgid "Please enter a valid key. Key should be 32 characters long."
+msgstr ""
+
+#: views/settings/licensing.php:77
+msgid "License Deactivated"
+msgstr "Lizenz deaktiviert"
+
+#: views/settings/licensing.php:87
+msgid "Error deactivating license."
+msgstr "Fehler beim Deaktivieren der Lizenz."
+
+#: views/settings/licensing.php:115
+msgid "Password cannot be empty."
+msgstr "Passwort kann nicht leer sein."
+
+#: views/settings/licensing.php:122
+msgid "Key now hidden."
+msgstr "Schlüssel jetzt ausgeblendet."
+
+#: views/settings/licensing.php:124
+msgid "Passwords don't match."
+msgstr "Passwort stimmt nicht überein."
+
+#: views/settings/licensing.php:141
+msgid "Key now visible."
+msgstr "Schlüssel jetzt sichtbar."
+
+#: views/settings/licensing.php:143
+msgid "Wrong password entered. Key remains hidden."
+msgstr ""
+
+#: views/settings/licensing.php:154
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: views/settings/licensing.php:160
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: views/settings/licensing.php:168
+msgid "Status: Active"
+msgstr "Status: Aktiv"
+
+#: views/settings/licensing.php:174 views/settings/licensing.php:180
+msgid "Status: Inactive"
+msgstr "Status: Inaktiv"
+
+#: views/settings/licensing.php:180
+msgid ""
+"Status: Inactive (out of site licenses).<br/> Please use the link above to "
+"login to your snapcreek.com dashboard to manage your licenses."
+msgstr ""
+
+#: views/settings/licensing.php:193 views/tools/diagnostics/tests.php:549
+msgid "Status: "
+msgstr "Status: "
+
+#: views/settings/licensing.php:194
+msgid ""
+"If the license fails to activate please wait a few minutes and try again."
+msgstr ""
+
+#: views/settings/licensing.php:196
+#, php-format
+msgid ""
+"- Failure to activate after several attempts please review %1$sfaq "
+"activation steps%2$s"
+msgstr ""
+
+#: views/settings/licensing.php:198
+#, php-format
+msgid "- To upgrade or renew your license visit %1$ssnapcreek.com%2$s"
+msgstr ""
+
+#: views/settings/licensing.php:208
+msgid "Site Licenses"
+msgstr "Website Lizenz"
+
+#: views/settings/licensing.php:209
+msgid ""
+"Number of site licenses indicates the number of sites the plugin can be "
+"active on at any one time. At any point you may deactivate/uninstall the "
+"plugin to free up the license and use the plugin elsewhere if needed."
+msgstr ""
+"Die Anzahl der Site-Lizenzen gibt die Anzahl der Sites an, auf denen das "
+"Plugin gleichzeitig aktiv sein kann. Sie können das Plugin jederzeit "
+"deaktivieren / deinstallieren, um die Lizenz freizugeben und das Plugin bei "
+"Bedarf an anderer Stelle zu verwenden."
+
+#: views/settings/licensing.php:210
+msgid "Multisite Basic"
+msgstr "Multisite Grundlagen"
+
+#: views/settings/licensing.php:211
+msgid "Can backup & migrate standalone sites and full multisite networks."
+msgstr ""
+"Kann einzelne Websites und vollständige Multisite-Netzwerke sichern und "
+"migrieren."
+
+#: views/settings/licensing.php:212
+msgid "Multisite Plus+"
+msgstr "Multisite Plus+"
+
+#: views/settings/licensing.php:213
+msgid ""
+"Ability to install a subsite as a standalone site. Additional subsite "
+"features are planned for Multisite Plus+ in the future.  This option is only "
+"available in Business and Gold."
+msgstr ""
+"Möglichkeit, eine Unterwebsite als eigenständige Website zu installieren. "
+"Für Multisite Plus + sind in Zukunft zusätzliche Funktionen für die "
+"Unterwebsite geplant. Diese Option ist nur in Business und Gold verfügbar."
+
+#: views/settings/licensing.php:244
+#, php-format
+msgid "%1$sManage/Upgrade Licenses%2$s"
+msgstr "%1$sLizenzen verwalten/upgraden%2$s"
+
+#: views/settings/licensing.php:326
+msgid "Hide Key"
+msgstr "Lizenzschlüssel ausblenden"
+
+#: views/settings/licensing.php:326
+msgid "Show Key"
+msgstr "Zeige Schlüssel"
+
+#: views/settings/package/inc.advanced.php:154
+#, php-format
+msgid "Use ABSPATH <b>%s</b> as root path."
+msgstr ""
+
+#: views/settings/package/inc.advanced.php:160
+#, php-format
+msgid "In this installation the default root path is <b>%s</b>."
+msgstr ""
+
+#: views/settings/package/inc.basic.php:52
+#: views/settings/package/inc.basic.php:56
+msgid ""
+"This server is not configured for the Shell Zip engine - please use a "
+"different engine mode."
+msgstr ""
+
+#: views/settings/package/inc.basic.php:57
+#, php-format
+msgid "Shell Zip is %s recommended %s when available. "
+msgstr ""
+
+#: views/settings/package/inc.basic.php:58
+#, php-format
+msgid "For a list of supported hosting providers %s click here %s."
+msgstr ""
+
+#: views/settings/package/inc.basic.php:65
+msgid "To make 'Shell Zip' available, ask your host to:"
+msgstr ""
+
+#: views/settings/package/inc.basic.php:108
+#, php-format
+msgid "Please check this %s for possible solution."
+msgstr ""
+
+#: views/settings/package/inc.basic.php:109
+msgid "FAQ page"
+msgstr "FAQ Seite"
+
+#: views/settings/package/inc.basic.php:181
+msgid ""
+"In order to use mysqldump the PHP function shell_exec needs to be enabled. "
+"This server currently does not allow "
+msgstr ""
+
+#: views/settings/package/inc.basic.php:182
+msgid " to run."
+msgstr ""
+
+#: views/settings/package/inc.basic.php:183
+msgid ""
+"Please contact your host or server admin to enable this feature. For a list "
+"of approved providers that support shell_exec "
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:34
+msgid "Set Active"
+msgstr "Aktiviere"
+
+#: views/settings/package/inc.brand.edit.php:40
+#: views/settings/package/inc.brand.edit.php:76
+msgid "New Brand"
+msgstr "Neuer Brand"
+
+#: views/settings/package/inc.brand.edit.php:62
+msgid "This brand is not found or deleted. Please create new one."
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:241
+msgid "Step <b>1</b> of 4: Deployment"
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:260
+msgid ""
+"The brandable area allows for a loose set of html and custom styling.  Below "
+"is a general guide."
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:262
+msgid ""
+"- <b>Embed Image:</b><br/> &lt;img src=\"/wp-content/uploads/image.png /&gt; "
+"<br/><br/>"
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:263
+msgid "- <b>Text Only:</b><br/> My Installer Name <br/><br/>"
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:264
+msgid ""
+"- <b>Text &amp; Font-Awesome:</b><br/> &lt;i class=\"fa fa-cube\"&gt;&lt;/"
+"i&gt; My Company <br/><small>Note: <a href=\"http://fontawesome.io/icons/\" "
+"target=\"_blank\">Font-Awesome 4.7</a> is the referenced library</small><br/"
+"><br/>"
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:267
+msgid "Branding Guide"
+msgstr "Branding Anleitung"
+
+#: views/settings/package/inc.brand.edit.php:274
+msgid "Brand Name"
+msgstr "Brand Name"
+
+#: views/settings/package/inc.brand.edit.php:275
+msgid ""
+"WARNING: Brand name cannot be named like <strong>Default</strong> because is "
+"a reserved name."
+msgstr ""
+
+#: views/settings/package/inc.brand.edit.php:279
+msgid "Brand Logo"
+msgstr "Brand Logo"
+
+#: views/settings/package/inc.brand.edit.php:280
+msgid "WARNING: Brand logo have a wrong URL."
+msgstr ""
+
+#: views/settings/package/inc.brand.list.php:32
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: views/settings/package/inc.brand.list.php:202
+#: views/settings/package/inc.brand.list.php:251
+#: views/storage/storage.list.php:149
+msgid "(no notes)"
+msgstr "(keine Notizen)"
+
+#: views/settings/package/inc.brand.list.php:239
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: views/settings/package/inc.brand.list.php:287
+msgid "Please select at least one brand to delete!"
+msgstr "Bitte mindestens einen Brand zum Löschen auswählen!"
+
+#: views/settings/package/inc.brand.list.php:291
+#: views/settings/package/inc.brand.list.php:300
+msgid "Delete Brand?"
+msgstr "Brand löschen?"
+
+#: views/settings/package/inc.brand.list.php:292
+#: views/settings/package/inc.brand.list.php:301
+#, fuzzy
+#| msgid "Are you sure, you want to delete the selected brand(s)?"
+msgid "Are you sure you want to delete the selected brand(s)?"
+msgstr "Bist du sicher, du möchtest alle ausgewählten Brands löschen?"
+
+#: views/settings/package/inc.brand.list.php:294
+msgid "<small><i>Note: This action removes all brands.</i></small>"
+msgstr "<small><i>Hinweis: Diese Aktion löscht alle Brands.</i></small>"
+
+#: views/settings/package/inc.brand.list.php:295
+#: views/settings/package/inc.brand.list.php:302
+msgid "Removing Brands, Please Wait..."
+msgstr "Brands werden gelöscht, bitte warten..."
+
+#: views/settings/package/main.php:16
+msgid "Package Settings Saved"
+msgstr "Archiv Einstellungen gespeichert"
+
+#: views/settings/package/main.php:54
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
+
+#: views/settings/package/main.php:55
+msgid "Advanced Settings"
+msgstr "Erweiterte Optionen"
+
+#: views/settings/package/main.php:56
+msgid "Installer Branding"
+msgstr "Installer Branding"
+
+#: views/settings/schedule.php:9
+msgid "Schedule Settings Saved"
+msgstr "Zeitplan Einstellungen gespeichert"
+
+#: views/settings/storage.php:9
+msgid "Storage Settings Saved"
+msgstr "Einstellung des Speicherorts gesichert"
+
+#: views/settings/storage.php:201
+#, php-format
+msgid "Min size %skb."
+msgstr ""
+
+#: views/storage/storage.edit.default.php:28
+msgid "Edit Default"
+msgstr "Bearbeite Standardeinstellung"
+
+#: views/storage/storage.edit.php:55
+msgid "Couldn't connect. Google Drive refresh token not found."
+msgstr ""
+
+#: views/storage/storage.edit.php:58
+#, php-format
+msgid ""
+"Problem retrieving Google refresh and access tokens [%s] Please try again!"
+msgstr ""
+
+#: views/storage/storage.edit.php:81
+msgid "Couldn't connect. Dropbox access token not found."
+msgstr ""
+
+#: views/storage/storage.edit.php:84
+#, php-format
+msgid "Problem retrieving Dropbox access token [%s] Please try again!"
+msgstr ""
+
+#: views/storage/storage.edit.php:294
+msgid ""
+"Note: Clicking the button below will open a new tab/window. Please be sure "
+"your browser does not block popups. If a new tab/window does not  open check "
+"your browsers address bar to allow popups from this URL."
+msgstr ""
+
+#: views/storage/storage.edit.php:435
+#, php-format
+msgid "Storage Provider Updated - Folder %1$s was created"
+msgstr ""
+
+#: views/storage/storage.edit.php:439
+#, php-format
+msgid "Storage Provider Updated - Unable to create folder %1$s"
+msgstr ""
+
+#: views/storage/storage.edit.php:442
+msgid "Storage Provider Updated"
+msgstr "Speicherort aktualisiert"
+
+#: views/storage/storage.edit.php:516
+msgid ""
+"SFTP requires the <a href=\"http://php.net/manual/en/book.gmp.php\" target="
+"\"_blank\">gmp extension</a>. Please contact your host to install."
+msgstr ""
+
+#: views/storage/storage.edit.php:538
+msgid ""
+"Amazon S3 Setup Guide: <a target='_blank' href='https://snapcreek.com/"
+"duplicator/docs/https://snapcreek.com/duplicator/docs/amazon-s3-step-by-"
+"step/'>Step-by-Step</a> and <a href='https://snapcreek.com/duplicator/docs/"
+"amazon-s3-policy-setup/' target='_blank'>User Bucket Policy</a>"
+msgstr ""
+
+#: views/storage/storage.edit.php:779
+#, php-format
+msgid "%s %% used, %s available"
+msgstr ""
+
+#: views/storage/storage.edit.php:878
+#, fuzzy
+#| msgid "OneDrive Account"
+msgid "OneDrive Personal Account"
+msgstr "OneDrive Konto"
+
+#: views/storage/storage.edit.php:878
+#, fuzzy
+#| msgid "OneDrive Account"
+msgid "OneDrive Business Account"
+msgstr "OneDrive Konto"
+
+#: views/storage/storage.edit.php:1154
+#, fuzzy
+#| msgid ""
+#| "<b>Note:</b> Only FTP and FTPS (FTP/SSL) are supported here.<br/> To use "
+#| "SFTP (SSH File Transfer Protocol) change the type dropdown above."
+msgid "<b>Note:</b> Only FTP and FTPS (FTP/SSL) are supported here."
+msgstr ""
+"<b>Hinweis:</b> Hier werden nur FTP und FTPS (FTP/SSL) unterstützt.<br/> Um "
+"SFTP (SSH File Transfer Protocol) zu verwenden, ändere das obige Dropdown-"
+"Menü."
+
+#: views/storage/storage.edit.php:1229
+#, fuzzy
+#| msgid ""
+#| "Folder where packages will be stored. This should be unique for each web-"
+#| "site using Duplicator."
+msgid ""
+"Folder where packages will be stored. This should be <strong>an absolute "
+"path, not a relative path</strong> and be unique for each web-site using "
+"Duplicator."
+msgstr ""
+"Ordner, in dem Archive gespeichert werden. Dies sollte für jede Website mit "
+"Duplicator eindeutig sein."
+
+#: views/storage/storage.edit.php:1339
+#, php-format
+msgid "Quota usage: %s %% used, %s available"
+msgstr ""
+
+#: views/storage/storage.edit.php:1445
+msgid ""
+"Storage Folder should not be root directory path, content directory path and "
+"upload directory path"
+msgstr ""
+
+#: views/storage/storage.edit.php:1496
+msgid "Dropbox Authentication Error"
+msgstr ""
+
+#: views/storage/storage.edit.php:1497
+msgid "Error getting Dropbox authentication URL. Please try again later."
+msgstr ""
+
+#: views/storage/storage.edit.php:1502
+msgid "Unable to get Dropbox authentication URL."
+msgstr ""
+
+#: views/storage/storage.edit.php:1507
+msgid ""
+"Tried transitioning to auth button click but don't have the request token!"
+msgstr ""
+
+#: views/storage/storage.edit.php:1512
+msgid "Send Dropbox file test failed."
+msgstr ""
+
+#: views/storage/storage.edit.php:1517
+msgid "Please enter your Dropbox authorization code!"
+msgstr ""
+
+#: views/storage/storage.edit.php:1521
+msgid "OneDrive Authentication Error"
+msgstr ""
+
+#: views/storage/storage.edit.php:1522
+msgid "Please enter your OneDrive authorization code!"
+msgstr ""
+
+#: views/storage/storage.edit.php:1527
+msgid "Please enter your Google Drive authorization code!"
+msgstr ""
+
+#: views/storage/storage.edit.php:1532
+msgid "Google Drive not supported on systems running PHP version < 5.3.2."
+msgstr ""
+
+#: views/storage/storage.edit.php:1537
+msgid "Error getting Google Drive authentication URL. Please try again later."
+msgstr ""
+
+#: views/storage/storage.edit.php:1542
+msgid "Unable to get Google Drive authentication URL."
+msgstr ""
+
+#: views/storage/storage.edit.php:1547
+msgid "Send Google Drive file test failed."
+msgstr ""
+
+#: views/storage/storage.edit.php:1552
+msgid ""
+"Send FTP file test failed! Be sure the full storage path exists. For "
+"additional help see the online <a href=\"https://snapcreek.com/duplicator/"
+"docs/faqs-tech/#faq-trouble-400-q\" target=\"_blank\">FTP troubleshooting "
+"steps</a>."
+msgstr ""
+
+#: views/storage/storage.edit.php:1583
+msgid "Send OneDrive file test failed."
+msgstr ""
+
+#: views/storage/storage.list.php:252
+msgid "Please select at least one storage to delete!"
+msgstr "Bitte mindestens einen Speicherort zum Löschen auswählen!"
+
+#: views/storage/storage.list.php:256
+msgid "Delete Storage?"
+msgstr "Speicherort löschen?"
+
+#: views/storage/storage.list.php:257
+#, fuzzy
+#| msgid "Are you sure, you want to delete the selected storage(s)?"
+msgid "Are you sure you want to delete the selected storage(s)?"
+msgstr "Bist du sicher, du möchtest alle ausgewählten Speicherorte löschen?"
+
+#: views/storage/storage.list.php:259
+msgid "<small><i>Note: This action removes all storages.</i></small>"
+msgstr "<small><i>Hinweis: Diese Aktion löscht alle Speicherorte.</i></small>"
+
+#: views/storage/storage.list.php:260
+msgid "Removing Storages, Please Wait..."
+msgstr "Speicherort wird gelöscht, bitte warten..."
+
+#: views/storage/storage.list.php:266
+#, fuzzy
+#| msgid "Are you sure, you want to delete this storage?"
+msgid "Are you sure you want to delete this storage?"
+msgstr "Bist du sicher, dass du diesen Speicherort löschen möchtest?"
+
+#: views/tools/diagnostics/diagnostic.php:96
+#, fuzzy
+#| msgid "No large files found during this scan."
+msgid "No Duplicator files were found on this WordPress Site."
+msgstr "Keine großen Dateien während des Scans gefunden."
+
+#: views/tools/diagnostics/diagnostic.php:106
+msgid ""
+" If the installer files do not successfully get removed with this action, "
+"then they WILL need to be removed manually through your hosts control panel  "
+"or FTP.  Please remove all installer files to avoid any security issues on "
+"this site."
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:108
+msgid ""
+"For more details please visit the FAQ link <a href=\"https://snapcreek.com/"
+"duplicator/docs/faqs-tech/#faq-installer-295-q\" target=\"_blank\">Which "
+"files need to be removed after an install?</a>"
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:113
+msgid "Some of the installer files did not get removed, "
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:115
+#, fuzzy
+#| msgid "Close this setup process"
+msgid "please retry the installer cleanup process"
+msgstr "Close this setup process"
+
+#: views/tools/diagnostics/diagnostic.php:117
+msgid " If this process continues please see the previous FAQ link."
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:128
+msgid ""
+"The Duplicator team has worked many years to make moving a WordPress site a "
+"much easier process.  Show your support with a <a href=\"https://wordpress."
+"org/support/plugin/duplicator/reviews/?filter=5\" target=\"_blank\">5 star "
+"review</a>!  We would be thrilled if you could!"
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:164
+msgid "Please test the entire site to validate the migration process!"
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:170
+msgid ""
+"NOTICE: Safe mode (Basic) was enabled during install, be sure to re-enable "
+"all your plugins."
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:175
+msgid ""
+"NOTICE: Safe mode (Advanced) was enabled during install, be sure to re-"
+"enable all your plugins."
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:213
+#, fuzzy
+#| msgid "Are you sure, you want to delete?"
+msgid "Are you sure you want to delete?"
+msgstr "Bist du sicher, du möchtest löschen?"
+
+#: views/tools/diagnostics/diagnostic.php:214
+msgid "Delete this option value."
+msgstr "Lösche diese Einstellung."
+
+#: views/tools/diagnostics/diagnostic.php:215
+msgid "Removing, Please Wait..."
+msgstr "Entfernen, bitte warten..."
+
+#: views/tools/diagnostics/diagnostic.php:220
+msgid "Do you want to Continue?"
+msgstr "Willst du fortfahren?"
+
+#: views/tools/diagnostics/diagnostic.php:221
+msgid "This will run the scan validation check. This may take several minutes."
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:228
+msgid "This process will remove all build cache files."
+msgstr ""
+
+#: views/tools/diagnostics/diagnostic.php:229
+msgid ""
+"Be sure no packages are currently building or else they will be cancelled."
+msgstr ""
+
+#: views/tools/diagnostics/inc.settings.php:18
+#: views/tools/diagnostics/inc.settings.php:19
+msgid "unknow"
+msgstr "unbekannt"
+
+#: views/tools/diagnostics/inc.settings.php:56
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#: views/tools/diagnostics/inc.settings.php:60
+msgid "Server Time"
+msgstr "Serverzeit"
+
+#: views/tools/diagnostics/inc.settings.php:79
+msgid "Can't detect"
+msgstr ""
+
+#: views/tools/diagnostics/inc.settings.php:144
+msgid "On"
+msgstr "Ein"
+
+#: views/tools/diagnostics/inc.settings.php:144
+#: views/tools/diagnostics/inc.settings.php:181
+msgid "Off"
+msgstr "Aus"
+
+#: views/tools/diagnostics/inc.validator.php:17
+msgid "Run Validator"
+msgstr "Starte Validierung"
+
+#: views/tools/diagnostics/inc.validator.php:18
+msgid ""
+"This will run the scan validation check.  This may take several minutes.  Do "
+"you want to Continue?"
+msgstr ""
+
+#: views/tools/diagnostics/log.php:207
+msgid "Turn On"
+msgstr "Einschalten"
+
+#: views/tools/diagnostics/log.php:223
+msgid "No trace log found"
+msgstr "Kein Verlaufsprotokoll gefunden"
+
+#: views/tools/diagnostics/main.php:18
+msgid "Found"
+msgstr "Gefunden"
+
+#: views/tools/diagnostics/main.php:19
+msgid "Removed"
+msgstr "Entfernt"
+
+#: views/tools/diagnostics/main.php:63
+msgid "Plugin settings reset."
+msgstr "Plugin Einstellungen wiederhergestellt."
+
+#: views/tools/diagnostics/main.php:66
+msgid "View state settings reset."
+msgstr "View state settings reset."
+
+#: views/tools/diagnostics/main.php:69
+msgid "Active package settings reset."
+msgstr "Aktive Archiv Einstellungen zurückgesetzt."
+
+#: views/tools/diagnostics/main.php:72
+msgid "Installer file cleanup ran!"
+msgstr "Bereinigen der Installer-Datei läuft!"
+
+#: views/tools/diagnostics/main.php:76
+msgid "Cleaned up orphaned package files!"
+msgstr "Bereinigt verwaiste Archivdateien!"
+
+#: views/tools/diagnostics/main.php:80
+msgid "Build cache removed."
+msgstr ""
+
+#: views/tools/diagnostics/main.php:126
+msgid "Information"
+msgstr "Informationen"
+
+#: views/tools/diagnostics/main.php:131
+msgid "Duplicator Logs"
+msgstr "Duplictor Protokolle"
+
+#: views/tools/diagnostics/main.php:136
+msgid "PHP Logs"
+msgstr "PHP Protokolle"
+
+#: views/tools/diagnostics/main.php:141
+#, fuzzy
+#| msgid "Run Tests"
+msgid "Tests"
+msgstr "Tests ausführen"
+
+#: views/tools/diagnostics/main.php:146
+msgid "Support"
+msgstr "Support"
+
+#: views/tools/diagnostics/phplogs.php:29
+#, php-format
+msgid ""
+"PHP error log is available on location %s but is not readable. Try setting "
+"the permissions to 755."
+msgstr ""
+
+#: views/tools/diagnostics/phplogs.php:32
+#, php-format
+msgid ""
+"PHP error log is available on location %s but can't be read because file "
+"size is over %s. You must open this file manualy."
+msgstr ""
+
+#: views/tools/diagnostics/phplogs.php:34
+#, php-format
+msgid ""
+"PHP error log is available on location %s but can't be read because some "
+"unexpected error. Try to open file manually and investigate all problems "
+"what can cause this error."
+msgstr ""
+
+#: views/tools/diagnostics/phplogs.php:39
+msgid "This can be good for you because there is no errors."
+msgstr "Das kann gut für dich sein, weil es keine Fehler gab."
+
+#: views/tools/diagnostics/phplogs.php:41
+#, fuzzy, php-format
+#| msgid ""
+#| "But if you in any case experience some errors and not see log here, that "
+#| "mean your error log file is placed on some unusual locaton or can't be "
+#| "created because some %s setup. In that case you must open %s file and "
+#| "define %s or call your system administrator to setup it properly."
+msgid ""
+"But if you in any case experience some errors and not see log here, that "
+"mean your error log file is placed on some unusual location or can't be "
+"created because some %1$s setup. In that case you must open %2$s file and "
+"define %3$s or call your system administrator to setup it properly."
+msgstr ""
+"Aber wenn Fehler auftraten und hier nicht protokolliert sind, kann es "
+"bedeuten, dass die Fehlerprotokoll-Dateien an einem ungewöhnlichen Ort "
+"gespeichert werden oder aufgrund von Einstellungen in der %s nicht erstellt "
+"werden konnten. In diesem Fall musst du die %s überprüfen oder deinen "
+"Systemadministrator bitten, die Datei %s richtig zu konfigurieren."
+
+#: views/tools/diagnostics/phplogs.php:47
+#, fuzzy, php-format
+#| msgid ""
+#| "It would be great if you define new error log path to be inside root of "
+#| "your WordPress installation ( %s ) and name of file to be %s. That will "
+#| "solve this problem."
+msgid ""
+"It would be great if you define new error log path to be inside root of your "
+"WordPress installation ( %1$s ) and name of file to be %2$s. That will solve "
+"this problem."
+msgstr ""
+"Es wäre hilfreich, wenn du einen neuen Pfad für das Fehlerprotokoll im "
+"Hauptverzeichnis der WordPress-Installation ( %s ) und den Namen der Datei "
+"als %s. definieren würdest. Das wird dieses Problem lösen."
+
+#: views/tools/diagnostics/phplogs.php:158
+msgid "Warnings"
+msgstr "Warnungen"
+
+#: views/tools/diagnostics/phplogs.php:159
+msgid "Notices"
+msgstr "Hinweise"
+
+#: views/tools/diagnostics/phplogs.php:160
+msgid "Fatal Error"
+msgstr "Schwerer Fehler"
+
+#: views/tools/diagnostics/phplogs.php:161
+msgid "Syntax Error"
+msgstr "Syntax Fehler"
+
+#: views/tools/diagnostics/phplogs.php:162
+msgid "Exceptions"
+msgstr "Ausnahmen"
+
+#: views/tools/diagnostics/phplogs.php:190
+#, php-format
+msgid "You see only last %s logs inside %s file."
+msgstr ""
+
+#: views/tools/diagnostics/phplogs.php:205
+msgid "Clear PHP Log?"
+msgstr "PHP Fehlerprotokoll löschen?"
+
+#: views/tools/diagnostics/phplogs.php:206
+#, fuzzy
+#| msgid "Are you sure, you want to clear PHP log??"
+msgid "Are you sure you want to clear PHP log??"
+msgstr "Bist du sicher, du möchtest das PHP Protokoll löschen?"
+
+#: views/tools/diagnostics/phplogs.php:208
+msgid ""
+"<small><i>Note: This action will delete all data and can't be stopped.</i></"
+"small>"
+msgstr ""
+"<small><i>Hinweis: Diese Aktion löscht alle Daten und kann nicht "
+"unterbrochen werden.</i></small>"
+
+#: views/tools/diagnostics/phplogs.php:209
+msgid "Clear PHP log, Please Wait..."
+msgstr "PHP Fehlerprotokoll wird gelöscht, bitte warten..."
+
+#: views/tools/diagnostics/tests.php:187
+msgid "test_check_pack_init test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:188 views/tools/diagnostics/tests.php:192
+#: views/tools/diagnostics/tests.php:196 views/tools/diagnostics/tests.php:200
+#: views/tools/diagnostics/tests.php:204 views/tools/diagnostics/tests.php:208
+#: views/tools/diagnostics/tests.php:212 views/tools/diagnostics/tests.php:216
+msgid ""
+"test failed<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+"Curabitur lectus ligula, placerat sed lorem rhoncus, finibus iaculis tellus. "
+"Proin ipsum libero, sagittis vel nibh ac, gravida tristique turpis. Aenean "
+"hendrerit. "
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:191 views/tools/diagnostics/tests.php:203
+msgid "test_check_archive test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:195
+msgid "test_check_pack_start test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:199
+msgid "test_check_database test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:207
+msgid "test_check_storage test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:211
+msgid "test_check_completed test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:215
+msgid "test_check_clean test ok"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:224
+msgid "PACKAGE BUILD RUNNING"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:225
+msgid "Try again later ..."
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:229
+#, fuzzy
+#| msgid "Please select at least one storage to delete!"
+msgid "Select at least one storage"
+msgstr "Bitte mindestens einen Speicherort zum Löschen auswählen!"
+
+#: views/tools/diagnostics/tests.php:234
+msgid "TESTING ..."
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:259
+msgid "Build package test completed"
+msgstr ""
+
+#: views/tools/diagnostics/tests.php:549
+msgid "PACKGAGE STATUS ERROR!"
+msgstr ""
+
+#: views/tools/import.php:69
+msgid ""
+"<b>Important:</b> This feature is intended for empty or newly installed "
+"WordPress sites.  It is not recommend for use on production sites."
+msgstr ""
+
+#: views/tools/import.php:109
+#, php-format
+msgid ""
+"Archive you upload is not supported in version %s!<br> Please upload archive "
+"from version %s and above.<br> Archive version you upload is %s."
+msgstr ""
+
+#: views/tools/import.php:182
+msgid ""
+"The archive is fully uploaded and ready to be installed over this site.  "
+"This process will <u><b class='warn'>overwrite</b></u> this entire site you "
+"are currently logged into.  All plugins, themes, content and data will be "
+"replaced with the content found in the archive file.  The following database "
+"credential below will be used for the database overwrite.  The values can be "
+"changed at install time if needed."
+msgstr ""
+
+#: views/tools/import.php:225
+msgid ""
+"The files and database of the site you're logged into will be "
+"<u>overwritten</u> with the contents of the uploaded archive.  Check box to "
+"confirm you understand this."
+msgstr ""
+
+#: views/tools/import.php:256
+msgid "This option cannot be undone without manual intervention! Proceed?"
+msgstr ""
+
+#: views/tools/import.php:421
+#, fuzzy
+#| msgid "Are you sure, you want to delete this storage?"
+msgid "You have uploads pending, are you sure you want to leave this page?"
+msgstr "Bist du sicher, dass du diesen Speicherort löschen möchtest?"
+
+#: views/tools/import.php:656 views/tools/import.php:663
+msgid ""
+"An error occurred while preparing the installation of the imported archive."
+msgstr ""
+
+#: views/tools/templates/template.edit.php:204
+#, fuzzy
+#| msgid "Template"
+msgid "Template Name"
+msgstr "Vorlage"
+
+#: views/tools/templates/template.edit.php:209
+msgid "Notes"
+msgstr "Notizen"
+
+#: views/tools/templates/template.edit.php:227
+msgid "Archive Only the Database"
+msgstr "Archiviere nur die Datenbank"
+
+#: views/tools/templates/template.edit.php:232
+msgid "Enable File Filter"
+msgstr "Dateifilter aktivieren"
+
+#: views/tools/templates/template.edit.php:235
+msgid "Directories"
+msgstr "Verzeichnisse"
+
+#: views/tools/templates/template.edit.php:250
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: views/tools/templates/template.edit.php:259
+msgid "Files"
+msgstr "Dateien"
+
+#: views/tools/templates/template.edit.php:506
+#: views/tools/templates/template.edit.php:561
+msgid "Host"
+msgstr "Host"
+
+#: views/tools/templates/template.edit.php:514
+#: views/tools/templates/template.edit.php:569
+msgid "User"
+msgstr "Benutzer"
+
+#: views/tools/templates/template.edit.php:551
+msgid "Action"
+msgstr "Aktion"
+
+#: views/tools/templates/template.edit.php:587
+msgid "You can't exclude all sites!"
+msgstr "Du kannst nicht alle Webseiten ausschließen!"
+
+#: views/tools/templates/template.list.php:157
+msgid "Please select at least one template to delete!"
+msgstr "Bitte mindestens eine Vorlage zum Löschen auswählen!"
+
+#: views/tools/templates/template.list.php:161
+msgid "Delete the selected templates?"
+msgstr "Gewählte Vorlage löschen?"
+
+#: views/tools/templates/template.list.php:162
+#: views/tools/templates/template.list.php:171
+msgid ""
+"All schedules using this template will be reassigned to the \"Default\" "
+"Template."
+msgstr ""
+"Alle Zeitpläne, die diese Vorlage verwenden, wurden dem \\\"Default\\\" "
+"Vorlage erneut zugewiesen."
+
+#: views/tools/templates/template.list.php:164
+#, fuzzy
+#| msgid ""
+#| "<small><i>Note: This action removes all custom templates.</i></small>"
+msgid ""
+"<small><i>Note: This action removes all selected custom templates.</i></"
+"small>"
+msgstr ""
+"<small><i>Hinweis: Diese Aktion löscht alle benutzerdefinierten Vorlagen.</"
+"i></small>"
+
+#: views/tools/templates/template.list.php:165
+msgid "Removing Templates, Please Wait..."
+msgstr "Vorlagen werden gelöscht, bitte warten..."
+
+#: views/tools/templates/template.list.php:170
+#, fuzzy
+#| msgid "Are you sure, you want to delete this template?"
+msgid "Are you sure you want to delete this template?"
+msgstr "Bist du sicher, dass du die Vorlage löschen möchtest?"
+
+#~ msgid "PACKAGE"
+#~ msgstr "ARCHIV"
+
+#~ msgid "INSTALLER"
+#~ msgstr "INSTALLER"
+
+#~ msgid "Free"
+#~ msgstr "Kostenlose"
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "Professional"
+#~ msgstr "Professional"
+
+#~ msgid "must be installed to use"
+#~ msgstr ""
+#~ "Version muss für diese Option installiert sein. Hier finden Sie weitere "
+#~ "Informationen zu"
+
+#~ msgid "this feature."
+#~ msgstr "dieser Funktion."
+
+#~ msgid "One or more filenames isn't compatible with JSON encoding"
+#~ msgstr ""
+#~ "Einer oder mehrere Dateinamen sind nicht mit der JSON-Codierung kompatibel"
+
+#~ msgid "Reset All"
+#~ msgstr "Alles zurücksetzen"
+
+#~ msgid "Package Name"
+#~ msgstr "Archiv-Name"
+
+#~ msgid "Created by schedule %1$s"
+#~ msgstr "Erstellt mit Zeitplan %1$s"
+
+#~ msgid "Please complete this final step:"
+#~ msgstr "Bitte vervollständige die abschließenden Schritte:"
+
+#~ msgid "Remove Installation Files Now!"
+#~ msgstr "Jetzt Installations-Dateien löschen!"
+
+#~ msgid "Couldn't upload file to S3."
+#~ msgstr "Kann nicht zu S3 hochladen."
+
+#~ msgid "Clear Log"
+#~ msgstr "Lösche  Log"
+
+#~ msgid "Templates"
+#~ msgstr "Vorlagen"
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#~ msgid "Transfer"
+#~ msgstr "Übertragung"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Hash"
+#~ msgstr "Hash"
+
+#~ msgid "Full Name"
+#~ msgstr "Vollständiger Name"
+
+#~ msgid "Created"
+#~ msgstr "Erstellt"
+
+#~ msgid "Age"
+#~ msgstr "Alter"
+
+#~ msgid "Days"
+#~ msgstr "Tage"
+
+#~ msgid "Versions"
+#~ msgstr "Versionen"
+
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
+
+#~ msgid "- unknown -"
+#~ msgstr "- unbekannt -"
+
+#~ msgid "PHP"
+#~ msgstr "PHP"
+
+#~ msgid "OS"
+#~ msgstr "BS"
+
+#~ msgid "Mysql"
+#~ msgstr "Mysql"
+
+#~ msgid "Runtime"
+#~ msgstr "Laufzeit"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Report"
+#~ msgstr "Bericht"
+
+#~ msgid "Download Links"
+#~ msgstr "Download Links"
+
+#~ msgid "Location"
+#~ msgstr "Speicherorte"
+
+#~ msgid "- No storage locations associated with this package -"
+#~ msgstr "- Keine Speicherorte mit diesem Archiv verknüpft -"
+
+#~ msgid "FILES"
+#~ msgstr "DATEIEN"
+
+#~ msgid "Build Mode"
+#~ msgstr "Erstellungs Modus"
+
+#~ msgid "Filters"
+#~ msgstr "Filter"
+
+#~ msgid "Tables"
+#~ msgstr "Tabellen"
+
+#~ msgid "SETUP"
+#~ msgstr "KONFIGURATION"
+
+#~ msgid "Skip Scanner"
+#~ msgstr "Scannen überspringen"
+
+#~ msgid "Password Screen"
+#~ msgstr "Passwort Bildschirm"
+
+#~ msgid "STEP 1 - Deploy Files & Database"
+#~ msgstr "STEP 1 - Bereitstellen von Dateien und Datenbank"
+
+#~ msgid "cPanel"
+#~ msgstr "cPanel"
+
+#~ msgid "cPanel Login"
+#~ msgstr "cPanel Login"
+
+#~ msgid "MySQL Server"
+#~ msgstr "MySQL Server"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "Admin Enabled"
+#~ msgstr "Admin aktiviert"
+
+#~ msgid "Admin Disabled"
+#~ msgstr "Admin deaktiviert"
+
+#~ msgid "Logins Enabled"
+#~ msgstr "Logins aktiviert"
+
+#~ msgid "Logins Disabled"
+#~ msgstr "Login deaktiviert"
+
+#~ msgid "Cache"
+#~ msgstr "Cache"
+
+#~ msgid "Home Path Enabled"
+#~ msgstr "Hauptverzeichnis aktiviert"
+
+#~ msgid "Home Path Disabled"
+#~ msgstr "Hauptverzeichnis deaktiviert"
+
+#~ msgid "STEP 2 - INPUTS"
+#~ msgstr "STEP 2 - INPUTS"
+
+#~ msgid "New URL"
+#~ msgstr "Neue URL"
+
+#~ msgid "Manual Transfer"
+#~ msgstr "Manuelle Übertragung"
+
+#~ msgid "1: Select Files"
+#~ msgstr "1: Wähle Dateien"
+
+#~ msgid "1: Choose Location"
+#~ msgstr "1: Wähle Speicherort"
+
+#~ msgid "Quick FTP Connect"
+#~ msgstr "Schnelle FTP Verbindung"
+
+#~ msgid "Create New Storage"
+#~ msgstr "Neuen Speicherort erstellen"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Username"
+#~ msgstr "Benutzername"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Test Connection"
+#~ msgstr "Teste Verbindung"
+
+#~ msgid "2: Transfer Files"
+#~ msgstr "2: Übertrage Dateien"
+
+#~ msgid "Start Transfer"
+#~ msgstr "Übertragung starten"
+
+#~ msgid "Processing"
+#~ msgstr "Bearbeitung"
+
+#~ msgid "Full package percentage shown on packages screen"
+#~ msgstr "Der prozentuale Fortschritt wird auf der Archiv-Seite angezeigtl"
+
+#~ msgid "Transfer Log"
+#~ msgstr "Übertragungs Log"
+
+#~ msgid "Started"
+#~ msgstr "Gestartet"
+
+#~ msgid "Stopped"
+#~ msgstr "Angehalten"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Please perform the following actions below then build package again."
+#~ msgstr ""
+#~ "Bitte die folgenden Aktionen ausführen, um das Paket erneut zu erstellen."
+
+#~ msgid "Select all packages"
+#~ msgstr "Alle Archive auswählen"
+
+#~ msgid "Origin"
+#~ msgstr "Erstellt mit"
+
+#~ msgid "Size"
+#~ msgstr "Größe"
+
+#~ msgid "No Packages Found."
+#~ msgstr "Kein Archiv gefunden."
+
+#~ msgid "Click the 'Create New' button to build a package."
+#~ msgstr ""
+#~ "Klicke auf den 'Erstellen'-Button, um ein neues Archiv zu erstellen."
+
+#~ msgid "Download not accessible from here"
+#~ msgstr "Herunterladen von hier nicht möglich"
+
+#~ msgid "Saved only to default storage"
+#~ msgstr "Nur auf dem Standard-Speicherort gesichert"
+
+#~ msgid "failed"
+#~ msgstr "fehlgeschlagen"
+
+#~ msgid "cancelled"
+#~ msgstr "abgebrochen"
+
+#~ msgid "Setup"
+#~ msgstr "Konfigurieren"
+
+#~ msgid "Scan"
+#~ msgstr "Scan"
+
+#~ msgid "Build"
+#~ msgstr "Erstellen"
+
+#~ msgid "Step 1: Package Setup"
+#~ msgstr "Schritt 1: Archiv konfigurieren"
+
+#~ msgid "Apply Template:"
+#~ msgstr "Vorlage anwenden:"
+
+#~ msgid "Unassigned"
+#~ msgstr "Nicht zugewiesen"
+
+#~ msgid "Reset"
+#~ msgstr "Zurücksetzen"
+
+#~ msgid "Next"
+#~ msgstr "Nächster"
+
+#~ msgid "Requirements:"
+#~ msgstr "Anforderungen:"
+
+#~ msgid ""
+#~ "System requirements must pass for the Duplicator to work properly.  Click "
+#~ "each link for details."
+#~ msgstr ""
+#~ "Systemanforderungen müssen erfüllt sein, damit Duplicator korrekt "
+#~ "arbeiten kann. Klicke auf jeden Link für weitere Informationen."
+
+#~ msgid "PHP Support"
+#~ msgstr "PHP Support"
+
+#~ msgid "Zip Archive Enabled"
+#~ msgstr "Zip Archive aktiviert"
+
+#~ msgid "Function"
+#~ msgstr "Funktion"
+
+#~ msgid "Permissions"
+#~ msgstr "Berechtigungen"
+
+#~ msgid "Required Paths"
+#~ msgstr "Benötigte Pfade"
+
+#~ msgid "Server Support"
+#~ msgstr "Server Support"
+
+#~ msgid "MySQL Version"
+#~ msgstr "MySQL Version"
+
+#~ msgid "Installation Files"
+#~ msgstr "Installations Dateien"
+
+#~ msgid "Remove Files Now"
+#~ msgstr "Dateien jetzt entfernen"
+
+#~ msgid "Add Storage"
+#~ msgstr "Speicherort hinzufügen"
+
+#~ msgid "File filter enabled"
+#~ msgstr "Dateifilter ist aktiviert"
+
+#~ msgid "Database filter enabled"
+#~ msgstr "Datenbankfilter ist aktiviert"
+
+#~ msgid "Multisite"
+#~ msgstr "Multisite"
+
+#~ msgid "Enable File Filters"
+#~ msgstr "Dateifilter aktivieren"
+
+#~ msgid "File Filters:"
+#~ msgstr "Dateifilter:"
+
+#~ msgid ""
+#~ "File filters allow you to ignore directories/files and file extensions.  "
+#~ "When creating a package only include the data you want and need.  This "
+#~ "helps to improve the overall archive build time and keep your backups "
+#~ "simple and clean."
+#~ msgstr ""
+#~ "Der Dateifilter erlaubt es, Verzeichnisse/Dateien und Dateierweiterungen "
+#~ "zu ignorieren. Wähle beim Erstellen eines Archivs nur die Daten aus, die "
+#~ "du benötigst. Dies hilft, die Gesamtzeit für das Erstellen des Archivs zu "
+#~ "verkürzen und Deine Backups übersichtlich und klein zu halten."
+
+#~ msgid "Separate all filters by semicolon"
+#~ msgstr "Trenne Fillter mit Semikolon"
+
+#~ msgid "root path"
+#~ msgstr "Hauptverzeichnis"
+
+#~ msgid "wp-uploads"
+#~ msgstr "wp-uploads"
+
+#~ msgid "cache"
+#~ msgstr "cache"
+
+#~ msgid "(clear)"
+#~ msgstr "(Ausblenden)"
+
+#~ msgid "File Extensions"
+#~ msgstr "Dateierweiterungen"
+
+#~ msgid "media"
+#~ msgstr "Medien"
+
+#~ msgid "archive"
+#~ msgstr "Archiv-Dateien"
+
+#~ msgid "(file path)"
+#~ msgstr "(Dateipfad)"
+
+#~ msgid ""
+#~ "The directories, extensions and files above will be be exclude from the "
+#~ "archive file if enable is checked."
+#~ msgstr ""
+#~ "Die oben markierten Verzeichnisse und Dateierweiterungen werden vom "
+#~ "Archiv ausgeschlossen, wenn der Filter aktiviert ist."
+
+#~ msgid ""
+#~ "Use full path for directories or specific files. <b>Use filenames without "
+#~ "paths to filter same-named files across multiple directories.</b>"
+#~ msgstr ""
+#~ "Verwende den vollständigen Pfad für Verzeichnisse oder bestimmte Dateien. "
+#~ "<b> Verwende Dateinamen ohne Pfade, um gleichnamige Dateien in mehreren "
+#~ "Verzeichnissen zu filtern. </ b>"
+
+#~ msgid "Use semicolons to separate all items."
+#~ msgstr ""
+#~ "Verwende den vollständigen Pfad für Verzeichnisse trenne jeden einzeln "
+#~ "mit Semikolons."
+
+#~ msgid "Enable Table Filters"
+#~ msgstr "Aktivieren Datenbankfilter"
+
+#~ msgid "Table Filters:"
+#~ msgstr "Tabellen filtern:"
+
+#~ msgid "Include All"
+#~ msgstr "Alle einbeziehen"
+
+#~ msgid "Exclude All"
+#~ msgstr "Alle auslassen"
+
+#~ msgid "Checked tables are exclude"
+#~ msgstr "Markierte Tabellen werden ausgelassen"
+
+#~ msgid "Compatibility Mode"
+#~ msgstr "Kompatibilitätsmodus"
+
+#~ msgid "Compatibility Mode:"
+#~ msgstr "Kompatibilitätsmodus:"
+
+#~ msgid "full overview"
+#~ msgstr "vollständiger Überblick"
+
+#~ msgid "mysql40"
+#~ msgstr "mysql40"
+
+#~ msgid "<b>Overview:</b><br/>"
+#~ msgstr "<b>Übersicht:</b><br/>"
+
+#~ msgid "Personal License"
+#~ msgstr "Personal Lizenz"
+
+#~ msgid "Freelancer License"
+#~ msgstr "Freelancer Lizenz"
+
+#~ msgid "All values in this section are"
+#~ msgstr "Alle Werte in diesem Abschnitt sind"
+
+#~ msgid "optional"
+#~ msgstr "optional"
+
+#~ msgid "MySQL Server Prefills"
+#~ msgstr "MySQL Server Voreinstellungen"
+
+#~ msgid "Enable Password Protection"
+#~ msgstr "Aktiviere Passwortschutz"
+
+#~ msgid "Password Protection:"
+#~ msgstr "Passwortschutz:"
+
+#~ msgid "Confirm"
+#~ msgstr "Bestätigen"
+
+#~ msgid "Skip System Scan Screen"
+#~ msgstr "System Scan-Bildschirm überspringen"
+
+#~ msgid "Skip System Scan:"
+#~ msgstr "System Scan überspringen:"
+
+#~ msgid ""
+#~ "By default every time the installer is opened it will run a simple scan "
+#~ "on the server environment.  If the scan check passes then enabling this "
+#~ "option automatically take you to step one of the installer and will skip "
+#~ "the system scan screen."
+#~ msgstr ""
+#~ "Standardmäßig wird bei jedem Ausführen des Installationsprogramms ein "
+#~ "einfacher Scan in der Serverumgebung ausgeführt. Wenn der Scan-Check "
+#~ "bestanden wird, führt die Aktivierung dieser Option automatisch zum "
+#~ "ersten Schritt des Installationsprogramms und überspringt den System-Scan-"
+#~ "Bildschirm."
+
+#~ msgid "STEP 1 - INPUTS"
+#~ msgstr "SCHRITT 1 - INPUTS"
+
+#~ msgid "Auto Select cPanel"
+#~ msgstr "Auto Select cPanel"
+
+#~ msgid "Auto Select cPanel:"
+#~ msgstr "Auto Select cPanel:"
+
+#~ msgid "Enforce on Admin"
+#~ msgstr "Für Admin erzwingen"
+
+#~ msgid "Enforce on Logins"
+#~ msgstr "Beim Login erzwingen"
+
+#~ msgid "Keep Enabled"
+#~ msgstr "Aktiviert lassen"
+
+#~ msgid "Keep Home Path"
+#~ msgstr "Hauptverzeichnis behalten"
+
+#~ msgid "Step 2: System Scan"
+#~ msgstr "Schritt 2: System Scan"
+
+#~ msgid "Scanning Site"
+#~ msgstr "Scannen der Seite"
+
+#~ msgid "Keep this window open during the scan process."
+#~ msgstr "Halte dieses Fenster während des Scanvorgangs geöffnet."
+
+#~ msgid "This can take several minutes."
+#~ msgstr "Es kann einige Minuten dauern."
+
+#~ msgid "Scan Complete"
+#~ msgstr "Scan fertiggestellt"
+
+#~ msgid "Warnings may cause issues on some systems."
+#~ msgstr "Warnungen können Probleme auf einigen Systemen verursachen."
+
+#~ msgid "Process Time:"
+#~ msgstr "Bearbeitungszeit:"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Diagnostics"
+#~ msgstr "Diagnose"
+
+#~ msgid "Supported web servers:"
+#~ msgstr "Supported web servers:"
+
+#~ msgid "PHP Setup"
+#~ msgstr "PHP Konfiguration"
+
+#~ msgid ""
+#~ "It is recommended to have a version of WordPress that is greater than %1$s"
+#~ msgstr ""
+#~ "It is recommended to have a version of WordPress that is greater than %1$s"
+
+#~ msgid "Cache Path"
+#~ msgstr "Cache Pfad"
+
+#~ msgid ""
+#~ "Multisite was not detected on this site. It is currently configured as a "
+#~ "standard WordPress site."
+#~ msgstr ""
+#~ "Multisite wurde auf dieser Website nicht erkannt. Sie ist als Standard "
+#~ "WordPress-Seite konfiguriert."
+
+#~ msgid "This license level has full access to all Multisite Plus+ features."
+#~ msgstr ""
+#~ "Diese Lizenz hat vollen Zugriff auf alle Multisite Plus+ Funktionen."
+
+#~ msgid "File Size:"
+#~ msgstr "Dateigröße:"
+
+#~ msgid "Total Size"
+#~ msgstr "Gesamtgröße"
+
+#~ msgid "Directories "
+#~ msgstr "Verzeichnisse "
+
+#~ msgid "Name Checks"
+#~ msgstr "Name überprüft"
+
+#~ msgid ""
+#~ "File or directory names may cause issues when working across different "
+#~ "environments and servers.  Names that are over 250 characters, contain "
+#~ "special characters (such as * ? > < : / \\ |) or are unicode might cause "
+#~ "issues in a remote enviroment.  It is recommended to remove or filter "
+#~ "these files before building the archive if you have issues at install "
+#~ "time."
+#~ msgstr ""
+#~ "File or directory names may cause issues when working across different "
+#~ "environments and servers.  Names that are over 250 characters, contain "
+#~ "special characters (such as * ? > < : / \\ |) or are unicode might cause "
+#~ "issues in a remote enviroment.  It is recommended to remove or filter "
+#~ "these files before building the archive if you have issues at install "
+#~ "time."
+
+#~ msgid "Show Paths"
+#~ msgstr "Zeige Pfade"
+
+#~ msgid "Large Files"
+#~ msgstr "Große Dateien"
+
+#~ msgid "No file extension filters have been set."
+#~ msgstr "Kein Filter für Dateierweiterungen gesetzt."
+
+#~ msgid "Database Size:"
+#~ msgstr "Datenbank Größe:"
+
+#~ msgid "Records"
+#~ msgstr "Records"
+
+#~ msgid "Detailed Info"
+#~ msgstr "Detailinformationen"
+
+#~ msgid "Name:"
+#~ msgstr "Name:"
+
+#~ msgid "Host:"
+#~ msgstr "Host:"
+
+#~ msgid "Scan Error"
+#~ msgstr "Scan Fehler"
+
+#~ msgid "Please try again!"
+#~ msgstr "Bitte noch mal versuchen!"
+
+#~ msgid "Server Status:"
+#~ msgstr "Server Status:"
+
+#~ msgid "Error Message:"
+#~ msgstr "Fehlermeldung:"
+
+#~ msgid "Back"
+#~ msgstr "Zurück"
+
+#~ msgid "Rescan"
+#~ msgstr "Erneut scannen"
+
+#~ msgid "Unable to report on any tables"
+#~ msgstr "Keine Berichte für irgendwelche Tabellen"
+
+#~ msgid "Unable to report on database stats"
+#~ msgstr "Bericht über Datenbankstatistiken nicht möglich"
+
+#~ msgid "DIR"
+#~ msgstr "VERZEICHNIS"
+
+#~ msgid "FILE"
+#~ msgstr "DATEI"
+
+#~ msgid "No add on sites found."
+#~ msgstr "Keine Änderungen auf dieser Website gefunden."
+
+#~ msgid "Add New"
+#~ msgstr "Neu erstellen"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Schedule Updated"
+#~ msgstr "Zeitplan aktualisiert"
+
+#~ msgid "Repeats"
+#~ msgstr "Wiederholungen"
+
+#~ msgid "Frequency Note:"
+#~ msgstr "Frequenz Hinweis:"
+
+#~ msgid "At least one day must be checked."
+#~ msgstr "Mindestens ein Tag muss ausgewählt werden."
+
+#~ msgid "Day"
+#~ msgstr "Tag"
+
+#~ msgid "Start Time"
+#~ msgstr "Startzeit"
+
+#~ msgid "Current Server Time Stamp is"
+#~ msgstr "Aktuelle Server-Zeit ist"
+
+#~ msgid "Enable This Schedule"
+#~ msgstr "Diesen Zeitplan aktivieren"
+
+#~ msgid "Save Schedule"
+#~ msgstr "Zeitplan speichern"
+
+#~ msgid "Runs Next"
+#~ msgstr "Nächste Durchführung"
+
+#~ msgid "Last Ran"
+#~ msgstr "Letzte Durchführung"
+
+#~ msgid "No Schedules Found"
+#~ msgstr "Kein Zeitplan gefunden"
+
+#~ msgid "Create New Schedule"
+#~ msgstr "Neuen Zeitplan erstellen"
+
+#~ msgid "Quick View"
+#~ msgstr "Schnellansicht"
+
+#~ msgid "Run Now"
+#~ msgstr "Jetzt starten"
+
+#~ msgid "Run schedule now?"
+#~ msgstr "Zeitplan jetzt ausführen?"
+
+#~ msgid "Queueing Now - Please Wait..."
+#~ msgstr "Geplant - Bitte warten..."
+
+#~ msgid "Delete the selected items?"
+#~ msgstr "Delete the selected items?"
+
+#~ msgid "Licensing"
+#~ msgstr "Lizenzierung"
+
+#~ msgid "General Settings Updated"
+#~ msgstr "Allgemeine Einstellungen aktualisiert"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "Uninstall"
+#~ msgstr "Deinstallieren"
+
+#~ msgid "Delete Plugin Settings"
+#~ msgstr "Lösche Plugin Einstellungen"
+
+#~ msgid "Delete Entire Storage Directory"
+#~ msgstr "Lösche das Backupverzeichnis mit allen Archiven"
+
+#~ msgid "Custom Roles"
+#~ msgstr "Benutzerrollen"
+
+#~ msgid "Enable User Role Editor Plugin Integration"
+#~ msgstr "Aktiviere die Integration des 'User Role Editor' Plugins"
+
+#~ msgid "On (Enhanced)"
+#~ msgstr "Ein (Erweitert)"
+
+#~ msgid ""
+#~ "Turning on log initially clears it out. Enhanced writes to both trace and "
+#~ "PHP error logs."
+#~ msgstr ""
+#~ "Wenn das Protokoll einschaltet wird, wird es zunächst gelöscht. "
+#~ "Schreibvorgänge in Trace- und PHP-Fehlerprotokollen werden danach "
+#~ "verbessert."
+
+#~ msgid "Enable Debug Views"
+#~ msgstr "Debug-Ansicht aktivieren"
+
+#~ msgid "Advanced"
+#~ msgstr "Erweitert"
+
+#~ msgid "Enable Peformance Stats"
+#~ msgstr "Performance Statistik aktivieren"
+
+#~ msgid "Trace log must be 'On' to view profile report"
+#~ msgstr ""
+#~ "Verlaufsprotokoll muss eingeschaltet sein, um den Report des Profils zu "
+#~ "sehen"
+
+#~ msgid "Enable Beta Features"
+#~ msgstr "Beta-Funktionen aktivieren"
+
+#~ msgid "Enable various beta features. "
+#~ msgstr "Verschiedene Beta-Funktionen aktivieren "
+
+#~ msgid "Save General Settings"
+#~ msgstr "Allgemeine Einstellungen speichern"
+
+#~ msgid "Activation"
+#~ msgstr "Aktivierung"
+
+#~ msgid "Business"
+#~ msgstr "Business"
+
+#~ msgid "License Key"
+#~ msgstr "Lizenzschlüssel"
+
+#~ msgid "Key Visibility"
+#~ msgstr "Sichtbarkeit des Lizenz Schlüssels"
+
+#~ msgid ""
+#~ "This is an optional setting that prevents the 'License Key' from being "
+#~ "copied.  Enter a password and hit the 'Hide Key' button."
+#~ msgstr ""
+#~ "Dies ist eine optionale Einstellung, die verhindert, dass der Lizenz "
+#~ "Schlüssel kopiert wird. Gebe ein Passwort ein und klicke auf die "
+#~ "Schaltfläche \"Schlüssel ausblenden\"."
+
+#~ msgid ""
+#~ "To show the 'License Key' and allow for it to be copied to your clipboard "
+#~ "enter in the password and hit the 'Show Key' button."
+#~ msgstr ""
+#~ "Um den \"Lizenz Schlüssel\" anzuzeigen und in die Zwischenablage kopieren "
+#~ "zu können, gebe das Passwort ein und klicke auf die Taste \"Zeige "
+#~ "Schlüssel\"."
+
+#~ msgid "Retype Password"
+#~ msgstr "Passwort erneut eingeben"
+
+#~ msgid "SQL Script"
+#~ msgstr "SQL Skript"
+
+#~ msgid "Mysqldump"
+#~ msgstr "Mysqldump"
+
+#~ msgid "(recommended)"
+#~ msgstr "(empfohlen)"
+
+#~ msgid "Successfully Found:"
+#~ msgstr "Erfolgreiche gefunden:"
+
+#~ msgid "Custom Path"
+#~ msgstr "Benutzerdefinierter Pfad"
+
+#~ msgid "mysqldump"
+#~ msgstr "mysqldump"
+
+#~ msgid "PHP Code"
+#~ msgstr "PHP Code"
+
+#~ msgid "Compression"
+#~ msgstr "Kompression"
+
+#~ msgid "Shell Exec Zip"
+#~ msgstr "Shell Exec Zip"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Server Throttle"
+#~ msgstr "Serverdrosselung"
+
+#~ msgid "Low"
+#~ msgstr "Tief"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"
+
+#~ msgid "High"
+#~ msgstr "Hoch"
+
+#~ msgid ""
+#~ "Throttle to prevent resource complaints on budget hosts. The higher the "
+#~ "value the slower the backup."
+#~ msgstr ""
+#~ "Reduzieren, um Ressourcenproblemen bei Billig-Hostern vorzubeugen. Je "
+#~ "höher der Wert, desto langsamer das Backup."
+
+#~ msgid "Max Build Time"
+#~ msgstr "Maximale Erstellungszeit"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuten"
+
+#~ msgid ""
+#~ "Max build and storage time until package is auto-cancelled. Set to 0 for "
+#~ "no limit."
+#~ msgstr ""
+#~ "Maximale Erstellungs- und Speicherzeit, bis das Paket automatisch "
+#~ "abgebrochen wird. Bei 0 wird kein Limit gesetzt."
+
+#~ msgid "Max Worker Time"
+#~ msgstr "Max Bearbeitungszeit"
+
+#~ msgid "Seconds"
+#~ msgstr "Sekunden"
+
+#~ msgid ""
+#~ "Please do not modify advanced settings unless you know the expected "
+#~ "result or have talked to support."
+#~ msgstr ""
+#~ "Ändere die erweiterten Einstellungen nur, wenn du das gewünschte Ergebnis "
+#~ "kennst oder mit dem Support gesprochen haben."
+
+#~ msgid "File"
+#~ msgstr "Datei"
+
+#~ msgid "SQL"
+#~ msgstr "SQL"
+
+#~ msgid "JSON"
+#~ msgstr "JSON"
+
+#~ msgid "Custom"
+#~ msgstr "Benutzerdefiniert"
+
+#~ msgid "Ajax"
+#~ msgstr "Ajax"
+
+#~ msgid "Auto"
+#~ msgstr "Auto"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "HTTPS"
+#~ msgstr "HTTPS"
+
+#~ msgid "Custom URL:"
+#~ msgstr "Benutzerdefinierte URL:"
+
+#~ msgid ""
+#~ "Used to kick off build worker. Only change if packages get stuck at start "
+#~ "of build."
+#~ msgstr ""
+#~ "Startet das Archiv-Modul. Nur ändern, wenn Archive beim Start hängen "
+#~ "bleiben."
+
+#~ msgid ""
+#~ "Initiate package build from client. Only check this if instructed to by "
+#~ "Snap Creek support."
+#~ msgstr ""
+#~ "Startet die Archiverstellung vom Client aus. Wähle dies nur, wenn du vom "
+#~ "Snap Creek Support dazu aufgefordert wurdest."
+
+#~ msgid "Show Password"
+#~ msgstr "Passwort anzeigen"
+
+#~ msgid "Installer Name"
+#~ msgstr "Name der Installer-Datei"
+
+#~ msgid ""
+#~ "The base name of the installer file. Only change if host prevents using "
+#~ "installer.php"
+#~ msgstr ""
+#~ "Der Basisname der Installationsdatei. Nur ändern, wenn der Host die "
+#~ "Verwendung von installer.php verhindert"
+
+#~ msgid "Save Package Settings"
+#~ msgstr "Speichere Archiv Einstellungen"
+
+#~ msgid "Notifications"
+#~ msgstr "Benachrichtigungen"
+
+#~ msgid "Send Build Email"
+#~ msgstr "Sende E-Mail nach dem Ausführen eines Backups"
+
+#~ msgid "Never"
+#~ msgstr "Niemals"
+
+#~ msgid "On Failure"
+#~ msgstr "Nur bei Fehlern"
+
+#~ msgid "Always"
+#~ msgstr "Immer"
+
+#~ msgid "When to send emails after a scheduled build."
+#~ msgstr ""
+#~ "Wann sollen E-Mails nach dem Erstellen von geplanten Backups versendet "
+#~ "werden."
+
+#~ msgid "Email Address"
+#~ msgstr "E-Mail Adresse"
+
+#~ msgid "Admin email will be used if empty."
+#~ msgstr "Wenn leer wird die Admin E-Mail verwendet."
+
+#~ msgid "Save Schedule Settings"
+#~ msgstr "Speichere Zeitplan-Einstellungen"
+
+#~ msgid "Full Path"
+#~ msgstr "Vollständiger Pfad"
+
+#~ msgid "Disable .htaccess File In Storage Directory"
+#~ msgstr ".htaccess Datei im Speicherverzeichnis ausschalten"
+
+#~ msgid "Disable if issues occur when downloading installer/archive files."
+#~ msgstr ""
+#~ "Abschalten, wenn Probleme beim Herunterladen der Installer/Archiv-Dateien "
+#~ "auftreten."
+
+#~ msgid "Max Retries"
+#~ msgstr "Max Wiederholungen"
+
+#~ msgid "Max upload/copy retries to attempt after failure encountered."
+#~ msgstr ""
+#~ "Maximale Wiederholungen beim Hochladen/Kopieren, wenn ein Fehler "
+#~ "aufgetreten ist."
+
+#~ msgid "Transfer Mode"
+#~ msgstr "Übertragungs Modus"
+
+#~ msgid "Upload Size (KB)"
+#~ msgstr "Größe beim Hochladen (KB)"
+
+#~ msgid ""
+#~ "How much should be uploaded to Dropbox per attempt. Higher=faster but "
+#~ "less reliable."
+#~ msgstr ""
+#~ "Wieviel KB sollen bei jedem Versuch in die Dropbox hochgeladen werden? Je "
+#~ "größer, desto schneller, aber auch weniger zuverlässig."
+
+#~ msgid "Save Storage Settings"
+#~ msgstr "Speichere Speicherort-Einstellungen"
+
+#~ msgid "All Storage Providers"
+#~ msgstr "Alle Speicherorte"
+
+#~ msgid "Edit Default Storage"
+#~ msgstr "Bearbeite Standard-Speicherort"
+
+#~ msgid "Local Server"
+#~ msgstr "Lokaler Server"
+
+#~ msgid "Max Packages"
+#~ msgstr "Max Archive"
+
+#~ msgid "Number of packages to keep in folder. "
+#~ msgstr "Anzahl der Archive, die im Ordner behalten werden. "
+
+#~ msgid "Save Provider"
+#~ msgstr "Speicherort sichern"
+
+#~ msgid "Providers"
+#~ msgstr "Speicherorte"
+
+#~ msgid "Credentials"
+#~ msgstr "Zugangsdaten"
+
+#~ msgid "Access Key"
+#~ msgstr "Zugangsschlüssel"
+
+#~ msgid "Secret Key"
+#~ msgstr "Geheimer Schlüssel"
+
+#~ msgid "S3 Bucket where you want to save the backups."
+#~ msgstr "Wo sollen die Sicherungen für S3 Buckets gespeichert werden."
+
+#~ msgid "Region"
+#~ msgstr "Region"
+
+#~ msgid "US East (N. Virginia)"
+#~ msgstr "US East (N. Virginia)"
+
+#~ msgid "US East (Ohio)"
+#~ msgstr "US East (Ohio)"
+
+#~ msgid "US West (N. California)"
+#~ msgstr "US West (N. California)"
+
+#~ msgid "US West (Oregon)"
+#~ msgstr "US West (Oregon)"
+
+#~ msgid "Canada (Central)"
+#~ msgstr "Canada (Central)"
+
+#~ msgid "Asia Pacific (Mumbai)"
+#~ msgstr "Asia Pacific (Mumbai)"
+
+#~ msgid "Asia Pacific (Seoul)"
+#~ msgstr "Asia Pacific (Seoul)"
+
+#~ msgid "Asia Pacific (Singapore)"
+#~ msgstr "Asia Pacific (Singapore)"
+
+#~ msgid "Asia Pacific (Sydney)"
+#~ msgstr "Asia Pacific (Sydney)"
+
+#~ msgid "Asia Pacific (Tokyo)"
+#~ msgstr "Asia Pacific (Tokyo)"
+
+#~ msgid "EU (Frankfurt)"
+#~ msgstr "EU (Frankfurt)"
+
+#~ msgid "EU (Ireland)"
+#~ msgstr "EU (Ireland)"
+
+#~ msgid "EU (London)"
+#~ msgstr "EU (London)"
+
+#~ msgid "South America (Sao Paulo)"
+#~ msgstr "South America (Sao Paulo)"
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "Standard IA"
+#~ msgstr "Standard IA"
+
+#~ msgid "Number of packages to keep in folder."
+#~ msgstr "Anzahl der Archive, die im Ordner behalten werden."
+
+#~ msgid "Connection"
+#~ msgstr "Verbindung"
+
+#~ msgid "Test S3 Connection"
+#~ msgstr "Teste S3 Verbindung"
+
+#~ msgid ""
+#~ "Test connection by sending and receiving a small file to/from the account."
+#~ msgstr ""
+#~ "Teste die Verbindung, indem eine kleine Datei zum / vom Konto gesendet "
+#~ "und empfangen wird."
+
+#~ msgid "Authorization"
+#~ msgstr "Berechtigung"
+
+#~ msgid "Connect to Dropbox"
+#~ msgstr "Verbinde zu Dropbox"
+
+#~ msgid "Step 1:"
+#~ msgstr "Schritt 1:"
+
+#~ msgid "Authorize Dropbox"
+#~ msgstr "Berechtige Dropbox"
+
+#~ msgid "Step 2:"
+#~ msgstr "Schritt 2:"
+
+#~ msgid "Step 3:"
+#~ msgstr "Schritt 3:"
+
+#~ msgid "Finalize Setup"
+#~ msgstr "Beende Setup"
+
+#~ msgid "Dropbox Account"
+#~ msgstr "Dropbox Account"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Test Dropbox Connection"
+#~ msgstr "Teste Dropbox Verbindung"
+
+#~ msgid "Passwords do not match"
+#~ msgstr "Passwort stimmt nicht überein"
+
+#~ msgid ""
+#~ "When this limit is exceeded, the oldest package will be deleted. Set to 0 "
+#~ "for no limit. "
+#~ msgstr ""
+#~ "Wenn dieses Limit überschritten wird, wird das älteste Archiv gelöscht. "
+#~ "Um kein Limit festzulegen, auf 0 setzen. "
+
+#~ msgid "Timeout"
+#~ msgstr "Zeitüberschreitung"
+
+#~ msgid "seconds"
+#~ msgstr "seconds"
+
+#~ msgid "SSL-FTP"
+#~ msgstr "SSL-FTP"
+
+#~ msgid "Use explicit SSL-FTP connection."
+#~ msgstr "Benutze explizite SSL-FTP Verbindung."
+
+#~ msgid "Passive Mode"
+#~ msgstr "Passiver Modus"
+
+#~ msgid "Use FTP Passive Mode."
+#~ msgstr "Benutze den passiven FTP Modus."
+
+#~ msgid "Test FTP Connection"
+#~ msgstr "Teste FTP Verbindung"
+
+#~ msgid "Connect to Google Drive"
+#~ msgstr "Verbinde zu Google Drive"
+
+#~ msgid "Authorize Google Drive"
+#~ msgstr "Google Drive autorisieren"
+
+#~ msgid "Google Drive Account"
+#~ msgstr "Google Drive Konto"
+
+#~ msgid "Storage Folder Notice"
+#~ msgstr "Speicherort Verzeichnis Hinweis"
+
+#~ msgid "Test Google Drive Connection"
+#~ msgstr "Teste Google Drive Verbindung"
+
+#~ msgid ""
+#~ "On Linux systems start with '/'. On Windows use drive letters. (e.g. /"
+#~ "mypath or E:/mypath)"
+#~ msgstr ""
+#~ "Auf Linuxsystemen mit '/' beginnen. Auf Windows-Systemen mit dem "
+#~ "Laufwerksbuchstaben beginnen. (z.B. /meinordner or E:/meinordner)"
+
+#~ msgid "Filter Protection"
+#~ msgstr "Filterschutz"
+
+#~ msgid "Filter the Storage Folder (recommended)"
+#~ msgstr "Das Archiv-Verzeichnis filtern (empfohlen)"
+
+#~ msgid ""
+#~ "When checked this will exclude the 'Storage Folder' and all of its "
+#~ "content and sub-folders from package builds."
+#~ msgstr ""
+#~ "Wenn aktiviert, wird das Verzeichnis und der gesamte Inhalt mit "
+#~ "Unterordnern beim Erstellen des Archivs ausgelassen."
+
+#~ msgid "QUICK VIEW"
+#~ msgstr "SCHNELLANSICHT"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Template Updated"
+#~ msgstr "Vorlage aktualisiert"
+
+#~ msgid "file path"
+#~ msgstr "Dateiordner"
+
+#~ msgid "Database Table Filters:"
+#~ msgstr "Datenbank Tabellen Filter:"
+
+#~ msgid ""
+#~ "Checked tables will not be added to the database script.  Excluding "
+#~ "certain tables can possibly cause your site or plugins to not work "
+#~ "correctly after install!"
+#~ msgstr ""
+#~ "Markierte Tabellen werden nicht im Datenback-Archiv gespeichert. Der "
+#~ "Ausschluß einiger Tabellen kann nach der Rücksicherung Probleme auf der "
+#~ "Seite verursachen oder dazu führen, das Plugins nicht korrekt "
+#~ "funktionieren!"
+
+#~ msgid "FAQ details"
+#~ msgstr "FAQ Details"
+
+#~ msgid "valid database name"
+#~ msgstr "gültiger Datenbank Name"
+
+#~ msgid "valid database user"
+#~ msgstr "gültiger Datenbank Benutzer"
+
+#~ msgid "valid cpanel host address"
+#~ msgstr "gültige cpanel Host Adresse"
+
+#~ msgid "valid cpanel user login"
+#~ msgstr "gültiger cpanel Benutzer Login"
+
+#~ msgid "localhost"
+#~ msgstr "localhost"
+
+#~ msgid "Keep Cache Enabled"
+#~ msgstr "Cache aktiviert lassen"
+
+#~ msgid "Save Template"
+#~ msgstr "Vorlage speichern"
+
+#~ msgid "There currently are"
+#~ msgstr "Momentan sind es"
+
+#~ msgid "schedule(s) using this template."
+#~ msgstr "Zeitplan benutzt diese Vorlage."
+
+#~ msgid ""
+#~ "All schedules using this template will be reassigned to the \\\"Default\\"
+#~ "\" template."
+#~ msgstr ""
+#~ "Alle Zeitpläne mit dieser Vorlage wurde die \\\"Default\\\" Vorlage "
+#~ "erneut zugewiesen."
+
+#~ msgid "Delete the selected templates?\\n\\r"
+#~ msgstr "Die gewählte Vorlage löschen?\\n\\r"
+
+#~ msgid "Logging"
+#~ msgstr "Logging"
+
+#~ msgid "Export"
+#~ msgstr "Exportieren"
+
+#~ msgid "Export Data"
+#~ msgstr "Exportiere Daten"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Choose Duplicator Data File"
+#~ msgstr "Wähle Duplicator Dateien aus"
+
+#~ msgid "Include in Import"
+#~ msgstr "Im Import einschließen"
+
+#~ msgid "Import Data"
+#~ msgstr "Importiere Daten"
+
+#~ msgid "Export Duplicator Pro Data?"
+#~ msgstr "Duplicator Daten exportieren?"
+
+#~ msgid "This process will:"
+#~ msgstr "Dieser Prozess wird:"
+
+#~ msgid "Run Export"
+#~ msgstr "Starte Export"
+
+#~ msgid "Import Duplicator Pro Data?"
+#~ msgstr "Duplicator Daten importieren?"
+
+#~ msgid "Run Import"
+#~ msgstr "Starte Import"
+
+#~ msgid "Stored Data"
+#~ msgstr "Gespeicherte Daten"
+
+#~ msgid "Data Cleanup"
+#~ msgstr "Datenbereinigung"
+
+#~ msgid "Remove Installation Files"
+#~ msgstr "Installations-Dateien löschen"
+
+#~ msgid "Removes all reserved installation files."
+#~ msgstr "Löscht alle Installations-Dateien."
+
+#~ msgid "more info"
+#~ msgstr "mehr Informationen"
+
+#~ msgid ""
+#~ "Clicking on the 'Remove Installation Files' button will remove the "
+#~ "following installation files.  These files are typically from a previous "
+#~ "Duplicator install. If you are unsure of the source, please validate the "
+#~ "files.  These files should never be left on production systems for "
+#~ "security reasons.  Below is a list of all the installation files used by "
+#~ "Duplicator.  Please be sure these are removed from your server."
+#~ msgstr ""
+#~ "Beim Klick auf den Button \"Lösche Installations-Dateien\" werden die "
+#~ "unten stehenden Dateien gelöscht. Diese Dateien sind in der Regel von "
+#~ "einer vorherigen Duplicator-Installation. Wenn Sie unsicher über die "
+#~ "Herkunft sind, überprüfen Sie bitte die Dateien. Diese Dateien sollten "
+#~ "aus Sicherheitsgründen nie auf Produktionssystemen verbleiben. Im "
+#~ "Folgenden finden Sie eine Liste aller von Duplicator verwendeten "
+#~ "Installations-Dateien. Bitte achten Sie darauf, diese von Ihrem Server "
+#~ "entfernt werden."
+
+#~ msgid "Delete Package Orphans"
+#~ msgstr "Lösche verwaiste Archive"
+
+#~ msgid "Removes all package files NOT found in the packages screen."
+#~ msgstr "Löscht alle Archivdateien, die NICHT im Archivbild gefunden wurden."
+
+#~ msgid "No orphaned package files found."
+#~ msgstr "Keine verwaisten Archivdateien gefunden."
+
+#~ msgid "Clear Build Cache"
+#~ msgstr "Leere den Cache"
+
+#~ msgid "Removes all build data from:"
+#~ msgstr "Löscht alle erstellten Daten in:"
+
+#~ msgid "Options Values"
+#~ msgstr "Optionen Werte"
+
+#~ msgid "Key"
+#~ msgstr "Schlüssel"
+
+#~ msgid "Value"
+#~ msgstr "Wert"
+
+#~ msgid "Server Settings"
+#~ msgstr "Server Einstellungen"
+
+#~ msgid "Duplicator Version"
+#~ msgstr "Duplicator Version"
+
+#~ msgid "Operating System"
+#~ msgstr "Betriebssystem"
+
+#~ msgid "Plugins Path"
+#~ msgstr "Plugin Pfad"
+
+#~ msgid "Loaded PHP INI"
+#~ msgstr "Geladene PHP INI"
+
+#~ msgid "Server IP"
+#~ msgstr "Server IP"
+
+#~ msgid "Client IP"
+#~ msgstr "Client IP"
+
+#~ msgid "Langugage"
+#~ msgstr "Sprache"
+
+#~ msgid "Charset"
+#~ msgstr "Zeichensatz"
+
+#~ msgid "Memory Limit "
+#~ msgstr "Memory Limit "
+
+#~ msgid "Max"
+#~ msgstr "Max"
+
+#~ msgid "Memory Limit"
+#~ msgstr "Memory Limit"
+
+#~ msgid "open_basedir"
+#~ msgstr "open_basedir"
+
+#~ msgid "Is Supported"
+#~ msgstr "Wird unterstützt"
+
+#~ msgid "Not Supported"
+#~ msgstr "Nicht unterstützt"
+
+#~ msgid "Suhosin Extension"
+#~ msgstr "Suhosin Extension"
+
+#~ msgid "Wait Timeout"
+#~ msgstr "Warten Zeitüberschreitung"
+
+#~ msgid "Max Allowed Packets"
+#~ msgstr "Maximal erlaubte Packete"
+
+#~ msgid "msyqldump Path"
+#~ msgstr "msyqldump Pfad"
+
+#~ msgid "Server Disk"
+#~ msgstr "Server Festplatte"
+
+#~ msgid "Free space"
+#~ msgstr "Freier Speicherplatz"
+
+#~ msgid "Note: This value is the physical servers hard-drive allocation."
+#~ msgstr ""
+#~ "Hinweis: Dieser Wert ist die Festplattenzuordnung auf dem physischen "
+#~ "Server."
+
+#~ msgid ""
+#~ "On shared hosts check your control panel for the 'TRUE' disk space quota "
+#~ "value."
+#~ msgstr ""
+#~ "Auf Shared Hostings überprüfen Sie in Ihrem Einstellungen den "
+#~ "tatsächlichen freien Speicherplatz."
+
+#~ msgid "Run Scan Integrity Validation"
+#~ msgstr "Integrität Überprüfung starten"
+
+#~ msgid "PHP Information"
+#~ msgstr "PHP Informationen"
+
+#~ msgid "Delete this option value"
+#~ msgstr "Lösche diese Einstellung"
+
+#~ msgid "Options"
+#~ msgstr "Optionen"
+
+#~ msgid "Refresh"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Auto Refresh"
+#~ msgstr "Automatisch aktualisieren"
+
+#~ msgid "Trace Log:"
+#~ msgstr "Verlaufsprotokoll:"
+
+#~ msgid " (P)"
+#~ msgstr " (P)"
+
+#~ msgid "Package Logs"
+#~ msgstr "Archiv der Verlaufsprotokolle"
+
+#~ msgid "Top 20"
+#~ msgstr "Top 20"
+
+#~ msgid ""
+#~ "Migrating WordPress is a complex process and the logic to make all the "
+#~ "magic happen smoothly may not work quickly with every site.  With over "
+#~ "30,000 plugins and a very complex server eco-system some migrations may "
+#~ "run into issues.  This is why the Duplicator includes a detailed "
+#~ "knowledgebase that can help with many common issues.  Resources to "
+#~ "additional support, approved hosting, and alternatives to fit your needs "
+#~ "can be found below."
+#~ msgstr ""
+#~ "Migrating WordPress is a complex process and the logic to make all the "
+#~ "magic happen smoothly may not work quickly with every site.  With over "
+#~ "30,000 plugins and a very complex server eco-system some migrations may "
+#~ "run into issues.  This is why the Duplicator includes a detailed "
+#~ "knowledgebase that can help with many common issues.  Resources to "
+#~ "additional support, approved hosting, and alternatives to fit your needs "
+#~ "can be found below."
+
+#~ msgid "Knowledgebase"
+#~ msgstr "Wissensdatenbank"
+
+#~ msgid "Choose A Section"
+#~ msgstr "Wähle einen Abschnitt"
+
+#~ msgid "Quick Start"
+#~ msgstr "Kurzanleitung"
+
+#~ msgid "User Guide"
+#~ msgstr "Anleitung"
+
+#~ msgid "FAQs"
+#~ msgstr "FAQs"
+
+#~ msgid "Change Log"
+#~ msgstr "Änderungsprotokoll"
+
+#~ msgid "Product Page"
+#~ msgstr "Produktseite"
+
+#~ msgid "Submit Help Ticket"
+#~ msgstr "Support-Ticket absenden"
+
+#~ msgid "Submit support ticket to Duplicator Pro support."
+#~ msgstr "Support-Ticket an Duplicator Pro Support senden."
+
+#~ msgid "Please have your"
+#~ msgstr "Bitte halte den"
+
+#~ msgid "license key"
+#~ msgstr "Lizenzschlüssel"
+
+#~ msgid "ready to enter ticket."
+#~ msgstr "bereit, um das Ticket abzusenden.."
+
+#~ msgid "Get Support!"
+#~ msgstr "Support anfordern!"
+
+#~ msgid "Thanks, we'll get back to you shortly."
+#~ msgstr "Danke, wir werden uns bald bei dir melden."
+
+#~ msgid ""
+#~ "*Contact support@snapcreek.com if you don't get a confirmation email "
+#~ "within an hour."
+#~ msgstr ""
+#~ "*Contact support@snapcreek.com if you don't get a confirmation email "
+#~ "within an hour."
+
+#~ msgid "There was a problem sending the email."
+#~ msgstr "Beim Senden der E-Mail ist ein Problem aufgetreten."
+
+#~ msgid "<i class=\"fa fa-bolt\"></i> Duplicator Pro"
+#~ msgstr "<i class=\"fa fa-bolt\"></i> Duplicator Pro"
+
+#~ msgid "Google Drive out of storage space"
+#~ msgstr "Google Drive hat nicht genügend Speicherplatz"
+
+#~ msgid "Click on button to switch to the DupArchive archive engine."
+#~ msgstr "Klicke auf den Button, um zur DupArchive-Archiv-Engine zu wechseln."
+
+#~ msgid "Testing Interface"
+#~ msgstr "Schnittstelle testen"
+
+#~ msgid "Refresh Page"
+#~ msgstr "Seite aktualisieren"
+
+#~ msgid "Deleting Existing Site"
+#~ msgstr "Lösche die bestehende Website"
+
+#~ msgid "Brand"
+#~ msgstr "Brand"
+
+#~ msgid "New Features!"
+#~ msgstr "Neue Funktionen!"
+
+#~ msgid "New!"
+#~ msgstr "Neu!"
+
+#~ msgid "New to Duplicator?"
+#~ msgstr "Neu bei Duplicator?"
+
+#~ msgid "Check out the 'Quick Start' guide!"
+#~ msgstr "Schau dir die \"Schnellstart\"-Anleitung an!"
+
+#~ msgid "Both Files"
+#~ msgstr "Beide Dateien"
+
+#~ msgid "More Items"
+#~ msgstr "Mehr Einträge"
+
+#~ msgid "Error during storage transfer."
+#~ msgstr "Fehler während der Datenübertragung."
+
+#~ msgid "No Remote Storages"
+#~ msgstr "Kein entfernter Speicherort"
+
+#~ msgid "Note: max package retention enabled"
+#~ msgstr "Hinweis: Die maximale Anzahl gespeicherter Archive ist aktiviert"
+
+#~ msgid "Storage Packages:"
+#~ msgstr "Speicherort Archive:"
+
+#~ msgid "Unexpected Error!"
+#~ msgstr "Unerwarteter Fehler!"
+
+#~ msgid "Local Endpoint"
+#~ msgstr "Lokaler Endpoint"
+
+#~ msgid "FTP Endpoint"
+#~ msgstr "FTP Endpoint"
+
+#~ msgid "Dropbox Endpoint"
+#~ msgstr "Dropbox Endpoint"
+
+#~ msgid "Google Drive Endpoint"
+#~ msgstr "Google Drive Endpoint"
+
+#~ msgid "Amazon S3 Endpoint"
+#~ msgstr "Amazon S3 Endpoint"
+
+#~ msgid "OneDrive Endpoint"
+#~ msgstr "OneDrive Endpoint"
+
+#~ msgid ""
+#~ "DupArchive is a custom archive engine designed to be faster, more stable "
+#~ "and build larger packages on budget hosts.  A DupArchive file ends in '."
+#~ "daf' rather than '.zip' and works the same as a zip when installing.  The "
+#~ "'daf' archive requires the installer.php for extraction and only the "
+#~ "installer.php file will work to extract it.  Should you decide to switch "
+#~ "back to the old zip format after trying DupArchive, you can easily do so "
+#~ "by going to the Settings &gt; Packages options."
+#~ msgstr ""
+#~ "DupArchive ist ein benutzerdefiniertes Archivmodul, das schneller und "
+#~ "stabiler ist und größere Pakete bei Billig-Hostern erstellt. Eine "
+#~ "DupArchive-Datei endet in '.daf' statt '.zip' und funktioniert bei der "
+#~ "Installation genauso wie eine ZIP-Datei. Für das Daf-Archiv wird die "
+#~ "installer.php-Datei für die Extraktion benötigt, und nur die installer."
+#~ "php-Datei kann diese Datei extrahieren. Wenn Du nach dem Test von "
+#~ "DupArchive zum alten ZIP-Format zurückkehren möchtest, kannst du dies "
+#~ "ganz einfach tun, indem Sie in den Einstellungen & gt; Paketoptionen."
+
+#~ msgid "Switch Now!"
+#~ msgstr "Jetzt wechseln!"
+
+#~ msgid "Hide This Notice"
+#~ msgstr "Hinweis ausblenden"
+
+#~ msgid "List All Templates"
+#~ msgstr "Alle Vorlagen auflisten"
+
+#~ msgid "Edit Selected Template"
+#~ msgstr "Gewählte Vorlage bearbeiten"
+
+#~ msgid "Toggle a default name"
+#~ msgstr "Erstelle einen neuen Standardnamen"
+
+#~ msgid "Add Notes"
+#~ msgstr "Notiz hinzufügen"
+
+#~ msgid "ZipArchive Enabled"
+#~ msgstr "Zip Archiv aktiviert"
+
+#~ msgid "Overview on how to enable ZipArchive"
+#~ msgstr "Überblick über das Aktivieren von ZipArchive"
+
+#~ msgid "wp-content"
+#~ msgstr "wp-content"
+
+#~ msgid ""
+#~ "Excluding certain tables can cause your site or plugins to not work "
+#~ "correctly after install!<br/>"
+#~ msgstr ""
+#~ "Der Ausschluß einiger Tabellen kann nach der Rücksicherung Probleme auf "
+#~ "der Seite verursachen oder dazu führen, das Plugins nicht korrekt "
+#~ "funktionieren!<br/>"
+
+#~ msgid "Excluded Sub-Sites"
+#~ msgstr "Unterseiten ausschließen"
+
+#~ msgid "Security"
+#~ msgstr "Sicherheit"
+
+#~ msgid "Branding"
+#~ msgstr "Branding"
+
+#~ msgid "Preview"
+#~ msgstr "Vorschau"
+
+#~ msgid "Choose Brand:"
+#~ msgstr "Brand wählen:"
+
+#~ msgid "Enable Branding"
+#~ msgstr "Aktiviere Branding"
+
+#~ msgid "Show Diagnostics"
+#~ msgstr "Zeige Diagnose"
+
+#~ msgid " to the new location for the site to function properly."
+#~ msgstr ""
+#~ " an den neuen Speicherort, damit die Site ordnungsgemäß funktioniert."
+
+#~ msgid "Show Scan Details"
+#~ msgstr "Zeige Scan Details"
+
+#~ msgid "uncompressed"
+#~ msgstr "unkomprimiert"
+
+#~ msgid "Size Checks"
+#~ msgstr "Größe überprüft"
+
+#~ msgid "Quick Filters"
+#~ msgstr "Schnellfilter"
+
+#~ msgid "Hide All"
+#~ msgstr "Alle ausblenden"
+
+#~ msgid "Copy Paths to Clipboard"
+#~ msgstr "Kopiere Pfad in die Zwischenablage"
+
+#~ msgid "No unreadable items found.<br>"
+#~ msgstr "Keine großen Dateien gefunden.<br>"
+
+#~ msgid "No recursive sym-links found.<br>"
+#~ msgstr "Keine rekursiven sym-links gefunden.<br>"
+
+#~ msgid "Build Mode:"
+#~ msgstr "Erstellungs Modus:"
+
+#~ msgid "File Filters"
+#~ msgstr "File Filters"
+
+#~ msgid "No custom directory filters set."
+#~ msgstr "Keine benutzerdefinierten Verzeichnisfilter gesetzt."
+
+#~ msgid "No custom file filters set."
+#~ msgstr "Kein Dateifilter gesetzt."
+
+#~ msgid "Auto Filters"
+#~ msgstr "Automatische Filter"
+
+#~ msgid "Excluded File Extensions"
+#~ msgstr "Dateierweiterungen ausschließen"
+
+#~ msgid "Click to Copy"
+#~ msgstr "Klicke zum Kopieren"
+
+#~ msgid "No directories have been selected!"
+#~ msgstr "Keine Verzeichnisse ausgewählt!"
+
+#~ msgid "No files have been selected!"
+#~ msgstr "Keine Dateien ausgewählt!"
+
+#~ msgid "Copied to Clipboard!"
+#~ msgstr "In den Zwischenspeicher kopiert!"
+
+#~ msgid "Initializing Please Wait..."
+#~ msgstr "Initialisierung bitte warten..."
+
+#~ msgid "New Features "
+#~ msgstr "Neue Funktion "
+
+#~ msgid "Recent Features "
+#~ msgstr "Neueste Funktionen "
+
+#~ msgid "Additional Features"
+#~ msgstr "Zusatzfunktionen"
+
+#~ msgid "Beta Features"
+#~ msgstr "Beta Funktion"
+
+#~ msgid "No beta features in this release."
+#~ msgstr "Keine Beta-Funktionen in dieser Version."
+
+#~ msgid "Design Concepts"
+#~ msgstr "Designkonzept"
+
+#~ msgid "Concept Views"
+#~ msgstr "Entwurf ansehen"
+
+#~ msgid "Save Feature Settings"
+#~ msgstr "Speichere Einstellungen"
+
+#~ msgid ""
+#~ "Turning on log initially clears it out. The enhanced setting writes to "
+#~ "both trace and PHP error logs."
+#~ msgstr ""
+#~ "Das Aktivieren des Protokolls löscht es zunächst. Verbessert jedoch die "
+#~ "Schreibvorgänge für Trace- und PHP-Fehlerprotokolle."
+
+#~ msgid "Debugging"
+#~ msgstr "Fehlersuche"
+
+#~ msgid "Enable debug options throughout plugin"
+#~ msgstr "Debug-Optionen im gesamten Plugin aktivieren"
+
+#~ msgid "Refresh page after saving to show/hide Debug menu."
+#~ msgstr ""
+#~ "Aktualisiere die Seite nach dem Speichern, um das Debug-Menü anzuzeigen / "
+#~ "auszublenden."
+
+#~ msgid "Enable Performance Stats"
+#~ msgstr "Performance Statistik einschalten"
+
+#~ msgid "Reset all settings to their defaults."
+#~ msgstr "Setze alle Einstellungen auf ihre Standardeinstellungen zurück."
+
+#~ msgid "Export Settings"
+#~ msgstr "Exportiere Einstellungen"
+
+#~ msgid "Import Settings"
+#~ msgstr "Importiere Einstellungen"
+
+#~ msgid "Clear Key"
+#~ msgstr "Lösche Schlüssel"
+
+#~ msgid ""
+#~ "Do not modify advanced settings unless you know the expected result or "
+#~ "have talked to support."
+#~ msgstr ""
+#~ "Ändere die erweiterten Einstellungen nur, wenn du weißt, was sie bewirken "
+#~ "oder du mit dem Support gesprochen hast."
+
+#~ msgid "Custom URL"
+#~ msgstr "Benutzerdefinierte URL"
+
+#~ msgid "Bad URL!"
+#~ msgstr "Fehlerhafte URL!"
+
+#~ msgid "Brands"
+#~ msgstr "Brands"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Style Guide"
+#~ msgstr "Style Guide"
+
+#~ msgid "The default brand cannot be changed"
+#~ msgstr "Der Standard Brand kann nicht geändert werden"
+
+#~ msgid "Make this the active brand"
+#~ msgstr "Den gewählten Brand aktivieren"
+
+#~ msgid "Preview Area:"
+#~ msgstr "Vorschau:"
+
+#~ msgid "version: "
+#~ msgstr "Version: "
+
+#~ msgid "info"
+#~ msgstr "Informationen"
+
+#~ msgid "help"
+#~ msgstr "Hilfe"
+
+#~ msgid "Mode: Standard Install"
+#~ msgstr "Modus: Standard Installation"
+
+#~ msgid "Save Brand"
+#~ msgstr "Speichere Brand"
+
+#~ msgid "Delete selected brand endpoint(s)"
+#~ msgstr "Lösche ausgewählte Endpoint(s)"
+
+#~ msgid "Set active"
+#~ msgstr "Aktiviere"
+
+#~ msgid "Connect to OneDrive"
+#~ msgstr "Verbinde zu Google Drive"
+
+#~ msgid "Test OneDrive Connection"
+#~ msgstr "Teste Google Drive Verbindung"
+
+#~ msgid "Private Key"
+#~ msgstr "Privater Schlüssel"
+
+#~ msgid "Private Key Password"
+#~ msgstr "Passwort für den privaten Lizenzschlüssel"
+
+#~ msgid "Private Key Retype Password"
+#~ msgstr "Passwort für den privaten Lizenzschlüssel erneut eingeben"
+
+#~ msgid "Test SFTP Connection"
+#~ msgstr "Teste SFTP Verbindung"
+
+#~ msgid "Test Onedrive Connection"
+#~ msgstr "Teste Google Drive Verbindung"
+
+#~ msgid "Check WordPress Updates"
+#~ msgstr "Prüfe auf WordPress Updates"
+
+#~ msgid "version scope"
+#~ msgstr "Versionsumfang"
+
+#~ msgid "32-bit"
+#~ msgstr "32-bit"
+
+#~ msgid "64-bit"
+#~ msgstr "64-bit"
+
+#~ msgid "Error Log File "
+#~ msgstr "Fehlerdatei "
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Line"
+#~ msgstr "Linie"
+
+#~ msgid "PHP Error Log is empty."
+#~ msgstr "PHP Fehlerprotokoll ist leer."
+
+#~ msgid "PHP Error Filter:"
+#~ msgstr "PHP Fehler Filter:"
+
+#~ msgid "None"
+#~ msgstr "Keine"
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgid "Import Site"
+#~ msgstr "Importiere Webiste"
+
+#~ msgid "[More Details]"
+#~ msgstr "[Mehr Details]"
+
+#~ msgid "Upload request aborted by user!<br/> Please try again!"
+#~ msgstr ""
+#~ "Hochladen vom Benutzer abgesprochen!<br/>Bitte noch einmal versuchen!"
+
+#~ msgid "Error uploading file!<br/> Please try again!"
+#~ msgstr "Fehler beim Hochladen der Datei!<br/>Bitte noch einmal versuchen!"
+
+#~ msgid "Select File"
+#~ msgstr "Wähle Datei"
+
+#~ msgid "Launch Installer"
+#~ msgstr "Installer ausführen"
+
+#~ msgid "Available archives"
+#~ msgstr "Verfügbare Archive"
+
+#~ msgid "Uploading Please Wait..."
+#~ msgstr "Hochladen, bitte warten..."
+
+#~ msgid "Uploaded Archive"
+#~ msgstr "Hochgeladene Archive"
+
+#~ msgid "(undefined)"
+#~ msgstr "(nicht definiert)"
+
+#~ msgid "Size:"
+#~ msgstr "Größe:"
+
+#~ msgid "User:"
+#~ msgstr "Benutzer:"
+
+#~ msgid "Error Uploading Archive!"
+#~ msgstr "Fehler beim Hochladen des Archivs!"
+
+#~ msgid "MULTISITE"
+#~ msgstr "MULTISITE"
+
+#~ msgid "Installer Password:"
+#~ msgstr "Installations-Passwort:"
+
+#~ msgid "Settings: "
+#~ msgstr "Einstellungen: "
+
+#~ msgid "The manual mode template."
+#~ msgstr "Vorlage für den manuellen Modus"
+
+#~ msgid "All Packages"
+#~ msgstr "Alle Archive"
+
+#~ msgid "Calculating"
+#~ msgstr "Wird berechnet"
+
+#~ msgid "Browse"
+#~ msgstr "Browse"
+
+#~ msgid "Legacy SQL"
+#~ msgstr "SQL Kompatibilität"
+
+#~ msgid "MySQL Note:"
+#~ msgstr "MySQL Note:"
+
+#~ msgid ""
+#~ "Use if having problems installing packages on an older MySQL server (< "
+#~ "5.5.3). Only affects mysqldump database mode. Setting always unchecked "
+#~ "for new package."
+#~ msgstr ""
+#~ "Use if having problems installing packages on an older MySQL server (< "
+#~ "5.5.3). Only affects mysqldump database mode. Setting always unchecked "
+#~ "for new package."
+
+#~ msgid "Confirm Password"
+#~ msgstr "Wiederhole Passwort"
+
+#~ msgid "host"
+#~ msgstr "host"
+
+#~ msgid "database name"
+#~ msgstr "Datenbank Name"
+
+#~ msgid "database user name"
+#~ msgstr "Datenbank Benutzername"
+
+#~ msgid "Legacy"
+#~ msgstr "Legacy"
+
+#~ msgid ""
+#~ "Total size represents all files minus any filters that have been setup.  "
+#~ "The current thresholds that trigger warnings are %1$s for the entire site "
+#~ "and %2$s for large files."
+#~ msgstr ""
+#~ "Total size represents all files minus any filters that have been setup.  "
+#~ "The current thresholds that trigger warnings are %1$s for the entire site "
+#~ "and %2$s for large files."
+
+#~ msgid ""
+#~ "The lists above are the directories, files and file extensions that will "
+#~ "be excluded from the archive."
+#~ msgstr ""
+#~ "Die aufgelisteten Verzeichnisse, Dateien und Dateierweiterungen werden "
+#~ "vom Archiv ausgeschlossen."
+
+#~ msgid "All Schedules"
+#~ msgstr "Alle Zeitpläne"
+
+#~ msgid "Current Server Time"
+#~ msgstr "Aktuelle Serverzeit"
+
+#~ msgid ""
+#~ "Send execution trace to error log in addition to the trace log. <br/"
+#~ ">WARNING: This can impact performance."
+#~ msgstr ""
+#~ "Sende 'execution trace' an die Fehlerdatei in Ergänzung des 'trace log'. "
+#~ "<br/>WARNUNG: Dies kann die Performance beeinträchtigen."
+
+#~ msgid "Package Debug"
+#~ msgstr "Archiv Debug"
+
+#~ msgid ""
+#~ "Status: %1$s. Please %2$sgo to snapcreek.com%3$s for assistance, to "
+#~ "purchase a new license or to renew an existing license."
+#~ msgstr ""
+#~ "Status: %1$s. Please %2$sgo to snapcreek.com%3$s for assistance, to "
+#~ "purchase a new license or to renew an existing license."
+
+#~ msgid "Use PHP"
+#~ msgstr "Benutze PHP"
+
+#~ msgid "a higher value speeds up build time but uses more memory"
+#~ msgstr "a higher value speeds up build time but uses more memory"
+
+#~ msgid "This server does not have shell_exec configured to run."
+#~ msgstr "This server does not have shell_exec configured to run."
+
+#~ msgid "Recommended method - much faster."
+#~ msgstr "Empfohlene Methode - sehr viel schneller."
+
+#~ msgid "This is the path to your mysqldump program."
+#~ msgstr "This is the path to your mysqldump program."
+
+#~ msgid ""
+#~ "Slower ZipArchive engine auto-selected since Shell_Exec zip isn't "
+#~ "available on this server."
+#~ msgstr ""
+#~ "Slower ZipArchive engine auto-selected since Shell_Exec zip isn't "
+#~ "available on this server."
+
+#~ msgid "File Deletion"
+#~ msgstr "Anzahl Archive"
+
+#~ msgid ""
+#~ "Number of packages to keep in 'Storage Folder'. Set to 0 for no limit."
+#~ msgstr ""
+#~ "Anzahl der Archive, die im Sicherungsverzeichnis gespeichert bleiben. 0 "
+#~ "steht für unbegrenzt."
+
+#~ msgid "File Retention"
+#~ msgstr "File Retention"
+
+#~ msgid "Couldn't retrieve Dropbox access token!"
+#~ msgstr "Couldn't retrieve Dropbox access token!"
+
+#~ msgid "Storage Providers"
+#~ msgstr "Speicherort-Anbieter"
+
+#~ msgid "Enable Legacy SQL"
+#~ msgstr "SQL Kompatibilität aktivieren"
+
+#~ msgid ""
+#~ "Use if having problems installing packages on an older MySQL server (< "
+#~ "5.5.3). Only affects mysqldump database mode."
+#~ msgstr ""
+#~ "Use if having problems installing packages on an older MySQL server (< "
+#~ "5.5.3). Only affects mysqldump database mode."
+
+#~ msgid "File Found"
+#~ msgstr "Datei gefunden"
+
+#~ msgid "Last 20 Logs"
+#~ msgstr "20 letzten Logs"
+
+#~ msgid "Take me to the cleanup page!"
+#~ msgstr "Take me to the cleanup page!"
+
+#~ msgid "The package is being copied to directory %1$s"
+#~ msgstr "Das Archiv wurde in das Verzeichnis %1$s kopiert"
+
+#~ msgid "The package is being transferred to Dropbox folder %1$s"
+#~ msgstr "Das Archiv wurde in den Dropbox-Ordner %1$s übertragen"
+
+#~ msgid "Trace -> Error Log"
+#~ msgstr "Trace -> Error Log"
+
+#~ msgid "(No Notes Taken)"
+#~ msgstr "(No Notes Taken)"
+
+#~ msgid "Download not accessable from here"
+#~ msgstr "Download not accessable from here"
+
+#~ msgid "Storage download not accessable from here"
+#~ msgstr "Storage download not accessable from here"
+
+#~ msgid "SQL file storage path(s) was not found!"
+#~ msgstr "SQL file storage path(s) was not found!"
+
+#~ msgid "Log file storage path(s) was not found!"
+#~ msgstr "Log file storage path(s) was not found!"
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgid "Package Object"
+#~ msgstr "Package Object"
+
+#~ msgid "This package is currently building."
+#~ msgstr "This package is currently building."
+
+#~ msgid "Unrecoverable Error! Please remove this package."
+#~ msgstr "Unrecoverable Error! Please remove this package."
+
+#~ msgid ""
+#~ "This package has encountered errors.  Click 'View Log' for more details.  "
+#~ "For additional support see the "
+#~ msgstr ""
+#~ "This package has encountered errors.  Click 'View Log' for more details.  "
+#~ "For additional support see the "
+
+#~ msgid "online knowledgebase"
+#~ msgstr "online knowledgebase"
+
+#~ msgid "View Log"
+#~ msgstr "View Log"
+
+#~ msgid "Name Hash"
+#~ msgstr "Name Hash"
+
+#~ msgid "DB Mode"
+#~ msgstr "DB Mode"
+
+#~ msgid "Store Paths"
+#~ msgstr "Store Paths"
+
+#~ msgid "DB Tables"
+#~ msgstr "DB Tables"
+
+#~ msgid "none"
+#~ msgstr "none"
+
+#~ msgid "off"
+#~ msgstr "off"
+
+#~ msgid "Reserved Files"
+#~ msgstr "Reserved Files"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Select a template with valid storage locations."
+#~ msgstr "Wähle eine Vorlage mit gültigem Speicherort."
+
+#~ msgid ""
+#~ "Creating the package does not require the mysqli module.  However the "
+#~ "installer.php file requires that the PHP module mysqli be installed on "
+#~ "the server it is deployed on."
+#~ msgstr ""
+#~ "Creating the package does not require the mysqli module.  However the "
+#~ "installer.php file requires that the PHP module mysqli be installed on "
+#~ "the server it is deployed on."
+
+#~ msgid "Schedule package queued."
+#~ msgstr "Schedule package queued."
+
+#~ msgid "Failed to kick off schedule."
+#~ msgstr "Failed to kick off schedule."
+
+#~ msgid "Settings Saved"
+#~ msgstr "Einstellungen gespeichert"
+
+#~ msgid "Advanced setting. Don't change unless you talk to support first."
+#~ msgstr "Advanced setting. Don't change unless you talk to support first."
+
+#~ msgid "ZipArchive Mode"
+#~ msgstr "ZipArchive Mode"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Roles & Capabilities"
+
+#~ msgid "Trace"
+#~ msgstr "Trace"
+
+#~ msgid ""
+#~ "Send execution trace to error log in addition to the trace log. WARNING: "
+#~ "This can impact performance."
+#~ msgstr ""
+#~ "Send execution trace to error log in addition to the trace log. WARNING: "
+#~ "This can impact performance."
+
+#~ msgid "Storage Robustness"
+#~ msgstr "Storage Robustness"
+
+#~ msgid ""
+#~ "Max number of package files to keep in folder. Set to 0 for no limit."
+#~ msgstr ""
+#~ "Max number of package files to keep in folder. Set to 0 for no limit."
+
+#~ msgid "Database Name"
+#~ msgstr "Database Name"
+
+#~ msgid "Database User"
+#~ msgstr "Database User"
+
+#~ msgid "Enforce SSL On Admin"
+#~ msgstr "Enforce SSL On Admin"
+
+#~ msgid "Enforce SSL on Logins"
+#~ msgstr "Enforce SSL on Logins"
+
+#~ msgid "Not Found"
+#~ msgstr "Not Found"
+
+#~ msgid "Legacy data removed."
+#~ msgstr "Legacy data removed."
+
+#~ msgid ""
+#~ "If the installer files did not successfully get removed, then you WILL "
+#~ "need to remove them manually"
+#~ msgstr ""
+#~ "If the installer files did not successfully get removed, then you WILL "
+#~ "need to remove them manually"
+
+#~ msgid ""
+#~ "Please remove all installer files to avoid leaving open security issues "
+#~ "on your server"
+#~ msgstr ""
+#~ "Please remove all installer files to avoid leaving open security issues "
+#~ "on your server"
+
+#~ msgid "Delete Reserved Files"
+#~ msgstr "Delete Reserved Files"
+
+#~ msgid "Removes all reserved installer files."
+#~ msgstr "Removes all reserved installer files."
+
+#~ msgid ""
+#~ "Clicking on the 'Delete Reserved Files' button will remove the following "
+#~ "reserved files.  These files are typically from a previous Duplicator "
+#~ "install. If you are unsure of the source, please validate the files.  "
+#~ "These files should never be left on production systems for security "
+#~ "reasons.  Below is a list of all the reserved files used by Duplicator.  "
+#~ "Please be sure these are removed from your server."
+#~ msgstr ""
+#~ "Clicking on the 'Delete Reserved Files' button will remove the following "
+#~ "reserved files.  These files are typically from a previous Duplicator "
+#~ "install. If you are unsure of the source, please validate the files.  "
+#~ "These files should never be left on production systems for security "
+#~ "reasons.  Below is a list of all the reserved files used by Duplicator.  "
+#~ "Please be sure these are removed from your server."
+
+#~ msgid "This action will remove all legacy settings prior to version %1$s.  "
+#~ msgstr ""
+#~ "This action will remove all legacy settings prior to version %1$s.  "
+
+#~ msgid ""
+#~ "Legacy settings are only needed if you plan to migrate back to an older "
+#~ "version of this plugin."
+#~ msgstr ""
+#~ "Legacy settings are only needed if you plan to migrate back to an older "
+#~ "version of this plugin."

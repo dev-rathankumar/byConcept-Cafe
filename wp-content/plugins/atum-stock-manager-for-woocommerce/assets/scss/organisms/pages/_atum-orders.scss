@@ -1,0 +1,259 @@
+//
+// ATUM Orders list pages
+//------------------------
+
+//
+// Tooltips
+//---------
+
+.tips {
+	cursor: help;
+	text-decoration: none;
+}
+
+img.tips {
+	padding: 5px 0 0;
+}
+
+#tiptip_holder {
+	display: none;
+	z-index: 8675309;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	
+	&.tip_top {
+		padding-bottom: 5px;
+		
+		#tiptip_arrow_inner {
+			margin-top: -7px;
+			margin-left: -6px;
+			border-top-color: var(--white);
+		}
+	}
+	
+	&.tip_bottom {
+		padding-top: 5px;
+		
+		#tiptip_arrow_inner {
+			margin-top: -5px;
+			margin-left: -6px;
+			border-bottom-color: var(--white);
+		}
+	}
+	
+	&.tip_right {
+		padding-left: 5px;
+		
+		#tiptip_arrow_inner {
+			margin-top: -6px;
+			margin-left: -5px;
+			border-right-color: var(--white);
+		}
+	}
+	
+	&.tip_left {
+		padding-right: 5px;
+		
+		#tiptip_arrow_inner {
+			margin-top: -6px;
+			margin-left: -7px;
+			border-left-color: var(--white);
+		}
+	}
+}
+
+.swal2-in #tiptip_holder {
+	z-index: 100000001;
+}
+
+#tiptip_content {
+	color: var(--gray-600);
+	font-size: 0.8em;
+	max-width: 150px;
+	background: var(--white);
+	text-align: center;
+	border-radius: 3px;
+	padding: 0.618em 1em;
+	box-shadow: 0 1px 3px var(--black-shadow);
+	
+	code {
+		padding: 1px;
+		background: var(--wp-gray-7);
+	}
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+//
+// List Table
+//-------------
+
+table.wp-list-table {
+	
+	.column-notes {
+		width: 48px;
+		text-align: center;
+		
+		img {
+			margin: 0 auto;
+			padding-top: 0 !important;
+		}
+	}
+	
+	.column-actions {
+		width: 110px;
+		
+		a {
+			float: left;
+			margin: 0 4px 2px 0;
+			cursor: pointer;
+			height: inherit;
+			padding: 3px 4px;
+			
+			img {
+				display: block;
+				width: 12px;
+				height: auto;
+			}
+		}
+	}
+	
+	.column-status {
+		text-align: left;
+		
+		.order-status-container {
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: center;
+			justify-content: flex-start;
+			
+			.order-status {
+				display: inline-flex;
+				line-height: 2.5em;
+				color: var(--secondary);
+				background: var(--light);
+				border-radius: 4px;
+				cursor: inherit !important;
+				white-space: nowrap;
+				max-width: 100%;
+				width: 16px;
+				height: 16px;
+				line-height: 26px;
+				margin: 0 5px 0 0;
+				
+				&.status-atum_completed, &.status-atum_received {
+					background: #69c61d;
+				}
+				
+				&.status-atum_on-hold {
+					background: #94660c;
+				}
+				
+				&.status-atum_failed, &.status-atum_trash {
+					background: #761919;
+				}
+				
+				&.status-atum_pending {
+					background: #ff4848;
+				}
+				
+				
+				&.status-atum_ordered {
+					background: #efaf00;
+				}
+				
+				&.status-atum_onthewayin {
+					background: #00b8db;
+				}
+				
+				&.status-atum_receiving {
+					background: #ba7df7;
+				}
+				
+				> span {
+					margin: 0 1em;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				
+			}
+		}
+		
+	}
+	
+	tbody > :nth-child(odd), ul.striped > :nth-child(odd), .alternate {
+		background-color: var(--atum-table-row-odd);
+		&.active-row {
+			background-color: var(--primary-dark);
+		}
+	}
+	
+	td.column-status {
+		padding-top: 9px;
+	}
+	
+	.column-notes {
+		.note-on {
+			@include ir();
+			margin: 0 auto;
+			color: var(--wp-gray-1);
+			
+			&:after {
+				font-family: $atum-icon-font;
+				content: $atmi-bubble;
+				line-height: 16px;
+			}
+		}
+	}
+	
+	.column-actions {
+		
+		.complete, .view, .pdf{
+			i {
+				font-size: 18px;
+			}
+		}
+		
+		.pdf {
+			i {
+				color: var(--danger);
+			}
+		}
+		
+	}
+	
+	img {
+		margin: 1px 2px;
+	}
+	
+	.row-actions, span.na {
+		color: var(--wp-gray-1);
+	}
+	
+	.notes_head, .notes_head, .status_head {
+		@include ir();
+		margin: 0 auto;
+		
+		&:after {
+			font-family: $atum-icon-font;
+		}
+	}
+	
+	.notes_head::after {
+		content: $atmi-bubble;
+	}
+	
+	.status_head::after {
+		content: $atmi-cloud-sync;
+	}
+	
+}

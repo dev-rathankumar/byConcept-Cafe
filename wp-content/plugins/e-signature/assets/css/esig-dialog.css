@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2016, 5:42:25 PM
+    Author     : Rupom
+*/
+
+#TB_closeWindowButton > span.screen-reader-text { 
+      display:none !important; 
+      
+}
+
+#TB_closeWindowButton:focus .tb-close-icon {
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
+
+
+#TB_ajaxWindowTitle
+{
+    float:left;
+    position:absolute;
+    top:-50px;
+    left:-15px;
+    color:#ffffff;
+    font-size:1.7em;
+    font-weight:100!important;
+    text-align: left;
+
+}
+
+
+
+/* Custom CSS for Signature Popup */
+
+#TB_window #TB_title 
+{
+    background-color: transparent;
+    border-bottom: none;
+    width:auto !important ; 
+}
+#TB_window
+{
+    border-radius: 6px;
+    border: 7px solid transparent!important;
+    text-align:center ; 
+    width:auto !important;
+    top:15% !important;
+    left:25% !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+#TB_ajaxContent {
+    min-width: 500px !important;   
+}
+
+/* 
+.tb-close-icon 
+{
+    width:20px !important;
+    height:20px !important;
+}
+.tb-close-icon:before 
+{
+    color: #a9a9a9 !important;
+    font: normal 28px/1 'dashicons'!important;
+}
+
+
+
+
+#TB_ajaxContent {
+    height:auto !important;
+    max-height: 500px !important;
+    min-height: 250px !important;   
+}
+#TB_overlay {
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100050 !important; 
+}
+#TB_load {
+    position: fixed;
+    display: none;
+    z-index: 100051 !important;
+    top: 50%;
+    left: 50%;
+    background-color: #E8E8E8;
+    border: 1px solid #555;
+    margin: -45px 0 0 -125px;
+    padding: 40px 15px 15px;
+}
+
+#TB_ajaxContent #addRecipient, #TB_ajaxContent #addRecipient_view
+{
+    font-weight: 400;
+    text-decoration: none;
+    color: #9A9A9A;
+}
+
+#TB_ajaxContent .button.button-large
+{
+    height: 40px;
+    padding: 0 28px 2px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#TB_ajaxContent .recipient_emails, #TB_ajaxContent .deletable
+{
+    max-width:210px;
+    min-width:210px;
+}
+
+
+#TB_ajaxContent .esign-form-header 
+{
+    text-align: center;
+}
+
+#TB_ajaxContent  #recipient_emails_ajax
+{
+    text-align: center;
+}*/

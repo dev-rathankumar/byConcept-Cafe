@@ -1,0 +1,156 @@
+//
+// Pagination
+//-------------
+
+.atum-list-wrapper, #posts-filter {
+	
+	.displaying-num {
+		color: var(--atum-text-color-var1);
+	}
+	
+	.pagination-links {
+		color: var(--atum-text-color-var1);
+		
+		.tablenav-pages-navspan, .tablenav-current-page, #current-page-selector {
+			border-radius: 5px;
+			border: none;
+			color: var(--atum-pagination-text);
+			padding: 0;
+			width: 30px;
+			height: 30px;
+			line-height: 27px;
+			text-decoration: none;
+			box-sizing: border-box;
+			
+			@include tablet-max-wp {
+				min-width: 44px!important;
+				min-height: 44px;
+			}
+		}
+		
+		a {
+			box-shadow: none;
+			line-height: 27px !important;
+		}
+		
+		#current-page-selector {
+			border: 1px solid var(--main-border-alt);
+			background-color: var(--atum-pagination-bg);
+			vertical-align: 0;
+			box-shadow: none;
+			
+			&:focus {
+				outline: 0;
+				box-shadow: none;
+			}
+			
+			@include tablet-max-wp {
+				font-size: 13px;
+			}
+		}
+		
+		.tablenav-pages-navspan {
+			background-color: var(--atum-table-bg2);
+			border: 1px solid var(--main-border-alt);
+			color: var(--atum-pagination-disabled);
+			
+		}
+		
+		.tablenav-current-page {
+			background-color: var(--atum-pagination-bg);
+			border: 1px solid var(--main-border-alt);
+			padding: 6px 12px;
+			
+			@include tablet-max-wp {
+				padding: 13px 18px;
+			}
+		}
+		
+		.table-paging {
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			
+			@include tablet-max-wp {
+				width: 44px;
+				height: 44px;
+				line-height: 44px;
+				margin: 0;
+			}
+			@include mobile-max {
+				flex-grow: 1;
+				text-align: center;
+			}
+		}
+		
+		@include tablet-max-wp {
+			font-size: 13px;
+			display: flex;
+			
+			.tablenav-pages-navspan {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.tablenav-pages-navspan, .first-page, .prev-page, .next-page {
+				margin-right: 5px;
+			}
+		
+		}
+		
+		@include tablet-max-wp {
+			.paging-input {
+				margin-right: 10px;
+			}
+		}
+		
+		@include mobile-max {
+			width: 100%;
+			align-items: center;
+			.paging-input {
+				flex-grow: 1;
+				display: flex;
+				margin-right: 0;
+				
+				> span {
+					width: 100%;
+					text-align: center;
+				}
+			}
+			
+		}
+		
+		.tablenav-paging-text {
+			@include mobile-max{
+				float: none;
+				margin-left: auto;
+				padding-top: 0;
+			}
+		}
+	}
+	
+	.tablenav-pages {
+		a {
+			border-radius: 5px;
+			color: var(--atum-pagination-text);
+			padding: 0;
+			line-height: 30px;
+			width: 30px;
+			height: 30px;
+			text-decoration: none;
+			background-color: var(--atum-pagination-bg);
+			box-sizing: border-box;
+			
+			&:hover, &:focus {
+				background-color: var(--atum-pagination-bg);
+				color: var(--gray-500);
+			}
+			
+			@include tablet-max-wp{
+				min-width: 44px;
+				min-height: 44px;
+			}
+		}
+		
+	}
+}

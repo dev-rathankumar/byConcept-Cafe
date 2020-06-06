@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1205px" height="1205px" viewBox="0 0 1205 1205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M119.282631,817.840389 C87.0260117,749.751972 69,673.732354 69,593.541664 C69,301.636163 307.856086,65 602.5,65 C897.143914,65 1136,301.636163 1136,593.541664 C1136,885.447165 897.143914,1122.08333 602.5,1122.08333 C527.738984,1122.08333 456.569626,1106.84854 391.982442,1079.34167 C-107.733063,1241.88076 238.41169,1081.5677 124.109195,829.444441 C122.567027,826.042796 120.950343,822.139723 119.282637,817.840406 Z" id="bubble" stroke="#000000" stroke-width="70"></path>
+        <g id="Group" transform="translate(397.000000, 417.000000)" fill="#000000">
+            <rect id="Rectangle-2" x="0" y="0" width="352.997389" height="96.1815562" rx="44.5"></rect>
+            <rect id="Rectangle-2" x="0" y="278.818444" width="352.997389" height="96.1815562" rx="44.5"></rect>
+            <rect id="Rectangle-2" x="53.002611" y="139.409222" width="352.997389" height="96.1815562" rx="44.5"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,114 @@
+<html class="gr__simplelineicons_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Simple line icons">
+    <meta name="keywords" content="simple, line, icons, icon pack, web icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ThemBay Icon Font</title>
+	<link rel="stylesheet" href="./../../css/font-tbay-custom.css">
+    <link rel="stylesheet" href="http://app.thembay.com/custom-fonts/css/bootstrap.css">
+    <link rel="stylesheet" href="http://app.thembay.com/custom-fonts/css/style.css">
+</head>
+<body data-gr-c-s-loaded="true">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://thembay.com/">ThemBay Custom Icon</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt">
+    <h1 class="text-center">ThemBay Custom Icon Preview</h1>
+    <p class="text-center">Click on the icons to get the icon class name</p>
+    <div class="quick-search">
+        <input type="text" id="quick-search" placeholder="Search...">
+        <i class="icon-magnifier"></i>
+    </div>
+    <div class="icon-preview-box col-xs-6 col-md-3 col-lg-3">
+		<div class="preview">
+			<a href="#" class="show-code" title="click to show css class name">
+				<i class="tb-icon tb-icon-arrow-bottom" style="font-size: 20px;"></i>
+				<span class="name" style="display: inline;">    arrow-bottom</span>
+				<code class="code-preview" style="display: none;">.tb-icon-arrow-bottom</code>
+				<input class="hide-input" style="opacity:0;width: 1px;" value=".tb-icon .tb-icon-arrow-bottom"></input>
+			</a>
+		 </div>
+    </div><div class="icon-preview-box col-xs-6 col-md-3 col-lg-3">
+		<div class="preview">
+			<a href="#" class="show-code" title="click to show css class name">
+				<i class="tb-icon tb-icon-arrow-left" style="font-size: 20px;"></i>
+				<span class="name" style="display: inline;">    arrow-left</span>
+				<code class="code-preview" style="display: none;">.tb-icon-arrow-left</code>
+				<input class="hide-input" style="opacity:0;width: 1px;" value=".tb-icon .tb-icon-arrow-left"></input>
+			</a>
+		 </div>
+    </div><div class="icon-preview-box col-xs-6 col-md-3 col-lg-3">
+		<div class="preview">
+			<a href="#" class="show-code" title="click to show css class name">
+				<i class="tb-icon tb-icon-arrow-right" style="font-size: 20px;"></i>
+				<span class="name" style="display: inline;">    arrow-right</span>
+				<code class="code-preview" style="display: none;">.tb-icon-arrow-right</code>
+				<input class="hide-input" style="opacity:0;width: 1px;" value=".tb-icon .tb-icon-arrow-right"></input>
+			</a>
+		 </div>
+    </div><div class="icon-preview-box col-xs-6 col-md-3 col-lg-3">
+		<div class="preview">
+			<a href="#" class="show-code" title="click to show css class name">
+				<i class="tb-icon tb-icon-arrow-top" style="font-size: 20px;"></i>
+				<span class="name" style="display: inline;">    arrow-top</span>
+				<code class="code-preview" style="display: none;">.tb-icon-arrow-top</code>
+				<input class="hide-input" style="opacity:0;width: 1px;" value=".tb-icon .tb-icon-arrow-top"></input>
+			</a>
+		 </div>
+    </div><div class="icon-preview-box col-xs-6 col-md-3 col-lg-3">
+		<div class="preview">
+			<a href="#" class="show-code" title="click to show css class name">
+				<i class="tb-icon tb-icon-star" style="font-size: 20px;"></i>
+				<span class="name" style="display: inline;">    star</span>
+				<code class="code-preview" style="display: none;">.tb-icon-star</code>
+				<input class="hide-input" style="opacity:0;width: 1px;" value=".tb-icon .tb-icon-star"></input>
+			</a>
+		 </div>
+    </div>
+</div>
+
+<script src="http://app.thembay.com/custom-fonts/js/jquery.min.js"></script>
+<script src="http://app.thembay.com/custom-fonts/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.show-code').click(function (e) {
+			$('.name').show();
+			$('.code-preview').hide();
+            $(this).children('.name').toggle();
+            $(this).children('.code-preview').toggle();
+			copy($(this).children('.hide-input'));
+            e.stopPropagation();
+            return false;
+        });
+		
+		function copy(element){
+			element.select();
+			document.execCommand("Copy");
+		}
+		
+        $("#quick-search").keyup(function () {
+            var srch = $(this).val().trim().toLowerCase();
+            $(".icon-preview-box").hide()
+                .filter(function () {
+                    return $(this).html().trim().toLowerCase().indexOf(srch) != -1;
+                }).show();
+        });
+    });
+</script>
+
+</body></html>

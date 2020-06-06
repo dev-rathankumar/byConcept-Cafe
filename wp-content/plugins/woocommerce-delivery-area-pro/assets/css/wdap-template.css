@@ -1,0 +1,730 @@
+/**::::::::::::::::: Shortcode Form Design Start :::::::::::::::::**/
+
+.wdap_product_availity_form * {
+    box-sizing: border-box;
+}
+
+.error-container.second-column {
+    text-align: center;
+}
+
+.wdap_product_availity_form .select2-container--default .select2-selection--single{
+    border-radius: 0px !important;
+}
+.wdap_product_availity_form .select2-container--default .select2-selection--single:focus{
+    outline: none;
+}
+.wdap_product_availity_form .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 50px;
+}
+.wdap_product_availity_form .select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 13px;
+}
+
+/** Default Shortcode Template Design Start ***/
+
+.default.enable_product_listing #wdap_type_location {
+    width: 50%;
+}
+
+.wdap_product_availity_form button,
+input#wdapzipsumit {
+    background-position: center center;
+}
+
+.default .error-container {
+    color: #fff;
+}
+
+.default .locate-me {
+    float: left;
+    margin-left: -28px !important;
+    width: 20px;
+    margin-top: 18px !important;
+}
+
+.default .select2-container .select2-choice>.select2-chosen {
+    margin-right: 5px !important;
+    font-weight: normal;
+    padding: 6px 12px !important;
+}
+
+.default .select2-container .select2-choice .select2-arrow {
+    top: 12px;
+}
+
+.default .locate-me img {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.default .select2-container .select2-choice {
+    line-height: 2.8 !important;
+    border-radius: 0;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+/** Zipcode Form Design reference- http://www.fooddeliverymk.co.uk/new-home**/
+.default#wdap_zip_check {
+    width: 100%;
+    float: left;
+    margin: 15px 0px !important;
+    clear: both;
+}
+
+.default #wdap_type_location,
+.default #wdapziptextbox {
+    width: 75%;
+    -webkit-border-radius: 10px 0 0 10px !important;
+    -moz-border-radius: 10px 0 0 10px !important;
+    border-radius: 10px 0 0 10px !important;
+    border-width: 0px;
+    padding: 0px 40px 0 20px !important;
+    float: left;
+
+}
+
+.default .second-column {
+    float: left;
+    width: 100%;
+    padding: 10px 5px !important;
+    margin: 10px 0px !important;
+    box-sizing: border-box;
+}
+
+.default.wdap_product_availity_form button,
+.default #wdapzipsumit {
+    width: 25%;
+    -webkit-border-radius: 0 10px 10px 0 !important;
+    -moz-border-radius: 0 10px 10px 0 !important;
+    border-radius: 0 10px 10px 0 !important;
+    float: left;
+    text-transform: capitalize;
+    line-height: normal !important;
+    border-width: 0px;
+    padding: 0px !important;
+}
+
+.default #wdapzipsumit {
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px;
+}
+
+.default div#s2id_wdap_product_list,
+.default .select2-container
+
+ {
+    width: 25%;
+    float: left;
+}
+
+.default .select2-container
+{
+       width: 25% !important;
+ 
+}
+/** Media Query Started **/
+
+@media only screen and (max-width: 600px) {
+    .default .second-column {
+        width: 100%;
+    }
+
+    .default .select2-container .select2-choice>.select2-chosen {
+        text-align: left;
+        padding: 6px 12px !important;
+    }
+
+
+
+
+    .default.wdap_product_availity_form button {
+        width: 100%;
+        padding: 20px 0px !important;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        border-radius: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .default #wdap_type_location {
+        width: 100% !important;
+        border-radius: 0px !important;
+        text-align: left;
+        margin: 5px 0px !important;
+    }
+
+    .default div#s2id_wdap_product_list {
+        width: 100%;
+        margin: 10px 0 !important;
+    }
+
+    .default .select2-container .select2-choice>.select2-chosen {
+        text-align: center;
+    }
+
+    .default .locate-me {
+        display: inline-block;
+        margin-top: 22px !important;
+
+    }
+
+    .default div#s2id_wdap_product_list {
+        width: 100%;
+        margin: 0px 0 5px !important;
+    }
+
+    .default.wdap_product_availity_form button {
+        width: 100%;
+        padding: 20px 0px !important;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        border-radius: 0px !important;
+        margin-left: 0px !important;
+    }
+
+}
+
+@media only screen and (max-width: 720px) and (min-width: 600px) {
+    .default.wdap_product_availity_form button {
+        padding: 15px 0px !important;
+    }
+}
+
+/** Default Shortcode Template Design End ***/
+
+/** Standard Form Template Design Start  **/
+.wdap_standard_design.select2-drop-active,
+.standard .clearfix.first-column,
+.standard .select2-container .select2-choice,
+.standard .select2-dropdown-open.select2-drop-above [class^="select2-choice"] {
+    background-color: #f66131;
+}
+
+.wdap_standard_design .select2-results .select2-result-label,
+.standard .type-location::-webkit-input-placeholder,
+.standard .clearfix.first-column,
+.standard span.select2-chosen,
+.standard input.type-location,
+
+.standard .select2-container--default .select2-selection--single .select2-selection__rendered,
+
+.wdap_standard_design .select2-results__options li
+ {
+    color: #ffffff;
+}
+.standard .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+    border-color: transparent transparent #ffffff transparent;
+}
+.standard .select2-container--default .select2-selection--single .select2-selection__arrow b{
+border-color: #ffffff transparent transparent transparent;
+}
+.standard .clearfix.first-column {
+    width: 100%;
+    float: left;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.24), 0 1px 1px 0 rgba(0, 0, 0, 0.48);
+    border-radius: 8px;
+    border-width: 0px;
+    border-style: dotted;
+    border-color: #ffffff;
+    text-transform: uppercase;
+    height: 54px;
+    display: block;
+    line-height: 1.42857143 !important;
+    background-image: none;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.standard.enable_locate_me_btn.enable_product_listing input.type-location {
+    width: 50%;
+}
+
+.standard .select2-container .select2-choice .select2-arrow {
+    top: 15px;
+}
+
+.standard .select2-container .select2-choice>.select2-chosen {
+    color: #fff !important;
+    padding: 6px 12px !important;
+}
+
+.standard.enable_locate_me_btn input.type-location {
+    width: 90%;
+}
+
+.standard.enable_product_listing input.type-location {
+    width: 45%;
+}
+
+.standard input.type-location {
+    float: left;
+    width: 90%;
+    background: none;
+    box-shadow: none;
+    padding: 10px !important;
+    border-width: 0;
+    margin-top: 8px !important;
+}
+
+.standard .error-container.second-column {
+    width: 100%;
+    float: left;
+    margin: 10px 0px !important;
+    padding: 10px 10px !important;
+}
+
+.standard .select2-container .select2-choice {
+    border: none;
+    line-height: 2.8 !important;
+    height: inherit;
+}
+
+.standard span.select2-chosen {
+    text-transform: capitalize;
+}
+
+.standard img.locate-me.locate-me-text {
+    float: left;
+    width: 20px;
+    margin-top: 17px !important;
+    margin-right: 15px !important;
+}
+
+.standard div#s2id_wdap_product_list,
+.standard .select2-container--default .select2-selection--single
+
+ {
+    float: left;
+    width: 100%;
+    border-left: 1px solid #fcb39b;
+}
+.standard .select2-container--default .select2-selection--single
+{
+    width: 100% !important;
+        border: none;
+
+}
+.standard .select2-container .select2-choice>.select2-chosen {
+    margin-right: 10px !important;
+    font-weight: normal;
+    text-align: left;
+}
+
+.standard button.check_availability {
+    float: right;
+    width: 20px;
+    text-indent: -99999px;
+    color: inherit !important;
+    padding: 0 12px !important;
+    outline: none !important;
+    border: none;
+    background: url(../images/arrow-197-16.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px 12px 0 10px;
+    background-color: transparent !important;
+    margin-right: 0;
+}
+
+@media(max-width:1172px) {
+    .standard div#s2id_wdap_product_list {
+        width: 37%;
+    }
+
+    .standard.enable_locate_me_btn input.type-location {
+        width: 86%;
+    }
+}
+
+@media(max-width:910px) {
+    .standard div#s2id_wdap_product_list {
+        width: 33%;
+    }
+
+    .standard.enable_locate_me_btn input.type-location {
+        width: 83%;
+    }
+}
+
+.standard input.type-location:focus {
+    background: inherit;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.standard .select2-container .select2-choice .select2-arrow b {
+    background: url(../images/../images/select2-white.png) no-repeat 0 1px;
+}
+
+@media only screen and (max-width: 700px) {
+    .standard.enable_locate_me_btn.enable_product_listing input.type-location {
+        width: 90%;
+        margin-bottom: 8px !important;
+    }
+
+    .standard.enable_locate_me_btn input.type-location {
+        width: 90%;
+    }
+
+    .standard div#s2id_wdap_product_list {
+        width: 100%;
+        padding: 0px 0px !important;
+        border: none;
+        border-top: 1px solid #fcb39b;
+        border-bottom: 1px solid #fcb39b;
+        box-shadow: none;
+    }
+
+    .standard button.check_availability {
+        width: 100%;
+        text-indent: 0px;
+        background: none;
+        margin-bottom: 8px !important;
+        margin-right: 0;
+    }
+
+    .standard .clearfix.first-column {
+        height: auto;
+    }
+
+    .standard .select2-container .select2-choice {
+        box-shadow: none;
+    }
+
+    .standard button.check_availability {
+        margin: 10px 0 8px !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .standard.enable_locate_me_btn.enable_product_listing input.type-location,
+    .standard.enable_locate_me_btn input.type-location {
+        width: 85%;
+    }
+}
+
+/** Standard Form Template Design End ***/
+
+/** Classic Form Template Design Start **/
+.classic .clearfix.first-column,
+.classic#wdap_zip_check {
+    width: 100%;
+    float: left;
+    margin: 15px 0px !important;
+    clear: both;
+}
+
+.classic .type-location:focus {
+    background: #ffffff;
+}
+
+.classic.enable_product_listing #wdap_type_location {
+    width: 50%;
+}
+
+.classic #wdap_type_location,
+.classic .wdapziptextbox {
+    width: 75%;
+    border: 1px solid #b3b3b3;
+    border-radius: 20px 0 0 20px;
+    background: #ffffff;
+    padding: 0px 40px 0 20px !important;
+    float: left;
+}
+
+.classic .wdapziptextbox {
+    padding: 0 20px !important;
+}
+
+.classic .locate-me {
+    float: left;
+    margin-left: -24px !important;
+    width: 20px;
+    margin-top: 18px !important;
+    vertical-align: middle;
+}
+
+.classic .select2-container .select2-choice>.select2-chosen {
+    margin-right: 10px !important;
+    font-weight: normal;
+    text-align: left;
+    padding: 6px 12px !important;
+}
+
+.classic div#s2id_wdap_product_list,
+.classic .select2-container
+ {
+    width: 25%;
+    float: left;
+}
+.classic .select2-container
+{
+    width: 25% !important;
+}
+.classic .select2-container .select2-choice {
+    line-height: 2.8 !important;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.classic .check_availability,
+.classic #wdapzipsumit {
+    cursor: pointer;
+    border: none;
+    background-size: 35px 35px;
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    background-color: #1E1E20;
+    color: #fff;
+    margin-right: 0;
+}
+
+.classic .check_availability:focus,
+.classic #wdapzipsumit:focus {
+    border: none;
+    outline: none;
+}
+
+.classic #wdapzipsumit {
+    background: url(../images/search.png) no-repeat center center #1E1E20;
+    text-indent: -99999px;
+}
+
+.classic .select2-container .select2-choice .select2-arrow {
+    top: 12px;
+}
+
+.classic .error-container.second-column {
+    float: left;
+    width: 100%;
+    padding: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .classic.enable_product_listing #wdap_type_location {
+        width: 100%;
+        margin: 0px 0px !important;
+        border-radius: 0px;
+        height: 50px;
+        text-align: left;
+        padding-left: 12px !important;
+    }
+
+    .classic #wdap_type_location {
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .classic .select2-container .select2-choice {
+        height: 50px !important;
+        line-height: 2.42857 !important;
+        border-radius: 0px;
+        margin: 0px 0px !important;
+    }
+
+    .classic .select2-container .select2-choice .select2-arrow {
+        top: 10px;
+    }
+
+    .classic div#s2id_wdap_product_list {
+        width: 100%;
+    }
+
+    .classic .check_availability {
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px 0px !important;
+        height: 50px;
+        text-indent: 0;
+        background-image: none;
+
+    }
+
+    .classic .locate-me {
+        margin-left: -37px !important;
+        margin-top: 28px !important;
+    }
+
+    .classic .locate-me {
+        margin-left: -30px !important;
+        margin-top: 16px !important;
+    }
+}
+
+
+/** Classic Form Template Design End **/
+
+/** Smart Form Template Design Start **/
+
+.smart .clearfix.first-column {
+    float: left;
+    width: 100%;
+    margin: 10px 0px !important;
+    background: #1abc9c;
+    padding: 4px !important;
+}
+
+.smart input#wdap_type_location,
+.smart>input[type="text"] {
+    width: 75%;
+    padding: 0px 40px 0 20px !important;
+    box-sizing: border-box;
+    border: none;
+    float: left;
+
+}
+
+.smart>input[type="text"] {
+    padding: 0px 8px 0 !important;
+    width: 50%;
+}
+
+.smart input#wdapzipsumit {
+    white-space: inherit;
+    font-size: 11px;
+    line-height: 14px !important;
+    width: 50%;
+}
+
+.smart.enable_product_listing input#wdap_type_location {
+    width: 50%;
+}
+
+.smart .locate-me {
+    float: left;
+    margin-left: -32px !important;
+    width: 20px;
+    margin-top: 18px !important;
+}
+
+.smart div#s2id_wdap_product_list,
+.smart .select2-container
+ {
+    width: 25%;
+    float: left;
+}
+
+.smart .select2-container{
+    width: 25% !important;
+}
+
+.smart .check_availability,
+.smart>input[type=button] {
+    width: 25%;
+    float: left;
+    background-color: rgb(26, 188, 156);
+    color: #fff;
+    border: none;
+    margin-bottom: 0px !important;
+    text-transform: uppercase;
+    padding: 0 10px !important;
+    margin-right: 0;
+
+}
+
+.smart .select2-container .select2-choice,
+.smart .select2-container--default .select2-selection--single
+ {
+    line-height: 2.22857 !important;
+    border: none;
+    box-shadow: none;
+    border-left: 0.2em solid rgb(26, 188, 156);
+    border-radius: 0px;
+}
+
+.smart .select2-container .select2-choice .select2-arrow {
+    top: 10px;
+}
+
+.smart .error-container.second-column {
+    float: left;
+    width: 100%;
+    padding: 10px !important;
+    margin: 10px 0 !important;
+}
+
+/** Media Query Start **/
+@media(max-width:700px) {
+
+    .smart input#wdap_type_location,
+    .smart .check_availability,
+    .smart input#wdapzipsumit,
+    .smart>input[type="text"] {
+        width: 100%;
+    }
+
+    .smart.enable_product_listing input#wdap_type_location {
+        width: 60%;
+    }
+
+    .smart div#s2id_wdap_product_list {
+        width: 40%;
+    }
+}
+
+
+/** Smart Form Template Design End **/
+/**::::::::::::::::: End of Shortcode Form Design :::::::::::::::::**/
+
+/** Common CSS For All Template **/
+.classic #wdap_type_location,
+.classic .select2-container .select2-choice,
+.classic .check_availability,
+
+.default #wdap_type_location,
+.default.wdap_product_availity_form button,
+.default .select2-container .select2-choice,
+
+.smart input#wdap_type_location,
+.smart .select2-container .select2-choice,
+.smart .check_availability,
+
+.standard .select2-container .select2-choice,
+.default .select2-container--default .select2-selection--single,
+.classic .select2-container--default .select2-selection--single,
+.smart .select2-container--default .select2-selection--single,
+.standard .select2-container--default .select2-selection--single
+
+
+{
+    height: 54px;
+}
+
+
+
+.default .wdapziptextbox,
+.classic .wdapziptextbox,
+.smart .wdapziptextbox,
+.standard input.wdapziptextbox {
+    height: 44px;
+}
+
+.default #wdapzipsumit,
+.classic #wdapzipsumit,
+body.woocommerce-checkout .classic #wdapzipsumit,
+.smart #wdapzipsumit {
+    height: 44px;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+}
+
+.wdap_product_availity_form .select2-container .select2-choice>.select2-chosen {
+    padding: 10px 12px !important;
+    text-align: left;
+    color: #666;
+}
+
+.wdap_product_availity_form.standard .select2-container .select2-choice>.select2-chosen {
+    padding: 7px 12px !important;
+}

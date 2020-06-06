@@ -1,0 +1,9 @@
+{
+    "require": {
+        "picqer/php-barcode-generator": "^0.2.2",
+        "nesbot/carbon": "^1.33",
+        "phpoffice/phpexcel": "^1.8",
+        "phpoffice/phpspreadsheet": "^1.8",
+        "stripe/stripe-php": "^6.20"
+    }
+}

@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2016, 4:12:48 PM
+    Author     : Abu Shoaib
+*/
+
+.esig-notices-wrap
+{
+		background: rgba(221, 221, 221, 0.32);
+		margin: auto auto;
+		padding: auto auto;
+		width:100%;
+		border: 2px solid #E4E4E4;
+		border-radius: 4px;
+}
+.esig-activate-license
+{
+		padding: 15px!important;
+		border-left: 4px solid #d00a1b!important;
+		color: black;
+		border-bottom: 3px solid #DEDEDE;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		font-size: 16px;
+		font-weight: 200;
+		margin: 0 10px 0 11px;
+}
+.error .icon-esig-alert:before
+{
+		font-family: "wp-e-signature";
+		font-size: 38px;
+		color: #d00a1b;
+		content: "N";
+		line-height: 1.24em;
+		float: left;
+		margin: 0 10px 0 0;
+}
+.esig-activate-license .icon-esig-alert:before
+{
+		font-family: "wp-e-signature";
+		font-size: 38px;
+		color: #d00a1b;
+		content: "N";
+		line-height: .44em;
+		float: left;
+		margin: 0 10px 0 0;
+}

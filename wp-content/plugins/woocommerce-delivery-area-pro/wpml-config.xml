@@ -1,0 +1,31 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wp-delivery-area-pro">
+            <key name="wdap_shop_error_notavailable" />
+            <key name="wdap_shop_error_available" />
+            <key name="wdap_shop_error_invalid" />
+            <key name="wdap_product_error_notavailable" />
+            <key name="wdap_product_error_available" />
+            <key name="wdap_product_error_invalid" />
+            <key name="wdap_cart_error_notavailable" />
+            <key name="wdap_cart_error_available" />
+            <key name="wdap_cart_error_invalid" />
+            <key name="wdap_cart_error_th" />     
+            <key name="wdap_cart_error_summary" />     
+            <key name="wdap_checkout_error_notavailable" />
+            <key name="wdap_checkout_error_available" />
+            <key name="wdap_checkout_error_invalid" />
+            <key name="wdap_checkout_error_th" />
+            <key name="wdap_checkout_error_summary" />
+            <key name="wdap_empty_zip_code" />
+            <key name="wdap_order_restrict_error" />
+            <key name="wdap_check_buttonlbl" />
+            <key name="wdap_frontend_desc" />
+            <key name="wdap_address_empty" />
+            <key name="address_not_shipable" />
+            <key name="address_shipable" />
+            <key name="wdap_form_buttonlbl" />
+            <key name="product_listing_error" />
+        </key>
+    </admin-texts>    
+</wpml-config>

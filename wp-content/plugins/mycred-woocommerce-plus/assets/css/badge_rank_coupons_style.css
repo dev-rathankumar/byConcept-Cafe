@@ -1,0 +1,47 @@
+/******* copouns ********/
+.mycred_badge_level_meta{
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+	background-color: whitesmoke;
+	border: 1px solid gainsboro;
+	-webkit-box-shadow: 0px 10px 11px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 11px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 11px -15px rgba(0,0,0,0.75);
+}
+
+.mycred_badge_level_meta tr th {
+	border: 1px solid #dadada;
+	background-color: #e9e9e9;
+} 
+
+
+/******* Ristrict Product ********/
+.mycred_badges_searchbox,.mycred_rank_searchbox{    
+	min-height: 42px;
+	max-height: 200px;
+	overflow: auto;
+	padding: 0 .9em;
+	border: solid 1px #ddd;
+	background-color: #fdfdfd;
+	margin-top: 5px;
+}
+.mycred_categorydiv .children{
+	margin-left: 18px;
+}
+.mycred_woo_search_block {
+	margin-top: 10px;
+}
+
+#mycred_woo_badge_rank_custom .description_rank,
+#mycred_woo_badge_rank_custom .description_badge{
+	display:none;
+	padding-top: 7px;
+	font-size: 12px;
+}
+
+#mycred_woo_badge_rank_custom .mycred_rank_searchbox,  
+#mycred_woo_badge_rank_custom .mycred_badges_searchbox {
+    display: none;
+}
+ 

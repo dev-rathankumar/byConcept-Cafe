@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce OpenPos\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-29 05:24+0000\n"
+"PO-Revision-Date: 2019-05-13 13:29+0600\n"
+"Last-Translator: admin <anhvnit@gmail.com>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Loco-Version: 2.2.0; wp-5.1.1\n"
+
+#: includes/Core.php:624 includes/Core.php:625
+#: templates/admin/report/report_form.php:11
+msgid "Chip & PIN"
+msgstr "Chip & PIN"
+
+#: includes/Core.php:631
+msgid "Credit Card ( Stripe ) - Online Payment for POS only"
+msgstr "Credit Card ( Stripe ) - Online Payment for POS only"
+
+#: includes/Core.php:632
+msgid "Credit Card"
+msgstr "По карте"
+
+#: includes/Core.php:912
+msgid "Return"
+msgstr "Return"
+
+#: includes/Core.php:958
+msgid "Item"
+msgstr "Item"
+
+#: includes/Core.php:959 templates/admin/stock.php:43
+#: templates/admin/products.php:15 templates/admin/warehouse/inventory.php:22
+msgid "Price"
+msgstr "Цена"
+
+#: includes/Core.php:960 templates/admin/stock.php:44
+#: templates/admin/warehouse/inventory.php:23
+msgid "Qty"
+msgstr "Кол-во"
+
+#: includes/Core.php:961 includes/Core.php:995
+msgid "Discount"
+msgstr "Скидка"
+
+#: includes/Core.php:962 templates/admin/orders.php:18
+#: templates/admin/warehouse/adjust_stock.php:67
+msgid "Total"
+msgstr "Итого"
+
+#: includes/Core.php:983
+msgid "Sub Total"
+msgstr "Подытог"
+
+#: includes/Core.php:989
+msgid "Shipping"
+msgstr "Доставка"
+
+#: includes/Core.php:1000
+msgid "Tax"
+msgstr "Налог"
+
+#: includes/Core.php:1005 templates/admin/dashboard.php:23
+#: templates/admin/report/report_form.php:196
+#: templates/admin/report/report_form.php:205
+#: templates/admin/report/report_form.php:214
+#: templates/admin/report/report_sales_table.php:37
+msgid "Grand Total"
+msgstr "Общая сумма"
+
+#: lib/class-op-woo.php:95
+msgid "POS Order Number:"
+msgstr "Номер заказа POS:"
+
+#: lib/class-op-woo.php:100
+msgid "Shop Agent:"
+msgstr "Продавец:"
+
+#: lib/class-op-woo.php:105
+msgid "Outlet:"
+msgstr "Точка продаж:"
+
+#: lib/class-op-woo.php:110
+msgid "Register:"
+msgstr "Register:"
+
+#: lib/class-op-woo.php:110
+msgid "Unknown"
+msgstr "Unknown"
+
+#: lib/class-op-woo.php:115
+msgid "POS Payment method:"
+msgstr "Метод оплаты POS:"
+
+#: lib/class-op-woo.php:452
+msgid "Tax on POS"
+msgstr "Tax on POS"
+
+#: lib/class-op-woo.php:744
+msgid "Custom Shipping"
+msgstr "Custom Shipping"
+
+#: lib/class-op-woo.php:897 lib/class-op-woo.php:934
+msgid "OP Barcode"
+msgstr "OP Barcode"
+
+#: lib/class-op-woo.php:899 lib/class-op-woo.php:937
+msgid "Barcode refers to use in POS panel."
+msgstr "Штрих-код относится к использованию в POS панели."
+
+#: lib/class-op-woo.php:934
+msgid "POS Barcode"
+msgstr "POS Штрихкод"
+
+#: lib/class-op-woo.php:968
+msgid "Filter by Source"
+msgstr "Фильтр по источнику"
+
+#: lib/class-op-woo.php:970
+msgid "Online Order"
+msgstr "Онлайн Заказ"
+
+#: lib/class-op-woo.php:971
+msgid " POS Orders"
+msgstr " Заказы POS"
+
+#: lib/class-op-woo.php:1035
+msgid "Seller: "
+msgstr "Продавец: "
+
+#: lib/class-op-woo.php:1042
+msgid "Sold By Shop Agent"
+msgstr "Продано Агентом Магазина"
+
+#: lib/class-op-woo.php:1116 lib/class-op-woo.php:1118
+msgid "Address 2"
+msgstr "Адрес 2"
+
+#: lib/class-op-woo.php:1128 lib/class-op-woo.php:1130
+msgid "PostCode / Zip"
+msgstr "Индекс"
+
+#: lib/class-op-woo.php:1139 lib/class-op-woo.php:1141
+#: templates/admin/warehouse/new.php:73
+msgid "City"
+msgstr "Город"
+
+#: lib/class-op-woo.php:1150 lib/class-op-woo.php:1152
+#: lib/class-op-woo.php:1178 lib/class-op-woo.php:1180
+msgid "State"
+msgstr "Область"
+
+#: lib/class-op-woo.php:1306
+msgid "Done via website"
+msgstr "Сделано через веб-сайт"
+
+#: lib/class-op-warehouse.php:25 lib/class-op-warehouse.php:52
+msgid "Default online store"
+msgstr "Интернет-магазин"
+
+#: lib/class-op-exchange.php:66
+#, php-format
+msgid "Exchange &ndash; %s"
+msgstr "Обмен &ndash; %s"
+
+#: lib/class-op-exchange.php:66
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: lib/class-op-discounts.php:127
+msgid "This coupon not for current customer"
+msgstr "Этот купон не для текущего клиента"
+
+#: lib/class-op-discounts.php:136 lib/class-op-discounts.php:155
+#: lib/class-op-discounts.php:167
+msgid "Please add customer before valid coupon"
+msgstr "Пожалуйста, добавьте клиента перед купоном"
+
+#: includes/admin/Settings.php:760
+msgid "Choose Categories"
+msgstr "Выберите Категории"
+
+#: includes/admin/Settings.php:766
+msgid "Select categories&hellip;"
+msgstr "Select categories&hellip;"
+
+#: includes/admin/Settings.php:787
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/admin/Settings.php:788
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: lib/integration/grconnect.php:406
+msgid " discount"
+msgstr " скидка"
+
+#: templates/admin/transactions.php:9
+msgid "Cash Transactions"
+msgstr "Кассовые операции"
+
+#: templates/admin/transactions.php:14 templates/admin/sessions.php:14
+#: templates/admin/stock.php:39 templates/admin/cashier.php:10
+#: templates/admin/products.php:11
+#: templates/admin/report/report_transactions_table.php:7
+#: templates/admin/warehouse/inventory.php:18
+msgid "ID"
+msgstr "ID"
+
+#: templates/admin/transactions.php:15
+#: templates/admin/report/report_form.php:187
+#: templates/admin/report/report_transactions_table.php:8
+msgid "Ref"
+msgstr "Источник"
+
+#: templates/admin/transactions.php:16
+#: templates/admin/report/report_form.php:188
+#: templates/admin/report/report_transactions_table.php:9
+msgid "IN"
+msgstr "Прием"
+
+#: templates/admin/transactions.php:17
+#: templates/admin/report/report_form.php:189
+#: templates/admin/report/report_transactions_table.php:10
+msgid "OUT"
+msgstr "Выдача"
+
+#: templates/admin/transactions.php:18
+#: templates/admin/report/report_form.php:61
+msgid "Register"
+msgstr "Register"
+
+#: templates/admin/transactions.php:19 templates/admin/orders.php:17
+#: templates/admin/report/report_transactions_table.php:12
+msgid "By"
+msgstr "От"
+
+#: templates/admin/transactions.php:20 templates/admin/dashboard.php:25
+#: templates/admin/report/report_form.php:190
+#: templates/admin/report/report_form.php:198
+#: templates/admin/report/report_form.php:208
+#: templates/admin/report/report_form.php:217
+#: templates/admin/report/report_sales_table.php:39
+msgid "Created At"
+msgstr "Дата создания"
+
+#: templates/admin/warehouses.php:30 templates/admin/warehouse/new.php:46
+msgid "Outlets"
+msgstr "Точки продаж"
+
+#: templates/admin/warehouses.php:35
+msgid "Add New Outlet"
+msgstr "Добавить новый склад"
+
+#: templates/admin/warehouses.php:44 templates/admin/cashier.php:11
+#: templates/admin/registers.php:69 templates/admin/registers.php:132
+#: templates/admin/tables.php:64 templates/admin/tables.php:107
+msgid "Name"
+msgstr "Имя"
+
+#: templates/admin/warehouses.php:45 templates/admin/warehouse/new.php:67
+msgid "Address"
+msgstr "Адрес"
+
+#: templates/admin/warehouses.php:46
+msgid "Contacts"
+msgstr "Контакты"
+
+#: templates/admin/warehouses.php:47 templates/admin/registers.php:110
+#: templates/admin/registers.php:136 templates/admin/tables.php:87
+#: templates/admin/tables.php:110 templates/admin/orders.php:19
+#: templates/admin/warehouse/new.php:91
+msgid "Status"
+msgstr "Статус"
+
+#: templates/admin/warehouses.php:49 templates/admin/stock.php:45
+#: templates/admin/products.php:16
+msgid "Action"
+msgstr "Действие"
+
+#: templates/admin/warehouses.php:58 templates/admin/registers.php:154
+#: templates/admin/tables.php:123
+msgid "Edit"
+msgstr "Редактировать"
+
+#: templates/admin/warehouses.php:60 templates/admin/registers.php:156
+#: templates/admin/tables.php:125
+#: templates/admin/warehouse/adjust_stock.php:145
+#: templates/admin/warehouse/adjust_stock.php:227
+msgid "Delete"
+msgstr "Удалить"
+
+#: templates/admin/warehouses.php:62 templates/admin/warehouses.php:67
+#: templates/admin/registers.php:158
+msgid "Transactions"
+msgstr "Транзакции"
+
+#: templates/admin/warehouses.php:64 templates/admin/warehouses.php:69
+#: templates/admin/registers.php:160
+msgid "Orders"
+msgstr "Заказы"
+
+#: templates/admin/warehouses.php:73
+msgid "Kitchen Screen"
+msgstr "Kitchen Screen"
+
+#: templates/admin/warehouses.php:103
+#: templates/admin/warehouse/inventory.php:11
+msgid "Inventory"
+msgstr "Инвентаризация"
+
+#: templates/admin/dashboard.php:21 templates/admin/report/report_form.php:186
+#: templates/admin/report/report_form.php:195
+#: templates/admin/report/report_form.php:204
+#: templates/admin/report/report_form.php:213
+#: templates/admin/report/report_sales_table.php:36
+msgid "#"
+msgstr "#"
+
+#: templates/admin/dashboard.php:22
+msgid "Customer"
+msgstr "Клиент"
+
+#: templates/admin/dashboard.php:24
+msgid "Sale By"
+msgstr "Продавец"
+
+#: templates/admin/dashboard.php:26 templates/admin/report/report_form.php:199
+#: templates/admin/report/report_form.php:209
+#: templates/admin/report/report_form.php:218
+#: templates/admin/report/report_sales_table.php:41
+msgid "View"
+msgstr "Просмотр"
+
+#: templates/admin/dashboard.php:37
+msgid "POS Performance"
+msgstr "POS продажи"
+
+#: templates/admin/dashboard.php:61
+msgid "This function to reset cash balance on your cash drawer to 0. Are you sure ?"
+msgstr "Эта функция для сброса остатка денежных средств на вашем денежном ящике до 0. Вы уверены ?"
+
+#: templates/admin/dashboard.php:82
+msgid "Last Orders"
+msgstr "Последние заказы"
+
+#: templates/admin/dashboard.php:86
+msgid "Cash Balance"
+msgstr "Баланс"
+
+#: templates/admin/sessions.php:2
+msgid "Active Login Sessions"
+msgstr "Активные рабочие сессии"
+
+#: templates/admin/sessions.php:6
+msgid "Clear All"
+msgstr "очистить все"
+
+#: templates/admin/sessions.php:15
+msgid "User"
+msgstr "Пользователь"
+
+#: templates/admin/sessions.php:16
+msgid "Login Date"
+msgstr "Дата Входа"
+
+#: templates/admin/sessions.php:17
+msgid "IP "
+msgstr "IP "
+
+#: templates/admin/sessions.php:18
+msgid "Register "
+msgstr "Register "
+
+#: templates/admin/sessions.php:19
+msgid "Location "
+msgstr "Расположение "
+
+#: templates/admin/sessions.php:20
+msgid "Unlink"
+msgstr "Разъединить"
+
+#: templates/admin/sessions.php:36
+msgid "Your Location"
+msgstr "ваше расположение"
+
+#: templates/admin/print_barcode.php:34
+msgid "Sheet Print Information"
+msgstr "Sheet Print Information"
+
+#: templates/admin/print_barcode.php:43
+msgid "Unit:"
+msgstr "Единица измерения:"
+
+#: templates/admin/print_barcode.php:46
+msgid "Inch"
+msgstr "Дюймы"
+
+#: templates/admin/print_barcode.php:47
+msgid "Minimeter"
+msgstr "Миллиметр"
+
+#: templates/admin/print_barcode.php:52
+msgid "Sheet Width:"
+msgstr "Ширина Листа:"
+
+#: templates/admin/print_barcode.php:56
+msgid "Vertical Spacing:"
+msgstr "Вертикальное Расстояние:"
+
+#: templates/admin/print_barcode.php:60
+msgid "Horizontal Spacing:"
+msgstr "Горизонтальное Расстояние:"
+
+#: templates/admin/print_barcode.php:66
+msgid "Sheet Margin (top x right x bottom x left):"
+msgstr "Выравнивание  (сверху х справа х  снизу x слева):"
+
+#: templates/admin/print_barcode.php:78
+msgid "Label Size:"
+msgstr "размер этикетки:"
+
+#: templates/admin/print_barcode.php:84
+msgid "Label Padding (top x right x bottom x left):"
+msgstr "Отступы этикетки  (сверху х справа х  снизу x слева):"
+
+#: templates/admin/print_barcode.php:94
+msgid "Barcode Image Size:"
+msgstr "Размер Изображения Штрихкода:"
+
+#: templates/admin/print_barcode.php:101
+msgid "Number Of Label:"
+msgstr "Количество этикеток:"
+
+#: templates/admin/print_barcode.php:112
+msgid "Print"
+msgstr "Печать"
+
+#: templates/admin/stock.php:8
+msgid "POS Stock Overview"
+msgstr "Обзор остатков POS"
+
+#: templates/admin/stock.php:16
+msgid "Choose Warehouse"
+msgstr "Выберите склад"
+
+#: templates/admin/stock.php:19
+msgid "All Warehouse"
+msgstr "Все склады"
+
+#: templates/admin/stock.php:25
+msgid "Choose"
+msgstr "Выбрать"
+
+#: templates/admin/stock.php:40 templates/admin/products.php:12
+#: templates/admin/warehouse/inventory.php:19
+#: templates/admin/warehouse/adjust_stock.php:34
+msgid "Barcode"
+msgstr "Штрихкод"
+
+#: templates/admin/stock.php:41 templates/admin/products.php:13
+#: templates/admin/warehouse/inventory.php:20
+msgid "Thumbnail"
+msgstr "Фото"
+
+#: templates/admin/stock.php:42 templates/admin/products.php:14
+#: templates/admin/warehouse/inventory.php:21
+msgid "Product Name"
+msgstr "Название"
+
+#: templates/admin/cashier.php:5
+msgid "POS Cashiers"
+msgstr "POS Кассиры"
+
+#: templates/admin/cashier.php:12 templates/admin/warehouse/new.php:101
+msgid "Email"
+msgstr "Email"
+
+#: templates/admin/cashier.php:13
+msgid "Is POS Staff ?"
+msgstr "Персонал POS ?"
+
+#: templates/admin/registers.php:59
+msgid "Registers"
+msgstr "Кассовые аппараты"
+
+#: templates/admin/registers.php:64
+msgid "New Register"
+msgstr "Новая касса"
+
+#: templates/admin/registers.php:64
+msgid "Edit Register"
+msgstr "Редактировать"
+
+#: templates/admin/registers.php:75 templates/admin/registers.php:134
+#: templates/admin/tables.php:70 templates/admin/tables.php:108
+#: templates/admin/report/report_form.php:49
+msgid "Outlet"
+msgstr "Склад"
+
+#: templates/admin/registers.php:86 templates/admin/registers.php:133
+msgid "Cashiers"
+msgstr "Кассиры"
+
+#: templates/admin/registers.php:98
+msgid "Mode"
+msgstr "Режим"
+
+#: templates/admin/registers.php:101
+msgid "Cashier Mode"
+msgstr "Режим Кассира"
+
+#: templates/admin/registers.php:102
+msgid "Seller Mode"
+msgstr "Режим Продавца "
+
+#: templates/admin/registers.php:104
+msgid "Waiter Mode"
+msgstr "Режим Официанта"
+
+#: templates/admin/registers.php:113 templates/admin/tables.php:90
+#: templates/admin/tables.php:135 templates/admin/warehouse/new.php:94
+msgid "Active"
+msgstr "Активный"
+
+#: templates/admin/registers.php:114 templates/admin/tables.php:91
+#: templates/admin/tables.php:135 templates/admin/warehouse/new.php:95
+msgid "Inactive"
+msgstr "Не активный"
+
+#: templates/admin/registers.php:121 templates/admin/tables.php:97
+#: templates/admin/warehouse/new.php:121
+msgid "Save"
+msgstr "Сохранить"
+
+#: templates/admin/registers.php:128 templates/admin/report/report_form.php:64
+msgid "All Registers"
+msgstr "Все кассовые аппараты"
+
+#: templates/admin/registers.php:135
+msgid "Balance"
+msgstr "Баланс"
+
+#: templates/admin/registers.php:162
+msgid "Bill Screen"
+msgstr "Bill Screen"
+
+#: templates/admin/registers.php:185
+msgid "No register found"
+msgstr "No register found"
+
+#: templates/admin/tables.php:54 templates/admin/tables.php:103
+msgid "All Tables"
+msgstr "Все столы"
+
+#: templates/admin/tables.php:59
+msgid "New Table"
+msgstr "Новый стол"
+
+#: templates/admin/tables.php:59
+msgid "Edit Table"
+msgstr "Редактировать стол"
+
+#: templates/admin/tables.php:80 templates/admin/tables.php:109
+msgid "Position"
+msgstr "Позиция"
+
+#: templates/admin/tables.php:141
+msgid "No table found"
+msgstr "Таблица не найдена"
+
+#: templates/admin/products.php:5
+msgid "POS Products"
+msgstr "POS товары"
+
+#: templates/admin/orders.php:9
+msgid "POS Orders"
+msgstr "POS заказы"
+
+#: templates/admin/orders.php:14
+msgid "Order"
+msgstr "Заказ"
+
+#: templates/admin/orders.php:15 templates/admin/report/report_form.php:106
+msgid "Date"
+msgstr "Дата"
+
+#: templates/admin/orders.php:16
+msgid "Source"
+msgstr "Источник"
+
+#: templates/admin/woocommerce/order_exchanges.php:5
+msgid "by"
+msgstr "от"
+
+#: templates/admin/report/report_sales_chart.php:6
+msgid "Total Orders"
+msgstr "Всего заказов"
+
+#: templates/admin/report/report_sales_chart.php:14
+msgid "Total Sales"
+msgstr "Всего продаж"
+
+#: templates/admin/report/report_form.php:7
+msgid "Cash"
+msgstr "Наличные"
+
+#: templates/admin/report/report_form.php:15
+msgid "POS - Stripe"
+msgstr "POS - Stripe"
+
+#: templates/admin/report/report_form.php:34
+msgid "Type"
+msgstr "Тип"
+
+#: templates/admin/report/report_form.php:37
+msgid "Sales Report"
+msgstr "Отчет по продажам"
+
+#: templates/admin/report/report_form.php:39
+msgid "Sales By Seller Report"
+msgstr "Отчет О Продажах По Продавцам"
+
+#: templates/admin/report/report_form.php:40
+msgid "Sales By Shop Agent Report"
+msgstr "Отчет По Продажам Агентом Магазина"
+
+#: templates/admin/report/report_form.php:42
+msgid "Cash Transactions Report"
+msgstr "Отчет О Кассовых Операциях"
+
+#: templates/admin/report/report_form.php:43
+msgid "Sales By Payment Method"
+msgstr "Продажи По Способу Оплаты"
+
+#: templates/admin/report/report_form.php:52
+msgid "All Outlets"
+msgstr "Все точки продаж"
+
+#: templates/admin/report/report_form.php:70
+msgid "Seller"
+msgstr "Продавец"
+
+#: templates/admin/report/report_form.php:80
+msgid "Payment Method"
+msgstr "способ оплаты"
+
+#: templates/admin/report/report_form.php:83
+msgid "Choose method"
+msgstr "Выбранный метод"
+
+#: templates/admin/report/report_form.php:92
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: templates/admin/report/report_form.php:95
+msgid "Today"
+msgstr "Сегодня"
+
+#: templates/admin/report/report_form.php:96
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: templates/admin/report/report_form.php:97
+msgid "This Week"
+msgstr "эта неделя"
+
+#: templates/admin/report/report_form.php:98
+msgid "Last 7 Days"
+msgstr "Последние 7 Дней"
+
+#: templates/admin/report/report_form.php:99
+msgid "Last 30 Days"
+msgstr "Последние 30 Дней"
+
+#: templates/admin/report/report_form.php:100
+msgid "This month"
+msgstr "Этот месяц"
+
+#: templates/admin/report/report_form.php:101
+msgid "custom"
+msgstr "свой"
+
+#: templates/admin/report/report_form.php:111
+msgid "From"
+msgstr "От"
+
+#: templates/admin/report/report_form.php:118
+msgid "To"
+msgstr "До"
+
+#: templates/admin/report/report_form.php:129
+msgid "Export CSV"
+msgstr "Экспорт в CSV"
+
+#: templates/admin/report/report_form.php:130
+msgid "Get Report"
+msgstr "Получить Отчет"
+
+#: templates/admin/report/report_form.php:191
+msgid "Created By"
+msgstr "Создано"
+
+#: templates/admin/report/report_form.php:197
+#: templates/admin/report/report_form.php:207
+#: templates/admin/report/report_form.php:216
+#: templates/admin/report/report_sales_table.php:38
+msgid "Cashier"
+msgstr "Кассир"
+
+#: templates/admin/report/report_form.php:206
+msgid "Seller Amount"
+msgstr "Выручка по продавцам"
+
+#: templates/admin/report/report_form.php:215
+msgid "Method Amount"
+msgstr "Выручка по оплатам"
+
+#: templates/admin/report/report_transactions_table.php:11
+msgid "Create At"
+msgstr "Создано"
+
+#: templates/admin/warehouse/inventory.php:11
+msgid " of "
+msgstr " of "
+
+#: templates/admin/warehouse/adjust_stock.php:19
+msgid "Adjust Stock"
+msgstr "Изменить остатки"
+
+#: templates/admin/warehouse/adjust_stock.php:32
+msgid "Search / Import Product"
+msgstr "Поиск / Импорт Продукта"
+
+#: templates/admin/warehouse/adjust_stock.php:39
+msgid "Search"
+msgstr "Поиск"
+
+#: templates/admin/warehouse/adjust_stock.php:44
+msgid "Click here to get to import with csv file"
+msgstr "Нажмите здесь, чтобы перейти к импорту с CSV-файла"
+
+#: templates/admin/warehouse/adjust_stock.php:45
+msgid "Download sample csv file"
+msgstr "Скачать образец CSV-файла"
+
+#: templates/admin/warehouse/adjust_stock.php:64
+msgid "No product selected"
+msgstr "Продукт не выбран"
+
+#: templates/admin/warehouse/adjust_stock.php:75
+msgid "Update"
+msgstr "Обновить"
+
+#: templates/admin/warehouse/new.php:51
+msgid "Back"
+msgstr "назад"
+
+#: templates/admin/warehouse/new.php:59
+msgid "General Information"
+msgstr "Основная информация"
+
+#: templates/admin/warehouse/new.php:61
+msgid "Outlet Name"
+msgstr "Название точки продаж"
+
+#: templates/admin/warehouse/new.php:79
+msgid "Postal Code"
+msgstr "Почтовый индекс"
+
+#: templates/admin/warehouse/new.php:85
+msgid "Country"
+msgstr "Страна"
+
+#: templates/admin/warehouse/new.php:99
+msgid "Contact Information"
+msgstr "Контакты"
+
+#: templates/admin/warehouse/new.php:107
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/admin/warehouse/new.php:113
+msgid "Facebook"
+msgstr "Facebook"
+
+#. Name of the plugin
+msgid "Woocommerce OpenPos"
+msgstr "Woocommerce OpenPos"
+
+#. Description of the plugin
+msgid "Quick POS system for woocommerce."
+msgstr "Quick POS system for woocommerce."
+
+#. URI of the plugin
+msgid "http://openswatch.com"
+msgstr "http://openswatch.com"
+
+#. Author of the plugin
+msgid "anhvnit@gmail.com"
+msgstr "anhvnit@gmail.com"
+
+#. Author URI of the plugin
+msgid "http://openswatch.com/"
+msgstr "http://openswatch.com/"
+
+msgid "Cash Management"
+msgstr "Кассовые операции"
+
+msgid "Products Barcode"
+msgstr "Печать штрихкодов"
+
+msgid "Store Staffs"
+msgstr "Сотрудники"
+
+msgid "Stock Overview"
+msgstr "Остатки товаров"
+
+msgid "Reports"
+msgstr "Отчеты"
+
+msgid "Setting"
+msgstr "Настройки"
+
+msgid "Login Sessions"
+msgstr "Рабочие сессии"
+
+msgid "Stock Transfers"
+msgstr "Перемещение товара"

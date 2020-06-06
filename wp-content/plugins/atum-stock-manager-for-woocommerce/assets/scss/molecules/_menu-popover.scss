@@ -1,0 +1,45 @@
+//
+// Menu Popover component
+//-----------------------
+
+.popover {
+	&.menu-popover {
+		
+		.popover-content {
+			padding: 0;
+		}
+		
+		ul {
+			margin-top: 6px;
+			margin-bottom: 0;
+			text-align: left;
+			
+			li {
+				white-space: nowrap;
+				font-size: 12px;
+				padding: 2px 7px;
+				
+				&:not(:last-child) {
+					border-bottom: 1px solid $gray-400;
+				}
+				
+				a {
+					text-decoration: none;
+					color: $gray-600;
+					
+					&:focus {
+						box-shadow: none;
+						outline: none;
+					}
+				}
+				
+				&:hover {
+					&, a {
+						color: $primary;
+					}
+				}
+			}
+		}
+		
+	}
+}

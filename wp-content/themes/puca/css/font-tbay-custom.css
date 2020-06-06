@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "tb-icon";
+	src: url('../fonts/tb-icon/tb-icon.eot');
+	src: url('../fonts/tb-icon/tb-icon.eot?#iefix') format('eot'),
+		url('../fonts/tb-icon/tb-icon.woff2') format('woff2'),
+		url('../fonts/tb-icon/tb-icon.woff') format('woff'),
+		url('../fonts/tb-icon/tb-icon.ttf') format('truetype'),
+		url('../fonts/tb-icon/tb-icon.svg#tb-icon') format('svg');
+		font-display: swap;
+}
+
+.tb-icon:before {
+	font-family: "tb-icon";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.tb-icon-arrow-bottom:before {
+	content: "\E001";
+}
+
+.tb-icon-arrow-left:before {
+	content: "\E002";
+}
+
+.tb-icon-arrow-right:before {
+	content: "\E003";
+}
+
+.tb-icon-arrow-top:before {
+	content: "\E004";
+}
+
+.tb-icon-star:before {
+	content: "\E005";
+}

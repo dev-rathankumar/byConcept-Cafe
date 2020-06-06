@@ -1,0 +1,17 @@
+//
+// ATUM add-ons page
+//------------------
+
+@import "common/functions";
+@import "common/variables";
+@import "common/mixins";
+@import "common/breakpoints";
+@import "common/root";
+
+@import "atoms/buttons";
+@import "atoms/atum-icons";
+
+@import "molecules/sweet-alert";
+@import "molecules/atum-footer";
+
+@import "organisms/pages/addons";

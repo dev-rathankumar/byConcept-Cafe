@@ -1,0 +1,73 @@
+/*******
+Coupons 
+********/
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--my-coupons a:before{
+	content: "\f02b";
+}
+
+td.no_copouns_found {
+    text-align: center;
+}
+.mycred_coupons_badge_rank tr.Expiry td,
+.mycred_coupons_badge_rank tr.Used td{
+    background-color: #fff3f3!important;
+}
+.mycred_coupons_badge_rank .coupon_code{
+    text-transform: uppercase;
+}
+
+.mycred_coupons_badge_rank .coupon_description {
+	    width: 235px;
+}
+.mycred_coupons_badge_rank_container {
+    overflow: hidden!important;
+    overflow-x: auto!important;
+}
+.mycred_coupons_badge_rank .copoun_code_style{
+	 
+    background-color: #efefef;
+    color: black;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #dadada;
+ 
+}
+
+/*******
+Ristrict Product 
+********/
+
+#mycred_woo_badges_ranks_option{
+	margin-bottom: 10px;margin-top: 10px;
+}
+
+
+.mycred_point_history ul.pagination {
+    list-style: none;
+}
+.mycred_point_history ul.pagination li {
+    float: right;
+    padding: 5px;
+} 
+
+/*******
+Points History 
+********/
+
+.mycred-point-history-pagination{
+	text-align: right;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.mycred-point-history-pagination .page-numbers {
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.mycred-point-history-pagination .pagination{
+	padding: 0px;
+    border: 0px;
+}

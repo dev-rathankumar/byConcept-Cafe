@@ -1,0 +1,1444 @@
+# Copyright (C) 2013 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Checkout v1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyfourteen\n"
+"POT-Creation-Date: 2020-04-27 09:11+0200\n"
+"PO-Revision-Date: 2020-04-27 09:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/template-parts/content-general-settings.php:1
+#: ../class-arg-multistep-checkout.php:693
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:2
+msgid ""
+"Under the General Settings tab you'll find options like: changing buttons "
+"text, custom text, wizard width, secondary font family and error messages."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:4
+msgid "Buttons and Custom Text"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:10
+msgid "Skip Login Button Text"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:11
+msgid "Change the text of login button."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:17
+msgid "Next Button Text"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:18
+msgid "Change the text of next button."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:24
+msgid "Previous Button Text"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:25
+msgid "Change the text of the previous button."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:31
+msgid "Place Order Button Text"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:32
+msgid "Change the text of the place order button."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:38
+msgid "Custom Text"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:39
+msgid "Use this option to add an extra text to footer."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:46
+msgid "Wizard width and secondary font family"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:52
+msgid "Wizard Maximum Width"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:53
+msgid ""
+"Use this option to set the maximum width of the wizard layout. Set input "
+"value to <strong>none</strong> if you want the wizard to expand to the "
+"entire layout width."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:59
+msgid "Wizard Secondary Font Family"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:60
+msgid ""
+"Use this option to set the font family for wizard tabs, headings, lables, "
+"buttons, payment metods labels (example: 'Poppins',sans-serif). Leave it "
+"empty if your theme has only one font family."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:66
+msgid "Wizard Secondary Font Weight"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:67
+msgid ""
+"Use this option to set the font weight for wizard tabs, headings, buttons, "
+"payment metods labels."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:71
+msgid "400"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:72
+msgid "500"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:73
+msgid "600"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:74
+msgid "700"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:75
+msgid "800"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:76
+msgid "900"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:83
+msgid "Validation Error Messages"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:89
+msgid "Required Field"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:90
+msgid "Change the text of the required field error message."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:96
+msgid "Required Checkbox"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:97
+msgid "Change the text of the required checkbox error message."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:103
+msgid "Invalid Email Address"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:104
+msgid "Change the text of the invalid email address error message."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:110
+msgid "Invalid Phone Number"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:111
+msgid "Change the text of the invalid phone number error message."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:117
+msgid "Invalid Postcode"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:118
+msgid "Change the text of the invalid postcode error message."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:125
+msgid "Scroll to Top Options"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:130
+msgid "Scroll to the top of the wizard - desktops adjustments"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:131
+msgid ""
+"Use this options if you want to scroll to the top of the wizard instead the "
+"top of the page when the user will click on the navigation buttons. Default "
+"value is 0 - that means it will scroll to the top of the page. Change this "
+"value to any value you want (usualy 60 - for a better tabs visibility) and "
+"it will scroll to the top of the wizard."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:137
+msgid "Scroll to the top of the wizard - mobiles adjustments"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:138
+msgid ""
+"Use this options if you want to scroll to the top of the wizard instead the "
+"top of the page when the user will click on the navigation buttons. Default "
+"value is 0 - that means it will scroll to the top of the page. Change this "
+"value to any value you want (usualy 30 - for a better tabs visibility) and "
+"it will scroll to the top of the wizard."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:149
+msgid "Overwrite WooCommerce form-checkout.php plugin template"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:150
+msgid ""
+"Turn on this option to allow the theme to overwrite the plugin form-checkout."
+"php template (in this template we transform the checkout into a multistep "
+"and you can copy this file into your theme -> woocommerce -> checkout and "
+"make the changes to your needs)."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:156
+#: ../admin/template-parts/content-general-settings.php:175
+#: ../admin/template-parts/content-general-settings.php:200
+#: ../admin/template-parts/content-styles.php:48
+#: ../admin/template-parts/content-styles.php:240
+#: ../admin/template-parts/content-styles.php:286
+#: ../admin/template-parts/content-styles.php:360
+#: ../admin/template-parts/content-styles.php:429
+#: ../admin/template-parts/content-styles.php:570
+#: ../admin/template-parts/content-styles.php:705
+msgid "On"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:161
+#: ../admin/template-parts/content-general-settings.php:180
+#: ../admin/template-parts/content-general-settings.php:205
+#: ../admin/template-parts/content-styles.php:53
+#: ../admin/template-parts/content-styles.php:245
+#: ../admin/template-parts/content-styles.php:291
+#: ../admin/template-parts/content-styles.php:365
+#: ../admin/template-parts/content-styles.php:434
+#: ../admin/template-parts/content-styles.php:575
+#: ../admin/template-parts/content-styles.php:710
+msgid "Off"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:168
+msgid "Overwrite WooCommerce form-register.php plugin template"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:169
+msgid ""
+"Turn on this option to allow the theme to overwrite the plugin form-register."
+"php template (you can copy this file into your theme -> woocommerce -> "
+"checkout and make the changes to your needs)."
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:193
+msgid "Remove all hooks if some steps content doesn't show"
+msgstr ""
+
+#: ../admin/template-parts/content-general-settings.php:194
+msgid ""
+"Turn on this option to remove all the hooks (before/after step actions) from "
+"the checkout page if some of your steps content doesn't show."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:1
+msgid "Wizard Steps Options"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:2
+msgid ""
+"These options refer to your checkout steps and all their content can be "
+"found here:"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:7
+msgid "Step Name"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:8
+msgid "Template"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:9
+msgid "Show/Hide Step"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:20
+#: ../admin/template-parts/content-steps.php:37
+#: ../admin/template-parts/content-steps.php:64
+#: ../admin/template-parts/content-steps.php:86
+#: ../admin/template-parts/content-steps.php:111
+#: ../admin/template-parts/content-steps.php:176
+#: ../admin/template-parts/content-steps.php:283
+#: ../admin/template-parts/content-steps.php:303
+#: ../admin/template-parts/content-steps.php:323
+msgid "Show"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:25
+#: ../admin/template-parts/content-steps.php:42
+#: ../admin/template-parts/content-steps.php:69
+#: ../admin/template-parts/content-steps.php:91
+#: ../admin/template-parts/content-steps.php:116
+#: ../admin/template-parts/content-steps.php:181
+#: ../admin/template-parts/content-steps.php:288
+#: ../admin/template-parts/content-steps.php:308
+#: ../admin/template-parts/content-steps.php:328
+msgid "Hide"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:104
+msgid "Register Form"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:105
+msgid ""
+"Use this option to show the registration form on the login step. On the "
+"login step will be a single content area with two sections(login form and "
+"registration form), each associated with a heading.</br>"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:123
+msgid "Login & Register Layouts"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:124
+msgid ""
+"Use this option to change the login & register layouts(1. Register Switched "
+"with Login - The user can click on headings to swap between content that is "
+"separated into logical sections; 2. Register on Right Side)."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:128
+msgid "Register Switched with Login"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:129
+msgid "Register on Right Side"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:135
+msgid "Login & Register Top Message"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:136
+msgid ""
+"Use this option if you want to show a top message above the login/register "
+"sections (this option will apply only if you show the registration form on "
+"the login step)."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:143
+msgid "Login Heading"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:144
+msgid ""
+"Use this option to change the login heading. This option will apply only if "
+"you show the registration form on the login step."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:150
+msgid "Register Heading"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:151
+msgid ""
+"Use this option to change the register heading. This option will apply only "
+"if you show the registration form on the login step."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:157
+msgid "Force Users to Login or Register"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:158
+msgid ""
+"Use this option if you want to force users to login/register before navigate "
+"to the next step (this option will apply only if you enter an error message "
+"and show the registration form on the login step). Leave the box empty and "
+"this option will have no effect."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:169
+msgid "Additional Information"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:170
+msgid ""
+"Use this option to hide additional information block from <br> the shipping "
+"section.</br>"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:193
+msgid "Move the Coupon Form to Another Step"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:194
+msgid ""
+"Use this option to move the coupon form on a different step. This option "
+"only applies if the coupon step is hidden. Please <b>read more</b> about "
+"this option in the documentation before using it."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:198
+msgid "Default - Coupon Step"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:199
+msgid "Before Billing Section"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:200
+msgid "After Shipping Section"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:201
+msgid "After Additional Fields"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:202
+msgid "Before Order Review Table"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:203
+msgid "After Order Review Table"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:204
+msgid "Before Payment Methods"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:205
+msgid "After Payment Methods"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:215
+msgid "Combine Billing and Shipping Steps?"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:221
+#: ../admin/template-parts/content-steps.php:251
+msgid "Yes"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:226
+#: ../admin/template-parts/content-steps.php:256
+msgid "No"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:233
+#: ../admin/template-parts/content-steps.php:263
+msgid "If so, define your new step name:"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:245
+msgid "Combine Payment and Order Details Steps?"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:276
+msgid "Product Thumbnail on Order Table"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:277
+msgid ""
+"Use this option to show/hide product thumbnail in the checkout order table."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:296
+msgid "Customer Details Review after the Payment Methods"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:297
+msgid ""
+"Use this option to show customer details review (email, phone, addresses) "
+"after the payment methods."
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:316
+msgid "Order Table on Order Review Step"
+msgstr ""
+
+#: ../admin/template-parts/content-steps.php:317
+msgid ""
+" Use this option to show/hide order review table on the order review step. "
+"This option works only if you decide to <strong>hide the order step</strong> "
+"from the first section using the \"Show/Hide Step\" options."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:1
+msgid "Multistep Checkout Styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:2
+msgid "Here you can find the options to change your checkout steps styles:"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:5
+msgid "Wizard styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:11
+msgid "Wizard Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:12
+msgid "Change the color of wizard footer custom text."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:18
+msgid "Wizard Accent Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:19
+msgid "Change the accent color of the wizard."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:25
+msgid "Wizard Border Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:26
+msgid "Change the color of the wizard footer border line."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:33
+msgid "Wizard Validation Error Messages Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:34
+msgid "Change the color of validation error messages."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:41
+msgid "Change Wizard Buttons Styles (skip login, next, previous, place order)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:42
+msgid ""
+"By default your theme buttons styles will be applied. Enable this option if "
+"you want to change the text/background color of these buttons."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:61
+msgid "Wizard Button Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:62
+msgid ""
+"Change the color of the button text. The theme button text color will be "
+"inherited if you leave the input empty."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:68
+msgid "Wizard Button Text Transparency on Hover"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:69
+#, php-format
+msgid ""
+"Change the opacity of the text button on hover. The opacity-level describes "
+"the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-"
+"through, and 0 is completely transparent."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:75
+msgid "Wizard Next/Skip Login Buttons Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:76
+msgid "Change the background color of the next/skip login buttons."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:82
+msgid "Wizard Previous Button Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:83
+msgid "Change the background color of the previous button."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:89
+msgid "Wizard Place Order Button Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:90
+msgid "Change the background color of the place order button."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:98
+msgid "Tabs Styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:104
+msgid "Tabs Layouts"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:105
+msgid "Change the layout of your tabs."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:109
+msgid "Square"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:110
+msgid "Arrow"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:111
+msgid "Arrow Alt (Includes Vertical Orientation Layout)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:112
+msgid "Progress Bar"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:113
+msgid "Progress Bar Outline"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:124
+msgid "Tabs Text Styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:125
+msgid "Change the text styles of your tabs."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:129
+msgid "Text Inline"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:130
+msgid "Text Under Number"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:131
+msgid "Hide Number on Tab"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:137
+msgid "Tabs Width"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:138
+msgid "Use this option to change your tabs width."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:142
+msgid "Equals"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:143
+msgid "Auto"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:149
+#: ../admin/template-parts/content-styles.php:338
+#: ../admin/template-parts/content-styles.php:486
+#: ../admin/template-parts/content-styles.php:628
+msgid "Tab Number Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:150
+#: ../admin/template-parts/content-styles.php:339
+#: ../admin/template-parts/content-styles.php:487
+#: ../admin/template-parts/content-styles.php:629
+msgid "Use this option to change tab number color."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:156
+#: ../admin/template-parts/content-styles.php:345
+#: ../admin/template-parts/content-styles.php:493
+msgid "Tab Number Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:157
+#: ../admin/template-parts/content-styles.php:346
+#: ../admin/template-parts/content-styles.php:494
+msgid "Use this option to change tab number background color."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:163
+#: ../admin/template-parts/content-styles.php:317
+#: ../admin/template-parts/content-styles.php:479
+#: ../admin/template-parts/content-styles.php:621
+msgid "Tab Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:164
+#: ../admin/template-parts/content-styles.php:318
+#: ../admin/template-parts/content-styles.php:480
+#: ../admin/template-parts/content-styles.php:622
+msgid "Change tabs font color."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:170
+#: ../admin/template-parts/content-styles.php:324
+#: ../admin/template-parts/content-styles.php:507
+msgid "Tab Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:171
+#: ../admin/template-parts/content-styles.php:325
+#: ../admin/template-parts/content-styles.php:508
+msgid "Change tabs background color."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:177
+msgid "Tab Border Left Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:178
+msgid "Change the border color between the tabs."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:184
+#: ../admin/template-parts/content-styles.php:331
+msgid "Tab Border Bottom Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:185
+#: ../admin/template-parts/content-styles.php:332
+msgid "Change the border color under the tabs."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:191
+msgid "Current / Completed / On Hover Tab Number Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:192
+msgid ""
+"Use this option to change the number color of the completed/current/hovered "
+"tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:198
+msgid "Current / Completed / On Hover Tab Number Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:199
+msgid ""
+"Use this option to change the number background color of the completed/"
+"current/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:205
+msgid "Current / Completed / On Hover Tab Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:206
+msgid ""
+"Use this option to change the text color of the completed/current/hovered "
+"tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:212
+msgid "Current / Completed / On Hover Tab Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:213
+msgid ""
+"Use this option to change the background color of the completed/current/"
+"hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:219
+msgid "Current / Completed / On Hover Tab Border Bottom Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:220
+msgid ""
+"Use this option to change the border color under the tabs of the completed/"
+"current/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:226
+msgid "Arrow Right Color (option applied only for the \"Arrow\" Tab Layout)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:227
+#: ../admin/template-parts/content-styles.php:416
+msgid ""
+"Use this option to change the arrow right color. Usually it is the color of "
+"your page background, but you can choose any color."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:233
+#: ../admin/template-parts/content-styles.php:422
+#: ../admin/template-parts/content-styles.php:563
+#: ../admin/template-parts/content-styles.php:698
+msgid "Show number instead of checkmark"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:234
+#: ../admin/template-parts/content-styles.php:423
+#: ../admin/template-parts/content-styles.php:564
+#: ../admin/template-parts/content-styles.php:699
+msgid ""
+"Use this option to show number instead of checkmark after a step is "
+"completed."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:252
+#: ../admin/template-parts/content-styles.php:441
+#: ../admin/template-parts/content-styles.php:582
+#: ../admin/template-parts/content-styles.php:717
+msgid "Adjust Number Position (vertical alignment)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:253
+#: ../admin/template-parts/content-styles.php:442
+#: ../admin/template-parts/content-styles.php:583
+#: ../admin/template-parts/content-styles.php:718
+msgid ""
+"With this option you can verticaly align the tab number relatively to the "
+"text (usualy values like 1px, -1px, 0px, -2px, 2px will align perfect the "
+"number and the text)."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:259
+#: ../admin/template-parts/content-styles.php:448
+#: ../admin/template-parts/content-styles.php:589
+#: ../admin/template-parts/content-styles.php:724
+msgid "Adjust Checkmark Position (vertical alignment)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:260
+#: ../admin/template-parts/content-styles.php:449
+#: ../admin/template-parts/content-styles.php:590
+#: ../admin/template-parts/content-styles.php:725
+msgid ""
+"With this option you can verticaly align the tab checkmark relatively to the "
+"text (usualy values like 1px, -1px, 0px, -2px, 2px will align perfect the "
+"checkmark and the text)."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:266
+#: ../admin/template-parts/content-styles.php:455
+#: ../admin/template-parts/content-styles.php:596
+#: ../admin/template-parts/content-styles.php:731
+msgid "Adjust Text Position (vertical alignment)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:267
+#: ../admin/template-parts/content-styles.php:456
+#: ../admin/template-parts/content-styles.php:597
+#: ../admin/template-parts/content-styles.php:732
+msgid ""
+"With this option you can verticaly align the tab text relatively to the "
+"number/checkmark (usualy values like 1px, -1px, 0px, -2px, 2px will align "
+"perfect the text and the number/checkmark)."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:279
+msgid "Hide The Tails Of The Arrows"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:280
+msgid "Turn on this option to hide the tails of all arrows."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:298
+msgid ""
+"Tabs Orientation - Horizontal/Vertical (available only if <em>\"Hide The "
+"Tails Of The Arrows\"</em> option is turned on)"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:299
+msgid ""
+"Use this option to display the tabs horizontal or vertical. This option is "
+"available only if you hide the tails of the arrows."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:305
+msgid "Horizontal"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:310
+#: ../admin/template-parts/content-styles.php:615
+msgid "Vertical"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:353
+msgid "Hide Numbers Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:354
+msgid ""
+"Turn on this option to hide the background color of the numbers. Please "
+"remember to change the current/on hover tab number color everytime you turn "
+"on/off this option (from below option \"Current / On Hover Tab Number Color"
+"\": add color #000 if numbers have background and color #fff if numbers "
+"haven't background)."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:373
+msgid "Current / On Hover Tab Number Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:374
+msgid "Use this option to change the number color of the current/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:380
+msgid "Current / On Hover Tab Number Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:381
+msgid ""
+"Use this option to change the number background color of the current/hovered "
+"tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:387
+msgid "Visited / On Hover Tab Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:388
+msgid "Use this option to change the text color of the visited/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:394
+msgid "Current / On Hover Tab Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:395
+msgid ""
+"Use this option to change the background color of the current/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:401
+msgid "Visited Tab Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:402
+msgid "Use this option to change the background color of the visited tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:408
+msgid "Visited / On Hover Tab Border Bottom Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:409
+msgid ""
+"Use this option to change the border color under the tabs of the visited/"
+"hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:415
+msgid "Arrow Right Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:467
+msgid "Progress Bar Layout Styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:468
+msgid "Change the progress bar layout styles."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:472
+msgid "Progress Bar Boxed"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:473
+msgid "Progress Bar Not Boxed"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:500
+msgid "Tab Border Top Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:501
+msgid "Change the border color above the tabs."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:514
+#: ../admin/template-parts/content-styles.php:656
+msgid "Current Tab Number Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:515
+msgid "Use this option to change the number color of the last visited tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:521
+#: ../admin/template-parts/content-styles.php:663
+msgid "Current Tab Number Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:522
+msgid ""
+"Use this option to change the number background color of the last visited "
+"tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:528
+#: ../admin/template-parts/content-styles.php:642
+msgid "Current Tab Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:529
+#: ../admin/template-parts/content-styles.php:643
+msgid ""
+"Use this option to change the text color of the last visited/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:535
+msgid "Last Visited / Completed Tab Border Top Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:536
+msgid ""
+"Use this option to change the border color above the tabs of the completed/"
+"current tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:542
+#: ../admin/template-parts/content-styles.php:677
+msgid "Completed Tab Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:543
+#: ../admin/template-parts/content-styles.php:550
+#: ../admin/template-parts/content-styles.php:557
+msgid "Use this option to change the text color of a completed tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:549
+msgid "Completed Tab Number Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:556
+#: ../admin/template-parts/content-styles.php:691
+msgid "Completed Tab Number Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:608
+msgid "Outline Layout Styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:609
+msgid "Change the outline layout styles."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:613
+msgid "Horizontal - Text Under"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:614
+msgid "Horizontal - Text Inline"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:635
+msgid "Tab Border Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:636
+msgid "Change the border color of the tabs."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:649
+msgid "Current Tab Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:650
+msgid ""
+"Use this option to change the background color of the last visited/hovered "
+"tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:657
+msgid ""
+"Use this option to change the number color of the last visited/hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:664
+msgid ""
+"Use this option to change the number background color of the last visited/"
+"hovered tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:670
+msgid "Current Tab Number Border Left Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:671
+msgid ""
+"Use this option to change the border left color of the last visited tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:678
+msgid "Use this option to change the text color of the completed tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:684
+msgid "Completed Tab Number Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:685
+msgid "Use this option to change the number color of the completed tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:692
+msgid "Use this option to change the background color of the completed tab."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:739
+msgid "Checkout Forms Styles"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:745
+msgid "Inherit Checkout Forms Styles From Your Theme or Plugin"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:746
+msgid ""
+"If you prefer the plugin checkout forms styles then select the \"Plugin\" "
+"option (the styles will be inherited from the plugin).\n"
+"                <br>If not, your theme checkout form styles will be "
+"inherited."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:753
+msgid "Plugin"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:758
+msgid "Theme"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:765
+msgid "Forms Text Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:766
+msgid "Use this option to change forms text color."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:772
+msgid "Forms Headings/Table Headings/Labels Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:773
+msgid ""
+"Change the color of the labels(used on form fields)/form headings/table "
+"headings."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:779
+msgid "Form Fields Border Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:780
+msgid "Use this option to change form fields border colors."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:786
+msgid "Form Fields Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:787
+msgid "Use this option to change form fields background colors."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:793
+msgid "Form Fields Border Radius"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:794
+msgid "With this option you can give any form field \"rounded corners\"."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:800
+msgid "Invalid Form Fields Border Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:801
+msgid "Change border color for invalid form fields."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:807
+msgid "Invalid Form Fields Background"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:808
+msgid "Change background color for invalid form fields."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:814
+msgid "Validated Form Fields Border"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:815
+msgid "Change border color for validated form fields."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:821
+msgid "Buttons Background Color"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:822
+msgid ""
+"Change the background color of the wizard buttons. Starting with version 1.8 "
+"this option is deprecated. Please use \"Wizard styles\" options instead to "
+"change buttons background colors."
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:828
+msgid "Button Background Color on Login and Coupon Forms"
+msgstr ""
+
+#: ../admin/template-parts/content-styles.php:829
+msgid ""
+"Use this option to change the background color of Login and Coupon buttons."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:33
+#, php-format
+msgid "%s %s requires WooCommerce Plugin to be installed and activated."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:33
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\" target=\"_blank\">install WooCommerce Plugin</a>."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:380
+msgid "Customer Details"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:383
+msgid "Email:"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:387
+msgid "Phone:"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:395
+msgid "Billing Address"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:400
+msgid "Shipping Address"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:417
+msgid "Next"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:418
+msgid "Previous"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:419
+msgid "Place Order"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:420
+msgid "Skip Login"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:421
+msgid "This field is required"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:422
+msgid "You must accept the terms and conditions"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:423
+msgid "Invalid email address"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:424
+msgid "Invalid phone number"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:425
+msgid "Please enter a valid postcode/ZIP"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:434
+#: ../class-arg-multistep-checkout.php:488
+msgid "Login"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:439
+msgid "Coupon"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:445
+msgid "Billing & Shipping"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:450
+msgid "Billing"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:455
+msgid "Shipping"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:460
+msgid "Order & Payment"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:465
+msgid "Order"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:470
+msgid "Payment"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:475
+#: ../woocommerce/checkout/form-checkout-hooks-removed.php:524
+#: ../woocommerce/checkout/form-checkout.php:525
+msgid "Order Review"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:481
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:489
+#: ../woocommerce/checkout/form-register.php:10
+#: ../woocommerce/checkout/form-register.php:43
+msgid "Register"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:694
+msgid "Wizard Steps"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:695
+msgid "Wizard Styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:715
+msgid "Save Changes"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:716
+msgid "Reset All"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:732
+#: ../class-arg-multistep-checkout.php:821
+msgid "You are already logged in"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:761
+msgid "Username is required"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:770
+msgid "Password is required"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:784
+msgid "A user could not be found with this email address"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:798
+msgid "Incorrect username/password"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:853
+msgid "Anti-spam field was filled in."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:904
+msgid "Documentation"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:905
+msgid "Visit plugin site"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:921
+msgid "Settings"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:934
+#, php-format
+msgid ""
+"If you like <strong> %s </strong> please leave us a &#9733;&#9733;&#9733;"
+"&#9733;&#9733; rating."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:934
+msgid "Thank you."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout-hooks-removed.php:182
+#: ../woocommerce/checkout/form-checkout.php:182
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout-hooks-removed.php:313
+#: ../woocommerce/checkout/form-checkout.php:313
+msgid "/"
+msgstr ""
+
+#: ../woocommerce/checkout/form-register.php:19
+msgid "Username"
+msgstr ""
+
+#: ../woocommerce/checkout/form-register.php:26
+msgid "Email address"
+msgstr ""
+
+#: ../woocommerce/checkout/form-register.php:33
+msgid "Password"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:36
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:37
+#: ../woocommerce/checkout/review-order.php:123
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:76
+msgid "Subtotal"
+msgstr ""
+
+#~ msgid "You may also like..."
+#~ msgstr "You may also like ro..."

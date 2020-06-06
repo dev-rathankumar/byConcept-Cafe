@@ -1,0 +1,642 @@
+/**
+ * Tabs vertical
+ * Tabs general
+ * Hide Numbers on Tabs - mobiles
+ * Tabs general > 767px
+ * Tabs Width Auto > 767px
+ * Hide Numbers On Tabs > 767px
+ * Tabs general > 1200px
+ * Tabs Text Under Numbers > 1200px
+ * Hide Numbers On Tabs > 1200px
+ */
+
+
+/*Tabs general*/
+
+/*.argmc-wrapper .argmc-tabs-list {
+    overflow: hidden;
+}*/
+
+.argmc-wrapper.orientation-vertical .argmc-tabs-list {
+	margin-bottom: 45px;
+}
+
+.argmc-wrapper .argmc-tab-item,
+.argmc-wrapper .argmc-tab-item.visited {
+	color: #999;
+    background: transparent;
+	margin-bottom: 0 !important;
+}
+
+.argmc-wrapper .argmc-tab-item {			
+    font-size: 13px !important;
+    line-height: 13px !important;
+    text-align: center;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #ddd;
+    
+    display: block;
+    position: relative;
+    
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+}
+
+.argmc-wrapper .argmc-tab-item,
+.argmc-wrapper .argmc-tab-item-outer {
+	height: 44px;
+}
+
+.argmc-wrapper .argmc-tabs-list .argmc-tab-item {
+	width: 100%;
+	margin: 0 0 3px 0;
+	border-bottom: none;
+	border-right: none;
+}
+
+.argmc-wrapper .argmc-tab-item .argmc-tab-item-outer,
+.argmc-wrapper .argmc-tab-item .argmc-tab-item-inner,
+.argmc-wrapper .argmc-tab-item .argmc-tab-number-wrapper,
+.argmc-wrapper .argmc-tab-item .argmc-tab-number {
+	line-height: inherit;
+}
+
+.argmc-wrapper.orientation-vertical .argmc-tab-item:first-child .argmc-tab-item-outer {
+	border-top: 1px solid #ddd;
+}
+
+.argmc-wrapper.orientation-vertical .argmc-tab-item .argmc-tab-item-outer {
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin-right: 0;
+	position: relative;
+}
+
+.argmc-wrapper .argmc-tab-number-wrapper,
+.argmc-wrapper .argmc-tab-text {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 0px;
+}
+
+.argmc-wrapper .argmc-tab-item-outer {
+    height: 44px;
+    padding: 15px 0 0 0;
+	margin-right: 0;
+}
+
+
+.argmc-wrapper .argmc-tab-item-inner {
+    display: inline-block;
+    vertical-align: middle;
+	
+	width: 100% !important;
+	padding: 0 23px !important;
+	
+    position: relative;
+    z-index: 100;
+}
+
+.argmc-wrapper .argmc-tab-number  {
+    width: 22px;
+    text-align: center;
+}
+
+.argmc-wrapper .argmc-tab-item.completed .argmc-tab-number {
+    text-align: center;
+}
+
+.argmc-wrapper .number-text span {
+	display: inline-block;
+}
+
+.argmc-wrapper .tab-completed-icon {
+    display: none;
+    margin-right: 4px;
+}
+
+.argmc-wrapper .tab-completed-icon:before {
+    display: inline-block;
+    font-family: "arg-mc-icons";
+
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    content: '\e801';
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: inherit;
+    line-height: inherit;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+
+    position: relative;
+    top: -2px;
+}
+
+.argmc-wrapper .argmc-tab-text {
+	font-size: 14px;
+    line-height: 1;
+	font-weight: normal;
+    text-transform: none;
+}
+
+.argmc-wrapper.orientation-vertical .argmc-tab-item.current.visited .argmc-tab-item-outer,
+.argmc-wrapper.orientation-vertical .argmc-tab-item.visited:hover .argmc-tab-item-outer,
+.argmc-wrapper.orientation-vertical .argmc-tab-item.current.last + .argmc-tab-item:hover .argmc-tab-item-outer {
+	background: #f7f7f7;
+	position: relative;
+}
+
+.argmc-wrapper.orientation-vertical .argmc-tab-item.current.visited:after {
+	content: "";
+	display: block;
+	width: 3px;
+	height: calc(100% + 1px);
+	position: absolute;
+	left: 0;
+	top: -1px;
+}
+
+.argmc-wrapper.orientation-horizontal  .argmc-tab-item.current.visited:after {
+	content: "";
+	display: none;
+	width: calc(100% - 0px);
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+}
+
+
+
+@media screen and (min-width: 767px) {
+    
+    /*Tabs general > 767px*/
+		
+    .argmc-wrapper .argmc-tabs-list {
+        display: block;
+    }
+
+	.argmc-wrapper .argmc-tab-item,
+	.argmc-wrapper .argmc-tab-item-outer {
+		height: 70px;
+	}
+	
+    .argmc-wrapper .argmc-tab-item {
+        display: block;
+        float: left;
+        vertical-align: top;
+    }
+	
+	.argmc-wrapper.orientation-horizontal .argmc-tabs-list.six-tabs .argmc-tab-item {
+		width: 16.66666666%;
+	}
+	
+	.argmc-wrapper.orientation-horizontal .argmc-tabs-list.five-tabs .argmc-tab-item {
+		width: 20%;
+	}
+	
+	.argmc-wrapper.orientation-horizontal .argmc-tabs-list.four-tabs .argmc-tab-item {
+		width: 25%;
+	}
+	
+	.argmc-wrapper.orientation-horizontal .argmc-tabs-list.three-tabs .argmc-tab-item {
+		width: 33.3333333333%;
+	}
+	
+	.argmc-wrapper.orientation-horizontal .argmc-tabs-list.two-tabs .argmc-tab-item {
+		width: 50%;
+	}
+
+    .argmc-wrapper .argmc-tab-item-outer {
+        text-align: center;
+    }
+
+    .argmc-wrapper .argmc-tab-item-outer:before {    
+        margin-right: -27px;
+        border-width:  41px 0 41px 27px;
+
+        position: absolute;
+        top: -6px;
+    }
+
+    .argmc-wrapper .argmc-tab-item-outer:after {
+        border-width:  35px 0 35px 23px;
+    }
+	
+	.argmc-wrapper .argmc-tab-item-outer {
+		padding: 0 !important;
+		text-align: center;
+	}
+	
+	.argmc-wrapper.orientation-vertical  .tabs-width-auto .argmc-tab-item-inner,
+	.argmc-wrapper.orientation-vertical  .tabs-equal-width .argmc-tab-item-inner {
+		display: inline-block;
+		vertical-align: middle;
+		
+		margin: 0;
+		padding: 0 30px;
+		
+		width: -webkit-calc(100% + 30px);
+		width: calc(100% + 30px);
+
+		position: absolute;
+		top: 50%;
+		left: 0;
+		z-index: 100;
+		
+		-webkit-transform: translate(0px, -50%);
+		transform: translate(0px, -50%);
+	}
+	
+	.argmc-wrapper .tabs-width-auto .argmc-tab-item-inner {
+		position: relative;
+	}
+	
+	.argmc-wrapper.tabs-text-under .argmc-tab-item-inner {
+		padding: 0 40px;
+		width: -webkit-calc(100% + 38px);
+		width: calc(100% + 38px);
+	}
+	
+	.argmc-wrapper .argmc-tab-item:first-child .argmc-tab-item-inner {
+		width: -webkit-calc(100% + 19px);
+		width: calc(100% + 19px);
+	}
+	
+	.argmc-wrapper.tabs-default .argmc-tab-item:first-child .argmc-tab-item-inner,
+	.argmc-wrapper.tabs-hide-numbers .argmc-tab-item:first-child .argmc-tab-item-inner {
+		padding-left: 21px;
+	}
+
+	.argmc-wrapper .argmc-tab-item:last-child .argmc-tab-item-inner {
+		width: -webkit-calc(100% + 15px);
+		width: calc(100% + 15px);
+	}
+
+    .argmc-wrapper .argmc-tab-item:hover {
+        cursor: not-allowed;
+    }
+
+    .argmc-wrapper .argmc-tab-item.current + .argmc-tab-item:hover, 
+    .argmc-wrapper .argmc-tab-item.visited:hover {
+        cursor: pointer;
+    }
+    
+    .argmc-wrapper .argmc-tab-item.visited.current:hover {
+        cursor: default;
+    }
+
+    .argmc-wrapper .argmc-tab-item.selected:hover {
+        cursor: default;
+    }
+
+    .argmc-wrapper .argmc-tab-item.completed:hover {
+        cursor: pointer;
+    }
+
+    .argmc-wrapper .argmc-tab-item .argmc-tab-number {
+        display: inline-block;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 28px;
+		text-align: center;
+		vertical-align: middle;
+		
+		width: 28px;
+		min-width: 28px;
+		min-height: 28px;
+		height: 28px;
+		
+		color: #999;
+		background: transparent;
+		border: 1px solid #ddd;
+		border-radius: 50%;
+		
+		transition: background 0.3s, color 0.3s;
+    }
+	
+	.argmc-wrapper .argmc-tab-item.completed .argmc-tab-number {
+		background: green;
+		color: #fff;
+		border: none;
+	}
+	
+	.argmc-wrapper .argmc-tab-item.visited .argmc-tab-number,
+	.argmc-wrapper .argmc-tab-item .argmc-tab-number {
+		transition: none;
+	}
+	
+	.argmc-wrapper.orientation-vertical .argmc-tab-item.last .argmc-tab-number,
+	.argmc-wrapper.orientation-vertical .argmc-tab-item.current.last + .argmc-tab-item:hover .argmc-tab-number {
+		border: none;
+	}
+	
+	.argmc-wrapper .argmc-tab-item.completed .tab-completed-icon {
+		font-size: 12px;
+		margin: 0;
+	}
+	
+	.argmc-wrapper .number-text span {
+		display: none;
+	}
+	
+	.argmc-wrapper .argmc-tab-text {
+		font-size: 15px;
+	}
+	
+	
+	/*Tabs Vertical - Orientation Vertical > 767px*/	
+	
+	.argmc-wrapper.orientation-vertical .argmc-tab-item,
+	.argmc-wrapper.orientation-vertical .argmc-tab-item-outer {
+		height: 60px;
+	}
+	
+	.argmc-wrapper.orientation-vertical .argmc-tabs-list,
+	.argmc-wrapper.orientation-vertical .argmc-form-steps {
+		margin-bottom: 80px;
+	}
+	
+	.orientation-vertical .argmc-tabs-list {
+		width: 220px;
+		float: left;
+		margin-top: 0;
+		margin-right: 0;
+	}
+	
+	.orientation-vertical .argmc-form-steps-wrapper {
+		width: calc(100% - 220px);
+		padding-left: 40px;
+		float: left;
+	}
+	
+	.argmc-wrapper.orientation-vertical .argmc-form-steps {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.argmc-wrapper.orientation-vertical .argmc-tab-number-wrapper {
+		padding-right: 8px;
+	}
+	
+	
+	
+	/*Show Arrow Instead of Border on Current Item*/
+	
+	.show-current-arrow .argmc-tab-item.current.visited::after {
+		display: none;
+	}
+	
+	.show-current-arrow.orientation-vertical .argmc-tabs-list {
+		border: none;
+	}
+	
+	.show-current-arrow.argmc-wrapper .argmc-tab-item.current .argmc-tab-item-outer::before,
+	.show-current-arrow.argmc-wrapper .argmc-tab-item:hover .argmc-tab-item-outer::before {
+		display: block;
+		margin-right: -21px;
+		border-width: 36px 0 36px 25px;
+	}
+	
+	.show-current-arrow.argmc-wrapper .tabs-width-auto .argmc-tab-item-inner,
+	.show-current-arrow.argmc-wrapper .tabs-equal-width .argmc-tab-item-inner {
+		padding: 0 32px !important;
+	}
+}
+
+
+@media screen and (min-width: 992px) {
+	
+	/*Tabs Vertical - Orientation Vertical > 992px*/
+	
+	.orientation-vertical .argmc-tabs-list {
+		width: 260px;
+	}
+	
+	.orientation-vertical .argmc-form-steps-wrapper {
+		width: calc(100% - 260px);
+		padding-left: 70px;
+	}
+	
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    /*Tabs general > 1200px*/
+    
+	.argmc-wrapper .argmc-tab-item,
+	.argmc-wrapper .argmc-tab-item-outer {
+		height: 68px;
+	}
+	
+    .argmc-wrapper .argmc-tab-item-outer {
+        text-align: left;
+    }
+
+    .argmc-wrapper .argmc-tab-item-outer:before {    
+         border-width: 37px 0 37px 26px;
+         margin-right: -26px;
+         position: absolute;
+         top: -7px;
+    }
+
+    .argmc-wrapper .argmc-tab-item-outer:after {
+        border-width: 30px 0 30px 21px;
+    }
+	
+    .argmc-wrapper.orientation-vertical .argmc-tab-number-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+		padding-right: 8px;
+    }
+
+    .argmc-wrapper .argmc-tab-text {
+        display: table-cell;
+        line-height: 1;
+        vertical-align: middle;
+        padding-top: 0;
+    }
+	
+	.argmc-wrapper .tabs-width-auto .argmc-tab-item-inner,
+	.argmc-wrapper .tabs-equal-width .argmc-tab-item-inner {
+		padding: 0 39px;
+		width: -webkit-calc(100% + 44px);
+		width: calc(100% + 44px);
+	}
+}
+
+
+
+/*New horizontal style*/
+
+.argmc-wrapper.orientation-horizontal .argmc-tabs-list {
+	margin: 10px 0 41px;
+}
+
+.argmc-wrapper.orientation-horizontal::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom-width:  2px;
+	border-bottom-style: solid;
+    position: absolute;
+    top: 15px;
+	z-index: -1;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tabs-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tabs-list::after {
+    display: none;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tabs-list .argmc-tab-item {
+    width: auto !important;
+	height: auto;
+	float: none;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.current.visited::after {
+	display: none;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tabs-list .argmc-tab-item:first-child .argmc-tab-item-inner {
+	padding-left: 0 !important;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tabs-list .argmc-tab-item:last-child .argmc-tab-item-inner {
+	padding-right: 0 !important;
+}
+
+.argmc-wrapper.orientation-horizontal .tabs-width-auto .argmc-tab-item-inner,
+.argmc-wrapper.orientation-horizontal .tabs-equal-width .argmc-tab-item-inner {
+	position: relative;
+}
+
+ .argmc-wrapper.orientation-horizontal .argmc-tab-item .argmc-tab-number {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 28px;
+	text-align: center;
+	vertical-align: middle;
+	
+	width: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	height: 30px;
+	
+	background: #fff;
+	border-width:  2px;
+	border-style: solid;
+	border-radius: 50%;
+	
+	transition: background 0.3s, color 0.3s;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.visited .argmc-tab-number,
+.argmc-wrapper.orientation-horizontal .argmc-tab-item .argmc-tab-number {
+	transition: none;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.completed .argmc-tab-number {
+	border: none;
+	line-height: 30px;
+}
+
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.current .argmc-tab-number,
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.completed:hover .argmc-tab-number,
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.visited:hover .argmc-tab-number,
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.current.last + .argmc-tab-item:hover .argmc-tab-number {
+	line-height: 30px;
+	border: none;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.completed .tab-completed-icon {
+	font-size: 12px;
+	margin: 0;
+}
+
+.argmc-wrapper.orientation-horizontal .number-text span {
+	display: none;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item.current.visited::after {
+    width: calc(100% - 3px);
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-item-outer {
+	text-align: left;
+	height: auto;
+	padding: 0;
+}
+
+.argmc-wrapper.orientation-horizontal .tabs-width-auto .argmc-tab-item-inner,
+.argmc-wrapper.orientation-horizontal .tabs-equal-width .argmc-tab-item-inner {
+	position: relative;
+	padding: 0 15px !important;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-number-wrapper,
+.argmc-wrapper.orientation-horizontal .argmc-tab-text {
+    display: block;
+	text-align: center;
+}
+
+.argmc-wrapper.orientation-horizontal .argmc-tab-text {
+	font-size: 14px;
+	padding-top: 7px;	
+}
+
+
+@media screen and (min-width: 992px) {
+	
+	.argmc-wrapper.orientation-horizontal .argmc-tabs-list {
+		margin: 10px 0 55px;
+	}
+	
+	.argmc-wrapper.orientation-horizontal.inline .argmc-tabs-list {
+		margin: 10px 0 43px;
+	}
+	
+	.argmc-wrapper.orientation-horizontal.inline .argmc-tabs-list .argmc-tab-item .argmc-tab-item-outer {
+		border-bottom: none;
+		background: #fff;
+	}
+	
+	.argmc-wrapper.orientation-horizontal.inline .tabs-width-auto .argmc-tab-item-inner,
+	.argmc-wrapper.orientation-horizontal.inline .tabs-equal-width .argmc-tab-item-inner {
+		padding: 0 20px !important;
+	}
+	
+	.argmc-wrapper.orientation-horizontal.inline .argmc-tab-text {
+		display: table-cell;
+		padding-top: 0;
+	}
+	
+	.argmc-wrapper.orientation-horizontal.inline .argmc-tab-number-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+		padding-right: 8px;
+    }
+}

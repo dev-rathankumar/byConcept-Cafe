@@ -1,0 +1,98 @@
+/* 
+  esignature reminders css 
+*/
+
+.esig_reminder_invite_box 
+{
+    position:relative;
+    display:inline-block;
+    margin-left: 35px;
+    width: 560px;
+    border-bottom:1px solid #D8D8D8;
+}
+
+.invite_signers
+{
+    font-weight:bold ;
+    font-size:16px;  
+} 
+#esig_reminder_invite_row
+{
+    position:relative;
+    display:inline-block;
+    margin-left:20px;
+	padding: 5px 0;
+    width:575px;
+    height:auto ;
+   
+}
+.invite_box_left
+{
+    float:left;
+    display:block;
+    position:relative;
+    padding: 5px 15px;
+    width:70%;
+    
+}
+.invite_box_right
+{
+    float:right;
+    display:block;
+    position:relative;
+	margin-top: 5px;
+	width:18%;
+}
+
+#esig_update_reminders, #esig_pause_reminders, #esig_start_reminders
+{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#esig_pause_reminders
+{
+	margin-left:20px;
+}
+
+#esig_signer_reminder_settings
+{   
+    clear :both ; 
+    position:relative;
+    display:inline-block;
+    margin-top:5px; 
+    border-radius: 3px;
+    width:570px;
+    height:auto ;
+    border:1px solid #BDBDBD;
+}
+
+.settings_box_left
+{
+    float:left;
+    display:block;
+    position:relative;
+    font-size:16px;
+	padding: 8px 14px;
+}
+.settings_box_right
+{
+    float:right;
+    display:block;
+    position:relative;
+	padding: 0 10px;
+	margin-top: 7px;    
+}
+.setting_box_all
+{   
+    border-top:1px solid #BDBDBD;
+    clear:both;
+    text-align:right;
+	padding: 0 10px;
+}
+
+#esig_reminders_input input
+{
+	width: 58px;
+}

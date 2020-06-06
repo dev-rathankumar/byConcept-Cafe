@@ -1,0 +1,19 @@
+
+#sendEmailValueSpan select {
+	width: auto;
+}
+
+#sendEmailLocked {
+	margin-top: 15px;
+	padding: 15px;
+	display: inline-block;
+}
+
+#userActivationValueSpan select {
+	width: auto;
+}
+
+#gaddon-setting-checkbox-choice-sendemailenable,
+#gaddon-setting-checkbox-choice-useractivationenable {
+	margin-right: 0;
+}

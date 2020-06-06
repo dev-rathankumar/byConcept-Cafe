@@ -1,0 +1,174 @@
+body.wpb-js-composer .vc_tta-container {
+	.pizzaro-vc-tabs.vc_tta-tabs {
+		.vc_tta-tabs-container {
+			margin: 0px !important;
+
+			ul{
+				border-bottom: 1px solid #e9e9e9;
+			    margin: 0 0 5em;
+			    text-align: center;
+		        padding-top: 3em;
+
+		        li a {
+		        	border: 0px;
+    				background-color: transparent;
+    				font-size: 1.625em;
+    				color: #9b959b;
+
+    				&:hover {
+    					background-color: transparent;
+    				}
+		        }
+
+		        li.vc_active a {
+		        	border: 0px;
+    				background-color: transparent;
+    				font-weight: 700;
+    				color: #2d2b2d;
+  				    padding: 0.385em 1em .692em;
+
+    				&:after {
+					    content: "";
+					    width: 80px;
+					    height: 3px !important;;
+					    left: 50% !important;;
+					    top: initial !important;
+					    position: absolute;
+					    transform: translate(-50%,-50%);
+					    bottom: -2px;
+				        background-color: #c00a27;
+    				}
+		        }
+			}
+		}
+
+		.vc_tta-panels-container {
+			.vc_tta-panels {
+				border: 0px;
+    			background-color: transparent;
+			}
+		}
+		.vc_tta-panel-body {
+			padding: 0px 10px;
+		    overflow: inherit;
+		}
+	}
+	
+	.pizzaro-vc-full-width-tabs {
+		width: 100vw;
+	    position: relative;
+	    margin-left: -50vw;
+	    left: 50%;
+
+		.vc_tta-tabs-container {
+		    overflow: initial !important;
+		    margin: 0px !important;
+
+			ul {
+			    background-color: #c00a27;
+			    text-align: center;
+			    padding: 1.188em 0px;
+			    overflow: initial;
+
+			    li {
+			    	position: relative;
+
+			    	a {
+				    	background-color: transparent;
+	    				border: 0px;
+	   				    color: #e0929d;
+				        padding: 10px 52px .692em;
+				        font-size: 15px;
+
+				        &:hover {
+				        	background-color: transparent;
+			        	}
+
+			        	i{
+				    	    font-size: 2.134em;
+			    	        padding: 0.469em 0px;
+			    	        display: block;
+					    }
+
+					    span {
+				    	    margin-left: 0 !important;
+					    }
+			        }			        
+			    }
+
+			    li.vc_active a{
+		        	color: #fff;
+				    text-shadow: 0 0 0.65px #fff, 0 0 0.65px #fff;
+				    font-weight: 400;
+				    background-color: transparent;
+
+				    &:after {
+			    	    content: "";
+			    	    position: absolute;
+				    	background-color: #c00a27;
+				    	width: 27px;
+					    height: 27px !important;
+					    left: 50% !important;
+				        top: initial !important;
+					    transform: rotate(45deg) translate(-50%,0);
+					    bottom: -49%;
+					    border-radius: 6px;
+				    }
+		        }
+
+		        li+li:before {
+		        	content: " ";
+				    width: 2px;
+				    height: 40px;
+				    background-color: #df8392;
+				    opacity: .3;
+				    position: absolute;
+				    top: 50%;
+				    left: 0;
+				    transform: translateY(-50%);
+		        }
+			}
+		}
+		
+		.vc_tta-panels-container .vc_tta-panels {
+			border: 0px !important;
+		}
+	}
+}
+
+@media (max-width:767px) {
+	body.wpb-js-composer .vc_tta-container {
+		.pizzaro-vc-tabs,
+		.pizzaro-vc-full-width-tabs {
+			&.vc_tta-tabs {
+				.vc_tta-tabs-container {
+					display: block;
+				}
+
+				.vc_tta-panels-container .vc_tta-panels {
+					.vc_tta-panel-heading {
+						display: none;					
+					}
+
+					.vc_tta-panel-body {
+						border: 0px;
+	    				background-color: transparent;
+	    				padding: 0px;	    			
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+	body.wpb-js-composer .vc_tta-container {
+		.pizzaro-vc-full-width-tabs {
+			.vc_tta-tabs-container ul {
+				li+li:before {
+				    opacity: 0;
+				}
+			}
+		}
+	}
+}

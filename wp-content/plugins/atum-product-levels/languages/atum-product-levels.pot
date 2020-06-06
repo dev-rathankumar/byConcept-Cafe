@@ -1,0 +1,1275 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ATUM Product Levels\n"
+"POT-Creation-Date: 2020-05-07 10:45+0200\n"
+"PO-Revision-Date: 2017-01-30 19:32+0100\n"
+"Last-Translator: Salva Machí <salvamb@sispixels.com>\n"
+"Language-Team: Be Rebel <web@stockmanagementlabs.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: atum-product-levels.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Description of the plugin/theme
+#: atum-product-levels.php:120
+msgid "Lets you control company's Raw Materials and Product Parts"
+msgstr ""
+
+#: atum-product-levels.php:323
+#, php-format
+msgid "The Product Levels add-on requires at least the %s version of ATUM. Please update it."
+msgstr ""
+
+#: atum-product-levels.php:331
+msgid "The Product Levels add-on requires the WordPress %1$s version or greater. Please <a href='%2\\s'>update it</a>."
+msgstr ""
+
+#: atum-product-levels.php:338
+msgid "The Product Levels requires WooCommerce to be activated."
+msgstr ""
+
+#: atum-product-levels.php:346
+#, php-format
+msgid "The Product Levels add-on requires the WooCommerce %1$s version or greater. Please <a href='%2$s'>update it</a>."
+msgstr ""
+
+#: atum-product-levels.php:392
+#, php-format
+msgid "ATUM Product Levels requires PHP version %s or greater. Please, update or contact your hosting provider."
+msgstr ""
+
+#: atum-product-levels.php:400
+#, php-format
+msgid "The Product Levels add-on requires the ATUM Inventory Management for WooCommerce plugin. Please <a href='%s'>install it</a>."
+msgstr ""
+
+#: atum-product-levels.php:408
+#, php-format
+msgid "The Product Levels add-on requires the ATUM Inventory Management for WooCommerce plugin. Please enable it from <a href='%s'>plugins page</a>."
+msgstr ""
+
+#: classes/Api/Extenders/BOMOrders.php:80
+msgid "An array containing all the BOM order items linked to this order item"
+msgstr ""
+
+#: classes/Api/Extenders/BOMOrders.php:88
+msgid "The BOM order item ID."
+msgstr ""
+
+#: classes/Api/Extenders/BOMOrders.php:94
+msgid "The BOM product ID associated to the BOM order item."
+msgstr ""
+
+#: classes/Api/Extenders/BOMOrders.php:100
+msgid "The BOM product type."
+msgstr ""
+
+#: classes/Api/Extenders/BOMOrders.php:106
+msgid "The quantity of the specified BOM that is used on the order item."
+msgstr ""
+
+#: classes/Api/Extenders/BOMOrders.php:285 classes/Api/Extenders/BOMOrders.php:292 classes/Api/Extenders/ProductData.php:427 classes/Api/Extenders/ProductData.php:434 classes/Api/Extenders/Tools.php:96 classes/Api/Extenders/Tools.php:103 classes/Api/ProductLevelsApi.php:63
+#: classes/Api/ProductLevelsApi.php:70 classes/Inc/Ajax.php:646 classes/Inc/Ajax.php:654 classes/Inc/Hooks.php:2337 classes/Inc/Hooks.php:2344 classes/Inc/ListTables.php:616 classes/Inc/ListTables.php:623 classes/Inc/Settings.php:171 classes/Inc/Settings.php:178
+#: classes/Integrations/MultiInventory.php:1925 classes/Integrations/MultiInventory.php:1932 classes/ManufacturingCentral/ManufacturingCentral.php:301 classes/ManufacturingCentral/ManufacturingCentral.php:309 classes/MetaBoxes/ProductDataMetaBoxes.php:775
+#: classes/MetaBoxes/ProductDataMetaBoxes.php:782 classes/ProductLevels.php:268 classes/ProductLevels.php:275
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:109
+msgid "The BOM linked to this product with their quantities."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:115
+msgid "The linked BOM product ID."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:121
+msgid "The linked BOM product type."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:127
+msgid "The linked BOM quantity."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:132
+msgid "Whether to delete the linked BOM from the product."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:141
+msgid "If the product is a BOM, indicates whether the product is sellable. It returns NULL for the products getting the global option value."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:146
+msgid "If the product is a BOM, indicates the product's minimum threshold."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:151
+msgid "If the product is a BOM, indicates the product's available to purchase amount."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:156
+msgid "If the product is a BOM, indicates the product's selling priority."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:161
+msgid "If the BOM stock control is enabled and the product has linked BOM, it indicates the calculated stock quantity."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:166
+msgid "Whether to sync the product's purchase price with the BOM's purchase price."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:266
+msgid "The BOM ID is missing."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:277
+msgid "The BOM type is missing. Values: product_part, raw_material."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:280
+msgid "The BOM quantity is missing"
+msgstr ""
+
+#: classes/Api/Extenders/Tools.php:55 classes/Inc/Settings.php:147
+msgid "Sync WooCommerce stock with calculated stock"
+msgstr ""
+
+#: classes/Api/Extenders/Tools.php:56 classes/Inc/Settings.php:148
+msgid "Sync all the associated BOM products' stock with their current calculated stock."
+msgstr ""
+
+#: classes/Api/Extenders/Tools.php:77 classes/Inc/Ajax.php:592
+msgid "Stock updated successfully."
+msgstr ""
+
+#: classes/Api/Extenders/Tools.php:80 classes/Inc/Ajax.php:595
+msgid "Something failed when updating the stock."
+msgstr ""
+
+#: classes/Inc/Ajax.php:397
+msgid "No valid product ID provided"
+msgstr ""
+
+#: classes/Inc/Ajax.php:488
+msgid "No parent ID specified"
+msgstr ""
+
+#: classes/Inc/Ajax.php:493
+msgid "No status specified"
+msgstr ""
+
+#: classes/Inc/Ajax.php:500
+msgid "Invalid parent product"
+msgstr ""
+
+#: classes/Inc/Ajax.php:512
+msgid "All the variations were updated successfully"
+msgstr ""
+
+#: classes/Inc/Ajax.php:529 classes/Inc/Ajax.php:616
+msgid "Invalid data"
+msgstr ""
+
+#: classes/Inc/Ajax.php:535
+msgid "The product does not exist"
+msgstr ""
+
+#: classes/Inc/Ajax.php:549
+msgid "Property successfully updated"
+msgstr ""
+
+#: classes/Inc/Ajax.php:553
+msgid "Property not found for product"
+msgstr ""
+
+#: classes/Inc/Helpers.php:422
+msgid "Show all BOM types"
+msgstr ""
+
+#: classes/Inc/Hooks.php:527
+msgid "You are changing the stock level to a value insufficient to produce all products on sale!"
+msgstr ""
+
+#: classes/Inc/Hooks.php:528
+msgid "The stock of the BOM you're trying to add will cause that current product runs out of stock"
+msgstr ""
+
+#: classes/Inc/Hooks.php:531
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/Inc/Hooks.php:533
+msgid "Proceed"
+msgstr ""
+
+#: classes/Inc/Hooks.php:534
+msgid "Cancel"
+msgstr ""
+
+#: classes/Inc/Hooks.php:535
+msgid "BOM's Hierarchy Tree"
+msgstr ""
+
+#: classes/Inc/Hooks.php:537 views/meta-boxes/order-items/bom-tree.php:33
+msgid "Open all nodes"
+msgstr ""
+
+#: classes/Inc/Hooks.php:538 views/meta-boxes/order-items/bom-tree.php:34
+msgid "Close all nodes"
+msgstr ""
+
+#: classes/Inc/Hooks.php:550
+msgid "Add"
+msgstr ""
+
+#: classes/Inc/Hooks.php:553
+#, php-format
+msgid "Set the %% value"
+msgstr ""
+
+#: classes/Inc/Hooks.php:554
+msgid "Set"
+msgstr ""
+
+#: classes/Inc/Hooks.php:555
+msgid "Please, select at least one BOM to apply the bulk action"
+msgstr ""
+
+#: classes/Inc/Hooks.php:556
+msgid "Please, select a bulk action from the dropdown"
+msgstr ""
+
+#: classes/Inc/Hooks.php:557
+msgid "OK"
+msgstr ""
+
+#: classes/Inc/Hooks.php:558 views/meta-boxes/product-data/bom-panel.php:89
+msgid "No Raw Materials added yet"
+msgstr ""
+
+#: classes/Inc/Hooks.php:559 views/meta-boxes/product-data/bom-panel.php:170
+msgid "No Product Parts added yet"
+msgstr ""
+
+#: classes/Inc/Hooks.php:564
+msgid "The products with calculated stock must be managed"
+msgstr ""
+
+#: classes/Inc/Hooks.php:590
+msgid "If you want to allow backorders on this product, all its linked BOM must allow them first"
+msgstr ""
+
+#: classes/Inc/Hooks.php:624
+msgid "Error!"
+msgstr ""
+
+#: classes/Inc/Hooks.php:625
+msgid "There was an unexpected error saving your selected inventories to the database"
+msgstr ""
+
+#: classes/Inc/Hooks.php:626
+msgid "BOM Multi-Inventory Management"
+msgstr ""
+
+#: classes/Inc/Hooks.php:628
+msgid "You must select at least one inventory and fulfill all the required items."
+msgstr ""
+
+#: classes/Inc/Hooks.php:629
+msgid "This inventory does not have enough stock available."
+msgstr ""
+
+#: classes/Inc/Hooks.php:630 views/meta-boxes/product-data/atum-tab-fields.php:68 views/meta-boxes/product-data/bom-panel.php:73 views/meta-boxes/product-data/bom-panel.php:155
+msgid "Apply"
+msgstr ""
+
+#: classes/Inc/Hooks.php:631
+msgid "Unable to load the BOM MI management popup"
+msgstr ""
+
+#: classes/Inc/Hooks.php:632
+msgid "You've entered a wrong stock amount."
+msgstr ""
+
+#: classes/Inc/Hooks.php:633
+msgid "Edit the order item quantity from the BOM Management popup, clicking over the BOM tree products"
+msgstr ""
+
+#: classes/Inc/Hooks.php:677 classes/ManufacturingCentral/Lists/ListTable.php:196 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:57 classes/ManufacturingCentral/ManufacturingCentral.php:231
+msgid "BOM Type"
+msgstr ""
+
+#: classes/Inc/Hooks.php:715 classes/ManufacturingCentral/ManufacturingCentral.php:269
+msgid "ATUM Manufacturing Central Report"
+msgstr ""
+
+#: classes/Inc/Hooks.php:1856
+#, php-format
+msgid "Sorry, we do not have enough '%s' in stock to fulfill your order. We apologize for any inconvenience caused."
+msgstr ""
+
+#: classes/Inc/Hooks.php:1860
+#, php-format
+msgid "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s available). We apologize for any inconvenience caused."
+msgstr ""
+
+#: classes/Inc/Hooks.php:2002
+#, php-format
+msgid "Item #%1$s stock increased from %2$s to %3$s."
+msgstr ""
+
+#: classes/Inc/Hooks.php:2193 classes/Integrations/MultiInventory.php:1493
+msgid "This item has linked BOM"
+msgstr ""
+
+#: classes/Inc/ListTables.php:111 classes/Inc/ListTables.php:299 classes/ManufacturingCentral/Lists/ListTable.php:201 views/help-tabs/manufacturing-central/bom-details.php:44
+msgid "BOM Hierarchy"
+msgstr ""
+
+#: classes/Inc/ListTables.php:124 classes/Inc/ListTables.php:242
+msgid "Selling Priority"
+msgstr ""
+
+#: classes/Inc/ListTables.php:125 classes/Inc/ListTables.php:272 views/meta-boxes/product-data/bom-associates-panel.php:85
+msgid "Minimum Threshold"
+msgstr ""
+
+#: classes/Inc/ListTables.php:126 classes/Inc/ListTables.php:278 views/meta-boxes/product-data/bom-associates-panel.php:88
+msgid "Available to Purchase"
+msgstr ""
+
+#: classes/Inc/ListTables.php:185 classes/ManufacturingCentral/Lists/ListTable.php:254 views/meta-boxes/product-data/bom-associates-panel.php:190
+msgid "Show Hierarchy Tree"
+msgstr ""
+
+#: classes/Inc/ListTables.php:241
+msgid "Click to edit the selling priority"
+msgstr ""
+
+#: classes/Inc/ListTables.php:261
+msgid "Set to Last Priority"
+msgstr ""
+
+#: classes/Inc/ListTables.php:271
+msgid "Click to edit the minimum threshold"
+msgstr ""
+
+#: classes/Inc/ListTables.php:277
+msgid "Click to edit the available to purchase per user"
+msgstr ""
+
+#: classes/Inc/ListTables.php:301 views/help-tabs/manufacturing-central/bom-details.php:45
+msgid "Shows the product's Bill of Materials tree including the current stock of each BOM in (). Click ones to open the hierarchy in a popup."
+msgstr ""
+
+#: classes/Inc/ListTables.php:403
+msgid "BOM Related"
+msgstr ""
+
+#: classes/Inc/ListTables.php:517 views/meta-boxes/product-data/bom-stock-control-fields.php:34
+msgid "Calculated stock quantity"
+msgstr ""
+
+#: classes/Inc/ListTables.php:550 views/meta-boxes/product-data/bom-associates-panel.php:120
+msgid "In Stock"
+msgstr ""
+
+#: classes/Inc/ListTables.php:555 views/meta-boxes/product-data/bom-associates-panel.php:124
+msgid "Out of Stock"
+msgstr ""
+
+#: classes/Inc/ListTables.php:560
+msgid "Out of Stock (back orders allowed)"
+msgstr ""
+
+#: classes/Inc/Settings.php:53
+msgid "Product Levels"
+msgstr ""
+
+#: classes/Inc/Settings.php:56
+msgid "General Options"
+msgstr ""
+
+#: classes/Inc/Settings.php:57
+msgid "Manufacturing Central Options"
+msgstr ""
+
+#: classes/Inc/Settings.php:81
+msgid "BOM Stock Control"
+msgstr ""
+
+#: classes/Inc/Settings.php:82
+msgid "Set whether the BOM products will control the stock of their parent products. Please note, when this option is activated all products pertaining to a BOM tree must have the manage stock option enabled, so activating this option will replace this value for all products in a BOM tree."
+msgstr ""
+
+#: classes/Inc/Settings.php:110
+msgid "Add Selling of BOM"
+msgstr ""
+
+#: classes/Inc/Settings.php:111
+msgid "Add BOM to your shop for customers to purchase. This setting can be overwritten at product level."
+msgstr ""
+
+#: classes/Inc/Settings.php:118
+msgid "BOM item cost calculation"
+msgstr ""
+
+#: classes/Inc/Settings.php:119
+msgid "Show real BOM cost in BOM line items (unitary BOM cost * item quantity)."
+msgstr ""
+
+#: classes/Inc/Settings.php:126
+msgid "BOMs per Page"
+msgstr ""
+
+#: classes/Inc/Settings.php:127
+msgid ""
+"Controls the number of BOM products displayed per page within the Manufacturing Central screen. Please note, you can set this value within the 'Screen Option' tab as well. Enter '-1' to remove the pagination and display all available BOM on one page (not recommended if your store contains a large "
+"number of BOM as it may affect the performance)."
+msgstr ""
+
+#: classes/Inc/Settings.php:134
+msgid "Days to Re-Order"
+msgstr ""
+
+#: classes/Inc/Settings.php:135
+msgid "This value sets the number of days a user needs to replenish the stock levels. It controls the 'Low Stock' indicator within the 'Manufacturing Central' page."
+msgstr ""
+
+#: classes/Inc/Settings.php:151
+msgid "Sync Now!"
+msgstr ""
+
+#: classes/Inc/Settings.php:153
+msgid "This will update the Stock for all products with a BOM associated with the calculated stock value"
+msgstr ""
+
+#: classes/Integrations/MultiInventory.php:1492
+msgid "This item has linked BOM. To be able to edit the BOM tree used when processing this order, please click on the 'Edit item' button"
+msgstr ""
+
+#: classes/Integrations/Wpml.php:182
+msgid "BOMs can not be edited within translations"
+msgstr ""
+
+#: classes/Integrations/Wpml.php:185
+msgid "You must edit original product instead."
+msgstr ""
+
+#: classes/Levels/Products/BOMProductTrait.php:129
+msgid "Add to cart"
+msgstr ""
+
+#: classes/Levels/Products/BOMProductTrait.php:129
+msgid "Read more"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:132
+msgid "Product Details"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:148 classes/ManufacturingCentral/ManufacturingCentral.php:151
+msgid "Stock Counters"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:152
+msgid "Stock Selling Manager"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:166
+msgid "A user has assigned this BOM to a product type with unmanaged (unlimited) stock. Identify the product type by accessing the BOM Hierarchy tree on this screen or in Stock Central."
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:167
+msgid "This bill of materials product type has unmanaged (unlimited) stock at the product level."
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:193 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:54
+msgid "Image"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:194 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:55 views/help-tabs/manufacturing-central/bom-details.php:40
+msgid "ID"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:195 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:56 views/manufacturing-central.php:53 views/meta-boxes/product-data/bom-associates-panel.php:70
+msgid "Product Name"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:197 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:58 views/help-tabs/manufacturing-central/bom-details.php:32
+msgid "SKU"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:198 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:59 views/help-tabs/manufacturing-central/bom-details.php:28
+msgid "Supplier"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:199 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:60 views/help-tabs/manufacturing-central/bom-details.php:36
+msgid "Supplier SKU"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:200 views/help-tabs/manufacturing-central/bom-details.php:52 views/meta-boxes/order-items/bom-mi-management-item.php:60
+msgid "Location"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:202 classes/ManufacturingCentral/Lists/UncontrolledListTable.php:61 views/help-tabs/manufacturing-central/bom-details.php:56
+msgid "Purchase Price"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:203 views/help-tabs/manufacturing-central/bom-details.php:60
+msgid "Weight"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:204 views/help-tabs/manufacturing-central/stock-counters.php:20 views/meta-boxes/product-data/bom-list-item.php:156 views/meta-boxes/product-data/bom-stock-fields.php:24
+msgid "Committed"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:205 views/help-tabs/manufacturing-central/stock-counters.php:28 views/meta-boxes/product-data/bom-list-item.php:157 views/meta-boxes/product-data/bom-stock-fields.php:46
+msgid "Shortage"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:206 views/help-tabs/manufacturing-central/stock-counters.php:36 views/meta-boxes/product-data/bom-list-item.php:158
+msgid "Free to Use"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:207 views/help-tabs/manufacturing-central/stock-counters.php:44
+msgid "Total in Warehouse"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:208
+msgid "Out of Stock Threshold"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:209
+msgid "Back Orders"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:210 views/help-tabs/manufacturing-central/stock-counters.php:52 views/meta-boxes/product-data/bom-list-item.php:182
+msgid "Inbound Stock"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:212
+#, php-format
+msgid "Sales last %s day"
+msgid_plural "Sales last %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:212
+msgid "Click to change days"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:213 views/help-tabs/manufacturing-central/stock-manager.php:20 views/meta-boxes/product-data/bom-associates-panel.php:91
+msgid "Stock Indicator"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:637
+msgid "No Materials found"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTable.php:641
+#, php-format
+msgid " with query '%s'"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTrait.php:439
+msgid "Product Part Variation"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/ListTrait.php:439
+msgid "Raw Material Variation"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/UncontrolledListTable.php:54
+msgid "Thumb"
+msgstr ""
+
+#: classes/ManufacturingCentral/Lists/UncontrolledListTable.php:57 views/help-tabs/manufacturing-central/bom-details.php:48 views/meta-boxes/product-data/bom-associates-panel.php:73
+msgid "Product Type"
+msgstr ""
+
+#: classes/ManufacturingCentral/ManufacturingCentral.php:89 views/manufacturing-central.php:18
+msgid "Manufacturing Central"
+msgstr ""
+
+#: classes/ManufacturingCentral/ManufacturingCentral.php:133
+msgid "Products per page"
+msgstr ""
+
+#: classes/ManufacturingCentral/ManufacturingCentral.php:143
+msgid "General"
+msgstr ""
+
+#: classes/ManufacturingCentral/ManufacturingCentral.php:147
+msgid "BOM Details"
+msgstr ""
+
+#: classes/ManufacturingCentral/ManufacturingCentral.php:155
+msgid "Stock Manager"
+msgstr ""
+
+#: classes/MetaBoxes/ProductDataMetaBoxes.php:124 views/meta-boxes/product-data/bom-panel.php:27
+msgid "Bill of Materials"
+msgstr ""
+
+#: classes/MetaBoxes/ProductDataMetaBoxes.php:138
+msgid "BOM Associates"
+msgstr ""
+
+#: classes/MetaBoxes/ProductDataMetaBoxes.php:544
+msgid "Save the product to calculate this value"
+msgstr ""
+
+#: classes/ProductLevels.php:230 classes/Reports/BOMHtmlReport.php:360
+msgid "Product Part"
+msgstr ""
+
+#: classes/ProductLevels.php:231
+msgid "Variable Product Part"
+msgstr ""
+
+#: classes/ProductLevels.php:232
+msgid "Raw Material"
+msgstr ""
+
+#: classes/ProductLevels.php:233
+msgid "Variable Raw Material"
+msgstr ""
+
+#: classes/Reports/BOMHtmlReport.php:364
+msgid "RAW Material"
+msgstr ""
+
+#: views/add-to-cart/variable.php:27
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: views/add-to-cart/variable.php:41
+msgid "Clear"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:14 views/help-tabs/manufacturing-central/stock-counters.php:14 views/help-tabs/manufacturing-central/stock-manager.php:14
+msgid "COLUMN"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:15 views/help-tabs/manufacturing-central/stock-counters.php:15 views/help-tabs/manufacturing-central/stock-manager.php:15
+msgid "DEFINITION"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:20 views/meta-boxes/product-data/bom-associates-panel.php:67 views/meta-boxes/product-data/bom-list-header.php:20
+msgid "Thumbnail"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:21
+msgid "BOM small image preview."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:24
+msgid "BOM Name"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:25
+msgid "The first twenty characters of the BOM name. Hover your mouse over the name to see the full content."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:29
+msgid "This is the name of the suppliers that supplies the products for your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:33
+msgid ""
+"An SKU, or Stock Keeping Unit, is a code assigned to a product by the store admin to identify the price, product options and manufacturer of the merchandise. An SKU is used to track inventory in your retail store. They are critical in helping you maintain a profitable retail business. We "
+"recommend the introduction of SKUs in your store to take the full advantage of ATUM's features.<br>You can set the SKU in this column. After you click the 'Set' button and 'Save Data', the SKU will update automatically in your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:37
+msgid "The stock keeping unit code of the product within your supplier's product list.<br>You can set the Supplier SKU in this column. After you click the 'Set' button and 'Save Data', the Supplier SKU will update automatically in your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:41
+msgid "A WooCommerce Product (BOM) ID is sometimes needed when using shortcodes, widgets and links. ATUM's Manufacturing Central page will display the appropriate ID of the BOM in this column."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:49
+msgid "This column shows the classification of individual BOM in WooCommerce. We specify Individual BOM by icons with a tooltip on hover."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:53
+msgid "Shows the product's Location hierarchy. Grey icon means that there are not locations set for the product. Blue icon means that there are locations set for the product. Click the icon to view and manage the locations hierarchy in a popup."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:57
+msgid "You can configure the purchase price of the product. After you click the 'Set' button and 'Save Data', the product price will update automatically in your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/bom-details.php:61
+msgid "You can configure the product weight in this column. After you click the 'Set' button and 'Save Data', the product weight will update automatically in your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/general.php:10
+msgid "Welcome to the ATUM's Manufacturing Central!"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/general.php:11
+msgid "Our team has prepared this screen for every entrepreneur that needs to take control of more than just the final product. Within the screen bellow, you can see the current version of Manufacturing Central and the list of all shop's BOM (Bill Of Materials)."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/general.php:12
+msgid "If you come across anything, you'd like to explain, have a question or suggestion, do not hesitate to use the 'Visit WP Support Forum' link on this page."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/help-sidebar.php:13
+msgid "Visit our Website for More"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/help-sidebar.php:14
+msgid "Read the Docs"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/help-sidebar.php:15
+msgid "Watch our Videos"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/help-sidebar.php:16
+msgid "Get Support"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/help-sidebar.php:19
+msgid "Open Support Ticket"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:23
+msgid "Represents the amount of committed BOM (Raw Materials or Product Parts) within your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:31 views/meta-boxes/product-data/bom-stock-fields.php:53 views/meta-boxes/product-data/bom-stock-fields.php:58
+msgid "The amount you are short of to cover your committed stock."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:39
+msgid "Represents the amount of stock that you have not yet committed to any products."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:45
+msgid "Represents the amount of BOM (Raw Materials or Products Parts) you have in on hand. Free to Use = (Total in Warehouse - In Production)<br>You can set the quantity in this column. After you click the 'Set' button and 'Save Data', the total in warehouse will update automatically in your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:48
+msgid "Out of stock threshold"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:49
+msgid "When stock quantity reaches the Out of Stock Threshold the stock status will change to 'Out of Stock'. You can set the Out of Stock Threshold in this column. After you click the 'Set' button and 'Save Data', the Out of Stock Threshold will update automatically in your store."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:53
+msgid "Inbound stock counter represents the volume of products that have been ordered in, using the Purchase Order feature and are pending delivery."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:58 views/help-tabs/manufacturing-central/stock-manager.php:34
+msgid "Example:"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:63
+msgid "Carton Box = Product Part not for Sale (this is your BOM).<br>Cutlery Set = Product for Sale (this is the product customer sees and can buy)."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:69
+msgid "Your business so 'TOTAL IN WAREHOUSE' has 100 carton boxes that you use as an outer material to pack your Cutlery Sets. You have 30 Cutlery Sets in stock and ready to sell. You commit 1 (one) carton box as a Product Part within the 'Product data' section and 'Bill of Materials' tab."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:75
+msgid "Your 'FREE TO USE' amount of carton boxes is 70 (seventy) now, because your 'IN PRODUCTION' amount, 30 (thirty) are already committed to your cutlery sets that you are selling."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:81
+msgid "Sales last X Days"
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-counters.php:82
+msgid "Users will value this performance indicator as a tool that allows them to see the actual sales of the product within the last x days (We do not include the current day sales). You can change the number of the days by simply clicking its blue number."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:22
+msgid "Product In Stock and Managed by WC."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:23
+msgid "Product Out of Stock and Managed by WC."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:24
+msgid "Product is Low Stock and Managed by WC."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:25
+msgid "Product is Out of Stock, but Managed by WC and Set to Back Orders."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:26
+msgid "Product In Stock and Not Managed by WC."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:27
+msgid "Product Out of Stock and Not Managed by WC."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:28
+msgid "Product set to Back Orders Only and Not Managed by WC."
+msgstr ""
+
+#: views/help-tabs/manufacturing-central/stock-manager.php:39
+msgid ""
+"BOM = Carton Boxes, Product 1 = Light Bulbs.<br>Stock of Light Bulbs = 15, Carton Boxes needed per Light Bulb = 2<br>Available Stock of Carton Boxes = 100<br><br>Our formula calculates the average use of Carton Boxes for the past 7 days. The value is then timed by the number of days shop needs to "
+"get the new stock in from the supplier.(X) The final step is to deduct the result from the total stock value(Y).<br><br>In Stock (Y-X) > 0.<br>Low Stock (Y-X) = 0 or is lower than 0.<br>Out of Stock Y = 0."
+msgstr ""
+
+#: views/manufacturing-central.php:21
+msgid "(Uncontrolled)"
+msgstr ""
+
+#: views/manufacturing-central.php:25
+msgid "Show Controlled"
+msgstr ""
+
+#: views/manufacturing-central.php:25
+msgid "Show Uncontrolled"
+msgstr ""
+
+#: views/manufacturing-central.php:47
+msgid "Search in Column"
+msgstr ""
+
+#: views/manufacturing-central.php:49 views/manufacturing-central.php:54
+msgid "Search In"
+msgstr ""
+
+#: views/manufacturing-central.php:58
+msgid "Search..."
+msgstr ""
+
+#: views/manufacturing-central.php:61
+msgid "Search"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:50
+msgid "Stock Name"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:55
+msgid "Region"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:64
+msgid "Stock Available"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:67
+msgid "Stock Used"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:95
+#, php-format
+msgid "This inventory expired on %s"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:138
+msgid "Total added:"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-item.php:142
+msgid "Total required:"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-popup.php:19
+msgid "NOTE: Select the inventories and units you want to add to the order."
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-popup.php:20
+msgid "If you don't select any inventory, they will be used automatically according to your configuration."
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-popup.php:24
+msgid "Order item quantity:"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-mi-management-popup.php:37
+#, php-format
+msgid "Need help? <a href=\"%s\" target=\"_blank\">Read the documentation here.</a>"
+msgstr ""
+
+#: views/meta-boxes/order-items/bom-tree.php:28
+msgid "Product BOMs' tree"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-bom-tree.php:25
+msgid "Inventory BOMs' tree"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:19
+msgid "Product Levels Settings"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:32
+msgid "Make sellable?"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:37
+msgid "Global"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:41
+msgid "Yes"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:45
+msgid "No"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:49
+msgid "Add this product to your shop for customers to purchase. This will override the global setting."
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:58
+msgid "Sellable Variations?"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:61
+msgid "Global Setting"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:62
+msgid "Sellable"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:63
+msgid "Not Sellable"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:67
+#, php-format
+msgid "This will change the Make Sellable option for all the variations within this product to %s"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:71
+msgid "Changes the sellable option for all the variations to the chosen status at once."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:19
+msgid "This BOM product is non sellable"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: views/meta-boxes/product-data/bom-associates-panel.php:30 views/meta-boxes/product-data/bom-panel.php:26
+msgid "ATUM Product Levels"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:34
+msgid "Associated Products/BOMs"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:37
+#, php-format
+msgid "Associated Product/BOM (%d)"
+msgid_plural "Associated Products/BOMs (%d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:46
+msgid "Products"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:47
+msgid "BOMs"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:49
+msgid "Filter"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:53
+msgid "These products are ordered by their selling priorities. You can adjust priorities in Stock Central / Manufacturing Central."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:62
+msgid "Global Selling Priority"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:63
+msgid "Pty."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:76
+msgid "BOM Tree"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:79
+msgid "Used of this BOM"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:82
+msgid "Current Stock"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:102
+msgid "This BOM was not associated to any product yet"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:129
+msgid "On Backorder"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:135
+msgid "not managed by WC"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:183
+msgid "Variation product"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:205
+msgid "Click to edit the 'Minimum Threshold' amount"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-associates-panel.php:215
+msgid "Click to edit the 'Available to Purchase' quantity"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-header.php:23
+msgid "Name"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-header.php:26
+msgid "Quantity"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-header.php:29
+msgid "Real Cost"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-header.php:29 views/meta-boxes/product-data/bom-list-item.php:39
+msgid "Unitary Cost"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-header.php:32
+msgid "Status"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-item.php:39
+#, php-format
+msgid "Real Cost<br>Unitary Cost: %d"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-item.php:144
+msgid "Show/Hide data"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-item.php:159 views/meta-boxes/product-data/bom-list-item.php:184
+msgid "Total in Warehose"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-item.php:183
+msgid "Backorders"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-list-item.php:220
+msgid "BOM product not found"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:35
+msgid "Use this only if you need nested BOM"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:59
+msgid "Raw Materials"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:63
+msgid "Total Raw Material Cost"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:70 views/meta-boxes/product-data/bom-panel.php:152
+msgid "Bulk Actions"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:71
+msgid "Remove Raw Materials"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:100
+msgid "Link Raw Materials to your product"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:104
+msgid "Search for Raw Materials&hellip;"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:141
+msgid "Product Parts"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:145
+msgid "Total Product Part Cost"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:153
+msgid "Remove Product Parts"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:180
+msgid "Link Product Parts to your product"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:184
+msgid "Search for Product Parts&hellip;"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:205
+msgid "Update this product to accept the Purchase Price changes"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:213
+msgid "Sync Purchase Price"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:214
+msgid "Sync the Purchase Price with the Total BOM Cost."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-panel.php:220
+msgid "Total BOM Cost"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:42
+msgid "The calculated stock you have available depending on the BOM linked to this product."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:47
+msgid "Selling priority"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:54
+msgid "The global selling priority for this product. You can edit this value from Stock Central or Manufacturing Central."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:59
+msgid "Minimum threhsold"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:68
+msgid "The minimum threshold this product must have. The priorities for stock rebalancing can be adjusted in Stock Central."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:73
+msgid "Available to purchase"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-control-fields.php:82
+msgid "The amount of this product that can purchase every individual customer. Set to 0 or leave it blank for no limit."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-fields.php:31 views/meta-boxes/product-data/bom-stock-fields.php:36
+msgid "The stock you have committed to products available for customers to buy in your shop."
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-fields.php:68
+msgid "Free to use"
+msgstr ""
+
+#: views/meta-boxes/product-data/bom-stock-fields.php:75 views/meta-boxes/product-data/bom-stock-fields.php:80
+msgid "The amount you have on hand, but not yet committed to any products."
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:27
+msgid "Atum MC Report"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:35
+msgid "Report Data"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:40
+#, php-format
+msgid "Site: %s"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:44
+#, php-format
+msgid "Creator: %s"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:47
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:52
+msgid "Report Details"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:57
+#, php-format
+msgid "Product Types: %s"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:57
+msgid "All"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:60
+#, php-format
+msgid "Columns: %1$d of %2$d"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:67
+msgid "Inventory Resume"
+msgstr ""
+
+#: views/reports/manufacturing-central-report-html.php:72
+#, php-format
+msgid "Total: %d item"
+msgid_plural "Total: %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/reports/manufacturing-central-report-html.php:76
+#, php-format
+msgid "In Stock: %d item"
+msgid_plural "In Stock: %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/reports/manufacturing-central-report-html.php:81
+#, php-format
+msgid "Out of Stock: %d item"
+msgid_plural "Out of Stock: %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/reports/manufacturing-central-report-html.php:85
+#, php-format
+msgid "Low Stock: %d item"
+msgid_plural "Low Stock: %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.stockmanagementlabs.com/addons/atum-product-levels"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stock Management Labs™"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.stockmanagementlabs.com/"
+msgstr ""

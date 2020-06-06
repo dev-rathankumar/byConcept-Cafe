@@ -1,0 +1,299 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2015, 11:17:22 PM
+    Author     : Abu shoaib 
+*/
+
+
+body
+{
+
+}
+
+.forms_page_esign-wpform-about .about-wrap h1 
+{
+	margin: .67em 0;
+}
+
+.forms_page_esign-wpform-about .about-wrap .about-text{
+	margin: 1em 0 2em;
+	background: #fff;
+	padding: 1em;
+	border-left: #588ebf solid 5px;	
+}
+
+.forms_page_esign-wpform-about #TB_window{
+	background: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+        z-index: 9999999;
+}
+
+.forms_page_esign-wpform-about #TB_title{
+	height: 0;
+	border-bottom: 0;
+}
+/* download page style */
+
+.forms_page_esign-wpform-about .about-wrap h1, .dashboard_page_esign-wpform-about .about-wrap h1{
+	margin: .67em 0;
+}
+
+.forms_page_esign-wpform-about .about-wrap .about-text, .dashboard_page_esign-wpform-about .about-wrap .about-text{
+	margin: 1em 0 2em;
+	background: #fff;
+	padding: 1em;
+	border-left: #588ebf solid 5px;	
+}
+
+.forms_page_esign-wpform-about #TB_window, .dashboard_page_esign-wpform-about #TB_window{
+	background: transparent !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+        z-index: 999999 !important;
+       
+}
+
+.forms_page_esign-wpform-about #TB_title, .dashboard_page_esign-wpform-about #TB_title{
+	height: 0;
+	border-bottom: 0;
+}
+
+/* esignaure core not available style here */
+.e-signature_page_esign-wpform-about .about-wrap h1{
+	margin: .67em 0;
+}
+
+.e-signature_page_esign-wpform-about .about-wrap .about-text{
+	margin: 1em 0 2em;
+	background: #fff;
+	padding: 1em;
+	border-left: #588ebf solid 5px;	
+}
+
+.e-signature_page_esign-wpform-about #TB_window{
+	background: transparent !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+        z-index: 999999 !important;
+       
+}
+
+.e-signature_page_esign-wpform-about #TB_title{
+	height: 0;
+	border-bottom: 0;
+}
+
+#esig-yt-video{
+	margin: 10px 0 0 0;
+}
+
+.esig-wpform-cta{
+		text-align: center;
+		margin: 37px 0 0;
+}
+.esig-wpform-cta a{
+	background: #F42156;
+	padding: 13px 30px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	border-bottom: 2px solid #C70953;
+}
+
+a.esig-mini-btn{
+    padding: 11px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #54B21A;
+    width: 100%;
+    background: #A8E457;
+    box-shadow: 0 2px 0 #84B243;
+    border-radius: 4px;
+    color: #3f4e29;
+    display: inline-block;
+    text-align: center;
+    height: auto!important;
+}
+
+a.esig-mini-btn:hover{
+	color: #3f4e29;
+	background: #BAE77D;
+}
+p.esig-mini-btn{
+  margin: 2em 0px 1.2em!important;
+}
+.wpform-shortcode-wrap{
+	background-color: #FFFFFF;
+    padding: 7px 20px;
+    margin: 5px 0 0;
+    display: inline-block;
+    border: 1px solid #BEBEBE;-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Float Shadow */
+.hvr-float-shadow, .wpforms-demo-link a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before, .wpforms-demo-link a:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active, .wpforms-demo-link a:hover, .wpforms-demo-link a:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+.esig-wpform-pic-border{
+	border: 8px solid #DFDFDF;
+	border-radius: 3px;
+	max-width: 400px!important;
+	margin: 0 0 18px 0!important;
+}
+
+.esig-step{
+	background: #86d456;
+	padding: 5px 12px;
+	border-radius: 91px;
+	color: #fff;
+	font-weight: 100;
+}
+
+.admin_page_esign-wpform-about .feature-section, .forms_page_e-signature .feature-section, .e-signature_page_esign-wpform-about .feature-section{
+	background: #fff;
+	padding: 5px 45px 8px 40px;
+	border: 2px solid #DFDFDF;
+	border-radius: 7px;
+	margin: 0 0 40px;
+}
+
+div.esig-get-started-alert{
+background: #fff;
+  border-left: 4px solid #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  margin: 5px 15px 2px;
+  padding: 1px 12px;	
+}
+
+/*checkout page style add here */
+.esign-wpform-container
+{
+    display:block ;
+	height:100% ;
+	width:100% ; 
+	border-left: 4px solid #71D121!important;
+	background: #fff;
+	padding:10px 10px 18px;
+}
+.esign-wpform-container .esign-wpform-box 
+{
+	display:inline-block ; 
+	width:70%;
+	position:relative ; 
+	
+}
+.esign-wpform-container .button-primary, .esign-wpform-container .button{
+	margin: 9px 0 0;	
+}
+.esign-wpform-container .esign-wpform-box-right 
+{
+	 display:inline-block ;
+	 width:20% ; 
+	 height:100% ;
+	 float:right; 
+}
+.forms_page_esign-wpform-about .feature-section, .admin_page_esign-wpform-about .feature-section, .forms_page_e-signature .feature-section, .e-signature_page_esign-wpform-about .feature-section{
+	background: #fff;
+	padding: 5px 45px 8px 40px;
+	border: 2px solid #DFDFDF;
+	border-radius: 7px;
+	margin: 0 0 40px;
+}
+.feature-list .feature-section{
+    background: #fff;
+	padding: 5px 45px 8px 40px;
+	border: 2px solid #DFDFDF;
+	border-radius: 7px;
+	margin: 0 0 40px;
+}
+.wpforms_page_esign-wpform-about .about-wrap .feature-section p, .admin_page_esign-wpform-about .about-wrap .feature-section p{
+    margin-left: 0!important;
+	max-width: inherit;
+}
+.wpforms-demo-link{
+	text-align:center;width: 100%;
+	padding:10px 0 40px;
+}
+.wpforms-demo-link a{
+    background: #009bdb;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-bottom: 2px solid #05668e;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	}
+.wpforms_page_esign-wpform-about .about-wrap h1, .admin_page_esign-wpform-about .about-wrap h1{
+		margin:0;
+		font-size: 2.6em;
+	}
+	
+	.about-wrap .about-text.top{
+	margin: 30px auto 20px;
+    min-height: 60px;
+    color: #8a8a8a;
+    background: #fff;
+    padding: 27px 73px;
+    max-width: 800px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    height: 100%;
+    border-bottom: 2px solid #d2d2d2;
+    font-size: 23px;
+    text-align: center;
+	}

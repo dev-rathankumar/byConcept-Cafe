@@ -1,0 +1,22 @@
+general:
+  build_dir: application-ui
+  artifacts:
+    - "./../e-signature.zip" #save plugin file as an a
+  branches:
+    only:
+      - feature/api # list of branches to build
+
+machine:
+  timezone:
+    Europe/Kiev
+  node:
+    version: 7.1.0
+
+  # Override /etc/hosts
+  hosts:
+    circlehost: 127.0.0.1
+    dev.mycompany.com: 127.0.0.1
+
+  # Add some environment variables
+  environment:
+    CIRCLE_ENV: test

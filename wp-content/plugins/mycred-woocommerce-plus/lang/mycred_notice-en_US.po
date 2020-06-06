@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myCRED Notifications Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-13 01:22+0000\n"
+"PO-Revision-Date: 2017-03-13 01:22+0000\n"
+"Last-Translator: Gabriel Merovingi <gabriel.s@merovingi.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /Users/gabriel/sites/notifications/wp-"
+"content/plugins/mycred-notice-plus\n"
+"X-Loco-Target-Locale: en_US"
+
+#: mycred-notice-plus.php:259
+msgid "More information about this plugin"
+msgstr ""
+
+#: mycred-notice-plus.php:261
+msgid "View details"
+msgstr ""
+
+#: modules/mycred-notifications.php:579
+msgid "Notifications Plus"
+msgstr ""
+
+#: modules/mycred-notifications.php:582
+msgid "Setup"
+msgstr ""
+
+#: modules/mycred-notifications.php:586
+msgid "Point Types"
+msgstr ""
+
+#: modules/mycred-notifications.php:592
+msgid ""
+"Select the point type or point types that you want to enable notifications "
+"for."
+msgstr ""
+
+#: modules/mycred-notifications.php:597
+msgid "Lifespan"
+msgstr ""
+
+#: modules/mycred-notifications.php:599
+msgid ""
+"The number of days a users notification is saved before being automatically "
+"deleted."
+msgstr ""
+
+#: modules/mycred-notifications.php:604
+msgid "Duration"
+msgstr ""
+
+#: modules/mycred-notifications.php:606
+msgid ""
+"Number of seconds before a notice is automatically removed after being shown "
+"to user. Use zero to disable."
+msgstr ""
+
+#: modules/mycred-notifications.php:613
+msgid "Badges"
+msgstr ""
+
+#: modules/mycred-notifications.php:619
+msgid "Use custom notifications when a user earns a badge."
+msgstr ""
+
+#: modules/mycred-notifications.php:623 modules/mycred-notifications.php:648
+#: modules/mycred-notifications.php:659
+msgid "Template"
+msgstr ""
+
+#: modules/mycred-notifications.php:625
+#, php-format
+msgid ""
+"Available template tags: %s - badge title, %s - badge logo, %s - badge level."
+msgstr ""
+
+#: modules/mycred-notifications.php:625 modules/mycred-notifications.php:650
+#: modules/mycred-notifications.php:661
+msgid "Restore to default"
+msgstr ""
+
+#: modules/mycred-notifications.php:631 modules/mycred-notifications.php:667
+msgid "Add-on not used."
+msgstr ""
+
+#: modules/mycred-notifications.php:638
+msgid "Ranks"
+msgstr ""
+
+#: modules/mycred-notifications.php:644
+msgid "Use custom notifications for rank demotions."
+msgstr ""
+
+#: modules/mycred-notifications.php:650 modules/mycred-notifications.php:661
+#, php-format
+msgid "Available template tags: %s - rank title, %s - rank logo."
+msgstr ""
+
+#: modules/mycred-notifications.php:655
+msgid "Use custom notifications for rank promotions."
+msgstr ""
+
+#: modules/mycred-notifications.php:675
+msgid "Instant Notifications"
+msgstr ""
+
+#: modules/mycred-notifications.php:679
+msgid "Enable Instant Notifications"
+msgstr ""
+
+#: modules/mycred-notifications.php:688
+msgid "Update Frequency"
+msgstr ""
+
+#: modules/mycred-notifications.php:690
+msgid "The update frequency in seconds."
+msgstr ""
+
+#: modules/mycred-notifications.php:703
+msgid "Styling"
+msgstr ""
+
+#: modules/mycred-notifications.php:710
+msgid "Top Left"
+msgstr ""
+
+#: modules/mycred-notifications.php:718
+msgid "Top Right"
+msgstr ""
+
+#: modules/mycred-notifications.php:726
+msgid "Bottom Left"
+msgstr ""
+
+#: modules/mycred-notifications.php:734
+msgid "Bottom Right"
+msgstr ""
+
+#: modules/mycred-notifications.php:743
+msgid "Padding"
+msgstr ""
+
+#: modules/mycred-notifications.php:745
+msgid ""
+"Number of pixels between the edge of the screen and the notification box. "
+"Applied both horizontally and vertically depending on the set position."
+msgstr ""
+
+#: modules/mycred-notifications.php:753
+msgid "Border Width"
+msgstr ""
+
+#: modules/mycred-notifications.php:755
+msgid "Border width in pixels."
+msgstr ""
+
+#: modules/mycred-notifications.php:760
+msgid "Border Radius"
+msgstr ""
+
+#: modules/mycred-notifications.php:762
+msgid "Border radius in pixels."
+msgstr ""
+
+#: modules/mycred-notifications.php:770 modules/mycred-notifications.php:802
+msgid "Background Color"
+msgstr ""
+
+#: modules/mycred-notifications.php:776 modules/mycred-notifications.php:808
+msgid "Border Color"
+msgstr ""
+
+#: modules/mycred-notifications.php:782 modules/mycred-notifications.php:814
+msgid "Text Color"
+msgstr ""
+
+#: modules/mycred-notifications.php:792
+msgid "Use different colors when users loose %plural%."
+msgstr ""
+
+#: modules/mycred-notifications.php:823
+msgid "CSS"
+msgstr ""
+
+#: modules/mycred-notifications.php:829
+msgid "Use the included CSS Styling for notifications."
+msgstr ""
+
+#: modules/mycred-notifications.php:838
+msgid "Custom CSS"
+msgstr ""
+
+#: modules/mycred-notifications.php:847
+msgid "Content Template"
+msgstr ""
+
+#: modules/mycred-notifications.php:856
+msgid "Preview Notice"
+msgstr ""
+
+#: modules/mycred-notifications.php:920
+msgid "Template can not be empty."
+msgstr ""
+
+#: modules/mycred-notifications.php:922
+msgid "Log entry description"
+msgstr ""
+
+#: includes/mycred-notice-functions.php:175
+msgid "This myCRED Add-on requires WordPress 4.0 or higher. Version detected:"
+msgstr ""
+
+#: includes/mycred-notice-functions.php:180
+msgid "This myCRED Add-on requires PHP 5.3 or higher. Version detected: "
+msgstr ""
+
+#: includes/mycred-notice-functions.php:185
+msgid "This myCRED Add-on requires SQL 5.0 or higher. Version detected: "
+msgstr ""
+
+#: includes/mycred-notice-functions.php:189
+msgid "This add-on requires myCRED 1.6 or higher. Version detected:"
+msgstr ""
+
+#: includes/mycred-notice-functions.php:195
+msgid ""
+"Sorry but your WordPress installation does not reach the minimum "
+"requirements for running this add-on. The following errors were given:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Notifications with options to style, show notifications for ranks and badges "
+"and optional instant notifications."
+msgstr ""

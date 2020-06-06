@@ -1,0 +1,8 @@
+# System files
+.DS_Store
+
+# Dev dependencies
+node_modules
+*.map
+.idea
+.vscode

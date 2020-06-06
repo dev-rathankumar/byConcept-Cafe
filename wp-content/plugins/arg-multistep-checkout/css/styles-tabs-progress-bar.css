@@ -1,0 +1,305 @@
+/**
+ * Tabs Arrow Filled
+ * Tabs general
+ * Hide Numbers on Tabs - mobiles
+ * Tabs general > 767px
+ * Tabs Width Auto > 767px
+ * Hide Numbers On Tabs > 767px
+ * Tabs general > 1200px
+ * Tabs Text Under Numbers > 1200px
+ * Hide Numbers On Tabs > 1200px
+ */
+
+ 
+ 
+/*Tabs general*/
+
+.argmc-wrapper .argmc-tabs-list {
+	display: flex;
+	background: #f9f9f9;
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.argmc-wrapper .argmc-tabs-list::after {
+    display: none;
+}
+
+.argmc-wrapper .argmc-tab-item {			
+    font-size: 14px !important;
+    line-height: 14px !important;
+    text-align: center;
+    text-transform: uppercase;
+    
+	position: relative;
+    display: table-cell;
+    padding-bottom: 20px;
+    
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+}
+
+.argmc-wrapper .argmc-tab-item:before {
+    display: block;
+    content: "";
+	
+    border-bottom: 1px solid transparent;
+    
+    height: 0;
+    
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+.argmc-wrapper .argmc-tab-item .argmc-tab-item-outer,
+.argmc-wrapper .argmc-tab-item .argmc-tab-item-inner,
+.argmc-wrapper .argmc-tab-item .argmc-tab-number-wrapper,
+.argmc-wrapper .argmc-tab-item .argmc-tab-number {
+	line-height: inherit;
+}
+
+.argmc-wrapper .argmc-tab-item-inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.argmc-wrapper .argmc-tab-item .argmc-tab-number {
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	
+	width: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	height: 30px;
+	
+	margin-top: -15px;
+	
+	color: #999;
+	background: #fff;
+	border-radius: 50%;
+	
+	position: relative;
+	z-index: 100;
+	
+	transition: color 0.3s, background 0.3s;
+}
+
+.argmc-wrapper .argmc-tab-item .number-text {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.argmc-wrapper .number-text span {
+	display: none;
+}
+
+.argmc-wrapper .argmc-tab-text {
+	display: block;
+	font-size: 14px;
+	line-height: 1.25;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+	text-transform: capitalize;
+	padding-top: 7px;
+}
+
+.argmc-tab-item.current .argmc-tab-text {
+	display: block;
+}
+
+.argmc-wrapper .tab-completed-icon {
+    display: none;
+	
+	font-size: 12px;
+    position: relative;
+    top: 1px;
+}
+
+.argmc-wrapper.progress-alt .tab-completed-icon {
+	font-size: 14px;
+    top: 2px;
+}
+
+.argmc-wrapper .tab-completed-icon:before {
+    display: inline-block;
+    font-family: "arg-mc-icons";
+
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    content: '\e801';
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: inherit;
+    line-height: inherit;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+
+    position: relative;
+    top: -2px;
+}
+
+
+@media screen and (min-width: 767px) {
+    
+    /*Tabs general > 767px*/	
+		
+    .argmc-wrapper .argmc-tabs-list {
+        display: block;
+    }
+	
+	.argmc-wrapper .argmc-tabs-list:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	
+    .argmc-wrapper .argmc-tab-item {
+        display: block;
+        float: left;
+        vertical-align: top;
+		padding-bottom: 20px;
+    }
+	
+	.argmc-wrapper .argmc-tab-item .argmc-tab-text,
+	.argmc-tab-item:not(.text-centered):first-child .argmc-tab-text,
+	.argmc-tab-item:not(.text-centered):last-child .argmc-tab-text {
+		display: block;
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		transform: none;
+	}
+	
+	.argmc-wrapper .argmc-tab-number-wrapper {
+		margin-top: -11px;
+	}
+	
+	.argmc-wrapper .argmc-tab-item .argmc-tab-number {
+		margin-top: -4px;
+	}
+	
+	.argmc-wrapper .argmc-tab-item-outer {
+		padding: 0 !important;
+		text-align: center;
+	}
+
+    .argmc-wrapper .argmc-tab-item:hover {
+        cursor: not-allowed;
+    }
+
+    .argmc-wrapper .argmc-tab-item.current + .argmc-tab-item:hover, 
+    .argmc-wrapper .argmc-tab-item.visited:hover {
+        cursor: pointer;
+    }
+    
+    .argmc-wrapper .argmc-tab-item.visited.current:hover {
+        cursor: default;
+    }
+
+    .argmc-wrapper .argmc-tab-item.selected:hover {
+        cursor: default;
+    }
+
+    .argmc-wrapper .argmc-tab-item.completed:hover {
+        cursor: pointer;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .argmc-wrapper .argmc-tab-text {
+        font-size: 13px;
+    }
+    
+}
+
+
+
+/*Progress Alt Style*/ 
+
+.argmc-wrapper.progress-alt .argmc-tabs-list {
+	background: none;
+	box-shadow: none;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+
+.argmc-wrapper.progress-alt .argmc-tab-item {
+	font-size: 14px !important;
+    background: none;
+	padding-bottom: 3px;
+	transition: all 0s ease 0s;
+}
+
+.argmc-wrapper.progress-alt .argmc-tab-text {
+	font-size: 14px;
+	top: 18px;
+}
+
+.argmc-wrapper.progress-alt .argmc-tab-item .argmc-tab-number {
+	line-height: 32px;
+	width: 32px;
+	min-width: 32px;
+	min-height: 32px;
+	height: 32px;
+	margin-top: -21px;
+	transition: color 0s, background 0s;
+}
+
+.argmc-wrapper.progress-alt .argmc-tab-item.current .argmc-tab-number {
+	line-height: 36px;
+	width: 36px;
+	min-width: 36px;
+	min-height: 36px;
+	height: 36px;
+}
+	
+
+@media screen and (min-width: 767px) {
+
+	.argmc-wrapper.progress-alt .argmc-tabs-list {
+		margin-top: 20px;
+		margin-bottom: 45px;
+	}
+
+	.argmc-wrapper.progress-alt .argmc-tab-item {
+		padding-bottom: 0;
+	}
+
+	.argmc-wrapper.progress-alt .argmc-tab-item .argmc-tab-number-wrapper {
+		margin-top: -14px;
+	}
+	
+	.argmc-wrapper.progress-alt .argmc-tab-item.current .argmc-tab-number-wrapper {
+		margin-top: -16px
+	}
+	
+	.argmc-wrapper.progress-alt .argmc-tab-item .argmc-tab-number {
+		margin-top: -3px;
+	}
+	
+	.argmc-wrapper.progress-alt .argmc-tab-item .argmc-tab-text {
+		top: auto;
+	}
+}

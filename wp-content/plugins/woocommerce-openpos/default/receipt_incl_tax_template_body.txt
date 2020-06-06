@@ -1,0 +1,116 @@
+<% if(final_items_discount_amount && final_items_discount_amount > 0) {%>
+
+<table>
+    <tr class="tabletitle">
+        <td class="item"><h2>Item</h2></td>
+        <td class="qty"><h2>Price</h2></td>
+        <td class="qty"><h2>Qty</h2></td>
+        <td class="qty"><h2>Discount</h2></td>
+        <td class="total"><h2>Total</h2></td>
+    </tr>
+    <% items.forEach(function(item){ %>
+    <tr class="service">
+        <td class="tableitem item-name">
+            <p class="itemtext"><%= item.name %></p>
+            <% if(item.sub_name.length > 0){ %>
+
+                   <p class="option-item"> <%- item.sub_name  %> </p>
+
+            <% }; %>
+
+        </td>
+        <td class="tableitem item-price"><p class="itemtext"><%= item.final_price_incl_tax %></p></td>
+        <td class="tableitem item-qty"><p class="itemtext"><%= item.qty %></p></td>
+        <td class="tableitem item-discount"><p class="itemtext"><%= item.final_discount_amount %></p></td>
+        <td class="tableitem item-total"><p class="itemtext"><%= item.total_incl_tax %></p></td>
+    </tr>
+    <% }); %>
+    <tr class="tabletitle">
+        <td></td>
+        <td class="Rate sub-total-title" colspan="3"><h2>Sub Total</h2></td>
+        <td class="payment sub-total-amount"><h2><%= sub_total %></h2></td>
+    </tr>
+    <% if(shipping_cost > 0) {%>
+    <tr class="tabletitle">
+        <td></td>
+        <td class="Rate shipping-title" colspan="3"><h2>Shipping</h2></td>
+        <td class="payment shipping-amount"><h2><%= shipping_cost %></h2></td>
+    </tr>
+    <% } %>
+
+    <% if(final_discount_amount > 0) {%>
+    <tr class="tabletitle">
+        <td></td>
+        <td class="Rate cart-discount-title" colspan="3"><h2>Discount</h2></td>
+        <td class="payment cart-discount-amount"><h2><%= final_discount_amount %></h2></td>
+    </tr>
+    <% } %>
+    <tr class="tabletitle">
+        <td></td>
+        <td class="Rate tax-title" colspan="3"><h2>Tax</h2></td>
+        <td class="payment tax-amount"><h2><%= tax_amount %></h2></td>
+    </tr>
+    <tr class="tabletitle">
+        <td></td>
+        <td class="Rate grand-total-title" colspan="3"><h2>Grand Total</h2></td>
+        <td class="payment grand-total-amount"><h2><%= grand_total %></h2></td>
+    </tr>
+</table>
+
+<% } else{ %>
+
+<table>
+    <tr class="tabletitle">
+        <td class="item"><h2>Item</h2></td>
+        <td class="qty"><h2>Price</h2></td>
+        <td class="qty"><h2>Qty</h2></td>
+        <td class="total"><h2>Total</h2></td>
+    </tr>
+    <% items.forEach(function(item){ %>
+    <tr class="service">
+        <td class="tableitem item-name">
+            <p class="itemtext"><%= item.name %></p>
+            <% if(item.sub_name.length > 0){ %>
+
+                   <p class="option-item"> <%- item.sub_name  %> </p>
+
+            <% }; %>
+
+        </td>
+        <td class="tableitem item-price"><p class="itemtext"><%= item.final_price_incl_tax %></p></td>
+        <td class="tableitem item-qty"><p class="itemtext"><%= item.qty %></p></td>
+
+        <td class="tableitem item-total"><p class="itemtext"><%= item.total_incl_tax %></p></td>
+    </tr>
+    <% }); %>
+    <tr class="tabletitle">
+
+        <td class="Rate sub-total-title" style="text-align:right;padding-right:5px;"  colspan="3"><h2>Sub Total</h2></td>
+        <td class="payment sub-total-amount"><h2><%= sub_total %></h2></td>
+    </tr>
+    <% if(shipping_cost > 0) {%>
+    <tr class="tabletitle">
+
+        <td class="Rate shipping-title" style="text-align:right;padding-right:5px;"  colspan="3"><h2>Shipping</h2></td>
+        <td class="payment shipping-amount"><h2><%= shipping_cost %></h2></td>
+    </tr>
+    <% } %>
+
+    <% if(final_discount_amount > 0) {%>
+    <tr class="tabletitle">
+            <td class="Rate tax-title" style="text-align:right;padding-right:5px;" colspan="3"><h2>Discount</h2></td>
+            <td class="payment cart-discount-amount"><h2><%= final_discount_amount %></h2></td>
+     </tr>
+    <% } %>
+    <tr class="tabletitle">
+        <td class="Rate tax-title" style="text-align:right;padding-right:5px;" colspan="3"><h2>Tax</h2></td>
+        <td class="payment tax-amount"><h2><%= tax_amount %></h2></td>
+    </tr>
+    <tr class="tabletitle">
+
+        <td class="Rate grand-total-title" style="text-align:right;padding-right:5px;"  colspan="3"><h2>Grand Total</h2></td>
+        <td class="payment grand-total-amount"><h2><%= grand_total %></h2></td>
+    </tr>
+</table>
+
+<% } %>

@@ -1,0 +1,54 @@
+
+.esig-mail
+{
+	display: block;
+	width: 100%;
+}
+
+.esig-mail-left
+{
+	display: inline-block;
+	position: relative;
+	width:70% ;
+	float: left;
+}
+.esig-mail-right
+{
+	display: inline-block;
+	width: 24%;
+	padding: 16px 16px 22px 23px;
+	background-color: #fff;
+	border-radius: 6px;
+	margin-top: 15px;
+	border-bottom: 1px solid #ccc;
+	float: right;
+}
+.esig-mail-settings-wrap{
+	font-size: 15px;
+  	line-height: 1.3;
+  	color: #777;
+  }
+.esig-mail-settings-wrap h3{
+	margin: 6px 0 2px 0;	
+}
+.esig-mail-right hr{
+	margin: 19px 0;
+  	width: 89%;
+}
+
+.esig-mail-right.esig-top-box{
+	margin: 20px 0 22px;
+}
+.esig-smtp-alert{
+		border-radius: 0;
+		border-left: 5px solid red;
+		color: #777;
+		width: 23.6%;
+		font-size: 14px;
+  		line-height: 1.3;
+}
+
+.esig-mail-left textarea{
+	width: 350px;
+	height: 150px;	
+}

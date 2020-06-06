@@ -1,0 +1,27 @@
+.item-note{
+    color:red;
+    font-style: italic;
+}
+/* Green - Yellow - Red */
+.gradient_0    {background: #57bb8a;}
+.gradient_5    {background: #63b682;}
+.gradient_10   {background: #73b87e;}
+.gradient_15   {background: #84bb7b;}
+.gradient_20   {background: #94bd77;}
+.gradient_25   {background: #a4c073;}
+.gradient_30   {background: #b0be6e;}
+.gradient_35   {background: #c4c56d;}
+.gradient_40   {background: #d4c86a;}
+.gradient_45   {background: #e2c965;}
+.gradient_50   {background: #f5ce62;}
+.gradient_55   {background: #f3c563;}
+.gradient_60   {background: #e9b861;}
+.gradient_65   {background: #e6ad61;}
+.gradient_70   {background: #ecac67;}
+.gradient_75   {background: #e9a268;}
+.gradient_80   {background: #e79a69;}
+.gradient_85   {background: #e5926b;}
+.gradient_90   {background: #e2886c;}
+.gradient_95   {background: #e0816d;}
+.gradient_100  {background: #dd776e;}
+

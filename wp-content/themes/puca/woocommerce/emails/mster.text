@@ -1,0 +1,85 @@
+----------------------------
+New Order (Admin)
+----------------------------
+Email heading					:	New order has <br>been placed!	
+Additional content				: 	You have received an order at {order_date} and order number is #{order_number}.
+
+
+----------------------------
+Cancelled Order (Admin)
+----------------------------
+Email heading					:	Order has been <br>canceled!	
+Additional content				: 	The order #{order_number} from {order_billing_full_name} has been cancelled.
+
+
+----------------------------
+Failed Order (Admin)
+----------------------------
+Email heading					:	Order has been <br>failed!	
+Additional content				: 	Payment for order #{order_number} has been failed.
+
+
+----------------------------
+Order On-Hold 
+----------------------------
+Email heading					:	Your order is <br>on hold!	
+Additional content				: 	Your order is on-hold we look forward to fulfilling your order soon.
+
+
+----------------------------
+Processing Order
+----------------------------
+Email heading					:	Thank you for <br>your purchase!
+Additional content				: 	Your order has been received and is now being processed. Thanks for using {site_address}!
+
+
+----------------------------
+Completed Order
+----------------------------
+Email heading					:	Your order has <br>been delivered!
+Additional content				: 	Item in order with order id #{order_number} has been delivered! Hope you liked our service. Thanks for shopping with us.
+
+
+----------------------------
+Refunded Order
+----------------------------
+Full refund email heading		:	Your order has been <br>full refund !
+Partial refund email heading	:	Your order has been <br>partial refund !
+Additional content				: 	Your order on {site_title} has been 
+
+
+----------------------------
+Customer Invoice / Order Details
+----------------------------
+Email heading					:	Order is created <br>but not paid.
+Email heading (paid)			:	Thank you for <br>your purchase!
+Additional content				: 	View a summary of an order on {site_title}.
+
+
+----------------------------
+Customer Note
+----------------------------
+Email heading					:	Note has been added <br>to your order
+Additional content				: 	Thanks for reading.
+
+
+----------------------------
+Reset Password
+----------------------------
+Email heading					:	We got request to <br>reset your password!
+Additional content				: 	If you didn’t request to change your Feshto password, you don’t have to do anything. So that’s easy.
+
+
+----------------------------
+New Account
+----------------------------
+Email heading					:	Confirm your <br>email address!
+Additional content				: 	If you don’t know why you got this email, please
+tell us straight away so we can fix this for you.
+
+
+
+
+
+
+-- Pay on Delevery Note Remove Addritinal Details

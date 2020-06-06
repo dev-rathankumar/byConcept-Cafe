@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 574" class="pp-devices-svg">
+	<!-- frame -->
+	<rect class="back-shape frame" fill="#000000" x="3" y="0" width="271" height="574" rx="35" ry="35" vector-effect="non-scaling-stroke"></rect>
+
+	<!-- home button -->
+	<circle class="overlay-shape home-button" fill="#6b6a6a" cx="139" cy="538" r="20" vector-effect="non-scaling-stroke"></circle>
+
+	<!-- front- camera -->
+	<circle class="overlay-shape camera" fill="#6b6a6a" cx="95" cy="37" r="4" vector-effect="non-scaling-stroke"></circle>
+
+	<!-- speaker -->
+	<rect class="overlay-shape speaker" fill="#6b6a6a" x="116" y="35" width="45" height="5" rx="4.5" vector-effect="non-scaling-stroke"></rect>
+
+	<!-- side buttons -->
+	<rect class="side-shape button-sound" fill="#000000" x="1" y="71" width="2" height="18" vector-effect="non-scaling-stroke"></rect>
+	<rect class="side-shape button-plus" fill="#000000" x="0" y="120" width="3" height="32" vector-effect="non-scaling-stroke"></rect>
+	<rect class="side-shape button-minus" fill="#000000" x="0" y="163" width="3" height="32" vector-effect="non-scaling-stroke"></rect>
+
+	<!-- on button -->
+	<rect class="side-shape color-normal button-on" fill="#000000" x="274" y="120" width="3" height="32" vector-effect="non-scaling-stroke"></rect>
+</svg>

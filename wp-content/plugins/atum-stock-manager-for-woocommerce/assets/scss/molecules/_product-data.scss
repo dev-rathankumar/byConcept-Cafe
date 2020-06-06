@@ -1,0 +1,314 @@
+//
+// Product Data meta box
+//----------------------
+
+.product_data {
+	
+	input[type=text], input[type=number], textarea {
+		&.tips {
+			cursor: text;
+		}
+		
+		&:disabled, &:read-only {
+			cursor: not-allowed;
+		}
+	}
+	
+	input, select, textarea {
+		&.atum-read-only {
+			cursor: not-allowed;
+			opacity: 0.7;
+		}
+	}
+	
+	&_tabs {
+		.atum_tab {
+			
+			a {
+				&:before {
+					content: $atmi-atum !important;
+					font-family: $atum-icon-font !important;
+				}
+			}
+			
+		}
+	}
+	
+	.atum-field {
+		
+		.input-group-prepend {
+			@include border-left-radius(4px);
+			
+			&.focus {
+				box-shadow: 0 0 0 1px $input-focus;
+			}
+		}
+		
+		.input-group-text {
+			padding: 4px 7px;
+			height: 20px;
+		}
+		
+		input[type=text], input[type=number] {
+			width: calc(80% - 31px) !important;
+			@include border-left-radius(0);
+			border: 1px solid var(--main-border-alt);
+			
+			&:focus {
+				box-shadow: 0 0 0 1px $input-focus;
+				border-color: $input-focus;
+			}
+		}
+		
+		.select2-container, .select2-selection--single, .select2-selection__rendered {
+			font-size: 14px !important;
+			color: $wp-gray-dark !important;
+			
+			&:focus {
+				box-shadow: none;
+				outline: none;
+			}
+		}
+		
+		.select2-selection__rendered {
+			padding-left: 5px !important;
+		}
+		
+		.select2-container {
+			&.atum-select2, &.atum-enhanced-select {
+				float: none;
+				max-width: calc(80% - 31px) !important;
+				
+				.select2-selection--single {
+					height: 30px;
+					margin: 0;
+					font-size: $font-size-base;
+					border: 1px solid var(--main-border-alt);
+					
+					.select2-selection__rendered {
+						line-height: 2;
+					}
+					
+					.select2-selection__clear {
+						padding-right: 10px;
+					}
+					
+					.select2-selection__arrow {
+						height: 24px;
+						background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat right 5px top 55%;
+						background-size: 16px 16px;
+						width: 28px;
+						
+						&:after {
+							display: none;
+						}
+					}
+					
+					&:focus {
+						border-color: $input-focus;
+					}
+				}
+				
+				&.select2-container--open {
+					.select2-selection {
+						box-shadow: 0 0 0 1px $input-focus;
+					}
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+	.atum-data-panel {
+		.atum-section-title {
+			font-size: 1.15em;
+			padding-left: 10px;
+		}
+	}
+	
+	.woocommerce-help-tip {
+		~ .switchery {
+			margin-left: 10px;
+		}
+	}
+	
+	.product-tab-runner {
+		select {
+			width: 166px;
+		}
+	}
+	
+	#marketplace_suggestions {
+		.marketplace-suggestion-container {
+			
+			img[src="#"] {
+				visibility: hidden;
+				
+				&:before {
+					font-size: 26px;
+					font-family: $atum-icon-font;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					visibility: visible;
+					color: $white;
+					width: 40px;
+					height: 40px;
+					border-radius: 50%;
+					background-color: $wc-purple;
+					text-align: center;
+					display: inline-block;
+					line-height: 1.6;
+				}
+			}
+			
+			&[data-suggestion-slug="multi_inventory"] {
+				img {
+					&:before {
+						content: $atmi-multi-inventory;
+					}
+				}
+			}
+			
+			&[data-suggestion-slug="export_pro"] {
+				img {
+					&:before {
+						content: $atmi-export;
+					}
+				}
+			}
+			
+			&[data-suggestion-slug="product_levels"] {
+				img {
+					&:before {
+						content: $atmi-product-levels;
+					}
+				}
+			}
+			
+		}
+	}
+
+}
+
+.woocommerce_variations {
+	
+	.form-row-first, .form-row-last {
+		.atum-field {
+			position: relative;
+			margin-top: 2px;
+			
+			.input-group-text {
+				padding: 8px 7px;
+			}
+			
+			input[type=text], input[type=number] {
+				margin-top: 0;
+				width: calc(100% - 33px) !important;
+				max-height: 38px;
+			}
+			
+			.select2-container {
+				&.atum-select2, &.atum-enhanced-select {
+					max-width: calc(100% - 33px) !important;
+				}
+				
+				.select2-selection {
+					height: 38px;
+				}
+				
+				.select2-selection__arrow {
+					height: 31px !important;
+				}
+				
+				.select2-selection__rendered {
+					line-height: 2.5 !important;
+				}
+				
+				.select2-selection__clear {
+					&:after {
+						line-height: 2.8;
+					}
+				}
+			}
+			
+			.woocommerce-help-tip {
+				position: absolute;
+				top: -25px;
+				right: 0;
+			}
+			
+		}
+	}
+	
+	.atum-data-panel {
+		border-top: 1px solid $wp-gray-4;
+		padding-top: $grid-gutter-width/2;
+		clear: both;
+		
+		.form-field {
+			display: flex;
+			align-items: center;
+			
+			> label {
+				flex-grow: 1;
+			}
+			
+			&:first-of-type {
+				margin: 25px 0;
+			}
+		}
+		
+	}
+	
+	h2.atum-section-title {
+		border: 1px solid $info;
+		background-color: $blue-light;
+		color: $wp-gray-2;
+		text-transform: uppercase;
+		cursor: default !important;
+		margin: ($grid-gutter-width/2) (-$grid-gutter-width)  !important;
+		padding: 1.1em !important;
+		text-align: center;
+		font-weight: 600;
+		
+		i {
+			font-size: 20px;
+			vertical-align: middle;
+			display: inline-block;
+			margin-left: -20px;
+			margin-right: 5px;
+		}
+		
+		img {
+			vertical-align: -4px;
+			margin-right: 5px;
+			margin-left: -18px;
+		}
+	}
+	
+	h4.atum-section-title {
+		margin-top: $grid-gutter-width;
+		padding-bottom: 10px;
+		padding-left: 0 !important;
+		border-bottom: 1px dashed $secondary;
+	}
+	
+	.alert {
+		margin: 10px auto;
+	}
+	
+}
+
+#tiptip_holder {
+	ul {
+		text-align: left;
+		padding-left: 10px;
+		
+		li {
+			list-style: circle;
+			line-height: 1.3;
+		}
+	}
+}

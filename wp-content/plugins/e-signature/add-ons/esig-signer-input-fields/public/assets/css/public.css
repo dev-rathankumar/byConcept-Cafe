@@ -1,0 +1,126 @@
+/* This stylesheet is used for the public-facing components of the plugin. */
+
+input.esig-sif-textfield
+{
+    background-color: #FFFFFF;
+    height: 2.5em !important;
+    border: 1px solid #CDCDCD;
+    margin: 4px 0;
+    display: inline-block!important;
+    padding: 0 7px;
+}
+input.esig-sif-textfield.esig-error
+{
+    border-color:#c00;
+}
+label.esig-error
+{
+    display:inline-block;
+    background: #c00;
+    color:#fff;
+    font-weight:normal;
+    padding:2px .5em;
+    font-size:13px;
+    vertical-align:middle;
+}
+
+.esig-sif-textfield.signed
+{
+
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding:10px;
+
+}
+
+input.esig-sif-todaydate
+{
+    height:2.5em !important;
+
+}
+input.esig-sif-todaydate.signed
+{
+    border-width: 0 0 1px 0 !important;
+}
+.document-sign-page .radio
+{
+    display:block;	
+    margin-left:25px;
+    height:1em;	
+
+}
+.esig-sif-radio input[type="radio"]
+{
+    height:1em !important;
+    float:none;
+    margin-left:0px;
+    width:1.5em !important;	
+}
+.document-sign-page .radio .esig-sif-radio
+{
+    margin-left: 10px;
+
+}
+.document-sign-page .radio-horizental
+{
+    display:inline-block;
+    padding-right:1em;
+    height:1em;	
+}
+
+.document-sign-page .radio-horizental .esig-sif-radio
+{
+    margin-left: 10px;
+}
+
+/*checkbox style start here */
+
+
+
+.sifreadonly
+{
+    opacity: 0.5!important;
+    border: 1px solid #E7DEDE!important;
+    background: #e9f4ff!important;
+}
+.esig-sif-none 
+{
+    opacity:0.4;
+    padding-right:5px;
+}
+.sif-file-container{
+    border: 2px solid #DFDFDF;
+    padding: 18px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    background: #F6F6F6;
+}
+.sif-file-container .esig-sif-file{  
+    padding: 9px 0 0;
+}
+.sif-file-container label{
+    font-weight: 400;
+}
+/* error msg start hree */
+
+.sif-icon-size
+{
+    padding-left: 10px; 
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.sif-textarea-border {
+    border:1px solid #ccc;
+    display:block;
+
+    text-align:left;
+    padding:3px;
+}
+
+#ui-datepicker-div {display: none;}
+
+#ui-datepicker-div .ui-state-disabled .ui-state-default {
+    opacity: 0.3 !important;   
+}
+

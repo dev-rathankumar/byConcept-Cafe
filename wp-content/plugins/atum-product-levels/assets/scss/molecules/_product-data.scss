@@ -1,0 +1,50 @@
+//
+// Product data
+//---------------
+
+.woocommerce_variation {
+	
+	.form-field {
+		position: relative;
+		
+		.form-field-wrapper {
+			.woocommerce-help-tip {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+		}
+	}
+	
+	// ML Compatibility.
+	.multi-inventory-fields {
+		
+		.inventory-group {
+			
+			.form-field-wrapper {
+				display: inline-flex;
+				align-items: center;
+				width: 100%;
+				
+				label {
+					flex-grow: 1;
+					width: 170px;
+				}
+				
+				.atum-field {
+					max-width: 320px;
+					
+					input {
+						width: 284px !important;
+					}
+				}
+				
+				.woocommerce-help-tip {
+					position: relative;
+				}
+			}
+			
+		}
+		
+	}
+}

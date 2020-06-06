@@ -1,0 +1,529 @@
+
+/*------------------------------------------------------------------------------
+  22.0 - About Pages
+------------------------------------------------------------------------------*/
+
+.esign-about-wrap {
+	position: relative;
+	margin: 25px 40px 0 20px;
+	max-width: 1050px; /* readability */
+
+	font-size: 15px;
+}
+
+.esign-about-wrap div.esign-updated,
+.esign-about-wrap div.esign-error {
+	display: none !important;
+}
+
+.esign-about-wrap hr {
+	border: 0;
+	height: 0;
+	margin: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.esign-about-wrap img {
+	margin: 0.5em 0 0.5em 5px;
+	max-width: 100%;
+}
+
+/* Typography */
+
+.esign-about-wrap p {
+	line-height: 1.6em;
+	font-size: 14px;
+	padding-bottom: 22px;
+}
+
+.esign-about-wrap h1 {
+	margin: 0.2em 200px 0 0;
+	line-height: 1.2em;
+	font-size: 2.8em;
+	font-weight: 400;
+}
+
+.esign-about-wrap .esign-about-text,
+.esign-about-wrap p.esign-about-description,
+.esign-about-wrap li.esign-wp-person a.esign-web {
+	font-weight: normal;
+	line-height: 1.6em;
+	font-size: 19px;
+	color:#777;
+}
+
+.esign-about-description {
+	margin-top: 1.4em;
+}
+
+.esign-about-text {
+	margin: 1em 200px 1em 0;
+	min-height: 60px;
+	font-size: 24px;
+}
+
+.esign-about-wrap .esign-changelog h2.esign-about-headline-callout {
+	margin: 1.1em 0 0.2em;
+	font-size: 2.4em;
+	font-weight: 300;
+	line-height: 1.3;
+	text-align: center;
+	
+}
+
+.esign-about-wrap h3 {
+	margin: 1em 0 .6em;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.esign-about-wrap .esign-feature-section h4 {
+	margin: 1.4em 0 0.6em 0;
+	font-size: 1.2em;
+}
+
+.esign-about-wrap .esign-feature-section p {
+	margin-top: 0.6em;
+}
+
+.esign-about-wrap code,
+.esign-about-wrap ol li p {
+	font-size: 14px;
+}
+
+.esign-about-features-margin{
+	margin-bottom: -21px;
+}
+
+.esign-about-features-a{
+	text-decoration: none;
+	font-weight: 700;
+	color:#222;
+}
+
+/* 3.8 Images */
+
+.esign-about-wrap .esign-about-colors-img {
+	bottom: -25px;
+}
+
+.esign-about-wrap .esign-about-themes-img {
+	bottom: -38px;
+}
+
+.esign-about-wrap .esign-about-overview-img {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+}
+
+.esign-about-colors-img img,
+.esign-about-themes-img img {
+	margin: 0 0 2.5em 0;
+	padding: 0;
+	line-height: 1;
+}
+
+.esign-about-audit-img{
+	border: 1px solid #ccc;
+	margin: 0.5em 0 0 0!important;
+}
+
+/* Point Releases */
+
+.esign-about-wrap .esign-point-releases {
+	margin-top: 5px;
+}
+
+.esign-about-wrap .esign-changelog.esign-point-releases h3 {
+	padding-top: 35px;
+}
+
+.esign-about-wrap .esign-changelog.esign-point-releases h3:first-child {
+	padding-top: 7px;
+}
+
+/* Feature Icon Sprites */
+
+.esign-icon-integrated, .esign-icon-legal, .esign-icon-quote, .esign-icon-secure, .esign-icon-signature, .esign-icon-smarter, .esign-icon-audit, .esign-icon-wallet, .esign-icon-document, .esign-icon-empty-cloud, .esign-icon-people, .esign-icon-globe {
+	background: url('../images/about/feature-icon-sprites.svg') no-repeat;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.esign-icon-secure {
+	background-position: 0 18px;
+	width: 63px;
+	height: 101px;
+	float: left;
+	margin-top: 12px;
+	margin-right: 12px;
+}
+
+.esign-icon-legal {
+	background-position: -90px -72px;
+	width: 59px;
+	height: 102px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 12px;
+}
+
+.esign-icon-audit {
+	background-position: -156px -3px;
+	width: 64px;
+	height: 81px;
+	float: left;
+	margin-right: 12px;
+}
+
+.esign-icon-integrated {
+	background-position: -160px -218px;
+	width: 60px;
+	height: 99px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 12px;
+}
+
+.esign-icon-smarter {
+	background-position: -160px -120px;
+	width: 65px;
+	height: 96px;
+	float: left;
+	margin-top: 8px;
+	margin-right: 12px;
+}
+
+.esign-icon-wallet {
+	background-position: 0 -82px;
+	width: 60px;
+	height: 91px;
+	float: left;
+	margin-top: 7px;
+	margin-right: 12px;
+}
+
+/* WordPress Version Badge */
+
+.esign-wp-badge {
+	background: url('../images/wp-logo-vs-2x.png') no-repeat;
+	background: none, url('../images/wordpress-logo-white.svg?ver=20131110') no-repeat;
+	background-position: center 24px;
+	background-size: 85px 85px;
+	font-size: 14px;
+	text-align: right;
+	font-weight: 600;
+	height: 40px;
+	display: inline-block;
+	width: 188px;
+	text-rendering: optimizeLegibility;
+}
+
+
+.esign-about-wrap .esign-wp-badge {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #444444;
+	height: 68px;
+	border-radius: 8px;
+	width: 178px;
+	color: #fff;
+	font-weight: 200;
+}
+
+.esig-wp-logo-badge{
+	margin: 0.9em 0 0 2.1em!important;
+	width: 20%;
+}
+
+.esig-wp-text-badge{
+	margin: 1.95em .75em;
+	float: left;
+}
+
+.esig-wp-powered-badge{
+	width: 100%;
+	margin: 0!important;
+}
+
+/* Buttons */
+.esign-blue-btn{
+	text-decoration:none;
+	padding: 6px 18px!important;
+	font-weight: 700;
+}
+
+.esign-blue-btn:hover {
+	background:#1891e6;
+}
+
+.esign-red-btn-lrg{
+	padding: 15px!important;
+	background: #e24837!important;
+}
+
+.esig-about-addon{
+	border: 1px solid #ccc;
+
+}
+
+.esig-about-addon:hover{
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background: #fff;
+}
+
+/* Tabs */
+
+.esign-about-wrap h2.esign-nav-tab-wrapper {
+	padding-left: 6px;
+}
+
+.esign-about-wrap h2 .esign-nav-tab {
+	padding: 4px 15px 6px;
+	margin: 0 3px -1px 0;
+	font-size: 18px;
+	vertical-align: top;
+	border-width: 1px;
+}
+
+.esign-about-wrap h2 .esign-nav-tab-active {
+	font-weight: bold;
+}
+
+/* Changelog / Update screen */
+
+.esign-about-wrap .esign-feature-section {
+	padding: 30px 0 0px 0;
+}
+
+.esign-about-wrap .esign-feature-section.col {
+	margin-bottom: 0;
+}
+
+.esign-about-wrap .esign-feature-section.esign-center-col > div {
+	margin: auto;
+	width: 60%;
+}
+
+.esign-about-wrap .esign-about-colors .esign-one-col > div {
+	width: 100%;
+}
+
+.esign-about-wrap .esign-feature-section.esign-two-col > div {
+	position: relative;
+	width: 50%;
+	float: left;
+}
+
+.esign-about-wrap .esign-feature-section.esign-three-col > div {
+	position: relative;
+	width: 29.95%;
+	margin-right: 4.999999999%;
+	float: left;
+}
+
+.esign-about-wrap .esign-feature-section.esign-col .esign-last-feature {
+	margin-right: 0;
+}
+
+.esign-about-wrap .esign-about-updates img,
+.esign-about-wrap .esign-about-twentyfourteen img {
+	margin: 2em 0 0 0;
+	border: 1px solid #ddd;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.esign-about-wrap .esign-about-twentyfourteen img {
+	margin-top: 1em;
+}
+
+.esign-about-wrap .esign-changelog .esign-feature-section {
+	overflow: hidden;
+}
+
+.esign-about-wrap .esign-about-colors .esign-scheme-list {
+	margin-bottom: 1em;
+}
+
+.esign-about-wrap .esign-about-colors .esign-color-option {
+	padding-top: 10px;
+}
+.esign-about-wrap .esign-about-colors .esign-color-option label {
+	display: inline-block;
+	margin: 0.25em 0 0.5em;
+}
+
+.esign-about-wrap .esign-feature-section.esign-two-col div p {
+	margin-right: 3%;
+	float:left;
+}
+
+.esign-about-wrap .esign-feature-section div p img {
+	float: right;
+	margin-left: 10px;
+	max-width: 20%;
+}
+
+.esign-about-wrap .esign-changelog li {
+	list-style-type: disc;
+	margin-left: 3em;
+}
+
+/* Return to Dashboard Home link */
+
+.esign-about-wrap .esign-return-to-dashboard {
+	margin: 30px 0 0 -5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.esign-about-wrap .esign-return-to-dashboard a {
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+/* Credits */
+
+.esign-about-wrap h4.esign-wp-people-group {
+	margin-top: 2.6em;
+	font-size: 16px;
+}
+
+.esign-about-wrap ul.esign-wp-people-group {
+	overflow: hidden;
+	padding: 0 5px;
+	margin: 0 -15px 0 -5px;
+}
+
+.esign-about-wrap ul.esign-compact {
+	margin-bottom: 0
+}
+
+.esign-about-wrap li.esign-wp-person {
+	float: left;
+	margin-right: 10px;
+}
+
+.esign-about-wrap li.esign-wp-person img.esign-gravatar {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 2px;
+	width: 60px;
+	height: 60px;
+}
+
+.esign-about-wrap ul.esign-compact li.esign-wp-person img.esign-gravatar {
+	width: 30px;
+	height: 30px;
+}
+
+.esign-about-wrap li.esign-wp-person {
+	height: 70px;
+	width: 280px;
+	padding-bottom: 15px;
+}
+
+.esign-about-wrap ul.esign-compact li.esign-wp-person {
+	height: auto;
+	width: 180px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.esign-about-wrap #wp-people-group-validators + p.esign-wp-credits-list {
+	margin-top: 0;
+}
+
+.esign-about-wrap li.esign-wp-person a.esign-web {
+	display: block;
+	margin: 6px 0 2px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.esign-about-wrap p.esign-wp-credits-list a {
+	white-space: nowrap;
+}
+
+/* Freedoms */
+
+.freedoms-php .esign-about-wrap ol {
+	margin: 40px 60px;
+}
+
+.freedoms-php .esign-about-wrap ol li {
+	list-style-type: decimal;
+	font-weight: bold;
+}
+
+.freedoms-php .esign-about-wrap ol p {
+	font-weight: normal;
+	margin: 0.6em 0;
+}
+
+.nice-to-meet{
+width: 315px;
+}
+
+/* Columns */
+
+#esig-about-container{
+	float:left;
+    width:100%;
+}
+
+#esig-about-col1{
+    float:left;
+    width:50%;
+}
+
+#esig-about-col2{
+    float:left;
+    width:50%;
+}
+
+/* Hide Third Party Notices on E-Signature Page */
+.woocommerce-message{
+	display:none;
+}
+
+
+/* dialog contents */
+
+.esig-overlay-bg {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	cursor: pointer;
+	z-index: 1000; /* high z-index */
+	background: #000; /* fallback */
+	background: rgba(0,0,0,0.75);
+}
+	.esig-overlay-content {
+		display: none;
+		background: #fff;
+		padding: 1%;
+		width: 40%;
+		position: relative;
+		top: 15%;
+		left: 50%;
+		margin: 0 0 0 -20%; /* add negative left margin for half the width to center the div */
+		cursor: default;
+		border-radius: 4px;
+		box-shadow: 0 0 5px rgba(0,0,0,0.9);
+	}
+	.esig-getting-started-video{
+	    margin: 20px auto 61px;
+		text-align:center;
+}
+
+#esig-log-viewer textarea {
+    width: 100%;
+    resize: vertical;
+}

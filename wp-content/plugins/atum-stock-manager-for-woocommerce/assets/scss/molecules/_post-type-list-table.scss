@@ -1,0 +1,73 @@
+//
+// Atum List Tables for Post Types
+//--------------------------------
+
+#posts-filter {
+	@extend .atum-list-wrapper;
+	
+	table.wp-list-table {
+		th.check-column {
+			input[type=checkbox] {
+				transform: none;
+				top: 18%;
+			}
+		}
+	}
+	
+	.tablenav-pages {
+		float: none;
+		flex-grow: 1;
+	}
+	
+	.subsubsub {
+		@extend .extend-list-table;
+	}
+	
+	.nav-with-scroll-effect .subsubsub {
+		
+		li, li a {
+			display: flex;
+			flex-wrap: nowrap;
+		}
+		
+		li {
+			color: transparent;
+			padding: 20px 0;
+			margin-right: 0;
+			
+			&:first-child {
+				padding-left: 10px;
+			}
+			
+			a {
+				padding: 0 10px;
+			}
+			
+			@include mobile-max {
+				&, &:first-child {
+					padding: 0;
+				}
+			}
+		}
+	}
+	
+	.search-box {
+		flex-direction: row;
+	}
+}
+
+.wrap {
+	
+	.wp-heading-inline {
+		~ .subsubsub {
+			display: none;
+		}
+		
+		@include mobile-max {
+			a.page-title-action {
+				padding: 0 12px;
+			}
+		}
+		
+	}
+}

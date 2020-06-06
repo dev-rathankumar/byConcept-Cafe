@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 895 792" class="pp-devices-svg">
+	<!-- leg -->
+	<path class="back-shape leg" d="M320,615 C319.617248,615 318.291712,736.254916 292,756 L597,756 C570.696761,736.254916 569.382752,615 569,615 L320,615 Z" fill="#383838"></path>
+	<path class="overlay-shape leg-overlay" d="M320,615 C319.617248,615 318.291712,736.254916 292,756 L597,756 C570.696761,736.254916 569.382752,615 569,615 L320,615 Z" fill="#383838"></path>
+
+	<!-- foot -->
+	<path class="back-shape foot" d="M598,756 L293,756 C266.370877,775.998701 228.167135,792 320,792 L446,792 C445.505774,792 478.420123,792 571,792 C662.832865,792 624.629123,775.998701 598,756" fill="#000000"></path>
+
+	<!-- frame -->
+	<rect class="back-shape frame" fill="#000000" x="0" y="0" width="895" height="615" rx="22"></rect>
+
+	<!-- screen-bottom -->
+	<path class="overlay-shape screen-bottom-overlay-one" d="M0,529 L895,529 L895,592.992433 C895,605.146877 885.158922,615 873.001427,615 L21.9985727,615 C9.8490965,615 0,605.155666 0,592.992433 L0,529 Z" fill="#242424"></path>
+	<path class="overlay-shape screen-bottom" d="M0,529 L895,529 L895,592.992433 C895,605.146877 885.158922,615 873.001427,615 L21.9985727,615 C9.8490965,615 0,605.155666 0,592.992433 L0,529 Z" fill="#242424"></path>
+
+	<!-- camera -->
+	<circle class="overlay-shape camera" fill="#383838" cx="448" cy="16" r="4"></circle>
+
+</svg>

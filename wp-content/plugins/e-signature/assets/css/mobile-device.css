@@ -1,0 +1,609 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/smartphone_portrait_240.png');
+	        background-repeat:no-repeat;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 320px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:255px;
+	                background: url('../images/sign-here_small.jpg') no-repeat;
+	                background-size: 255px 60px;
+	                border-width:1px;
+	                border-radius:0;	       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 240px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:10%;
+		    width:95%;
+		}
+
+}
+
+/*iphone 6 start here */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_blank.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 350px 100px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 320px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:300px;
+	                background: url('../images/sign-here_mobile.jpg') no-repeat;
+	                background-size: 300px 71px;
+	                border-width:1px;
+	                border-radius:0;	       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 350px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:10%;
+		    width:95%;
+		}
+
+}
+
+/*iphone 6 plus start here */
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_blank.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 350px 100px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 350px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:350px;
+	                background: url('../images/sign-here.jpg') no-repeat;
+	                background-size: 350px 100px;
+	                border-width:1px;
+	                border-radius:0;	       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 350px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:10%;
+		    width:95%;
+		}
+
+}
+
+/*Google nexus 5 start here */
+
+@media only screen 
+and (min-device-width : 384px) 
+and (max-device-width : 640px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_blank.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 350px 100px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 350px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:350px;
+	                background: url('../images/sign-here.jpg') no-repeat;
+	                background-size: 350px 100px;
+	                border-width:1px;
+	                border-radius:0;	       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 350px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:15%;
+		    width:95%;
+		}
+
+}
+
+/* */
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_blank.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 350px 100px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 300px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:300px;
+	                background: url('../images/sign-here_mobile.jpg') no-repeat;
+	                background-size: 300px 100px;
+	                border-width:1px;
+	                border-radius:0;	       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 350px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:10%;
+		    width:95%;
+		}
+
+}
+
+/* */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_ipad.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 600px 141px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 425px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:425px;
+	                background: url('../images/sign-here.jpg') no-repeat;
+	                background-size: 425px 100px;
+	                border-width:1px;
+	                border-radius:0;	       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 600px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:25%;
+		    width:95%;
+		}
+
+}
+
+/* */
+@media only screen 
+and (min-device-width : 800px) 
+and (max-device-width :1280px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_ipad.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 600px 141px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 425px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:425px;
+	                background: url('../images/sign-here.jpg') no-repeat;
+	                background-size: 425px 100px;
+	                border-width:1px;
+	                border-radius:0;       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 600px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:25%;
+		    width:95%;
+		}
+
+}
+
+/* google nexus 7 */
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width :900px) 
+{
+    
+        .signature-wrapper
+        {
+	        display:block;
+	        position: relative;
+	        margin:auto;
+	        width:100% !important;
+	        background: url('../images/sign-here_ipad.jpg');
+	        background-repeat:no-repeat;
+	        background-size: 500px 141px;
+	        background-position: bottom;
+	        height:130px !important;
+	        -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: none;
+	        -ms-user-select: none;
+	        user-select: none;
+        }
+        .signature-wrapper-displayonly
+        {
+	        width: 425px;
+	        display:inline-block;
+	        position:relative;
+        }
+        
+       .signature-wrapper-displayonly .sign-here
+        {
+	                cursor:pointer;
+	                width:425px;
+	                background: url('../images/sign-here.jpg') no-repeat;
+	                background-size: 425px 100px;
+	                border-width:1px;
+	                border-radius:0;       
+        }
+        
+         .signature-wrapper-displayonly-signed .sign-here
+        {
+	                cursor:pointer;
+	                width:100% !important;
+	                height:100px ;
+	                background: url('../images/sign-here_blank.jpg') no-repeat;
+	                border-width:1px;
+	                border-radius:0;
+	                    
+        }
+        .signature-wrapper .clearButton
+        {
+	        text-decoration:none;
+	        margin-left: 500px;
+	        line-height:1em;
+        }
+         .esig-type-style-inactive
+        {
+            border: 1px solid #0083c5!important;
+	        border-radius: 3px;
+            padding: 5px 5px;
+             margin-left:25px;
+            min-width: 140px;
+        }
+        
+        .sig-container .sig-middle
+		{
+		    position:absolute;
+		    height:auto; 
+		    top:25%;
+		    width:95%;
+		}
+
+}

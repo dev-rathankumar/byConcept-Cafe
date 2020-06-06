@@ -1,0 +1,119 @@
+<div id="top">
+            <div class="logo"></div>
+            <div class="info">
+                <h2><%= order_number_format %></h2>
+            </div>
+</div>
+<div id="mid">
+            <div class="info">
+                <p>Note: <%= note %></p>
+                <p>Order Date: <%= created_at %></p>
+                <p>Customer Point: <%= customer.point %></p>
+                <p>Customer Name: <%= customer.name %></p>
+                <p>Customer phone : <%= customer.phone %></p>
+                <p>Customer email : <%= customer.email %></p>
+                <p>Customer address : <%= customer.address %></p>
+                <p>Customer address_2 : <%= customer.address_2 %></p>
+                <p>Customer city : <%= customer.city %></p>
+                <p>Customer state : <%= customer.state %></p>
+                <p>Customer postcode : <%= customer.postcode %></p>
+                <p>Customer country : <%= customer.country %></p>
+                <p>Cashier   : <% if(typeof sale_person_name != "undefined") { %> <%= sale_person_name %> <% } %> </p>
+            </div>
+            <div class="payment-details">
+                <ul class="payment-methods">
+                    <% payment_method.forEach(function(payment){ %>
+                        <li><%= payment.name %> : <%= payment.paid %></li>
+                        <% if (payment.code == "cash" && payment.return > 0) { %>
+                            <li>Return: <%= payment.return %></li>
+                        <% } %>
+                    <% }); %>
+                </ul>
+            </div>
+            <% if(add_shipping){ %>
+                <div class="shipping-details">
+                    <p>Shipping method: <%- shipping_information.shipping_method_details.label %></p>
+                    <p>Shipping name: <%- shipping_information.name %></p>
+                    <p>Shipping address: <%- shipping_information.address %></p>
+                    <p>Shipping address 2: <%- shipping_information.address_2 %></p>
+                    <p>Shipping city: <%- shipping_information.city %></p>
+                    <p>Shipping postcode: <%- shipping_information.postcode %></p>
+                    <p>Shipping state: <%- shipping_information.state %></p>
+                </div>
+            <% }; %>
+</div>
+
+
+<table>
+    <tr class="tabletitle items-table-label">
+        <td class="item"><h2>Item</h2></td>
+        <td class="qty"><h2>Price</h2></td>
+        <td class="qty"><h2>Qty</h2></td>
+        <td class="total"><h2>Total</h2></td>
+        <td class="total"><h2>Discount</h2></td>
+        <td class="total"><h2>Tax</h2></td>
+        <td class="total"><h2>Total incl_tax</h2></td>
+    </tr>
+    <% items.forEach(function(item){ %>
+    <tr class="service">
+        <td class="tableitem item-name">
+            <p class="itemtext"><%= item.name %></p>
+            <% if(item.sub_name.length > 0){ %>
+
+                   <p class="option-item"> <%- item.sub_name  %> </p>
+
+            <% }; %>
+
+        </td>
+        <td class="tableitem item-price">
+        <p class="itemtext">
+        
+       <% if( item.price_currency_formatted != item.final_price_currency_formatted ) {%>
+                <span style="text-decoration: line-through;"><%= item.price_currency_formatted %></span>
+        <% }; %>
+        <%= item.final_price_currency_formatted %>
+        </p>
+        </td>
+        <td class="tableitem item-qty"><p class="itemtext"><%= item.qty %></p></td>
+
+        <td class="tableitem item-total"><p class="itemtext"><%= item.total_currency_formatted %></p></td>
+        <td class="tableitem item-total"><p class="itemtext"><%= item.final_discount_amount_currency_formatted %></p></td>
+        <td class="tableitem item-total"><p class="itemtext"><%= item.tax_amount_currency_formatted %></p></td>
+        <td class="tableitem item-total"><p class="itemtext"><%= item.total_incl_tax_currency_formatted %></p></td>
+    </tr>
+    <% }); %>
+    <tr class="tabletitle">
+
+        <td class="Rate sub-total-title" style="text-align:right;padding-right:5px;"  colspan="6"><h2>Sub Total</h2></td>
+        <td class="payment sub-total-amount"><h2><%= sub_total_currency_formatted %></h2></td>
+    </tr>
+
+    <tr class="tabletitle">
+
+        <td class="Rate shipping-title" style="text-align:right;padding-right:5px;"  colspan="6"><h2>Shipping</h2></td>
+        <td class="payment shipping-amount"><h2><%= shipping_cost_currency_formatted %></h2></td>
+    </tr>
+
+    <tr class="tabletitle">
+            <td class="Rate tax-title" style="text-align:right;padding-right:5px;" colspan="6"><h2>Discount</h2></td>
+            <td class="payment cart-discount-amount"><h2><%= final_discount_amount_currency_formatted %></h2></td>
+     </tr>
+
+    <tr class="tabletitle">
+        <td class="Rate tax-title" style="text-align:right;padding-right:5px;" colspan="6"><h2>Tax</h2></td>
+        <td class="payment tax-amount"><h2><%= tax_amount_currency_formatted %></h2></td>
+    </tr>
+    <tr class="tabletitle">
+
+        <td class="Rate grand-total-title" style="text-align:right;padding-right:5px;"  colspan="6"><h2>Grand Total</h2></td>
+        <td class="payment grand-total-amount"><h2><%= grand_total_currency_formatted %></h2></td>
+    </tr>
+</table>
+
+
+<p style="text-align:center;">[order_barcode width="180" height="50"] </p>
+<p style="text-align:center;">[order_qrcode width="100" height="100"] </p>
+
+<div id="legalcopy">
+     <p class="legal"><strong>Thank you for your business!</strong>  Payment is expected within 31 days; please process this invoice within that time. There will be a 5% interest charge per month on late invoices.</p>
+</div>

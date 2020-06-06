@@ -1,0 +1,85 @@
+Version 1.7.0
+------------------------------------------------------------
+Added - Point Reward System on Cart Total
+Added - Points Earned In - Fixed, Percentage, Exchange Rate
+
+Version 1.6.6
+------------------------------------------------------------
+Added - WooCommercer Affiliation/Refferal system
+FIX - User total balance not reflecting when points deducted through partial payment.
+
+Version 1.6.5
+------------------------------------------------------------
+NEW - Create Individual Option to show Reward Points on Single Product Page/Cart Page/Checkout Page.
+
+Version 1.6.4
+------------------------------------------------------------
+Improvement – License System
+
+Version 1.6.3
+------------------------------------------------------------
+NEW - Added functionality to enable/disable partial paymment.
+FIX - fixed translation slugs.
+
+
+Version 1.6.2
+------------------------------------------------------------
+Improvement - Partial payment range and slider values show in number format.
+Improvement - License related issues.
+FIX - Badges and rank addon activate issue fixed.
+
+Version 1.6.1
+------------------------------------------------------------
+FIX - View details popup on plugins page.
+FIX - License related issues.
+
+Version 1.6
+------------------------------------------------------------
+Improvement: Compatible with existing partial payment addon’s users
+
+Version 1.5.3
+------------------------------------------------------------
+NOTICE - We have introduced myCred WooCommerce Plus Addon which includes the functionality of WooCommerce – Partial Payment and some other amazing features.
+If you are existing user of WooCommerce – Partial Payment Addon, there will be an update version 1.5.3 which will switch you automatically on myCred WooCommerce Plus.
+
+Version 1.5.2
+------------------------------------------------------------
+FIX - Remove warnings and errors 
+
+Version 1.5.1
+------------------------------------------------------------
+Improvement - Upgrading License System
+New - Tested UpTo WooCommerce 3.8.x
+New - Tested UpTo WordPress 5.3 & Php 7.4
+
+Version 1.5
+------------------------------------------------------------
+FIX - Partial payment amount will not exceed the maximum amount.
+FIX - Check for partial payment maximum limit on the server side.
+FIX - Set textdomain for translation.
+
+Version 1.4
+------------------------------------------------------------
+FIX - slider max limit applied.
+
+Version 1.3
+------------------------------------------------------------
+FIX - slider appearing issue.
+FIX - Multiple refund on same coupon.
+FIX - Shipping fees added on front end if paid.
+
+Version 1.2
+------------------------------------------------------------
+Added support for myCRED 1.8 with backward compatibility.
+Tested upto WordPress 5.0.2
+
+Version 1.1
+------------------------------------------------------------
+FIX - Added support for WooCommerce 3.2
+TWEAK - Requires WooCommerce 3.0+
+TWEAK - Requires myCRED 1.7 or higher
+NEW - Added option to show points in My Account
+
+Version 1.0
+------------------------------------------------------------
+Initial release

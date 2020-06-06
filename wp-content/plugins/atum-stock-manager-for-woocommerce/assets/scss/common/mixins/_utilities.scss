@@ -1,0 +1,207 @@
+//
+// Utilities
+//----------
+
+// Vertical align using display: flex
+@mixin vertical-align-flex($vertical-center: center, $text-center: center) {
+	display: flex;
+	flex-direction: row;
+	justify-content: $text-center;
+	align-items: $vertical-center;
+}
+
+// Vertical aligng using display: table-cell
+@mixin vertical-align-table($text-center: false){
+	display: table-cell;
+	vertical-align: middle;
+	@if($text-center == true){
+		text-align: center;
+	}
+}
+
+// Vertical aligng using absolute positioning
+@mixin vertical-align-absolute{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+// Ellipsis overflow
+@mixin text-overflow() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+// Placeholder text
+@mixin placeholder($color: $input-color-placeholder) {
+	// Firefox
+	&::-moz-placeholder {
+		color: var(--#{$color});
+		opacity: 1; // Override Firefox's unusual default opacity
+	}
+	&:-ms-input-placeholder { color: var(--#{$color}); } // Internet Explorer 10+
+	&::-webkit-input-placeholder  { color: var(--#{$color}); } // Safari and Chrome
+}
+
+// Clearfix
+@mixin clearfix() {
+	&::after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+}
+
+// Overlay
+@mixin overlay($bg-color: rgba(0, 0, 0, .7), $opacity: .7, $zindex: 1) {
+	position: absolute;
+	background-color: $bg-color;
+	opacity: $opacity;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: $zindex;
+}
+
+// Loading Spinner
+@mixin loader($size: 15px, $color: #0073AA, $border-size: 2px, $duration: 1s, $zindex: 50) {
+	width: $size;
+	height: $size;
+	border: $border-size solid rgba($color, 0.25);
+	border-top-color: $color;
+	border-radius: 50%;
+	position: absolute;
+	z-index: $zindex;
+	animation: loader-rotate $duration linear infinite;
+	@include loader-rotate-animation;
+}
+
+@mixin loader-rotate-animation {
+	@keyframes loader-rotate {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
+}
+
+@mixin loader-scale-animation {
+	@keyframes loader-rotate {
+		0% {
+			transform: scale(0);
+			opacity: 0;
+		}
+		
+		50% {
+			opacity: 1;
+		}
+		
+		100% {
+			transform: scale(1);
+			opacity: 0;
+		}
+	}
+}
+
+// Labels
+@mixin label-variant($color) {
+	background-color: $color;
+	
+	&[href] {
+		&:hover, &:focus {
+			background-color: darken($color, 10%);
+		}
+	}
+}
+
+// Alerts
+@mixin alert-variant($background, $border, $color) {
+	color: $color;
+	background-color: $background;
+	border-color: $border;
+	
+	hr {
+		border-top-color: darken($border, 5%);
+	}
+	
+	.alert-link {
+		color: darken($color, 10%);
+	}
+}
+
+// Icon replacement
+@mixin ir() {
+	display: block;
+	text-indent: -9999px;
+	position: relative;
+	height: 1em;
+	width: 1em;
+}
+
+// Brand colors mixins
+@mixin brand_colors() {
+	.color- {
+		&primary {
+			color: $primary;
+		}
+		
+		&info {
+			color: $info;
+		}
+		
+		&success {
+			color: $tertiary;
+		}
+		
+		&warning {
+			color: $secondary;
+		}
+		
+		&danger {
+			color: $danger;
+		}
+	}
+}
+
+@mixin brand_bg_colors() {
+	.bg- {
+		&primary {
+			background-color: $primary;
+		}
+		
+		&info {
+			background-color: $info;
+		}
+		
+		&success {
+			background-color: $tertiary;
+		}
+		
+		&warning {
+			background-color: $secondary;
+		}
+		
+		&danger {
+			background-color: $danger;
+		}
+	}
+	
+}
+
+@mixin atum-panel() {
+	border-radius: 5px;
+	background-color: var(--white);
+	box-shadow: 0 4px 0 0 var(--gray-400);
+	border: 1px solid var(--gray-400);
+}
+
+@mixin dropdown-arrow() {
+	height: 24px;
+	background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat right 5px top 55%;
+	background-size: 16px 16px;
+	width: 28px;
+}

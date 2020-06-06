@@ -1,0 +1,420 @@
+/*RTL Support - Tabs Square*/
+
+.argmc-wrapper .argmc-tab-item {
+    direction: rtl;
+	float: right;
+	border-left: none;
+	border-right: 1px solid #dcdcdc;
+}
+
+.argmc-wrapper .argmc-tab-item:first-child {
+	border-right: none;
+}
+
+.argmc-wrapper .argmc-tab-text {
+	unicode-bidi: bidi-override;
+}
+
+.argmc-wrapper .tab-completed-icon {
+    margin-right: 0;
+	margin-left: 4px;
+}
+
+
+/*RTL Support - Footer Buttons and Text*/
+
+.argmc-wrapper .argmc-nav-text,
+.argmc-wrapper .argmc-nav-buttons .button {
+	direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.argmc-wrapper .argmc-login-inner {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+
+@media screen and (min-width: 767px) {
+	
+	.argmc-wrapper .argmc-nav {
+		display: table;
+		width: 100%;
+	}
+
+	.argmc-wrapper .argmc-nav-text,
+	.argmc-wrapper .argmc-nav-buttons {
+		float: right;
+	}
+	
+	.argmc-wrapper .argmc-nav-text {
+		text-align: right;
+		padding: 17px 0 20px 10%;
+		width: 50%;
+	}
+	
+	.argmc-wrapper .argmc-nav-buttons {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end; /*Please replace flex-end with center if you decide to not use footer text and want to align centered the footer buttons*/
+		width: 50%;  /*Please change the 40% value to 100% if you decide to not use footer text*/
+	}
+	
+	.argmc-wrapper .argmc-nav-buttons .button {
+		margin-right: 5px !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	.register-visible .argmc-login {
+		padding-left:  10%;
+		padding-right: 0;
+	}
+	
+	.register-visible .argmc-login::after {
+		position: absolute;
+		left: 0;
+		right: auto;
+	}
+	
+	.register-visible .argmc-register {
+		padding-right: 10%;
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	
+	.argmc-wrapper .argmc-tab-item-outer {
+		padding: 31px 27px 26px 5px;
+		text-align: right;
+	}
+}
+
+
+
+
+
+/*RTL Support - Tabs Progress Bar*/
+
+.argmc-wrapper .argmc-tab-item {
+    direction: rtl;
+	float: right;
+}
+
+.argmc-wrapper .argmc-tab-item:first-child {
+	border-right: none;
+}
+
+.argmc-wrapper .argmc-tab-text {
+	unicode-bidi: bidi-override;
+}
+
+.argmc-tab-item:first-child .argmc-tab-text {
+    position: absolute;
+    right: 10px;
+}
+
+.argmc-tab-item:last-child .argmc-tab-text {
+    left: 10px;
+    right: auto;
+}
+
+.argmc-wrapper .tab-completed-icon {
+    margin-right: 0;
+	margin-left: 4px;
+}
+
+
+/*RTL Support - Footer Buttons and Text*/
+
+.argmc-wrapper .argmc-nav-text,
+.argmc-wrapper .argmc-nav-buttons .button {
+	direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.argmc-wrapper .argmc-login-inner {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+@media screen and (min-width: 767px) {
+	
+	.argmc-tab-item:first-child .argmc-tab-text,
+	.argmc-tab-item:last-child .argmc-tab-text {
+		position: relative;
+		right: auto;
+		left: auto;
+	}
+	
+	.argmc-wrapper .argmc-nav {
+		display: table;
+		width: 100%;
+	}
+
+	.argmc-wrapper .argmc-nav-text,
+	.argmc-wrapper .argmc-nav-buttons {
+		float: right;
+	}
+	
+	.argmc-wrapper .argmc-nav-text {
+		text-align: right;
+		padding: 17px 0 20px 10%;
+		width: 50%;
+	}
+	
+	.argmc-wrapper .argmc-nav-buttons {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end; /*Please replace flex-end with center if you decide to not use footer text and want to align centered the footer buttons*/
+		width: 50%;  /*Please change the 40% value to 100% if you decide to not use footer text*/
+	}
+	
+	.argmc-wrapper .argmc-nav-buttons .button {
+		margin-right: 5px !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	.register-visible .argmc-login {
+		padding-left:  10%;
+		padding-right: 0;
+	}
+	
+	.register-visible .argmc-login::after {
+		position: absolute;
+		left: 0;
+		right: auto;
+	}
+	
+	.register-visible .argmc-register {
+		padding-right: 10%;
+		padding-left: 0;
+	}
+}
+
+
+
+
+
+
+/*
+  RTL Support - Tabs Arrow Alt
+  Please follow the below instructions to manually change the arrows colors 
+*/
+
+.argmc-wrapper .argmc-tab-item {
+    direction: rtl;
+	float: right;
+}
+
+.argmc-tabs-list.two-tabs .argmc-tab-item {
+    width: 50% !important;
+}
+
+.argmc-tabs-list.three-tabs .argmc-tab-item {
+    width: 33.3333% !important;
+}
+
+.argmc-tabs-list.four-tabs .argmc-tab-item {
+    width: 25% !important;
+}
+
+.argmc-tabs-list.five-tabs .argmc-tab-item {
+    width: 20% !important;
+}
+
+.argmc-tabs-list.six-tabs .argmc-tab-item {
+    width: 16.66667% !important;
+}
+
+.argmc-wrapper .argmc-tab-text {
+	unicode-bidi: bidi-override;
+}
+
+.argmc-wrapper .argmc-tab-item-outer {
+    padding: 20px 25px 0 2px;
+}
+
+.argmc-wrapper .argmc-tab-item:first-child .argmc-tab-item-outer:before {
+    display: block;
+}
+
+.argmc-wrapper .argmc-tab-item:last-child .argmc-tab-item-outer:after {
+    display: block;
+}
+
+.argmc-wrapper .argmc-tab-item:last-child .argmc-tab-item-outer:before {
+    display: none;
+}
+
+/*
+	#fff is the Background Color of your checkout page - usually is #fff(white)
+*/
+.argmc-wrapper .argmc-tab-item-outer::before {
+    border-color: transparent #fff transparent transparent !important;
+	left: 100%;
+	margin-right: 0;
+	border-width: 32px 21px 32px 0;
+}
+
+/*
+	#eee is the Tab Background Color - navigate to Admin Dashboard -> WooCommerce > ARG Multistep Checkout -> Wizard Styles,  then scoll down till Tab Background Color option
+	Replace #eee color with the color you set it for Tab Background Color 
+*/
+.argmc-wrapper .argmc-tab-item-outer::after {
+    border-color: transparent #eee transparent transparent !important;
+	right: 100%;
+	margin-right: 0;
+	border-width: 26px 17px 26px 0;
+}
+
+/*
+	#afafaf is the Visited Tab Background Color - navigate to Admin Dashboard -> WooCommerce > ARG Multistep Checkout -> Wizard Styles,  then scoll down till Visited Tab Background Color option
+	Replace #afafaf color with the color you set it for Visited Tab Background Color
+*/
+.argmc-wrapper .argmc-tab-item.visited .argmc-tab-item-outer::after {
+    border-color: transparent #afafaf transparent transparent !important;
+}
+
+/*
+	#555555 is the Current / On Hover Tab Background Color - navigate to Admin Dashboard -> WooCommerce > ARG Multistep Checkout -> Wizard Styles,  then scoll down till Current / On Hover Tab Background Color option
+	Replace #555555 color with the color you set it for Current / On Hover Tab Background Color
+*/
+.argmc-wrapper .argmc-tab-item.current.visited .argmc-tab-item-outer::after {
+	border-color: transparent #555555 transparent transparent !important;
+}
+
+.argmc-wrapper .argmc-login-inner {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+@media screen and (min-width: 767px) {
+	
+	.argmc-wrapper .argmc-tab-item:first-child .argmc-tab-item-inner,
+	.argmc-wrapper .argmc-tab-item:last-child .argmc-tab-item-inner,
+	.argmc-wrapper .tabs-width-auto .argmc-tab-item-inner,
+	.argmc-wrapper .tabs-equal-width .argmc-tab-item-inner {
+		width: -webkit-calc(100%);
+		width: calc(100%);
+	}
+	
+	.argmc-wrapper .argmc-tab-item-outer::before {
+		border-width: 41px 27px 41px 0;
+	}
+	
+	.argmc-wrapper .argmc-tab-item-outer::after {
+		border-width: 35px 23px 35px 0;
+	}
+	
+	.argmc-wrapper .tabs-width-auto .argmc-tab-item-inner,
+	.argmc-wrapper .tabs-equal-width .argmc-tab-item-inner {
+		padding: 0 33px 0 5px;
+	}
+	
+	/*
+		#555555 is the Current / On Hover Tab Background Color - navigate to Admin Dashboard -> WooCommerce > ARG Multistep Checkout -> Wizard Styles,  then scoll down till Current / On Hover Tab Background Color option
+		Replace #555555 color with the color you set it for Current / On Hover Tab Background Color
+	*/
+	.argmc-wrapper .argmc-tab-item.visited:hover .argmc-tab-item-outer::after,
+	.argmc-wrapper .argmc-tab-item.current.last + .argmc-tab-item:hover .argmc-tab-item-outer::after {
+		border-color: transparent #555555 transparent transparent !important;
+	}
+}
+
+
+@media screen and (min-width: 1200px) {
+	
+	.argmc-wrapper .argmc-tab-item:first-child .argmc-tab-item-inner {
+		padding-right: 21px;
+	}
+	
+	.argmc-wrapper .tabs-width-auto .argmc-tab-item-inner,
+	.argmc-wrapper .tabs-equal-width .argmc-tab-item-inner {
+		padding: 0 32px 0 14px;
+	}
+	
+	.argmc-wrapper .argmc-tab-text {
+		padding-right: 9px;
+		text-align: right;
+	}
+	
+	.argmc-wrapper .argmc-tab-item-outer::before {
+		border-width: 37px 26px 37px 0;
+	}
+	
+	.argmc-wrapper .argmc-tab-item-outer::after {
+		border-width: 30px 21px 30px 0;
+	}
+}
+
+
+/*RTL Support - Footer Buttons and Text*/
+
+.argmc-wrapper .argmc-nav-text,
+.argmc-wrapper .argmc-nav-buttons .button {
+	direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+
+
+@media screen and (min-width: 767px) {
+	
+	.argmc-tab-item:first-child .argmc-tab-text,
+	.argmc-tab-item:last-child .argmc-tab-text {
+		position: relative;
+		right: auto;
+		left: auto;
+	}
+	
+	.argmc-wrapper .argmc-nav {
+		display: table;
+		width: 100%;
+	}
+
+	.argmc-wrapper .argmc-nav-text,
+	.argmc-wrapper .argmc-nav-buttons {
+		float: right;
+	}
+	
+	.argmc-wrapper .argmc-nav-text {
+		text-align: right;
+		padding: 17px 0 20px 10%;
+		width: 50%;
+	}
+	
+	.argmc-wrapper .argmc-nav-buttons {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end; /*Please replace flex-end with center if you decide to not use footer text and want to align centered the footer buttons*/
+		width: 50%;  /*Please change the 40% value to 100% if you decide to not use footer text*/
+	}
+	
+	.argmc-wrapper .argmc-nav-buttons .button {
+		margin-right: 5px !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	.register-visible .argmc-login {
+		padding-left:  10%;
+		padding-right: 0;
+	}
+	
+	.register-visible .argmc-login::after {
+		position: absolute;
+		left: 0;
+		right: auto;
+	}
+	
+	.register-visible .argmc-register {
+		padding-right: 10%;
+		padding-left: 0;
+	}
+}

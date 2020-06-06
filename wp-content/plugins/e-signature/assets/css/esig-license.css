@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2016, 1:09:41 PM
+    Author     : Abu Shoaib
+*/
+
+.license-active-status{
+    background: #24cf20;
+    padding: 5px;
+    color:#FFF;
+    font-family: sans-serif;
+}
+
+.license-inactive-status{
+    background: #f10e44;
+    padding: 5px;
+    color:#FFF;
+    font-family: sans-serif;
+}
+
+.license-expired-msg{
+		margin: 0 0 10px;
+		background: #fff;
+		padding: 1em;
+		border: #E7E7E7 solid 1px;
+		font-weight: 400;
+		line-height: 1.6em;
+		font-size: 19px;
+		color: red;
+		border-bottom: 2px solid #ccc;
+}
+.license-expired-msg strong{
+	color:#f10e44;
+}
+.license-inactive-msg{
+		margin: 1em 0 2em;
+		background: #fff;
+		padding: 1em;
+		border: #E7E7E7 solid 1px;
+		font-weight: 400;
+		line-height: 1.6em;
+		font-size: 19px;
+		color: #777;
+		border-bottom: 2px solid #ccc;
+}
+.esig-renew-button {
+    background: #f10e44 !important;
+    border: none;
+}

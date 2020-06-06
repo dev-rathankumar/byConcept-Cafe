@@ -1,0 +1,6 @@
+server {
+  
+    location /your.pos.panel.folder {
+        try_files $uri $uri/ /index.html;
+    }
+}

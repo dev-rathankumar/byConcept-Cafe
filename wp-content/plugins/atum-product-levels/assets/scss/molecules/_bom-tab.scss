@@ -1,0 +1,561 @@
+//
+// Bill of Materials tab
+//-----------------------
+
+#bom_product_data {
+	.alert {
+		width: 90%;
+		margin: 10px auto;
+	}
+}
+
+.bom_options {
+	a {
+		&:before {
+			content: "\f325" !important;
+		}
+	}
+}
+
+.total-badge {
+	background-color: $blue;
+	border-radius: 5px;
+	color: $white;
+	padding: 4px 9px;
+	margin-left: 5px;
+}
+
+.bom-builder {
+	padding: $grid-gutter-width/2;
+	
+	.atum-section-title {
+		margin-top: $grid-gutter-width/3;
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: $blue-dark;
+		border: none !important;
+	}
+	
+	.bom-list-title {
+		display: flex;
+		align-items: center;
+		font-size: 18px;
+		
+		i {
+			font-size: 20px;
+			margin-right: 5px;
+		}
+	}
+	
+	.bom-list-total {
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	.bom-bulk-actions {
+		display: flex;
+		margin-bottom: $grid-gutter-width/2;
+		
+		button {
+			margin-left: 5px;
+			text-transform: uppercase;
+			font-weight: 200;
+			height: 30px;
+		}
+	}
+	
+	span.select2 {
+		float: none;
+		
+		&, .selection, .select2-selection {
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+	
+	p.form-field {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+		// Overwrite specificity
+		body & {
+			padding: 0 !important;
+			
+			label {
+				margin: 0 !important;
+			}
+		}
+		
+		> label {
+			padding-top: 5px;
+			font-size: 15px;
+			color: $gray-600;
+			min-width: 50% !important;
+		}
+	}
+}
+
+.select2-dropdown {
+	&, .select2-results, .select2-results__options, .select2-results__option {
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+// Linked BOMs list
+.linked-boms {
+	padding: 1px $grid-gutter-width/2 !important;
+	margin-bottom: $grid-gutter-width/2;
+	border-collapse: collapse;
+	background-color: transparent !important;
+	border: none !important;
+	width: 100%;
+	
+	thead {
+		tr {
+			background-color: $gray-200;
+			
+			th {
+				padding: 5px 0;
+				font-size: 12px;
+				font-weight: normal;
+				text-align: left;
+				color: $gray-600;
+				
+				i {
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+	
+	th, td {
+		border-bottom: 5px solid $white !important;
+		
+		&.numeric {
+			text-align: center !important;
+		}
+		
+		&.drag-column {
+			width: 13px;
+		}
+		
+		&.check-column {
+			width: 22px;
+		}
+		
+		&.thumb-column {
+			width: 43px;
+		}
+		
+		&.bom-data-toggler {
+			width: 25px;
+		}
+		
+		&:first-child {
+			@include border-left-radius(5px)
+		}
+		
+		&:last-child {
+			@include border-right-radius(5px);
+		}
+		
+		input[type=checkbox] {
+			border-radius: 3px;
+			box-shadow: none;
+			border-color: $gray-500;
+			width: 16px !important;
+			min-width: 0 !important;
+			margin-top: 0;
+		}
+	}
+	
+	.linked-bom {
+		background-color: $gray-100;
+		
+		td {
+			padding: 2px 0 !important;
+			vertical-align: middle !important;
+			
+			> span {
+				
+				&:not(:last-child) {
+					margin-right: 5px;
+				}
+				
+				&.item-name {
+					@include text-overflow;
+					display: block;
+					max-width: 265px;
+					
+					&, a {
+						font-size: 16px;
+						line-height: 1.5;
+						font-weight: 500;
+						color: $gray-600;
+						text-decoration: none;
+						
+						&:focus {
+							box-shadow: none;
+						}
+					}
+				}
+			}
+			
+			.drag-item {
+				margin-top: 3px;
+			}
+			
+			.toggle-indicator {
+				cursor: pointer;
+				
+				&:before {
+					content: '\f140' !important;
+				}
+			}
+			
+			&.thumb-column {
+				
+				img {
+					padding-top: 4px;
+				}
+				
+				i {
+					width: 30px;
+					height: auto;
+					display: inline-block;
+					position: relative;
+					
+					&:before {
+						color: $gray-500;
+						font-size: 20px;
+						@include vertical-align-absolute;
+						left: 0;
+						right: 0;
+					}
+				}
+				
+				.thumb-placeholder {
+					width: 30px;
+					height: 30px;
+					display: inline-block;
+					background-color: $gray-200;
+				}
+			}
+			
+		}
+		
+		&.expanded {
+			td {
+				border-bottom: none !important;
+				border-radius: 0;
+			}
+			
+			.toggle-indicator {
+				&:before {
+					content: '\f142' !important;
+				}
+			}
+		}
+		
+		input {
+			&[type=number], &[type=text] {
+				width: 50px !important;
+				min-width: 50px !important;
+				height: 22px;
+				text-align: center;
+				float: none;
+				box-shadow: none;
+				border-radius: 5px;
+				border-color: transparent;
+				background-color: $white;
+				color: $gray-600;
+				display: inline-block !important;
+				
+				&.danger {
+					border-color: $danger;
+				}
+				
+				&:focus {
+					border-color: $gray-600;
+					background-color: $white;
+				}
+				
+				&:disabled, &:read-only {
+					cursor: not-allowed;
+					border-color: transparent;
+				}
+				
+			}
+		}
+		
+		.bom-status {
+			font-size: 16px;
+			color: $gray-600;
+		}
+		
+		&.instock {
+			background-color: $green-light;
+			
+			.item-name {
+				a {
+					color: $green;
+				}
+			}
+			
+			input {
+				&[type=number], &[type=text] {
+					background-color: $green-light-2;
+					color: $green;
+					
+					&:focus {
+						border-color: $green;
+					}
+				}
+			}
+			
+			.bom-status {
+				color: $green;
+			}
+		}
+		
+		&.outofstock {
+			background-color: $red-light;
+			
+			.item-name {
+				a {
+					color: $red;
+				}
+			}
+			
+			input {
+				&[type=number], &[type=text] {
+					background-color: $red-light-2;
+					color: $red;
+					
+					&:focus {
+						border-color: $red;
+					}
+				}
+			}
+			
+			.bom-status {
+				color: $red;
+			}
+		}
+		
+		&.onbackorder {
+			background-color: $orange-light;
+			
+			.item-name {
+				a {
+					color: $orange;
+				}
+			}
+			
+			input {
+				background-color: $orange-light-2;
+				color: $orange;
+				
+				&[type=number], &[type=text] {
+					&:focus {
+						border-color: $orange;
+					}
+				}
+			}
+			
+			.bom-status {
+				color: $orange;
+			}
+		}
+		
+		&.ui-sortable-helper {
+			border: none;
+		}
+		
+		&.not-found {
+			background-color: $red-light;
+			
+			td {
+				.item-name, .bom-status, input {
+					color: $red;
+				}
+			}
+		}
+		
+	}
+	
+	.no-items {
+		background-color: $light;
+		
+		td {
+			text-align: center !important;
+			font-weight: 600;
+			color: $gray-600;
+			font-size: 16px;
+			padding: 10px !important;
+		}
+	}
+	
+	.bom-data {
+		background-color: $light;
+		display: none;
+		
+		> td {
+			border-top: none;
+			@include border-top-radius(0);
+			padding: 10px !important;
+		}
+		
+		table {
+			padding: 0 !important;
+			width: 100%;
+			border-collapse: collapse;
+			border: none !important;
+			background-color: transparent !important;
+			
+			tr {
+				background-color: $gray-200;
+			}
+			
+			th, td {
+				text-align: center !important;
+				padding: 8px 10px !important;
+				border: none !important;
+				vertical-align: middle !important;
+			}
+			
+			th {
+				padding-bottom: 0 !important;
+				
+				&:first-child {
+					border-bottom-left-radius: 0;
+				}
+				
+				&:last-child {
+					border-bottom-right-radius: 0;
+				}
+			}
+			
+			td {
+				
+				> span {
+					background-color: $white;
+					padding: 5px 8px;
+					border-radius: 5px;
+					display: inline-block;
+					color: $gray-600;
+				}
+				
+				.negative {
+					color: $danger;
+				}
+				
+				&:first-child {
+					border-top-left-radius: 0;
+				}
+				
+				&:last-child {
+					border-top-right-radius: 0;
+				}
+			}
+		}
+		
+		&.instock {
+			background-color: $green-light;
+			
+			table {
+				tr {
+					background-color: $green-light-2;
+				}
+			}
+		}
+		
+		&.outofstock {
+			background-color: $red-light;
+			
+			table {
+				tr {
+					background-color: $red-light-2;
+				}
+			}
+		}
+		
+		&.onbackorder {
+			background-color: $orange-light;
+			
+			table {
+				tr {
+					background-color: $orange-light-2;
+				}
+			}
+			
+			.negative {
+				color: $orange;
+			}
+		}
+		
+	}
+	
+}
+
+// Linked materials in variations
+.wc-metabox.woocommerce_variation {
+	.woocommerce_variable_attributes {
+		.raw_materials_search, .product_parts_search {
+			display: inline-block !important;
+		}
+	}
+	
+	.bom-builder {
+		padding: 3px 0;
+	}
+}
+
+// Total BOM Cost
+.sync_purchase_price {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	.total-bom-cost {
+		margin-right: $grid-gutter-width/2;
+		font-size: 16px;
+		color: $blue-dark;
+		font-weight: 600;
+		
+		.total-badge {
+			font-size: 20px;
+		}
+	}
+}
+
+// Translations panel
+.translated-pl-product {
+	padding: $grid-gutter-width/2;
+	
+	.alert {
+		display: block;
+		
+		p {
+			padding-left: 20px;
+		}
+	}
+	
+	.woocommerce_variation & {
+		padding-left: 0;
+		
+		.alert p {
+			padding-left: $grid-gutter-width;
+		}
+		
+	}
+	
+}

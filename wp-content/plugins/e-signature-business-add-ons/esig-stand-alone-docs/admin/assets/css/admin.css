@@ -1,0 +1,172 @@
+.esig_sad_popup{
+    width: 98%;
+    text-align: center;
+}
+
+.esig_sad_popup .invite_box
+{
+	text-align:center;
+	color:#777;
+	font-size:14px;
+	line-height:1.5em;
+       
+}
+.esig_sad_popup .invite_url
+{
+	background-color:#F5F5F5;
+	font-size:16px;
+	height:2.0em;
+	text-align:center;
+	border:1px solid #ddd;
+	margin:.25em auto 0 auto;
+	color:#777;
+	width:80%;
+}
+.esig_sad_popup .copy-msg
+{
+	font-size:13px;
+	margin:.5em 0 1em 0;
+}
+.esig_sad_popup .invite_form
+{
+	width:100%;
+	margin:0 auto 1em;
+	color:#666;
+}
+.esig_sad_popup .invite_form li
+{
+	padding-bottom:1em;
+	text-align: center;
+}
+.esig_sad_popup .invite_form label
+{
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 1em;
+	width: 108px;
+	margin-bottom: 8px;
+}
+.esig_sad_popup .invite_form input[type="text"]
+{
+	width: 309px;
+	margin: 0;
+	vertical-align: middle;
+	font-size: 1.4em;
+	height: 36px;
+	border-radius: 4px;
+	line-height:36px;
+	text-indent:.5em;
+}
+.esig_sad_popup .document_title_caption
+{
+	position: relative;
+	font-size: 24px;
+	border:0px solid green ;
+	width: 100%;
+	margin: 0px auto auto;
+	color: #666;
+	font-weight: bold;
+	text-align: center;
+}
+.esig_sad_popup .instructions
+{
+	position: relative;
+	font-size: 19px;
+	width: 100%;
+	margin: 0px auto auto;
+	color: #666;
+	border:0px solid red ;
+	font-weight: 300;
+	text-align: center;
+}
+.esig_sad_popup .loader_wrap
+{
+	height:auto;
+	width:100%;
+	text-align:center;
+}
+.esig_sad_popup .loader
+{
+	display:inline-block;
+}
+.esig_sad_popup .popup-logo
+{
+	margin:0 auto 5px 0;
+}
+.esig_sad_popup .popup-logo img
+{
+	width:155px;
+}
+
+
+
+ 
+#TB_window
+{
+	border-radius: 6px;
+	width:auto !important;
+	border: 7px solid transparent!important;
+	height:auto !important ;
+	top:20% !important; 
+}
+
+/*.toplevel_page_esign-docs #TB_ajaxContent 
+{
+	padding: 0!important;
+}*/
+
+.toplevel_page_esign-docs #TB_title 
+{
+	border-bottom: none!important;
+}
+
+.toplevel_page_esign-docs .tb-close-icon 
+{
+	padding-right: 7px;
+}
+
+/* The pop-up dialog warning people when they're about to overwrite their page */
+.esig-sad-dialog
+{
+	border-radius: 6px;
+	border: 7px solid transparent;
+	padding:10px;
+	display:inline-block;
+	width:100%;
+	z-index:10000000;
+}
+.esig-sad-dialog-content 
+{
+    margin:10px;
+    text-align:justify ; 
+	display: inline-block;
+	border-radius: 8px;
+}
+.esig-sad-dialog .ui-dialog-title
+{
+	text-align:left !important;
+	font-weight:100;
+	font-size:1.1em;
+	color:#000;
+}
+.esig-sad-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close
+{
+	display:none;
+}
+.esig-sad-dialog-content
+{
+	padding:10px 0;
+}
+
+.admin_page_esign-add-document .ui-widget-overlay
+{
+	z-index:1;
+}
+#submit_save_stand 
+{
+ margin-left:8px ; 
+}
+
+#esig-sad-overwrite-modal {
+    overflow: visible !important;
+}

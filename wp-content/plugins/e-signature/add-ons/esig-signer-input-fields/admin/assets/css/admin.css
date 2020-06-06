@@ -1,0 +1,101 @@
+.mce-esig-sif-adminMainMenu
+{
+	position:absolute;
+	width:180px;
+	border-style:solid;
+	border-color:#DDD;
+	border-width:1px 1px 0 1px;
+	z-index:200;
+	margin:0;
+}
+.mce-esig-sif-adminMainMenu li
+{
+	font-size:13px;
+	cursor:pointer;
+	background:#EEE;
+	padding:8px 14px 10px 14px;
+	text-align:left;
+	border-bottom:1px solid #DDD;
+	line-height:1em;
+	margin:0;
+}
+.mce-esig-sif-adminMainMenu li:hover
+{
+	background:#D0D0D0;
+	color:#000;
+}
+#qt_document_content_esig_1_wrap
+{
+	position:relative;
+	border:1px solid red ; 
+}
+#TB_window
+{
+	height:auto !important;
+	top:15% !important ; 
+}
+.esig-sif-panel-radio li
+{
+	width:300px;
+	display:inline-block;
+	
+}
+.esig-sif-panel-radio .clone-btn
+{
+	display:block;
+}
+.esig-sif-panel-checkbox li
+{
+	width:auto;
+	display:inline-block;
+	
+}
+.esig-sif-panel-checkbox .clone-btn
+{
+	display:block;
+}
+
+.esig-sif-panel-dropdown li
+{
+	width:auto;
+	display:inline-block;
+	
+}
+.esig-sif-panel-dropdown .clone-btn
+{
+	display:block;
+}
+
+.esig-sif-popup-logo
+{
+	margin:0 auto 0px 0;
+	
+}
+.esig-sif-popup-logo img
+{
+	width:155px;	
+}
+.esig-sif-panel-textfield 
+{
+    position:relative ; 
+    text-align:center ;  
+    width:500px;
+    min-height: 450px !important;
+}
+  
+.esig-sif-panel-textfield  p
+{
+    position:relative ; 
+    margin:5px;
+    text-align:center ; 
+    width:500px;
+}
+  
+.esig_sif-popup .esig-sif-instructions
+{
+	font-size: 19px;
+	width: 80%;
+	color: #666;
+	font-weight: 300;
+	text-align: center;	
+}

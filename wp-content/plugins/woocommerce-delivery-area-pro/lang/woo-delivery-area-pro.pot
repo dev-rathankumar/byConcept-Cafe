@@ -1,0 +1,1147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Delivery Area Pro\n"
+"POT-Creation-Date: 2019-05-27 15:29+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: flippercode <hello@flippercode.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/wdap-form.php:9
+msgid "Subscribe to our mailing list"
+msgstr ""
+
+#: classes/wdap-form.php:10
+msgid "Product Information"
+msgstr ""
+
+#: classes/wdap-form.php:11
+msgid ""
+"For our each product we have set up demo pages where you can see the plugin "
+"in working mode."
+msgstr ""
+
+#: classes/wdap-form.php:12
+msgid "Live Demos"
+msgstr ""
+
+#: classes/wdap-form.php:13
+msgid "Installed version :"
+msgstr ""
+
+#: classes/wdap-form.php:14
+msgid "Latest Version Available : "
+msgstr ""
+
+#: classes/wdap-form.php:15
+msgid "Update Available"
+msgstr ""
+
+#: classes/wdap-form.php:17
+msgid "Subscribe Now"
+msgstr ""
+
+#: classes/wdap-form.php:18
+msgid ""
+"Receive updates on our new product features and new products effortlessly."
+msgstr ""
+
+#: classes/wdap-form.php:19
+msgid "We will not share your email addresses in any case."
+msgstr ""
+
+#: classes/wdap-form.php:22
+msgid "Product Support"
+msgstr ""
+
+#: classes/wdap-form.php:23
+msgid ""
+"For our each product we have very well explained starting guide to get you "
+"started in matter of minutes."
+msgstr ""
+
+#: classes/wdap-form.php:24
+msgid " Click Here"
+msgstr ""
+
+#: classes/wdap-form.php:25
+msgid ""
+"For our each product we have set up demo pages where you can see the plugin "
+"in working mode. You can see a working demo before making a purchase."
+msgstr ""
+
+#: classes/wdap-form.php:28
+msgid "Get Refund"
+msgstr ""
+
+#: classes/wdap-form.php:29
+msgid "Please click on the below button to initiate the refund process."
+msgstr ""
+
+#: classes/wdap-form.php:30
+msgid "Request a Refund"
+msgstr ""
+
+#: classes/wdap-form.php:33
+msgid "Extended Technical Support"
+msgstr ""
+
+#: classes/wdap-form.php:34
+msgid ""
+"We provide technical support for all of our products. You can opt for 12 "
+"months support below."
+msgstr ""
+
+#: classes/wdap-form.php:35
+msgid "Extend support"
+msgstr ""
+
+#: classes/wdap-form.php:36
+msgid "Get Extended Licence"
+msgstr ""
+
+#: classes/wdap-form.php:41 woocommerce-delivery-area-pro.php:1614
+#: woocommerce-delivery-area-pro.php:1615
+msgid "Woocommerce Delivery Area Pro"
+msgstr ""
+
+#: classes/wdap-form.php:42
+msgid "wdap_view_overview"
+msgstr ""
+
+#: classes/wdap-form.php:43
+msgid ""
+"A woocommerce extention that allows users for checking shipping availablity "
+"of woocommerce products by zip code."
+msgstr ""
+
+#: modules/backup/model.backup.php:33
+msgid "Manage Backups"
+msgstr ""
+
+#: modules/backup/model.backup.php:83
+msgid "Backup uploaded Successfully."
+msgstr ""
+
+#: modules/backup/model.backup.php:85
+msgid "Only .sql file are accepted for upload."
+msgstr ""
+
+#: modules/backup/model.backup.php:89
+msgid "Please choose a sql file."
+msgstr ""
+
+#: modules/backup/model.backup.php:116
+msgid "Backup has been taken successfully."
+msgstr ""
+
+#: modules/backup/model.backup.php:117
+msgid "A Problem encountered while taking backup!"
+msgstr ""
+
+#: modules/backup/model.backup.php:146
+msgid "Backup Import Successfully."
+msgstr ""
+
+#: modules/backup/model.backup.php:148
+msgid ".sql imported is missing."
+msgstr ""
+
+#: modules/backup/views/manage.php:79
+msgid "Take Collection Backup"
+msgstr ""
+
+#: modules/backup/views/manage.php:86
+msgid "Click below to create a backup of all collections."
+msgstr ""
+
+#: modules/backup/views/manage.php:91
+msgid "Create Backup"
+msgstr ""
+
+#: modules/backup/views/manage.php:97 modules/backup/views/manage.php:108
+msgid "Upload Backup"
+msgstr ""
+
+#: modules/backup/views/manage.php:103
+msgid "Choose File"
+msgstr ""
+
+#: modules/backup/views/manage.php:104
+msgid "Please upload a valid collection backup sql file."
+msgstr ""
+
+#: modules/backup/views/manage.php:124 modules/backup/views/manage.php:125
+msgid "Backup"
+msgstr ""
+
+#: modules/backup/views/manage.php:134 modules/collection/views/manage.php:130
+msgid "Delete"
+msgstr ""
+
+#: modules/backup/views/manage.php:138
+msgid "Manage Backup"
+msgstr ""
+
+#: modules/backup/views/manage.php:139
+msgid "Add Backup"
+msgstr ""
+
+#: modules/backup/views/manage.php:140
+msgid "Backup(s) deleted successfully"
+msgstr ""
+
+#: modules/backup/views/manage.php:141
+msgid "Backup added successfully"
+msgstr ""
+
+#: modules/backup/views/manage.php:142
+msgid "Backup updated successfully"
+msgstr ""
+
+#: modules/collection/model.collection.php:42
+#: modules/collection/views/manage.php:135
+msgid "Add Collection"
+msgstr ""
+
+#: modules/collection/model.collection.php:43
+msgid "Manage Collection"
+msgstr ""
+
+#: modules/collection/model.collection.php:102
+msgid "Updated successfully."
+msgstr ""
+
+#: modules/collection/model.collection.php:104
+msgid "Saved successfully."
+msgstr ""
+
+#: modules/collection/views/add.php:39
+msgid "Add / Update Collection"
+msgstr ""
+
+#: modules/collection/views/add.php:43
+msgid "Collection Title"
+msgstr ""
+
+#: modules/collection/views/add.php:47
+msgid "Enter Collection Title Here"
+msgstr ""
+
+#: modules/collection/views/add.php:50
+msgid ""
+"A collection is created to associate your shop products with delivery areas "
+"that you are going to define shortly."
+msgstr ""
+
+#: modules/collection/views/add.php:56
+msgid "All Shop Products"
+msgstr ""
+
+#: modules/collection/views/add.php:57 modules/collection/views/manage.php:113
+msgid "Selected Products"
+msgstr ""
+
+#: modules/collection/views/add.php:58
+msgid "Products With Specific Categories"
+msgstr ""
+
+#: modules/collection/views/add.php:59
+msgid "All Shop Products Excluding Some"
+msgstr ""
+
+#: modules/collection/views/add.php:67
+msgid "Select Collection Products"
+msgstr ""
+
+#: modules/collection/views/add.php:73
+msgid ""
+"Select products that will be associated with this collection. You can create "
+"a single collection for your shop or multiple depending on your requirements."
+msgstr ""
+
+#: modules/collection/views/add.php:79
+msgid "Choose Products"
+msgstr ""
+
+#: modules/collection/views/add.php:89
+msgid "Choose Categories"
+msgstr ""
+
+#: modules/collection/views/add.php:95
+msgid ""
+"All products falling in above selected categories will be associated with "
+"this collection"
+msgstr ""
+
+#: modules/collection/views/add.php:101
+msgid "Exclude Products"
+msgstr ""
+
+#: modules/collection/views/add.php:110
+msgid "Define Your Store Delivery Area"
+msgstr ""
+
+#: modules/collection/views/add.php:116
+msgid "By Continent"
+msgstr ""
+
+#: modules/collection/views/add.php:117
+msgid "By Sub-Continent"
+msgstr ""
+
+#: modules/collection/views/add.php:118
+msgid "By Country"
+msgstr ""
+
+#: modules/collection/views/add.php:119
+msgid "By ZipCode"
+msgstr ""
+
+#: modules/collection/views/add.php:120
+msgid "By Distance From Store"
+msgstr ""
+
+#: modules/collection/views/add.php:126
+msgid "Define Delivery Area By"
+msgstr ""
+
+#: modules/collection/views/add.php:132
+msgid ""
+"These are the different methods that you can choose to specify delivery area "
+"for your store. You can specify continent,sub-continent,country or zipcodes. "
+"Providing comma seperated zipcode is the preferred and recommended method "
+"for specifying delivery area."
+msgstr ""
+
+#: modules/collection/views/add.php:146 modules/settings/views/setting.php:161
+msgid "Choose Country"
+msgstr ""
+
+#: modules/collection/views/add.php:149
+msgid "Choose country to display as main map."
+msgstr ""
+
+#: modules/collection/views/add.php:166
+msgid "Choose Continent"
+msgstr ""
+
+#: modules/collection/views/add.php:186
+msgid "Sub-Continent"
+msgstr ""
+
+#: modules/collection/views/add.php:204
+msgid "Enter Zip Codes "
+msgstr ""
+
+#: modules/collection/views/add.php:207
+msgid "Enter comma separated zip codes"
+msgstr ""
+
+#: modules/collection/views/add.php:208
+msgid ""
+"Enter comma separated multiple zip codes here where shipping for your "
+"products is available. You can also use wildcard character (*) to specify "
+"zipcodes in short form that has similar starting pattern. For eg. providing "
+"zipcode like FL* with cover all UK post codes starting with FL."
+msgstr ""
+
+#: modules/collection/views/add.php:228
+msgid "Specify Your Store Address"
+msgstr ""
+
+#: modules/collection/views/add.php:231
+msgid "Specify your store address"
+msgstr ""
+
+#: modules/collection/views/add.php:232
+msgid ""
+"Specify most nearest location to your store address. Distance difference "
+"will be calculated in kilometers  between this location and user's specified "
+"location from frontend and delivery message will be displayed accordingly. "
+"Note: This method works only for delivery area form that is rendered using "
+"shortcode, not on woocommerce pages delivery area form."
+msgstr ""
+
+#: modules/collection/views/add.php:242
+msgid "Specify Store Delivery Distance"
+msgstr ""
+
+#: modules/collection/views/add.php:245
+msgid "Specify your store address delivery area kilometer range"
+msgstr ""
+
+#: modules/collection/views/add.php:260
+msgid "Draw Product Delivery Area (Optional)"
+msgstr ""
+
+#: modules/collection/views/add.php:280
+msgid ""
+"Drawing on polygon is an optional method for specifying delivery area. You "
+"can skip drawing on map if you have already specify delivery area using any "
+"of the method described above. Still you can pick drawing tool (polygon) and "
+"start creating your product delivery area. Connect the first and last point "
+"of drawing of polygon to complete it."
+msgstr ""
+
+#: modules/collection/views/add.php:282
+msgid "Shape Properties"
+msgstr ""
+
+#: modules/collection/views/add.php:288 modules/collection/views/add.php:290
+msgid "Stroke Color"
+msgstr ""
+
+#: modules/collection/views/add.php:298 modules/collection/views/add.php:299
+msgid "Fill Color"
+msgstr ""
+
+#: modules/collection/views/add.php:327
+msgid "Stroke Weight"
+msgstr ""
+
+#: modules/collection/views/add.php:335
+msgid "Stroke Opacity"
+msgstr ""
+
+#: modules/collection/views/add.php:343
+msgid "Fill Opacity"
+msgstr ""
+
+#: modules/collection/views/add.php:355 modules/collection/views/add.php:358
+msgid "Cordinates"
+msgstr ""
+
+#: modules/collection/views/add.php:362
+msgid "Draw or click on a shape to apply properties."
+msgstr ""
+
+#: modules/collection/views/add.php:366
+msgid "Shape onclick Event"
+msgstr ""
+
+#: modules/collection/views/add.php:373
+msgid "Redirect URL"
+msgstr ""
+
+#: modules/collection/views/add.php:374
+msgid "Redirect url on click."
+msgstr ""
+
+#: modules/collection/views/add.php:381
+msgid "Message on click."
+msgstr ""
+
+#: modules/collection/views/add.php:382
+msgid "Message to display on click."
+msgstr ""
+
+#: modules/collection/views/add.php:398
+msgid "Save Collection "
+msgstr ""
+
+#: modules/collection/views/manage.php:69
+msgid "By Map Drawing"
+msgstr ""
+
+#: modules/collection/views/manage.php:73
+#: modules/collection/views/manage.php:81
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: modules/collection/views/manage.php:75
+#: modules/collection/views/manage.php:83
+msgid "By Distance"
+msgstr ""
+
+#: modules/collection/views/manage.php:98
+msgid "Selected Categories"
+msgstr ""
+
+#: modules/collection/views/manage.php:101
+msgid "All Products With Exclude Products"
+msgstr ""
+
+#: modules/collection/views/manage.php:111
+msgid "Title"
+msgstr ""
+
+#: modules/collection/views/manage.php:112
+msgid "Apply On"
+msgstr ""
+
+#: modules/collection/views/manage.php:114
+msgid "Applied Delivery Area Rule"
+msgstr ""
+
+#: modules/collection/views/manage.php:120
+msgid "Collection"
+msgstr ""
+
+#: modules/collection/views/manage.php:121
+msgid "Collections"
+msgstr ""
+
+#: modules/collection/views/manage.php:134
+msgid "Manage Collections"
+msgstr ""
+
+#: modules/collection/views/manage.php:136
+msgid "Collection(s) deleted successfully"
+msgstr ""
+
+#: modules/collection/views/manage.php:137
+msgid "Collection added successfully"
+msgstr ""
+
+#: modules/collection/views/manage.php:138
+msgid "Collection updated successfully"
+msgstr ""
+
+#: modules/settings/model.settings.php:30
+msgid "Plugin Settings"
+msgstr ""
+
+#: modules/settings/model.settings.php:57
+msgid "Please select at least one country."
+msgstr ""
+
+#: modules/settings/model.settings.php:60
+msgid "Please enter map height."
+msgstr ""
+
+#: modules/settings/model.settings.php:63
+msgid "Please enter shortcode map height."
+msgstr ""
+
+#: modules/settings/model.settings.php:118
+msgid "Setting(s) saved successfully."
+msgstr ""
+
+#: modules/settings/views/setting.php:14
+msgid "Delivery Area Enquiry Form Settings"
+msgstr ""
+
+#: modules/settings/views/setting.php:17
+msgid "On Product Page"
+msgstr ""
+
+#: modules/settings/views/setting.php:18
+msgid "On Shop Page "
+msgstr ""
+
+#: modules/settings/views/setting.php:19
+msgid "On Cart Page"
+msgstr ""
+
+#: modules/settings/views/setting.php:20
+msgid "On Checkout page"
+msgstr ""
+
+#: modules/settings/views/setting.php:25
+msgid "Display Delivery Enquiry Form"
+msgstr ""
+
+#: modules/settings/views/setting.php:29
+msgid "Please select woocommerce pages."
+msgstr ""
+
+#: modules/settings/views/setting.php:35
+msgid "Product Availability Map ( On Product Page )"
+msgstr ""
+
+#: modules/settings/views/setting.php:38
+msgid ""
+"This map will be displayed on product page in a new tab to display all the "
+"locations where the current product can be delivered."
+msgstr ""
+
+#: modules/settings/views/setting.php:42
+#, php-format
+msgid ""
+"You need to get an api key for google map to work with your website. You can "
+"read and follow from %s link to get api keys."
+msgstr ""
+
+#: modules/settings/views/setting.php:44
+msgid " Enter Google Map API Key"
+msgstr ""
+
+#: modules/settings/views/setting.php:48
+msgid "Enter Google Map Key"
+msgstr ""
+
+#: modules/settings/views/setting.php:54 modules/settings/views/setting.php:624
+msgid " Enter Google Map Width"
+msgstr ""
+
+#: modules/settings/views/setting.php:57 modules/settings/views/setting.php:627
+msgid "Enter Google Map Width"
+msgstr ""
+
+#: modules/settings/views/setting.php:63 modules/settings/views/setting.php:633
+msgid " Enter Google Map height"
+msgstr ""
+
+#: modules/settings/views/setting.php:67 modules/settings/views/setting.php:636
+msgid "Enter Google Map Height"
+msgstr ""
+
+#: modules/settings/views/setting.php:74 modules/settings/views/setting.php:77
+#: modules/settings/views/setting.php:645
+msgid "Enter Google Map Zoom Level"
+msgstr ""
+
+#: modules/settings/views/setting.php:84 modules/settings/views/setting.php:87
+#: modules/settings/views/setting.php:655
+msgid "Enter Map Center Latitude"
+msgstr ""
+
+#: modules/settings/views/setting.php:94 modules/settings/views/setting.php:97
+#: modules/settings/views/setting.php:664
+msgid "Enter Map Center Longitude"
+msgstr ""
+
+#: modules/settings/views/setting.php:104
+#: modules/settings/views/setting.php:107
+#: modules/settings/views/setting.php:673
+msgid "Enter Snazzy Map Google Map Style"
+msgstr ""
+
+#: modules/settings/views/setting.php:112
+msgid "Enable Map Bound"
+msgstr ""
+
+#: modules/settings/views/setting.php:115
+#: modules/settings/views/setting.php:122
+#: modules/settings/views/setting.php:129
+#: modules/settings/views/setting.php:144
+#: modules/settings/views/setting.php:206
+msgid "YES"
+msgstr ""
+
+#: modules/settings/views/setting.php:119
+msgid "Enable Markers on Map"
+msgstr ""
+
+#: modules/settings/views/setting.php:126
+msgid "Enable Polygons on Map"
+msgstr ""
+
+#: modules/settings/views/setting.php:134
+msgid "Perform Searching WithIn A Specific Country"
+msgstr ""
+
+#: modules/settings/views/setting.php:140
+msgid "Enable Country Restriction"
+msgstr ""
+
+#: modules/settings/views/setting.php:164
+msgid ""
+"Some places of different counties have same zipcodes. If your product "
+"delivery area falls under such category, you can specify your country here. "
+"By this google api will provide quick and more accurate results without "
+"confliction with similar zipcode of other country. Useful only if you are "
+"not specifying zipcodes directly in textbox."
+msgstr ""
+
+#: modules/settings/views/setting.php:175
+msgid "Display Places Of Restricted Country Only"
+msgstr ""
+
+#: modules/settings/views/setting.php:179
+msgid ""
+"When country restriction is enabled, display places of restricted country "
+"only in autosuggest textbox to user for only shortcode form."
+msgstr ""
+
+#: modules/settings/views/setting.php:185
+msgid "Display Places Of Restricted Country Only ( Checkout Page )"
+msgstr ""
+
+#: modules/settings/views/setting.php:189
+msgid ""
+"When country restriction is enabled, display places of restricted country "
+"only in autosuggest textbox to user for only checkout page."
+msgstr ""
+
+#: modules/settings/views/setting.php:195
+msgid "Enable Order Restriction On Checkout Form"
+msgstr ""
+
+#: modules/settings/views/setting.php:202
+msgid "Enable Order Restriction "
+msgstr ""
+
+#: modules/settings/views/setting.php:213
+msgid "Via Zipcode"
+msgstr ""
+
+#: modules/settings/views/setting.php:216
+msgid "Via Address"
+msgstr ""
+
+#: modules/settings/views/setting.php:220
+msgid "Zipcode/Address For Checking On Checkout Page"
+msgstr ""
+
+#: modules/settings/views/setting.php:224
+msgid ""
+"Checking of delivery will be decided based on this option. If via zipcode is "
+"selected, zipcode will be taken from the default woocommerce zipcode field "
+"and will be used in testing and message will be shown accordingly. if via "
+"address is selected, billing address is used for checking delivery status in "
+"that area(address). Via Zipcode is recommended way to check for delivery on "
+"checkout page."
+msgstr ""
+
+#: modules/settings/views/setting.php:228
+msgid "Enable Auto Suggest On Checkout Page "
+msgstr ""
+
+#: modules/settings/views/setting.php:233
+msgid ""
+"Google Autosuggest functionality will enable on billing and shipping address "
+"field. Checkout form fields autofill on select of address."
+msgstr ""
+
+#: modules/settings/views/setting.php:239
+msgid "Manageable Messages For Frontend"
+msgstr ""
+
+#: modules/settings/views/setting.php:244
+msgid "Product Not Available "
+msgstr ""
+
+#: modules/settings/views/setting.php:245
+msgid "Product Available "
+msgstr ""
+
+#: modules/settings/views/setting.php:246
+msgid "Invalid Zipcode "
+msgstr ""
+
+#: modules/settings/views/setting.php:247
+msgid " Product Availability Status"
+msgstr ""
+
+#: modules/settings/views/setting.php:253
+msgid "Availability Status"
+msgstr ""
+
+#: modules/settings/views/setting.php:254
+msgid "Shop Table Heading"
+msgstr ""
+
+#: modules/settings/views/setting.php:258 woocommerce-delivery-area-pro.php:856
+#: woocommerce-delivery-area-pro.php:888
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: modules/settings/views/setting.php:270
+msgid "Empty Zipcode Error"
+msgstr ""
+
+#: modules/settings/views/setting.php:273
+#: modules/settings/views/setting.php:276 woocommerce-delivery-area-pro.php:882
+msgid "Please enter zip code."
+msgstr ""
+
+#: modules/settings/views/setting.php:280
+msgid "Order Restriction Error Message"
+msgstr ""
+
+#: modules/settings/views/setting.php:283
+#: modules/settings/views/setting.php:286 woocommerce-delivery-area-pro.php:843
+msgid "We could not complete your order due to Zip Code Unavailability."
+msgstr ""
+
+#: modules/settings/views/setting.php:291
+msgid "Delivery Area Form UI Settings"
+msgstr ""
+
+#: modules/settings/views/setting.php:298
+msgid "Disable Product Availability"
+msgstr ""
+
+#: modules/settings/views/setting.php:301
+msgid "Disable product availability tab on all products"
+msgstr ""
+
+#: modules/settings/views/setting.php:307
+#: modules/settings/views/setting.php:483
+msgid "Button Label"
+msgstr ""
+
+#: modules/settings/views/setting.php:310
+#: modules/settings/views/setting.php:313
+#: modules/settings/views/setting.php:486
+#: modules/settings/views/setting.php:489 woocommerce-delivery-area-pro.php:543
+msgid "Check Availability"
+msgstr ""
+
+#: modules/settings/views/setting.php:316
+msgid "Description"
+msgstr ""
+
+#: modules/settings/views/setting.php:319
+#: modules/settings/views/setting.php:322
+msgid "Verify your pincode for correct delivery details"
+msgstr ""
+
+#: modules/settings/views/setting.php:329
+#: modules/settings/views/setting.php:516
+msgid "Button Text Color"
+msgstr ""
+
+#: modules/settings/views/setting.php:339
+#: modules/settings/views/setting.php:527
+msgid "Button Background Color"
+msgstr ""
+
+#: modules/settings/views/setting.php:349
+#: modules/settings/views/setting.php:495
+msgid "Success Message Color"
+msgstr ""
+
+#: modules/settings/views/setting.php:359
+#: modules/settings/views/setting.php:505
+msgid "Error Message Color"
+msgstr ""
+
+#: modules/settings/views/setting.php:368
+msgid "Choose Template For Delivery Area Enquiry Form"
+msgstr ""
+
+#: modules/settings/views/setting.php:389
+msgid "Choose Template For Delivery Area Enquiry Form (Shortcode)"
+msgstr ""
+
+#: modules/settings/views/setting.php:414
+msgid "Form Preview"
+msgstr ""
+
+#: modules/settings/views/setting.php:419
+msgid "Form Preview Will Appear Here."
+msgstr ""
+
+#: modules/settings/views/setting.php:423
+msgid "Delivey Area Search Title"
+msgstr ""
+
+#: modules/settings/views/setting.php:426
+msgid "Enter Delivery Area Form Title"
+msgstr ""
+
+#: modules/settings/views/setting.php:431
+msgid "Delivey Area Search Placeholder"
+msgstr ""
+
+#: modules/settings/views/setting.php:434
+msgid "Delivey Area Search Placeholder "
+msgstr ""
+
+#: modules/settings/views/setting.php:439
+msgid "Delivery Area Form Description"
+msgstr ""
+
+#: modules/settings/views/setting.php:442
+msgid "Enter Delivery Area Form Description"
+msgstr ""
+
+#: modules/settings/views/setting.php:450
+msgid "Empty Address Message"
+msgstr ""
+
+#: modules/settings/views/setting.php:453
+#: modules/settings/views/setting.php:456 woocommerce-delivery-area-pro.php:607
+msgid "Please enter your address."
+msgstr ""
+
+#: modules/settings/views/setting.php:460
+msgid "Not Shipping Area Message"
+msgstr ""
+
+#: modules/settings/views/setting.php:463
+#: modules/settings/views/setting.php:466
+#: woocommerce-delivery-area-pro.php:1784
+msgid "Sorry, We do not provide shipping in this area."
+msgstr ""
+
+#: modules/settings/views/setting.php:473
+msgid "Shipping Area Message"
+msgstr ""
+
+#: modules/settings/views/setting.php:476
+#: modules/settings/views/setting.php:479
+#: woocommerce-delivery-area-pro.php:1786
+msgid "Yes, We provide shipping in this area."
+msgstr ""
+
+#: modules/settings/views/setting.php:537
+msgid "Enable Locate Me Button "
+msgstr ""
+
+#: modules/settings/views/setting.php:547
+msgid "Enable Product Listing "
+msgstr ""
+
+#: modules/settings/views/setting.php:556
+#: modules/settings/views/setting.php:588
+msgid "Product Listing Error Message "
+msgstr ""
+
+#: modules/settings/views/setting.php:560
+#: modules/settings/views/setting.php:561
+#: modules/settings/views/setting.php:592
+#: modules/settings/views/setting.php:593
+#: woocommerce-delivery-area-pro.php:1788
+msgid "Please select at least one product."
+msgstr ""
+
+#: modules/settings/views/setting.php:566
+msgid "Delivery Availalble Redirect URL"
+msgstr ""
+
+#: modules/settings/views/setting.php:570
+msgid ""
+"Please enter URL where site needs to redirect when area specified by user is "
+"available for delivery i.e it comes under your delivery area. For eg. you "
+"can set URL of your shop page here. This redirection works on global "
+"shortcode form only not from default woocommerce pages. If redirect url is "
+"not specified the notifiction message is displayed by default."
+msgstr ""
+
+#: modules/settings/views/setting.php:572
+msgid "Enter URL for redirecting when delivery is possible."
+msgstr ""
+
+#: modules/settings/views/setting.php:577
+msgid "Delivery Not Availalble Redirect URL"
+msgstr ""
+
+#: modules/settings/views/setting.php:581
+msgid ""
+"Please enter URL where site needs to redirect when delivery is not possible "
+"in the area specified by user. For eg. you can set URL of your any custom "
+"page here displaying a sorry message. This redirection works on global "
+"shortcode form only not from default woocommerce pages.  If redirect url is "
+"not specified the notifiction message is displayed by default."
+msgstr ""
+
+#: modules/settings/views/setting.php:583
+msgid "Enter URL for redirecting when delivery is not possible."
+msgstr ""
+
+#: modules/settings/views/setting.php:599
+msgid "Global Delivery Area Map ( Using Shortcode ) Settings"
+msgstr ""
+
+#: modules/settings/views/setting.php:605
+msgid "Delivey Area Map Title"
+msgstr ""
+
+#: modules/settings/views/setting.php:608
+msgid "Enter Delivery Area Map Title"
+msgstr ""
+
+#: modules/settings/views/setting.php:614
+msgid "Delivery Area Map Description"
+msgstr ""
+
+#: modules/settings/views/setting.php:617
+msgid "Enter Delivery Area Map Description"
+msgstr ""
+
+#: modules/settings/views/setting.php:628
+msgid "Enter here the map width in pixel. Leave it blank for 100% width."
+msgstr ""
+
+#: modules/settings/views/setting.php:642
+msgid " Enter Google Map Zoom Level"
+msgstr ""
+
+#: modules/settings/views/setting.php:652
+msgid " Enter Map Center Latitude"
+msgstr ""
+
+#: modules/settings/views/setting.php:661
+msgid " Enter Map Center Longitude"
+msgstr ""
+
+#: modules/settings/views/setting.php:670
+msgid " Enter Snazzy Map Google Map Style"
+msgstr ""
+
+#: modules/settings/views/setting.php:678
+msgid "Save Settings "
+msgstr ""
+
+#: modules/shortcode/views/delivery_area.php:39
+msgid "Find Your Location"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:452
+msgid "Woo Delivery Area Pro"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:472
+msgid "Disable Shipping Enquiry Form"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:480
+msgid "Disable Product Avalibility Tab"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:490
+msgid "Assign Product To Collection"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:529
+msgid ""
+"WooCommerce is required for Woocommerce Delivery Area Pro plugin to work. "
+"Please install and configure woocommerce first."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:537
+msgid "Type Delivery Location (Landmark, Road or Area)"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:539
+msgid "Locate Me"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:594
+msgid "Select Product"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:619
+msgid "Place order"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:701
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:705 woocommerce-delivery-area-pro.php:709
+msgid "Please Select at least one product"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:714
+msgid "Please Select at least one Category."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:720
+msgid "Please enter comma seperated zipcodes in textarea."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:722
+msgid ""
+"Please enter either zipcodes or draw a polygon on google map that represents "
+"your delivery area."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:726
+msgid "Please select any country or draw any polygon."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:729
+msgid "Please select any sub-continent or draw any polygon."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:732
+msgid "Please select any continent or draw any polygon."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:737
+msgid "Please specify nearest location to your store."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:739
+msgid ""
+"Please specify distance range in kilometers where you allow / do delivery "
+"for orders."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:786
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:788
+msgid "Collection Updated successfully."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:790
+msgid "Collection Saved successfully."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:879
+msgid "Enter Zipcode"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:911
+msgid "Check Avalibility"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:965
+msgid "Product Availability"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:995
+msgid "Product is avaialble in below zipcode areas."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1758
+msgid " Please enter zip code. "
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1760
+msgid " Product Not Available "
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1762
+msgid " Product Available"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1764
+msgid "Invalid Zipcode."
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1766
+msgid "Products are "
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1767
+msgid " Availability Status "
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1769
+msgid "Products "
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1782
+msgid "Please enter your address"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1829
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: woocommerce-delivery-area-pro.php:1860
+#, php-format
+msgid ""
+"If this plugin is useful for you, please provide us a %s. Also please "
+"provide us your valuable suggestions & feedbacks so that we can make this "
+"plugin even better for you."
+msgstr ""

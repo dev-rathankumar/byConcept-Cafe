@@ -1,0 +1,22 @@
+{
+  "name": "arg-mc-icons",
+  "css_prefix_text": "arg-mc-icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "12f4ece88e46abd864e40b35e05b11cd",
+      "css": "fa-ok",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "040e72500c863813088c9f9c9415f8e9",
+      "css": "up",
+      "code": 59395,
+      "src": "mfglabs"
+    }
+  ]
+}

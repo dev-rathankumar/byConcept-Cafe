@@ -1,0 +1,1336 @@
+# Copyright (C) 2016 Tbay Framework
+# This file is distributed under the same license as the Tbay Framework package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tbay Framework 1.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tbay-framework\n"
+"POT-Creation-Date: 2019-08-28 16:14+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-tbay-megamenu.php:56
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:60
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:101
+msgid "Edit Menu Item"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:110
+msgid "URL"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:117
+msgid "Navigation Label"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:123
+msgid "Title Attribute"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:130
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:135
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:141
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:147
+msgid "Description"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:149
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:171
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:184
+msgid "Remove"
+msgstr ""
+
+#: classes/class-tbay-megamenu.php:185
+msgid "Cancel"
+msgstr ""
+
+#: classes/post-types/brand.php:24
+msgid "Tbay Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:25
+msgid "Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:26 classes/post-types/brand.php:27
+msgid "Add New Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:28
+msgid "Edit Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:29
+msgid "New Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:30
+msgid "All Brands"
+msgstr ""
+
+#: classes/post-types/brand.php:31
+msgid "View Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:32
+msgid "Search Brand"
+msgstr ""
+
+#: classes/post-types/brand.php:33
+msgid "No Brands found"
+msgstr ""
+
+#: classes/post-types/brand.php:34
+msgid "No Brands found in Trash"
+msgstr ""
+
+#: classes/post-types/brand.php:36
+msgid "Tbay Brands"
+msgstr ""
+
+#: classes/post-types/brand.php:57
+msgid "Brand Information"
+msgstr ""
+
+#: classes/post-types/brand.php:73
+msgid "Brand Link"
+msgstr ""
+
+#: classes/post-types/customtab.php:29 classes/post-types/customtab.php:41
+msgid "Tbay Custom Tabs"
+msgstr ""
+
+#: classes/post-types/customtab.php:30
+msgid "Custom Tab"
+msgstr ""
+
+#: classes/post-types/customtab.php:31 classes/post-types/customtab.php:32
+msgid "Add New Custom Tab"
+msgstr ""
+
+#: classes/post-types/customtab.php:33
+msgid "Edit Custom Tab"
+msgstr ""
+
+#: classes/post-types/customtab.php:34
+msgid "New Custom Tab"
+msgstr ""
+
+#: classes/post-types/customtab.php:35
+msgid "All Custom Tabs"
+msgstr ""
+
+#: classes/post-types/customtab.php:36
+msgid "View Custom Tab"
+msgstr ""
+
+#: classes/post-types/customtab.php:37
+msgid "Search Custom Tab"
+msgstr ""
+
+#: classes/post-types/customtab.php:38
+msgid "No Custom Tabs found"
+msgstr ""
+
+#: classes/post-types/customtab.php:39
+msgid "No Custom Tabs found in Trash"
+msgstr ""
+
+#: classes/post-types/customtab.php:62 classes/post-types/customtab.php:72
+msgid "Custom Tab Categories"
+msgstr ""
+
+#: classes/post-types/customtab.php:63
+msgid "Custom Tab Category"
+msgstr ""
+
+#: classes/post-types/customtab.php:64
+msgid "Search Custom Tab Categories"
+msgstr ""
+
+#: classes/post-types/customtab.php:65
+msgid "All Custom Tab Categories"
+msgstr ""
+
+#: classes/post-types/customtab.php:66
+msgid "Parent Custom Tab Category"
+msgstr ""
+
+#: classes/post-types/customtab.php:67
+msgid "Parent Custom Tab Category:"
+msgstr ""
+
+#: classes/post-types/customtab.php:68
+msgid "Edit Custom Tab Category"
+msgstr ""
+
+#: classes/post-types/customtab.php:69
+msgid "Update Custom Tab Category"
+msgstr ""
+
+#: classes/post-types/customtab.php:70
+msgid "Add New Custom Tab Category"
+msgstr ""
+
+#: classes/post-types/customtab.php:71
+msgid "New Custom Tab Category"
+msgstr ""
+
+#: classes/post-types/customtab.php:79
+msgid "Custom Tab-category"
+msgstr ""
+
+#: classes/post-types/footer.php:24
+msgid "Tbay Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:25
+msgid "Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:26 classes/post-types/footer.php:27
+msgid "Add New Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:28
+msgid "Edit Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:29
+msgid "New Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:30
+msgid "All Footers"
+msgstr ""
+
+#: classes/post-types/footer.php:31
+msgid "View Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:32
+msgid "Search Footer"
+msgstr ""
+
+#: classes/post-types/footer.php:33
+msgid "No Footers found"
+msgstr ""
+
+#: classes/post-types/footer.php:34
+msgid "No Footers found in Trash"
+msgstr ""
+
+#: classes/post-types/footer.php:36
+msgid "Tbay Footers"
+msgstr ""
+
+#: classes/post-types/megamenu.php:33 classes/post-types/megamenu.php:45
+msgid "Tbay Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:34
+msgid "Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:35 classes/post-types/megamenu.php:36
+msgid "Add New Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:37
+msgid "Edit Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:38
+msgid "New Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:39
+msgid "All Megamenus"
+msgstr ""
+
+#: classes/post-types/megamenu.php:40
+msgid "View Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:41
+msgid "Search Megamenu"
+msgstr ""
+
+#: classes/post-types/megamenu.php:42
+msgid "No Megamenus found"
+msgstr ""
+
+#: classes/post-types/megamenu.php:43
+msgid "No Megamenus found in Trash"
+msgstr ""
+
+#: classes/post-types/megamenu.php:80
+msgid "Icon Font (Awesome):"
+msgstr ""
+
+#: classes/post-types/megamenu.php:84
+#, php-format
+msgid ""
+"This support display icon from <a href=\"%s\" target=\"_blank\">FontAwsome</"
+"a>, <a href=\"%s\" target=\"_blank\">Material Design Iconic</a> and <a href="
+"\"%s\" target=\"_blank\">Simple Line</a>"
+msgstr ""
+
+#: classes/post-types/megamenu.php:87
+msgid "Icon Image:"
+msgstr ""
+
+#: classes/post-types/megamenu.php:98
+msgid "You can use Icon Font or Icon Image"
+msgstr ""
+
+#: classes/post-types/megamenu.php:103
+msgid "Megamenu Profile"
+msgstr ""
+
+#: classes/post-types/megamenu.php:105
+msgid "Disable"
+msgstr ""
+
+#: classes/post-types/megamenu.php:112
+msgid "Sub Megamenu Management"
+msgstr ""
+
+#: classes/post-types/megamenu.php:113
+msgid "If enabled megamenu, its submenu will be disabled"
+msgstr ""
+
+#: classes/post-types/megamenu.php:117
+msgid "Width:"
+msgstr ""
+
+#: classes/post-types/megamenu.php:124
+msgid "Left"
+msgstr ""
+
+#: classes/post-types/megamenu.php:125
+msgid "Right"
+msgstr ""
+
+#: classes/post-types/megamenu.php:126
+msgid "Fullwidth"
+msgstr ""
+
+#: classes/post-types/megamenu.php:130
+msgid "Alignment:"
+msgstr ""
+
+#: classes/post-types/megamenu.php:151
+msgid "Label"
+msgstr ""
+
+#: classes/post-types/megamenu.php:153
+msgid "None"
+msgstr ""
+
+#: classes/post-types/megamenu.php:154
+msgid "New"
+msgstr ""
+
+#: classes/post-types/megamenu.php:155
+msgid "Hot"
+msgstr ""
+
+#: classes/post-types/megamenu.php:156
+msgid "Featured"
+msgstr ""
+
+#: classes/post-types/team.php:30 classes/post-types/team.php:42
+msgid "Tbay Teams"
+msgstr ""
+
+#: classes/post-types/team.php:31
+msgid "Team"
+msgstr ""
+
+#: classes/post-types/team.php:32 classes/post-types/team.php:33
+msgid "Add New Team"
+msgstr ""
+
+#: classes/post-types/team.php:34
+msgid "Edit Team"
+msgstr ""
+
+#: classes/post-types/team.php:35
+msgid "New Team"
+msgstr ""
+
+#: classes/post-types/team.php:36
+msgid "All Teams"
+msgstr ""
+
+#: classes/post-types/team.php:37
+msgid "View Team"
+msgstr ""
+
+#: classes/post-types/team.php:38
+msgid "Search Team"
+msgstr ""
+
+#: classes/post-types/team.php:39
+msgid "No Teams found"
+msgstr ""
+
+#: classes/post-types/team.php:40
+msgid "No Teams found in Trash"
+msgstr ""
+
+#: classes/post-types/team.php:54
+msgid "mentor"
+msgstr ""
+
+#: classes/post-types/team.php:64 classes/post-types/team.php:74
+msgid "Team Categories"
+msgstr ""
+
+#: classes/post-types/team.php:65
+msgid "Team Category"
+msgstr ""
+
+#: classes/post-types/team.php:66
+msgid "Search Team Categories"
+msgstr ""
+
+#: classes/post-types/team.php:67
+msgid "All Team Categories"
+msgstr ""
+
+#: classes/post-types/team.php:68
+msgid "Parent Team Category"
+msgstr ""
+
+#: classes/post-types/team.php:69
+msgid "Parent Team Category:"
+msgstr ""
+
+#: classes/post-types/team.php:70
+msgid "Edit Team Category"
+msgstr ""
+
+#: classes/post-types/team.php:71
+msgid "Update Team Category"
+msgstr ""
+
+#: classes/post-types/team.php:72
+msgid "Add New Team Category"
+msgstr ""
+
+#: classes/post-types/team.php:73
+msgid "New Team Category"
+msgstr ""
+
+#: classes/post-types/team.php:81
+msgid "team-category"
+msgstr ""
+
+#: classes/post-types/team.php:95
+msgid "More Informations"
+msgstr ""
+
+#: classes/post-types/team.php:110 classes/post-types/testimonial.php:73
+msgid "Job"
+msgstr ""
+
+#: classes/post-types/team.php:115
+msgid "Facebook"
+msgstr ""
+
+#: classes/post-types/team.php:120
+msgid "Twitter"
+msgstr ""
+
+#: classes/post-types/team.php:125
+msgid "Behance"
+msgstr ""
+
+#: classes/post-types/team.php:130
+msgid "Linkedin"
+msgstr ""
+
+#: classes/post-types/team.php:135
+msgid "Instagram"
+msgstr ""
+
+#: classes/post-types/team.php:140
+msgid "Google Plus"
+msgstr ""
+
+#: classes/post-types/team.php:145
+msgid "Pinterest"
+msgstr ""
+
+#: classes/post-types/testimonial.php:24
+msgid "Tbay Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:25
+msgid "Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:26 classes/post-types/testimonial.php:27
+msgid "Add New Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:28
+msgid "Edit Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:29
+msgid "New Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:30
+msgid "All Testimonials"
+msgstr ""
+
+#: classes/post-types/testimonial.php:31
+msgid "View Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:32
+msgid "Search Testimonial"
+msgstr ""
+
+#: classes/post-types/testimonial.php:33
+msgid "No Testimonials found"
+msgstr ""
+
+#: classes/post-types/testimonial.php:34
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: classes/post-types/testimonial.php:36
+msgid "Tbay Testimonials"
+msgstr ""
+
+#: classes/post-types/testimonial.php:57
+msgid "Testimonial Information"
+msgstr ""
+
+#: classes/post-types/testimonial.php:76
+msgid "Enter Job example CEO, CTO"
+msgstr ""
+
+#: classes/post-types/testimonial.php:79
+msgid "Testimonial Link"
+msgstr ""
+
+#: classes/widgets/facebook_like.php:7
+msgid "Tbay Facebook Like Box"
+msgstr ""
+
+#: classes/widgets/facebook_like.php:8
+msgid "Adds support for Facebook Like Box. "
+msgstr ""
+
+#: classes/widgets/instagram.php:7
+msgid "Tbay Instagram Widget"
+msgstr ""
+
+#: classes/widgets/instagram.php:8
+msgid "Show instagram"
+msgstr ""
+
+#: classes/widgets/instagram.php:32
+msgid "Style 1"
+msgstr ""
+
+#: classes/widgets/instagram.php:36 classes/widgets/twitter.php:57
+msgid "Title:"
+msgstr ""
+
+#: classes/widgets/instagram.php:40
+msgid "Username:"
+msgstr ""
+
+#: classes/widgets/instagram.php:44
+msgid "Number:"
+msgstr ""
+
+#: classes/widgets/instagram.php:47
+msgid "Photo size"
+msgstr ""
+
+#: classes/widgets/instagram.php:49
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/widgets/instagram.php:50
+msgid "Small"
+msgstr ""
+
+#: classes/widgets/instagram.php:51
+msgid "Large"
+msgstr ""
+
+#: classes/widgets/instagram.php:52
+msgid "Original"
+msgstr ""
+
+#: classes/widgets/instagram.php:55
+msgid "Open links in"
+msgstr ""
+
+#: classes/widgets/instagram.php:57
+msgid "Current window (_self)"
+msgstr ""
+
+#: classes/widgets/instagram.php:58
+msgid "New window (_blank)"
+msgstr ""
+
+#: classes/widgets/instagram.php:61
+msgid "Style"
+msgstr ""
+
+#: classes/widgets/instagram.php:69
+msgid "Columns:"
+msgstr ""
+
+#: classes/widgets/twitter.php:8
+msgid "Tbay Latest Twitter"
+msgstr ""
+
+#: classes/widgets/twitter.php:9
+msgid "Latest Twitter widget."
+msgstr ""
+
+#: classes/widgets/twitter.php:34
+msgid "Latest tweets."
+msgstr ""
+
+#: classes/widgets/twitter.php:52
+msgid "Yes"
+msgstr ""
+
+#: classes/widgets/twitter.php:53
+msgid "No"
+msgstr ""
+
+#: classes/widgets/twitter.php:61
+msgid "Twitter Username:"
+msgstr ""
+
+#: classes/widgets/twitter.php:65
+msgid "Limit:"
+msgstr ""
+
+#: classes/widgets/twitter.php:69
+msgid "Twitter Id:"
+msgstr ""
+
+#: classes/widgets/twitter.php:73
+msgid "Border Color:"
+msgstr ""
+
+#: classes/widgets/twitter.php:78
+msgid "Link Color:"
+msgstr ""
+
+#: classes/widgets/twitter.php:83
+msgid "Text Color:"
+msgstr ""
+
+#: classes/widgets/twitter.php:88
+msgid "Name Color:"
+msgstr ""
+
+#: classes/widgets/twitter.php:93
+msgid "Show background"
+msgstr ""
+
+#: classes/widgets/twitter.php:102
+msgid "Show Replies"
+msgstr ""
+
+#: classes/widgets/twitter.php:111
+msgid "Show Header"
+msgstr ""
+
+#: classes/widgets/twitter.php:120
+msgid "Show Footer"
+msgstr ""
+
+#: classes/widgets/twitter.php:129
+msgid "Show Border"
+msgstr ""
+
+#: classes/widgets/twitter.php:138
+msgid "Show Scrollbar"
+msgstr ""
+
+#: functions-preset.php:97
+msgid "Preset Manager"
+msgstr ""
+
+#: functions-preset.php:100
+msgid "Current preset default: "
+msgstr ""
+
+#: functions-preset.php:102
+msgid "Create a new preset"
+msgstr ""
+
+#: functions-preset.php:103
+msgid "Add new"
+msgstr ""
+
+#: functions-preset.php:107
+msgid "Set default preset"
+msgstr ""
+
+#: functions-preset.php:110
+msgid "Default"
+msgstr ""
+
+#: functions-preset.php:115
+msgid "Set Default"
+msgstr ""
+
+#: functions-preset.php:116
+msgid "Duplicate"
+msgstr ""
+
+#: functions-preset.php:117
+msgid "Delete Preset"
+msgstr ""
+
+#: functions-preset.php:118
+msgid "Key:"
+msgstr ""
+
+#: functions.php:227
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: functions.php:230
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: functions.php:236 functions.php:243 functions.php:246
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: functions.php:255
+msgid "Instagram Image"
+msgstr ""
+
+#: functions.php:281
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: functions.php:293
+msgid "year"
+msgstr ""
+
+#: functions.php:294
+msgid "month"
+msgstr ""
+
+#: functions.php:295
+msgid "week"
+msgstr ""
+
+#: functions.php:296
+msgid "day"
+msgstr ""
+
+#: functions.php:297
+msgid "hour"
+msgstr ""
+
+#: functions.php:298
+msgid "minute"
+msgstr ""
+
+#: functions.php:299
+msgid "second"
+msgstr ""
+
+#: functions.php:311
+msgid "s"
+msgstr ""
+
+#: functions.php:318
+msgid " ago"
+msgstr ""
+
+#: functions.php:321
+msgid "Just now"
+msgstr ""
+
+#: functions.php:347
+msgid "Product Size Guide (Only Variable product)"
+msgstr ""
+
+#: functions.php:351
+msgid "Swatch attribute to display"
+msgstr ""
+
+#: functions.php:355
+msgid "Select Single Product Layout"
+msgstr ""
+
+#: importer/import.php:63 importer/import.php:64
+msgid "Tbay Demo Import"
+msgstr ""
+
+#: importer/import.php:171 importer/import.php:195
+msgid "Import Redux Options Successful"
+msgstr ""
+
+#: importer/import.php:174 importer/import.php:198
+msgid "Import Redux Options Error"
+msgstr ""
+
+#: importer/import.php:211 importer/import.php:233 importer/import.php:421
+#: importer/import.php:447
+msgid "Data is error! file: "
+msgstr ""
+
+#: importer/import.php:220 importer/import.php:242
+msgid "Import First Settings Successful"
+msgstr ""
+
+#: importer/import.php:297
+msgid "Error loading data.xml file"
+msgstr ""
+
+#: importer/import.php:316 importer/import.php:334
+msgid "Error loading widgets.json file"
+msgstr ""
+
+#: importer/import.php:318 importer/import.php:336
+msgid "Widgets imported successfully"
+msgstr ""
+
+#: importer/import.php:353 importer/import.php:373
+msgid "Missing widgets data"
+msgstr ""
+
+#: importer/import.php:356 importer/import.php:376
+msgid "Import Sidebars Widgets Successful"
+msgstr ""
+
+#: importer/import.php:408
+msgid "revslider folder is not exists! folder: "
+msgstr ""
+
+#: importer/import.php:410
+msgid "Import Slider"
+msgstr ""
+
+#: importer/import.php:434 importer/import.php:460
+msgid "File is not exists! file:"
+msgstr ""
+
+#: importer/import.php:436 importer/import.php:462
+msgid "Import Settings Successful"
+msgstr ""
+
+#: importer/import.php:577
+msgid "TbayTheme Demo Importer"
+msgstr ""
+
+#: importer/import.php:580
+msgid ""
+"<strong>Warning:</strong> If you have already used this feature before and "
+"you want to try it again, your content may be duplicated. Please consider "
+"resetting your database back to defaults with <a href=\"//wordpress.org/"
+"plugins/wordpress-reset/\">this plugin</a>."
+msgstr ""
+
+#: importer/import.php:636
+msgid "System Requirements"
+msgstr ""
+
+#: importer/import.php:637
+msgid "Problem Found"
+msgstr ""
+
+#: importer/import.php:638
+msgid "No Problems"
+msgstr ""
+
+#: importer/import.php:642
+msgid "Active parent theme"
+msgstr ""
+
+#: importer/import.php:649
+msgid "You activated child theme, so you can not import the demo"
+msgstr ""
+
+#: importer/import.php:657
+msgid "Uploads folder writable"
+msgstr ""
+
+#: importer/import.php:664
+msgid "Error with File Permissions"
+msgstr ""
+
+#: importer/import.php:664
+msgid ""
+"Please set write permission (755) to your wp-content/uploads folders to make "
+"sure the Slider can save all updates and imports in the future."
+msgstr ""
+
+#: importer/import.php:673
+msgid "PHP version"
+msgstr ""
+
+#: importer/import.php:677 importer/import.php:684 importer/import.php:697
+#: importer/import.php:704 importer/import.php:717 importer/import.php:724
+#: importer/import.php:735 importer/import.php:743 importer/import.php:754
+#: importer/import.php:762
+#, php-format
+msgid "Currently: %1$s"
+msgstr ""
+
+#: importer/import.php:678 importer/import.php:755
+#, php-format
+msgid "<strong>(min: %1$s)</strong>"
+msgstr ""
+
+#: importer/import.php:693
+msgid "Memory Limit"
+msgstr ""
+
+#: importer/import.php:698
+msgid "<strong>(min:256M)</strong>"
+msgstr ""
+
+#: importer/import.php:713
+msgid "Upload Max. Filesize"
+msgstr ""
+
+#: importer/import.php:718 importer/import.php:736
+msgid "<strong>(min:32M)</strong>"
+msgstr ""
+
+#: importer/import.php:731
+msgid "Max. Post Size"
+msgstr ""
+
+#: importer/import.php:750
+msgid "Max execution time"
+msgstr ""
+
+#: importer/import.php:775
+msgid "Thembay Support"
+msgstr ""
+
+#: importer/import.php:781
+msgid "Ticket support"
+msgstr ""
+
+#: importer/import.php:782
+#, php-format
+msgid "Please send the ticker <a href=\"%1$s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: importer/import.php:787
+msgid "Email Support"
+msgstr ""
+
+#: importer/import.php:788
+#, php-format
+msgid "Please send the email: <a href=\"%1$s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: importer/import.php:794
+msgid "Youtube channel"
+msgstr ""
+
+#: importer/import.php:795
+#, php-format
+msgid "Watch video tutorial <a href=\"%1$s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: importer/import.php:826
+msgid "Import All"
+msgstr ""
+
+#: importer/import.php:829
+msgid "Only Active"
+msgstr ""
+
+#: importer/import.php:843
+#, php-format
+msgid ""
+"Click to the follow buttons to get sample demo from our live sites, the "
+"package will put into ROOT/wp-content/uploads. <br> Please make sure this "
+"folder has writeable permision. <br> If \"Download Demos\" don&rsquo;t work, "
+"you should upload the sample data manually <a href=\"%s\" target=\"_blank"
+"\">View video</a>."
+msgstr ""
+
+#: importer/import.php:850
+msgid "Download Demos"
+msgstr ""
+
+#: importer/import.php:871
+msgid "Dismiss this notice."
+msgstr ""
+
+#: importer/import.php:873
+msgid "Importing"
+msgstr ""
+
+#: importer/import.php:877 importer/import.php:903
+msgid ""
+"The import process can take about 10 minutes. Please don't refresh the page."
+msgstr ""
+
+#: importer/import.php:881 importer/import.php:907
+msgid "Install First Settings"
+msgstr ""
+
+#: importer/import.php:881 importer/import.php:907
+msgid "Installing First Settings ..."
+msgstr ""
+
+#: importer/import.php:881 importer/import.php:907
+msgid "Installed First Settings"
+msgstr ""
+
+#: importer/import.php:882 importer/import.php:908
+msgid "Install Redux Option"
+msgstr ""
+
+#: importer/import.php:882 importer/import.php:908
+msgid "Installing Redux Option ..."
+msgstr ""
+
+#: importer/import.php:882 importer/import.php:908
+msgid "Installed Redux Option"
+msgstr ""
+
+#: importer/import.php:883
+msgid "Install Demo Content"
+msgstr ""
+
+#: importer/import.php:883
+msgid "Installing Demo Content ..."
+msgstr ""
+
+#: importer/import.php:883
+msgid "Installed Demo Content"
+msgstr ""
+
+#: importer/import.php:884 importer/import.php:909
+msgid "Install Widgets"
+msgstr ""
+
+#: importer/import.php:884 importer/import.php:909
+msgid "Installing Widgets ..."
+msgstr ""
+
+#: importer/import.php:884 importer/import.php:909
+msgid "Installed Widgets"
+msgstr ""
+
+#: importer/import.php:885 importer/import.php:910
+msgid "Install Settings"
+msgstr ""
+
+#: importer/import.php:885 importer/import.php:910
+msgid "Installing Settings ..."
+msgstr ""
+
+#: importer/import.php:885 importer/import.php:910
+msgid "Installed Settings"
+msgstr ""
+
+#: importer/import.php:886
+msgid "Install Revolution Slider"
+msgstr ""
+
+#: importer/import.php:886
+msgid "Installing Revolution Slider ..."
+msgstr ""
+
+#: importer/import.php:886
+msgid "Installed Revolution Slider"
+msgstr ""
+
+#: importer/import.php:928
+msgid "Failed to import!"
+msgstr ""
+
+#: importer/import.php:932
+msgid "Log"
+msgstr ""
+
+#: importer/import.php:935
+msgid "Get support"
+msgstr ""
+
+#: importer/import.php:936
+msgid "Dashboard"
+msgstr ""
+
+#: importer/import.php:940
+msgid "Importing is successful!"
+msgstr ""
+
+#: importer/import.php:945
+msgid "Switch homepage successfully!"
+msgstr ""
+
+#: importer/parsers.php:42 importer/parsers.php:72 importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:84 importer/parsers.php:89 importer/parsers.php:279
+#: importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/wordpress-importer.php:196 importer/wordpress-importer.php:205
+#: importer/wordpress-importer.php:256 importer/wordpress-importer.php:260
+#: importer/wordpress-importer.php:269
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:197
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:240
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:240
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer.php:241
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:261
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that this "
+"was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:277
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:302
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:328
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:329
+msgid ""
+"To make it easier for you to edit and save the imported content, you may want "
+"to reassign the author of the imported item to an existing user of this site. "
+"For example, you may want to import all the entries as <code>admin</code>s "
+"entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:331
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:341
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:344
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:361
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:372
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:375
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:383
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:385
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:386
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:436
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:487
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:573 importer/wordpress-importer.php:728
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:613
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:635
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:694
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer.php:863
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:870
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:972
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer.php:986
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:1031
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer.php:1037
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1044
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:1049
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:1055
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1154
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1161
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1176
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1177
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: libs/extensions/repeater/repeater/field_repeater.php:180
+#: libs/extensions/repeater/repeater/field_repeater.php:223
+msgid "Delete"
+msgstr ""
+
+#: libs/extensions/repeater/repeater/field_repeater.php:245
+msgid "Add"
+msgstr ""

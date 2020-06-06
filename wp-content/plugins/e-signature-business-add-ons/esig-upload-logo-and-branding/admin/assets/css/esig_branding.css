@@ -1,0 +1,23 @@
+﻿
+
+#TB_window
+{
+	border-radius: 6px;
+	border: 7px solid transparent!important;
+	width:auto !important ; 	
+	height:auto !important ;
+	top:10% !important;	
+}
+	
+#esig_logo_upload:before
+{
+	font-family: "wp-e-signature";
+	content: "H";
+	font-size: 16px;
+	margin: 0 6px 0 0;
+}
+
+#esig_success_paragraph_text{
+	margin: 15px 0 0 0;
+}
+

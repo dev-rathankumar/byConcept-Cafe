@@ -1,0 +1,99 @@
+.woocommerce-checkout-review-order-table {
+    display: block;
+    margin-bottom: 2em;
+
+    thead, tbody, tfoot {
+        display: block;
+
+        tr {
+            display: flex;
+            justify-content: space-between;
+
+            th, td {
+                border-width: 0;
+            }
+
+            &.shipping {
+                flex-wrap: wrap;
+
+                th, td {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
+                td {
+                    padding-top: 1em;
+                    justify-content: space-between;
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    thead tr, tfoot tr, tbody{
+        border-bottom: 1px solid #ddd;
+    }
+
+    dl.variation {
+        margin-bottom: 0;
+    }
+
+    .product-quantity {
+        float: none;
+        margin-right: 0;
+    }
+
+    thead {
+        tr {
+            padding: 0 0 0.8em 0;
+        }
+
+        th {
+            padding: 0;
+            font-weight: bold;
+            font-size: .875em;
+            color: #3e3e3e;
+            text-transform: capitalize;
+        }
+    }
+
+    tr {
+        padding: 1em 0;
+    }
+
+    tbody {
+        tr {
+            padding: 0.5em 0;
+        }
+    }
+
+    td, th {
+        padding: 0;
+        font-size: 0.875em;
+        color: #3e3e3e;
+    }
+
+    tfoot td, tfoot th {
+        line-height: 1.4;
+    }
+
+    #shipping_method {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+        > li {
+            display: flex;
+            margin: 10px 0;
+        }
+
+        label {
+            display: flex;
+            justify-content: space-between;
+            flex-basis: 0;
+            flex-grow: 1;
+            margin-left: 10px;
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+    }
+}

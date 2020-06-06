@@ -1,0 +1,21 @@
+/*notice*/
+.tbay-notice-is-dismissible {
+	border-left: 4px solid #1ab6c8;
+	background: #9950a4;
+	color: #fff;
+	padding: 3px 15px;
+}
+
+.tbay-notice-is-dismissible a {
+	color: #9950a4;
+	display: inline-block;
+	padding: 5px 10px;
+	background: #fff;
+	margin-left: 10px; 
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.tbay-notice-is-dismissible .notice-dismiss:before {
+	color: #fff
+}

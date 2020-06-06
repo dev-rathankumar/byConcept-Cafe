@@ -1,0 +1,48 @@
+<div class="header">
+    <div class="page-header text-center">
+        <h2><%= register.name %></h2>
+        <p class="lead">cashier :  <%= session_user %></p>
+    </div>
+</div>
+<div class="container content-container">
+
+    <h3>Products</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                </tr>
+                <% if (items.length > 0) { %>
+                          <% items.forEach(function(item){ %>
+                              <tr>
+                                  <td>
+                                      <p><%= item.name %></p>
+                                      <p><%- item.sub_name %></p>
+                                  </td>
+                                  <td><%= accounting.formatMoney(item.final_price,'') %></td>
+                                  <td><%= item.qty %></td>
+                                  <td><%= accounting.formatMoney(item.total,'') %></td>
+                              </tr>
+                            <% }); %>
+                <% } %>
+
+            </table>
+        </div>
+
+    </div>
+</div> <!-- /container -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1 col-xs-1 col-md-2 col-lg-2 text-right">
+                <button id="go-button"><span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span></button>
+            </div>
+            <div class="col-sm-5 col-xs-5 col-md-4 col-lg-4 text-right"><h3>Grand Total</h3></div>
+            <div class="col-sm-6 col-xs-6 col-md-6  col-lg-6 "><h3><%= accounting.formatMoney(grand_total,'') %></h3></div>
+        </div>
+    </div>
+</footer>

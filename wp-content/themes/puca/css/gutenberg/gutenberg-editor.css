@@ -1,0 +1,7 @@
+.editor-post-title__block .editor-post-title__input,
+.gutenberg .edit-post-visual-editor,
+.block-editor .edit-post-visual-editor,
+.gutenberg .edit-post-visual-editor p,
+.block-editor .edit-post-visual-editor p {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}

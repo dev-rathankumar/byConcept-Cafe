@@ -1,0 +1,25 @@
+//
+// Atum settings page
+//-------------------
+
+@import "common/functions";
+@import "common/variables";
+@import "common/mixins";
+@import "common/breakpoints";
+@import "common/animations";
+@import "common/root";
+
+@import "atoms/tooltip";
+@import "atoms/buttons";
+@import "atoms/select2";
+@import "atoms/atum-icons";
+@import "atoms/page-title";
+
+@import "molecules/button-groups";
+@import "molecules/sweet-alert";
+@import "atoms/switchery";
+@import "molecules/atum-footer";
+@import "molecules/meta-boxes";
+@import "molecules/bootstrap-datetimepicker";
+
+@import "organisms/pages/settings";

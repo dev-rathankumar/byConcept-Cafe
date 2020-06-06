@@ -1,0 +1,55 @@
+{
+	"background": {
+		"bg_image"        : "url(https://www.stockmanagementlabs.com/wp-content/uploads/2020/05/waves-action-logs.svg)",
+		"bg_position"     : "bottom",
+		"bg_size"         : "contain",
+		"bg_repeat"       : "no-repeat",
+		"bg_color"        : "white"
+	},
+	"dash_background": {
+		"bg_image"        : "url(https://www.stockmanagementlabs.com/wp-content/uploads/2020/05/waves-action-logs.svg)",
+		"bg_position"     : "bottom",
+		"bg_size"         : "cover",
+		"bg_repeat"       : "no-repeat",
+		"bg_color"        : "white"
+	},
+	"images": {
+		"logo"    : "https://www.stockmanagementlabs.com/wp-content/uploads/2020/05/icon-action-logs.svg",
+		"top_left": "https://www.stockmanagementlabs.com/wp-content/uploads/2020/05/label-new-logs@2x.png"
+	},
+	"title": {
+		"text"      : "Action <strong>Logs</strong>",
+		"text_color": "black",
+		"text_size" : "",
+		"text_align": "center"
+	},
+	"version": {
+		"text"      : "v1.0.0",
+		"text_color": "#FFF",
+		"background": "#f95e90"
+	},
+	"description": {
+		"text"           : "Keeping track of any changes happening in your shop has never been easier. The Action Logs add-on supports all ATUM premium add-ons and all WooCommerce actions.",
+		"text_color"     : "#6c757d",
+		"text_size"      : "14px",
+		"text_align"     : "center",
+		"dash_text_align": "justify",
+		"padding"        : "0 28px 25px"
+	},
+	"buttons": [
+		{
+			"text"      : "More Info",
+			"url"       : "https://www.stockmanagementlabs.com/addons/atum-action-logs/",
+			"class"     : "btn btn-sm btn-warning",
+			"css"       : "width:130px;background-color:#f95e90;border-color:#f95e90"
+		},
+		{
+			"text"      : "Live Demo",
+			"url"       : "https://demo.action-logs.stockmanagementlabs.com/",
+			"class"     : "btn btn-sm btn-outline-warning",
+			"css"       : "width:130px;color:#f95e90;border-color:#f95e90",
+			"hover"     : "background-color:#f95e90;color:#FFF!important;"
+		}
+	],
+	"transient_key": "atum-action-logs-release"
+}

@@ -1,0 +1,170 @@
+.icon-doorkey:hover{
+    color:white; 
+    background-color:#19a0d2;
+
+}
+.icon-doorkey{
+    padding: 8px 10px;
+
+}
+.icon-doorkey:before {
+    color: #acacac;
+}
+.icon-doorkey:hover::before{
+    color:#fff;	
+}
+.slv-instructions{
+    font-size: 13.5px;
+    color: #009FD4;
+    font-weight: 400;
+    margin: 0 19px;
+    border: 3px solid #009FD4;
+    padding: 12px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.second-layer{
+    position: relative;
+    right:-5px;
+    top:1px;
+    font-size: 20px;
+}
+
+
+.ui-dialog-titlebar-close {
+    visibility: visible;
+    background:none;
+    border:none;
+    position:absolute;
+    right:0px;
+    top:-5px;
+}
+.ui-dialog-titlebar{
+    visibility:hidden;
+}
+
+#verification_submit_send{
+    font-size: 18px;
+    width:125px;
+    height: 40px;
+    position: relative; 
+    margin-top: 50px;
+    bottom: 30px;
+    color: white !important;
+    background-color: #D0ECF7 !important;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border: none;
+}
+
+#heading{
+    position: absolute;  
+    top: 25px;  
+    font-size: 21px;    
+}
+
+#submit_send_layer{
+    position: absolute;
+    bottom: 26px;
+    background-color: #02A2D8;
+    font-size: 18px;
+    padding: 9px 22px;
+    color: white;
+    border: none;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+
+}
+#submit_send_cancel{
+    position: absolute;
+    left: 150px;
+    bottom: 26px;
+    padding: 7px 26px;
+    font-size: 18px;
+    color:#BABABA;
+    background-color: white;
+    border: 2px solid #BABABA;
+}
+
+/************* front end css ******************/
+
+
+/************* tab style *****************/
+
+.esig-access-dialog{
+    padding:0px !important;
+    margin:0px !important;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+
+}
+
+#access_cssmenu > ul{
+    border-top: 2px #DFDFDF solid;
+    border-bottom: 2px #DFDFDF solid;
+    width: 100% !important;
+    display:block;
+
+
+
+}
+#access_cssmenu > ul > li {
+    display:inline-block;
+    font-size: 13px;
+    color: #DFDFDF;
+    margin:1px 5px;
+    padding:12px;
+
+}
+
+/*#access_cssmenu > ul > li a:hover{
+    
+border-top: 6px solid orange;
+    padding-top:50px;
+}*/
+
+#access_cssmenu > ul > li a{
+    text-decoration: none;  
+}
+
+
+.enter_access{
+    width: 460px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: 100;
+    position: absolute;
+    top:220px;
+}
+.slv-label{
+    font-size: 13px;
+    font-weight: 500;
+}
+.slv-access-inputs{
+    padding: 22px;
+}
+#esig_access_code.enter_access{
+    width: 434px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 35px 0;
+    display: inline;
+}
+#access_cssmenu > ul > li a.current {
+    color:#009FD4 !important;
+    border-bottom: 7px solid #009FD4; 
+    padding:7px;
+}
+.edit-second-layer{
+    position: relative;
+    display:inline;
+    top: 100px;
+    font-size: 20px;
+}
+

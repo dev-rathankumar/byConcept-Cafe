@@ -1,0 +1,34 @@
+<wpml-config>
+	<admin-texts>
+		<key name="pizzaro_options">
+			<key name="newsletter_signup_form" />
+			<key name="contact_map_content" />
+			<key name="header_cart_v2_icon" />
+			<key name="header_cart_v2_label" />
+			<key name="header_cart_v2_empty_label" />
+			<key name="header_phone_text" />
+			<key name="header_phone_city" />
+			<key name="header_phone_number" />
+			<key name="food_type_taxonomy" />
+			<key name="footer_store_timings_labels" />
+			<key name="footer_store_timings_times" />
+			<key name="footer_contact_form_title" />
+			<key name="footer_contact_form_content" />
+			<key name="footer_contact_info_text" />
+			<key name="footer_contact_info_icon" />
+			<key name="footer_site_address_text" />
+			<key name="footer_payment_icons" />
+			<key name="footer_about_title" />
+			<key name="footer_about_description" />
+			<key name="footer_about_button_text" />
+			<key name="footer_about_button_link" />
+			<key name="footer_action_icon_class" />
+			<key name="footer_action_button_text" />
+			<key name="footer_action_button_link" />
+			<key name="footer_credit" />
+			<key name="create_your_own_button_text" />
+			<key name="create_your_own_button_link" />
+			<key name="" />
+		</key>
+	</admin-texts>
+</wpml-config>

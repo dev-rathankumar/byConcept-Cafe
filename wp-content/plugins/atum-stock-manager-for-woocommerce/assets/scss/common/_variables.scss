@@ -1,0 +1,834 @@
+//
+// Global Variables
+//------------------
+
+// Paths
+
+$atum-assets-path:                      "../" !default;
+$atum-font-path:                        "#{$atum-assets-path}fonts/" !default;
+$atum-img-path:                         "#{$atum-assets-path}images/" !default;
+
+// Fonts
+
+$font-size-base:                        0.875rem !default;
+$font-size-lg:                          ($font-size-base * 1.25) !default;
+$font-size-sm:                          ($font-size-base * .875) !default;
+
+$font-weight-light:                     300 !default;
+$font-weight-normal:                    400 !default;
+$font-weight-bold:                      700 !default;
+
+$line-height-base:                      1.5 !default;
+$line-height-lg:                        1.5 !default;
+$line-height-sm:                        1.5 !default;
+
+$border-width:                          1px !default;
+
+// Grid settings
+
+$main-sm-columns:                       12 !default;
+$sidebar-sm-columns:                    4 !default;
+$grid-gutter-width:                     30px !default;
+$grid-columns:                          12 !default;
+$grid-breakpoints: (
+		xs: 0,
+		sm: 576px,
+		md: 768px,
+		lg: 992px,
+		xl: 1200px
+) !default;
+$container-max-widths: (
+		sm: 540px,
+		md: 720px,
+		lg: 960px,
+		xl: 1140px
+) !default;
+
+
+$max-width-limit:                       1280px !default;
+
+// Colors
+
+$white:                                 #fff !default;
+$gray-100:                              #f8f9fa !default;
+$gray-200:                              #e9ecef !default;
+$gray-300:                              #dee2e6 !default;
+$gray-400:                              #ced4da !default;
+$gray-500:                              #adb5bd !default;
+$gray-600:                              #6c757d !default;
+$gray-700:                              #495057 !default;
+$gray-800:                              #343a40 !default;
+$gray-900:                              #212529 !default;
+$black:                                 #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+		"100": $gray-100,
+		"200": $gray-200,
+		"300": $gray-300,
+		"400": $gray-400,
+		"500": $gray-500,
+		"600": $gray-600,
+		"700": $gray-700,
+		"800": $gray-800,
+		"900": $gray-900
+), $grays);
+
+$blue:                                  #00B8DB !default;
+$blue-dark:                             #27283B !default;
+$blue-dark-lighten:                     #3b3d5a;
+$blue-dark-light-2:                     lighten($blue-dark, 40%) !default;
+$blue-light:                            lighten($blue, 50%) !default;
+$blue-light-2:                          lighten($blue, 55%) !default;
+$blue-gray-light:                       #E3E8F5 !default;
+$orange:                                #EFAF00 !default;
+$orange-light:                          lighten($orange, 40%) !default;
+$orange-dark-light:                     darken($orange-light, 10%);
+$orange-light-2:                        lighten($orange, 48%) !default;
+$red:                                   #FF4848 !default;
+$red-light:                             lighten($red, 30%) !default;
+$red-light-2:                           lighten($red, 34%) !default;
+$green:                                 #69C61D !default;
+$green-light:                           lighten($green, 40%) !default;
+$green-light-2:                         lighten($green, 50%) !default;
+$purple:                                #BA7DF7 !default;
+$purple-light:                          lighten($purple, 20%) !default;
+$purple-pl:                             #9357cc !default;
+$blue-trans:                            rgba(0, 183, 219, 0.79);
+$green-trans:                           rgba(106, 200, 30, 0.79);
+$green-blue:                            rgba(30, 200, 149, 0.79);
+
+
+$colors: () !default;
+$colors: map-merge((
+		"blue":              $blue,
+		"blue-gray-light":   $blue-gray-light,
+		"orange":            $orange,
+		"red":               $red,
+		"red-light":         $red-light,
+		"red-light-2":       $red-light-2,
+		"green":             $green,
+		"green-light":       $green-light,
+		"blue-light":        $blue-light,
+		"blue-dark":         $blue-dark,
+		"blue-dark-lighten": $blue-dark-lighten,
+		"blue-dark-light-2": $blue-dark-light-2,
+		"white":             $white,
+		"gray":              $gray-500,
+		"gray-light":        $gray-200,
+		"gray-dark":         $gray-800,
+		"purple":            $purple,
+		"purple-light":      $purple-light,
+		"purple-pl":         $purple-pl,
+		"black":             $black,
+		
+), $colors);
+
+$primary:                               $blue !default;
+$secondary:                             $orange !default;
+$tertiary:                              $green !default;
+
+$main:                                  $blue !default;
+$success:                               $green !default;
+$info:                                  $blue-gray-light !default;
+$warning:                               $orange !default;
+$danger:                                $red !default;
+$light:                                 $gray-100 !default;
+$dark:                                  $gray-800 !default;
+
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+		"primary":    $primary,
+		"secondary":  $secondary,
+		"tertiary":   $tertiary,
+		"success":    $success,
+		"main":       $main,
+		"info":       $info,
+		"warning":    $warning,
+		"danger":     $danger,
+		"light":      $light,
+		"dark":       $dark,
+		"purple-pl":  $purple-pl,
+		"gray":       $gray-600,
+		"default":    $gray-500
+), $theme-colors);
+
+
+// WP Colors
+
+$wp-link:                               #0073AA !default;
+$wp-link-hover:                         #00A0D2 !default;
+$wp-input-focus:                        #007CBA !default;
+$wp-pink:                               #E6CCE1 !default;
+$wp-pink-light:                         #F5EBF3 !default;
+$wp-pink-darken:                        darken($wp-pink-light, 8%);
+$wp-pink-lighter:                       #FBF9FB !default;
+$wp-gray-dark:                          #32373C !default;
+$wp-gray-1:                             #999 !default;
+$wp-gray-2:                             #555 !default;
+$wp-gray-3:                             #B4B9BE !default;
+$wp-gray-4:                             #DDD    !default;
+$wp-gray-5:                             #E5E5E5 !default;
+$wp-gray-6:                             #f9f9f9 !default;
+$wp-gray-7:                             #888 !default;
+$wp-red:                                #A00 !default;
+
+$wp-colors: () !default;
+$wp-colors: map-merge((
+		"wp-link":         $wp-link,
+		"wp-link-hover":   $wp-link-hover,
+		"wp-input-focus":  $wp-input-focus,
+		"wp-pink":         $wp-pink,
+		"wp-pink-light":   $wp-pink-light,
+		"wp-pink-lighter": $wp-pink-lighter,
+		"wp-gray-dark":    $wp-gray-dark,
+		"wp-gray-1":       $wp-gray-1,
+		"wp-gray-3":       $wp-gray-3,
+		"wp-gray-4":       $wp-gray-4,
+		"wp-gray-5":       $wp-gray-5,
+		"wp-gray-6":       $wp-gray-6,
+		"wp-gray-7":       $wp-gray-7
+		
+), $wp-colors);
+
+// WC Colors
+
+$wc-blue-gray:                          #2e4453 !default;
+$wc-blue-gray-light:                    #C8D7E1 !default;
+$wc-green:                              #5B841B !default;
+$wc-green-light:                        #C6E1C6 !default;
+$wc-orange:                             #94660c !default;
+$wc-orange-light:                       #f8dda7 !default;
+$wc-red:                                #761919 !default;
+$wc-red-light:                          #eba3a3 !default;
+$wc-red-light-alt:                      #d7cad2 !default;
+$wc-purple:                             #96588a !default;
+
+$wc-colors: () !default;
+$wc-colors: map-merge((
+		"wc-blue-gray":       $wc-blue-gray,
+		"wc-blue-gray-light": $wc-blue-gray-light,
+		"wc-green":           $wc-green,
+		"wc-green-light":     $wc-green-light,
+		"wc-orange":          $wc-orange,
+		"wc-orange-light":    $wc-orange-light,
+		"orange-light-2":     $orange-light-2,
+		"wc-red":             $wc-red,
+		"wc-red-light":       $wc-red-light,
+		"wc-purple":          $wc-purple,
+
+), $wc-colors);
+
+
+// Body
+
+$body-bg:                               $white !default;
+$body-color:                            $gray-900 !default;
+
+// Links
+
+$link-color:                            $primary !default;
+$link-decoration:                       none !default;
+$link-hover-color:                      darken($link-color, 5%) !default;
+$link-hover-decoration:                 underline !default;
+
+$border-color:                          $gray-300 !default;
+
+$component-active-color:                $white !default;
+$component-active-bg:                   theme-color("primary") !default;
+
+$caret-width:                           .37em !default;
+
+$transition-base:                       all .2s ease-in-out !default;
+$transition-fade:                       opacity .15s linear !default;
+$transition-collapse:                   height .35s ease !default;
+
+$border-radius:                         .25rem !default;
+$border-radius-lg:                      .3rem !default;
+$border-radius-sm:                      .2rem !default;
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:                  8% !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:              175 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:                         $gray-900 !default;
+$yiq-text-light:                        $white !default;
+
+
+// Spacing
+//
+// Control the default styling of most elements by modifying these variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+// stylelint-disable
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+		0: 0,
+		1: ($spacer * .25),
+		2: ($spacer * .5),
+		3: $spacer,
+		4: ($spacer * 1.5),
+		5: ($spacer * 3)
+), $spacers);
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+$sizes: map-merge((
+		25: 25%,
+		50: 50%,
+		75: 75%,
+		100: 100%,
+		auto: auto
+), $sizes);
+// stylelint-enable
+
+
+// Options
+
+$enable-caret:                          false !default;
+$enable-rounded:                        true !default;
+$enable-shadows:                        false !default;
+$enable-gradients:                      false !default;
+$enable-transitions:                    true !default;
+$enable-grid-classes:                   true !default;
+$enable-print-styles:                   true !default;
+
+// Media queries breakpoints
+
+$screen-xs-max:                         480px !default;
+
+// Small screen / tablet
+$screen-sm-max:                         768px !default;
+$screen-sm-max-wp:                      782px !default;
+
+// Medium screen / desktop
+$screen-md-max:                         992px !default;
+
+// Large screen / wide desktop
+$screen-lg-max:                         1200px !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-sm-min:                         ($screen-xs-max + 1) !default;
+$screen-md-min:                         ($screen-sm-max + 1) !default;
+$screen-md-min-wp:                      ($screen-sm-max-wp + 1) !default;
+$screen-lg-min:                         ($screen-md-max + 1) !default;
+$screen-xl-min:                         ($screen-lg-max + 1) !default;
+
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables
+
+$input-btn-padding-y:                   .375rem !default;
+$input-btn-padding-x:                   .75rem !default;
+$input-btn-line-height:                 $line-height-base !default;
+
+$input-btn-focus-width:                 .2rem !default;
+$input-btn-focus-color:                 rgba($component-active-bg, .25) !default;
+$input-btn-focus-box-shadow:            0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-btn-padding-y-sm:                .25rem !default;
+$input-btn-padding-x-sm:                .5rem !default;
+$input-btn-line-height-sm:              $line-height-sm !default;
+
+$input-btn-padding-y-lg:                .5rem !default;
+$input-btn-padding-x-lg:                1rem !default;
+$input-btn-line-height-lg:              $line-height-lg !default;
+
+$input-btn-border-width:                $border-width !default;
+
+$input-bg:                              $white !default;
+$input-disabled-bg:                     $gray-200 !default;
+
+$input-padding-y:                       $input-btn-padding-y !default;
+$input-padding-x:                       $input-btn-padding-x !default;
+$input-line-height:                     $input-btn-line-height !default;
+
+$input-padding-y-sm:                    $input-btn-padding-y-sm !default;
+$input-padding-x-sm:                    $input-btn-padding-x-sm !default;
+$input-line-height-sm:                  $input-btn-line-height-sm !default;
+
+$input-padding-y-lg:                    $input-btn-padding-y-lg !default;
+$input-padding-x-lg:                    $input-btn-padding-x-lg !default;
+$input-line-height-lg:                  $input-btn-line-height-lg !default;
+
+$input-color:                           $gray-700 !default;
+$input-border-color:                    $gray-400 !default;
+$input-border-width:                    $input-btn-border-width !default;
+$input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;
+
+$input-border-radius:                   $border-radius !default;
+$input-border-radius-lg:                $border-radius-lg !default;
+$input-border-radius-sm:                $border-radius-sm !default;
+
+$input-focus-bg:                        $input-bg !default;
+$input-focus-border-color:              lighten($component-active-bg, 25%) !default;
+$input-focus-color:                     $input-color !default;
+$input-focus-width:                     $input-btn-focus-width !default;
+$input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
+
+
+
+// Buttons
+
+$btn-padding-y:                         $input-btn-padding-y !default;
+$btn-padding-x:                         $input-btn-padding-x !default;
+$btn-line-height:                       $input-btn-line-height !default;
+
+$btn-padding-y-sm:                      $input-btn-padding-y-sm !default;
+$btn-padding-x-sm:                      $input-btn-padding-x-sm !default;
+$btn-line-height-sm:                    $input-btn-line-height-sm !default;
+
+$btn-padding-y-lg:                      $input-btn-padding-y-lg !default;
+$btn-padding-x-lg:                      $input-btn-padding-x-lg !default;
+$btn-line-height-lg:                    $input-btn-line-height-lg !default;
+
+$btn-border-width:                      $input-btn-border-width !default;
+
+$btn-font-weight:                       $font-weight-normal !default;
+$btn-box-shadow:                        none !default;
+$btn-focus-width:                       $input-btn-focus-width !default;
+$btn-focus-box-shadow:                  $input-btn-focus-box-shadow !default;
+$btn-disabled-opacity:                  .3 !default;
+$btn-active-box-shadow:                 inset 0 3px 5px rgba($black, .125) !default;
+
+$btn-link-disabled-color:               $gray-600 !default;
+
+$btn-block-spacing-y:                   .5rem !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:                     $border-radius !default;
+$btn-border-radius-lg:                  $border-radius-lg !default;
+$btn-border-radius-sm:                  $border-radius-sm !default;
+
+$btn-transition:                        color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+
+// Dropdowns
+
+$dropdown-min-width:                    10rem !default;
+$dropdown-padding-y:                    .5rem !default;
+$dropdown-spacer:                       .125rem !default;
+$dropdown-bg:                           $white !default;
+$dropdown-border-color:                 rgba($black, .15) !default;
+$dropdown-border-radius:                $border-radius !default;
+$dropdown-border-width:                 $border-width !default;
+$dropdown-divider-bg:                   $gray-200 !default;
+$dropdown-box-shadow:                   0 0 6px 0 rgba(0, 0, 0, 0.2);
+//$dropdown-box-shadow:                   0 0 10px 0 rgba($black, .6) !default;
+
+$dropdown-link-color:                   $gray-900 !default;
+$dropdown-link-hover-color:             darken($gray-900, 5%) !default;
+$dropdown-link-hover-bg:                $gray-100 !default;
+
+$dropdown-link-active-color:            $component-active-color !default;
+$dropdown-link-active-bg:               $component-active-bg !default;
+
+$dropdown-link-disabled-color:          $gray-600 !default;
+
+$dropdown-item-padding-y:               .25rem !default;
+$dropdown-item-padding-x:               1.5rem !default;
+
+$dropdown-header-color:                 $gray-600 !default;
+
+
+// Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together
+
+$zindex-dropdown:                       1000000 !default;
+$zindex-sticky:                         1000020 !default;
+$zindex-fixed:                          1000030 !default;
+$zindex-modal-backdrop:                 1000040 !default;
+$zindex-modal:                          1000050 !default;
+$zindex-tooltip:                        1000070 !default;
+
+
+// Navs
+
+$nav-divider-color:                     $gray-200 !default;
+$nav-divider-margin-y:                  ($spacer / 2) !default;
+
+
+// Tooltips
+
+$tooltip-max-width:                     200px !default;
+$tooltip-font-size:                     12px !default;
+$tooltip-color:                         $gray-600 !default;
+$tooltip-bg:                            $white !default;
+$tooltip-opacity:                       1 !default;
+$tooltip-box-shadow:                    0 1px 5px 0 rgba($black, .15) !default;
+
+$tooltip-arrow-width:                   5px !default;
+$tooltip-arrow-color:                   $tooltip-bg !default;
+
+// Popovers
+
+$popover-bg:                            $white !default;
+$popover-max-width:                     276px !default;
+$popover-border-color:                  rgba($black, .2) !default;
+$popover-fallback-border-color:         #CCC !default;
+$popover-border-radius:                 6px !default;
+
+$popover-title-bg:                      $gray-100;
+
+$popover-arrow-width:                   10px !default;
+$popover-arrow-color:                   $popover-title-bg !default;
+
+$popover-arrow-outer-width:             ($popover-arrow-width + 1) !default;
+$popover-arrow-outer-color:             fade_in($popover-border-color, 0.05) !default;
+$popover-arrow-outer-fallback-color:    darken($popover-fallback-border-color, 20%) !default;
+
+$zindex-popover:                        99998 !default; // 1px lower than the WP admin bar
+
+// Alerts
+
+$alert-padding-y:                       .75rem !default;
+$alert-padding-x:                       1.25rem !default;
+$alert-margin-bottom:                   1rem !default;
+$alert-border-radius:                   .25rem !default;
+$alert-link-font-weight:                700 !default;
+$alert-border-width:                    1px !default;
+
+$alert-bg-level:                        -10 !default;
+$alert-border-level:                    -9 !default;
+$alert-color-level:                     6 !default;
+
+// Inputs
+
+$input-border-width:                    1px !default;
+$input-padding-y:                       .375rem !default;
+$input-padding-x:                       .75rem !default;
+$input-line-height:                     $input-btn-line-height !default;
+$input-border-radius:                   4px;
+$input-focus:                           $wp-input-focus !default;
+$input-group-addon-color:               $gray-600;
+$input-group-addon-bg:                  $blue-light;
+$input-border-color: $wp-gray-4;
+
+// Widgets
+
+$widget-text:                           $gray-500 !default;
+$widget-success:                        $tertiary !default;
+$widget-primary:                        $primary !default;
+$widget-warning:                        $secondary !default;
+$widget-danger:                         $danger !default;
+
+// Atum Icons
+
+$atum-icon-font: "atum-icon-font" !default;
+
+$atmi-featured: "\e9d4";
+$atmi-logs: "\e9d5";
+$atmi-read: "\e9d6";
+$atmi-save: "\e9d3";
+$atmi-duplicate: "\e90c";
+$atmi-shipping: "\e9d2";
+$atmi-export: "\e98da";
+$atmi-hidden: "\e9d1";
+$atmi-variable-product-part: "\e908";
+$atmi-variable-raw-material: "\e90a";
+$atmi-product-part: "\e907";
+$atmi-raw-material: "\e909";
+$atmi-atum: "\e9d0";
+$atmi-bundle: "\e9cf";
+$atmi-cog-solid: "\e9ca";
+$atmi-database-solid: "\e9cb";
+$atmi-funnel-solid: "\e9cc";
+$atmi-highlight-solid: "\e9cd";
+$atmi-magic-wand-solid: "\e9ce";
+$atmi-wc-contract: "\e900";
+$atmi-wc-expand: "\e90b";
+$atmi-wc-status: "\e9c9";
+$atmi-wc-downloadable: "\e9c1";
+$atmi-wc-grouped: "\e9c2";
+$atmi-wc-simple: "\e9c3";
+$atmi-wc-variable: "\e9c4";
+$atmi-wc-virtual: "\e9c5";
+$atmi-product-levels: "\e9c6";
+$atmi-multi-inventory: "\e9c7";
+$atmi-checkmark: "\e9c8";
+$atmi-pdf: "\e96e";
+$atmi-view-list: "\e9bf";
+$atmi-view-sidebar-left: "\e9c0";
+$atmi-view-grid: "\e901";
+$atmi-view-sidebar-right: "\e902";
+$atmi-view-sticky-header: "\e903";
+$atmi-info: "\e9be";
+$atmi-view-list-2: "\e904";
+$atmi-view-grid-2: "\e905";
+$atmi-tree: "\e906";
+$atmi-pencil: "\e982";
+$atmi-options: "\e90d";
+$atmi-chart-solid: "\e90e";
+$atmi-chart-outline: "\e90f";
+$atmi-chart-bars: "\e910";
+$atmi-drag: "\e911";
+$atmi-arrow-child: "\e912";
+$atmi-alarm: "\e913";
+$atmi-apartment: "\e914";
+$atmi-arrow-down-circle: "\e915";
+$atmi-arrow-down: "\e916";
+$atmi-arrow-left-circle: "\e917";
+$atmi-arrow-left: "\e918";
+$atmi-arrow-right-circle: "\e919";
+$atmi-arrow-right: "\e91a";
+$atmi-arrow-up-circle: "\e91b";
+$atmi-arrow-up: "\e91c";
+$atmi-bicycle: "\e91d";
+$atmi-bold: "\e91e";
+$atmi-book: "\e91f";
+$atmi-bookmark: "\e920";
+$atmi-briefcase: "\e921";
+$atmi-bubble: "\e922";
+$atmi-bug: "\e923";
+$atmi-bullhorn: "\e924";
+$atmi-bus: "\e925";
+$atmi-calendar-full: "\e926";
+$atmi-camera-video: "\e927";
+$atmi-camera: "\e928";
+$atmi-car: "\e929";
+$atmi-cart: "\e92a";
+$atmi-chart-bars-2: "\e92b";
+$atmi-checkmark-circle: "\e92c";
+$atmi-chevron-down-circle: "\e92d";
+$atmi-chevron-down: "\e92e";
+$atmi-chevron-left-circle: "\e92f";
+$atmi-chevron-left: "\e930";
+$atmi-chevron-right-circle: "\e931";
+$atmi-chevron-right: "\e932";
+$atmi-chevron-up-circle: "\e933";
+$atmi-chevron-up: "\e934";
+$atmi-circle-minus: "\e935";
+$atmi-clock: "\e936";
+$atmi-cloud-check: "\e937";
+$atmi-cloud-download: "\e938";
+$atmi-cloud-sync: "\e939";
+$atmi-cloud-upload: "\e93a";
+$atmi-cloud: "\e93b";
+$atmi-code: "\e93c";
+$atmi-coffee-cup: "\e93d";
+$atmi-cog: "\e93e";
+$atmi-construction: "\e93f";
+$atmi-crop: "\e940";
+$atmi-cross-circle: "\e941";
+$atmi-cross: "\e942";
+$atmi-database: "\e943";
+$atmi-diamond: "\e944";
+$atmi-dice: "\e945";
+$atmi-dinner: "\e946";
+$atmi-direction-ltr: "\e947";
+$atmi-direction-rtl: "\e948";
+$atmi-download: "\e949";
+$atmi-drop: "\e94a";
+$atmi-earth: "\e94b";
+$atmi-enter-down: "\e94c";
+$atmi-enter: "\e94d";
+$atmi-envelope: "\e94e";
+$atmi-exit-up: "\e94f";
+$atmi-exit: "\e950";
+$atmi-eye: "\e951";
+$atmi-file-add: "\e952";
+$atmi-file-empty: "\e953";
+$atmi-film-play: "\e954";
+$atmi-flag: "\e955";
+$atmi-frame-contract: "\e956";
+$atmi-frame-expand: "\e957";
+$atmi-funnel: "\e958";
+$atmi-gift: "\e959";
+$atmi-graduation-hat: "\e95a";
+$atmi-hand: "\e95b";
+$atmi-heart-pulse: "\e95c";
+$atmi-heart: "\e95d";
+$atmi-highlight: "\e95e";
+$atmi-history: "\e95f";
+$atmi-home: "\e960";
+$atmi-hourglass: "\e961";
+$atmi-inbox: "\e962";
+$atmi-indent-decrease: "\e963";
+$atmi-indent-increase: "\e964";
+$atmi-italic: "\e965";
+$atmi-keyboard: "\e966";
+$atmi-laptop-phone: "\e967";
+$atmi-laptop: "\e968";
+$atmi-layers: "\e969";
+$atmi-leaf: "\e96a";
+$atmi-license: "\e96b";
+$atmi-lighter: "\e96c";
+$atmi-line-spacing: "\e96d";
+$atmi-link: "\e96f";
+$atmi-list: "\e970";
+$atmi-location: "\e971";
+$atmi-lock: "\e972";
+$atmi-magic-wand: "\e973";
+$atmi-magnifier: "\e974";
+$atmi-map-marker: "\e975";
+$atmi-map: "\e976";
+$atmi-menu-circle: "\e977";
+$atmi-menu: "\e978";
+$atmi-mic: "\e979";
+$atmi-moon: "\e97a";
+$atmi-move: "\e97b";
+$atmi-music-note: "\e97c";
+$atmi-mustache: "\e97d";
+$atmi-neutral: "\e97e";
+$atmi-page-break: "\e97f";
+$atmi-paperclip: "\e980";
+$atmi-paw: "\e981";
+$atmi-phone-handset: "\e983";
+$atmi-phone: "\e984";
+$atmi-picture: "\e985";
+$atmi-pie-chart: "\e986";
+$atmi-pilcrow: "\e987";
+$atmi-plus-circle: "\e988";
+$atmi-pointer-down: "\e989";
+$atmi-pointer-left: "\e98a";
+$atmi-pointer-right: "\e98b";
+$atmi-pointer-up: "\e98c";
+$atmi-poop: "\e98d";
+$atmi-power-switch: "\e98e";
+$atmi-printer: "\e98f";
+$atmi-pushpin: "\e990";
+$atmi-question-circle: "\e991";
+$atmi-redo: "\e992";
+$atmi-rocket: "\e993";
+$atmi-sad: "\e994";
+$atmi-screen: "\e995";
+$atmi-select: "\e996";
+$atmi-shirt: "\e997";
+$atmi-smartphone: "\e998";
+$atmi-smile: "\e999";
+$atmi-sort-alpha-asc: "\e99a";
+$atmi-sort-amount-asc: "\e99b";
+$atmi-spell-check: "\e99c";
+$atmi-star-empty: "\e99d";
+$atmi-star-half: "\e99e";
+$atmi-star: "\e99f";
+$atmi-store: "\e9a0";
+$atmi-strikethrough: "\e9a1";
+$atmi-sun: "\e9a2";
+$atmi-sync: "\e9a3";
+$atmi-tablet: "\e9a4";
+$atmi-tag: "\e9a5";
+$atmi-text-align-center: "\e9a6";
+$atmi-text-align-justify: "\e9a7";
+$atmi-text-align-left: "\e9a8";
+$atmi-text-align-right: "\e9a9";
+$atmi-text-format-remove: "\e9aa";
+$atmi-text-format: "\e9ab";
+$atmi-text-size: "\e9ac";
+$atmi-thumbs-down: "\e9ad";
+$atmi-thumbs-up: "\e9ae";
+$atmi-time: "\e9af";
+$atmi-train: "\e9b0";
+$atmi-trash: "\e9b1";
+$atmi-underline: "\e9b2";
+$atmi-undo: "\e9b3";
+$atmi-unlink: "\e9b4";
+$atmi-upload: "\e9b5";
+$atmi-user: "\e9b6";
+$atmi-users: "\e9b7";
+$atmi-volume-high: "\e9b8";
+$atmi-volume-low: "\e9b9";
+$atmi-volume-medium: "\e9ba";
+$atmi-volume: "\e9bb";
+$atmi-warning: "\e9bc";
+$atmi-wheelchair: "\e9bd";
+
+// Lightgallery variables
+
+$backdrop-opacity: 1 !default;
+$lg-toolbar-bg: transparent !default;
+$lg-border-radius-base: 2px !default;
+$lg-theme-highlight: $light !default;
+$lg-theme: $black !default;
+
+// basic icon colours
+$lg-icon-bg: rgba(0, 0, 0, 0.45) !default;
+$lg-icon-color: #999 !default;
+$lg-icon-hover-color: #FFF !default;
+
+// counter
+$lg-counter-color: #e6e6e6 !default;
+$lg-counter-font-size: 16px !default;
+
+// Next prev icons
+$lg-next-prev-bg: $lg-icon-bg !default;
+$lg-next-prev-color: $lg-icon-color !default;
+$lg-next-prev-hover-color: $lg-icon-hover-color !default;
+
+// toolbar icons
+$lg-toolbar-icon-color: $lg-icon-color !default;
+$lg-toolbar-icon-hover-color: $lg-icon-hover-color !default;
+
+// autoplay progress bar
+$lg-progress-bar-bg: #333 !default;
+$lg-progress-bar-active-bg: $lg-theme-highlight !default;
+$lg-progress-bar-height: 5px !default;
+
+// paths
+$lg-path-fonts: '../fonts'!default;
+$lg-path-images: '../img'!default;
+
+// Zoom plugin
+$zoom-transition-duration: 0.3s !default;
+
+// Sub html - titile
+$lg-sub-html-bg: rgba(0, 0, 0, 0.45) !default;
+$lg-sub-html-color: #EEE !default;
+
+// thumbnail toggle button
+$lg-thumb-toggle-bg: #0D0A0A !default;
+$lg-thumb-toggle-color: $lg-icon-color !default;
+$lg-thumb-toggle-hover-color: $lg-icon-hover-color !default;
+$lg-thumb-bg: #0D0A0A !default;
+
+// z-index
+$zindex-outer: 100050 !default;
+$zindex-progressbar: 100083 !default;
+$zindex-controls: 100080 !default;
+$zindex-toolbar: 100082 !default;
+$zindex-subhtml: 100080 !default;
+$zindex-thumbnail: 100080 !default;
+$zindex-pager: 100080 !default;
+$zindex-playbutton: 100080 !default;
+$zindex-item: 100060 !default;
+$zindex-backdrop: 100040 !default;
+
+
+// Easing timing functions
+
+$easing: (
+		linear: cubic-bezier(0.250, 0.250, 0.750, 0.750),
+		
+		ease: cubic-bezier(0.250, 0.100, 0.250, 1.000),
+		ease-in: cubic-bezier(0.420, 0.000, 1.000, 1.000),
+		ease-out: cubic-bezier(0.000, 0.000, 0.580, 1.000),
+		ease-in-out: cubic-bezier(0.420, 0.000, 0.580, 1.000),
+		
+		ease-in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045),
+		ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275),
+		ease-in-out-back: cubic-bezier(0.68, -0.55, 0.265, 1.55),
+		
+		ease-in-sine: cubic-bezier(0.47, 0, 0.745, 0.715),
+		ease-out-sine: cubic-bezier(0.39, 0.575, 0.565, 1),
+		ease-in-out-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95),
+		
+		ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53),
+		ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955),
+		
+		ease-in-cubic: cubic-bezier(0.55, 0.085, 0.68, 0.53),
+		ease-out-cubic: cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		ease-in-out-cubic: cubic-bezier(0.455, 0.03, 0.515, 0.955),
+		
+		ease-in-quart: cubic-bezier(0.55, 0.085, 0.68, 0.53),
+		ease-out-quart: cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		ease-in-out-quart: cubic-bezier(0.455, 0.03, 0.515, 0.955)
+);

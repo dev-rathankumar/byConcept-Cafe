@@ -1,0 +1,374 @@
+
+/*updater style here */
+.esig-dialog-header
+{
+	text-align:justify;
+}
+.esig-dialog-header h3
+{
+    font-size:22px;
+	font-weight:bold ;
+	text-align:center ; 
+}
+
+.updater-row
+{
+   padding:10px;
+}
+.esig-dialog{
+	width: 600px!important;
+	top: 102px!important;
+}
+
+.esig-dialog .ui-dialog-titlebar-close {
+   position: absolute;
+    right: 0;
+   background-color: transparent;
+   outline: 0;
+   border: 0;
+}
+.esig-dialog .ui-dialog-buttonset
+{
+	float: none !important;
+	text-align:center;
+}
+.esig-dialog button:focus
+{
+	outline:0 !important;
+	
+}
+.esig-dialog .ui-dialog-buttonpane {
+	border-top: none;
+  background: none;
+  outline:0;
+}
+.esig-dialog input[type=radio] {
+	background: #fff; 
+	color: #d00a1b;  
+	-webkit-border-radius: 3px;
+    border-radius: 3px; 
+	border: 2px solid #e5e5e5;
+}
+
+.esig-dialog input[type=radio]:focus{
+	border-color: #d00a1b;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.esig-dialog input[type=radio]:checked:before {
+  content: 'l';
+  text-indent: 0;
+  font-size: 14px;
+  width: 6px;
+  height: 6px;
+  margin: 0;
+  line-height: 16px;
+  background-color: transparent;
+  color: #d00a1b;
+  font-family: "wp-e-signature";
+}
+.esig-dialog p.auto-update-checked
+{
+	color :#000;
+	font-weight:bold;
+}
+.esig-updater-option p{
+	font-size: 15px;
+	color: #D3D3D3;
+}
+.esig-dialog .auto-update-checked input[type=radio]
+{
+border: 2px solid #d00a1b;
+}
+.esig-dialog input[type=checkbox] 
+{
+  border: 2px solid #d00a1b;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.esig-dialog #esig-addon-error{
+  background: #0B98D1;
+  padding: 19px 12px;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  margin: 21px 0 0 0;
+}
+.esig-dialog input[type=checkbox]:checked:before {
+ color: #d00a1b;
+}
+.esig-dialog .esig-updater-text{
+	border: 3px solid #EC3838;
+	padding: 10px 19px;
+	border-radius: 6px;
+	color: #EC3838;
+	  font-size: 14px;
+}
+.esig-dialog .esig-updater-text a{
+	text-decoration:none;
+	color: inherit;
+}
+.esig-dialog .esig-updater-text a:hover{
+text-decoration:underline;
+}
+
+.esig-updater-scroll 
+{
+ overflow-y: scroll;
+  overflow-x: hidden;
+  height: 150px !important;
+  background: #F7F6F6;
+  border-left: 5px solid #E8E8E8;
+  border-top-right-radius: 7px;
+  padding: 0 19px;
+  border-bottom-right-radius: 7px;
+}
+
+.esig-dialog .ui-dialog-titlebar{
+  border-bottom: none;	
+}
+
+.esig-updater-button 
+{
+   margin-top:30px;
+   text-align:center;
+   padding: 0 0 24px 0;
+}
+.esig-updater-button span
+{
+    padding:20px;
+}
+
+.esig-dialog .esig-updater-scroll p{
+	color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.esig-dialog .esig-updator-scroll-wrap{
+border-right: 1px solid #F0EFEF;
+  border-top: 1px solid #F0EFEF;
+  border-bottom: 1px solid #F0EFEF;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+    margin: 19px 0;
+  }
+
+.esig-dialog .esig-updater-scroll p sub{ 
+vertical-align: baseline;
+  color: #0073aa;
+  font-weight: 400;
+}
+
+.esig-dialog hr{
+	  border-top: 1px solid #F2F2F2;
+}
+
+.esig-dialog #esig-primary-dgr-btn{
+  background: #d00a1b;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 8px 20px;
+  height: auto;
+  font-weight: bold;
+  letter-spacing: .02em;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+.esig-dialog #esig-primary-dgr-btn:hover{
+  background: #e8071b;
+}
+
+.esig-dialog .esig-dgr-btn{
+  background: #d00a1b;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 8px 20px;
+  height: auto;
+  font-weight: bold;
+  letter-spacing: .02em;
+  transition: all 0.3s ease 0s;
+}
+.esig-dialog .esig-dgr-btn:hover{
+  background: #e8071b;
+}
+
+.esig-dialog-header .icon-esig-alert:before{
+	  font-family: "wp-e-signature";
+	  font-size: 55px;
+	  color: #d00a1b;
+	  content: "N";
+	  line-height: 1.3em;
+}
+
+.esig-dialog-header .esig-alert{
+	text-align:center;
+}
+
+.esig-dialog #esig-secondary-btn{
+  background: #fff;
+  border: 2px solid #e4e4e4;
+  color: #D3D3D3;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 7px 20px;
+  height: auto;
+  font-weight: bold;
+  letter-spacing: .02em;
+  transition: all 0.3s ease 0s;
+  outline:0;
+}
+.esig-dialog p{
+	font-size: 15px;
+}
+.esig-dialog #esig-secondary-btn:hover{
+	background: #bebebe;
+	border-color: #bebebe;
+	color: #fff;
+	
+}
+
+.esig-dialog .esig-secondary-btn{
+  background: #fff;
+  border: 2px solid #e4e4e4;
+  color: #D3D3D3;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 7px 20px;
+  height: auto;
+  font-weight: bold;
+  letter-spacing: .02em;
+  transition: all 0.3s ease 0s;
+  outline:0;
+}
+
+.esig-dialog .esig-secondary-btn:hover{
+	background: #bebebe;
+	border-color: #bebebe;
+	color: #fff;
+	
+}
+
+.esig-dialog .ui-dialog-titlebar {
+  background: none;
+  height: 6px;
+  border:0px;
+}
+
+.esig-dialog .ui-dialog-content {
+  padding: 0px 37px 4px;
+  width: auto !important;
+  min-width: 500px !important;
+  height:  auto !important;
+  
+}
+
+.esig-dialog.ui-dialog{
+  border-radius: 12px;
+}
+
+/* addon tooltip style */
+/* css tooltip start here  */
+ 
+.ui-tooltip, .esign-arrow:after 
+{
+    background: black;
+    border: 1px solid black;
+	
+	position:fixed;
+}
+.ui-tooltip 
+{
+    padding: 10px 10px!important;
+    color: white!important;
+    border-radius: 5px!important;
+    font: 13px "Helvetica Neue", Sans-Serif!important;
+    text-transform: normal;
+	background: #0c0e11!important;
+	box-shadow: none!important;
+	line-height:1.3em!important;
+	max-width: 250px!important;
+	min-width: auto !important;
+	margin: 0 auto!important;
+}
+.esign-arrow 
+{
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: -16px;
+}
+.esign-arrow.top 
+{
+    top: -16px;
+    bottom: auto;
+}
+.esign-arrow.left
+{
+    left: 20%;
+}
+.esign-arrow:after 
+{
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+}
+.esign-arrow.top:after 
+{
+    bottom: -20px;
+    top: auto;
+}
+
+.esig-expired-license-plugin-row-wrapper {
+	height: 50px;
+	vertical-align: middle;
+	display: table-cell;
+	background-color: #EB4B29;
+	border: 1px solid #B53B21;
+	border-left: 5px solid #B53B21;
+	color: #fff !important;
+}
+
+.esig-expired-license-plugin-row-wrapper > span {
+	display: inline-block;
+	padding: 0 75px 0 8px;
+}
+
+.esig-expired-license-heading {
+	text-transform: uppercase;
+}
+
+.esig-expired-license-message {
+	margin-left: 5px;
+}
+
+.esig-expired-license-message > a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+p.esig-expired-license-plugin-row-wrapper::before {
+	display: none;
+	content: '';
+}

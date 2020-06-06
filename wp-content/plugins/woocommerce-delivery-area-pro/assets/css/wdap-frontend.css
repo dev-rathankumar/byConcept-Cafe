@@ -1,0 +1,328 @@
+.check_availability:focus,
+input#wdap_type_location:focus,
+input#wdapziptextbox:focus,
+#wdapzipsumit:focus {
+    outline: none;
+}
+
+.wdap_product_availity_form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loadinggif {
+    background-image: url("../images/rolling.gif") !important;
+    background-repeat: no-repeat !important;
+    text-indent: -9999px;
+}
+
+.wdap-hero-title {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+    text-transform: capitalize;
+}
+
+.wdap-shortcode-desc {
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+
+.resultLoading {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10000000;
+    margin: 10px 0;
+    float: left;
+}
+
+.product_avalibility iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.pac-input {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px !important;
+    top: 10px !important;
+}
+
+.pac-input:focus {
+    border-color: #4d90fe;
+}
+
+.wdap_zip {
+    float: left;
+    background: lightgray;
+    border-radius: 3px;
+    color: #333;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
+
+.wdap_zip::before {
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+}
+
+.wdap_zip::after {
+    background: #fff;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wdap_zip:hover {
+    background-color: #007acc;
+    color: white;
+}
+
+.wdap_zip:hover::after {
+    border-left-color: #007acc;
+}
+
+.wdap_notification_message {
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.product_avalibility_tab img {
+    margin: 0 auto;
+    text-align: center;
+    width: 30px;
+}
+
+.placeholdertd {
+    border-top: 1em #fff solid !important;
+    background-color: transparent !important;
+    padding: 0px !important;
+    border-top-color: #ffffff !important;
+}
+
+.zipcode_test_desc {
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+
+/**::::::::::::::::: Zip Form Design Start :::::::::::::::::**/
+
+/** Default Design **/
+
+.default #wdapziptextbox {
+    box-shadow: 1px 1px 1px 1px #f2f2f2;
+}
+
+.default #wdapzipsumit:hover {
+    box-shadow: none !important;
+}
+
+body.woocommerce-checkout .default #wdapzipsumit {
+    margin-left: 0px !important;
+    border-radius: 10px !important;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    background-image: none;
+    background-position: left;
+}
+
+/** End of Default Design **/
+/** Classic design start **/
+body.woocommerce-checkout .classic #wdapzipsumit {
+    text-indent: 0;
+    border-radius: 20px;
+    width: 100%;
+    background: #1E1E20;
+}
+
+.classic .check_availability.loadinggif {
+    background-size: unset !important;
+}
+
+/** Classic design end **/
+
+/** Smart Template Start **/
+.wdap_zip_form_container.smart {
+    float: left;
+    width: 100%;
+    margin: 10px 0px !important;
+    padding: 4px !important;
+}
+
+.smart .wdapziptextbox {
+    border: 2px solid #1abc9c;
+}
+
+.smart input#wdapzipsumit {
+    background-color: rgb(26, 188, 156);
+    border-radius: 0;
+}
+
+body.woocommerce-checkout .smart>input[type=button] {
+    width: 100%;
+}
+
+.smart>input[type=text]:focus {
+    border-color: none;
+}
+
+/** End of Smart Template Design **/
+
+/** Start of Standard Template Design **/
+div#wdap_zip_check.standard {
+    width: 100%;
+    margin: 15px 0px !important;
+    float: left;
+    clear: both;
+}
+
+.standard input.wdapziptextbox {
+    background-color: #f66131;
+    width: 100%;
+    float: left;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.24), 0 1px 1px 0 rgba(0, 0, 0, 0.48);
+    border-radius: 8px;
+    border-width: 0px;
+    border-style: dotted;
+    border-color: #ffffff;
+    text-transform: capitalize;
+    display: block;
+    line-height: 1.42857143 !important;
+    background-image: none;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.standard input.wdapziptextbox:focus {
+    background: #f66131;
+    color: #fff;
+    outline: none;
+    border: none;
+
+}
+
+.wdap_zip_form_container.standard .wdap_arrow {
+    background-image: url(../images/arrow-197-16.png) !important;
+}
+
+body.woocommerce-checkout .standard .wdap_arrow {
+    background-image: none !important;
+
+}
+
+.standard .wdapzipsumit {
+    float: left;
+    width: 10%;
+    text-indent: -99999px;
+    padding: 0 12px !important;
+    margin-top: 5px !important;
+    outline: none !important;
+    border: none !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-color: transparent !important;
+    margin-left: -14% !important;
+    box-shadow: none !important;
+    line-height: 35px !important;
+    margin-right: 0px !important;
+}
+
+.standard .wdapziptextbox::-webkit-input-placeholder,
+.standard input.wdapziptextbox {
+    color: #ffffff;
+}
+
+body.woocommerce-checkout .standard #wdapzipsumit {
+    float: left;
+    width: 100%;
+    text-indent: 0px;
+    margin-top: 10px !important;
+    outline: none !important;
+    border: none;
+    background-color: #f66131 !important;
+    color: #ffffff !important;
+    margin-left: 0px !important;
+    background-position: left !important;
+}
+
+/**::::::::::::::::: Start of Basic Template Design :::::::::::::::::**/
+.basic #wdapzipsumit {
+    background-color: #ffffff;
+    width: 30% !important;
+}
+
+.basic .wdapziptextbox {
+    width: 70% !important;
+}
+
+body.woocommerce-checkout .basic #wdapzipsumit {
+    width: 100% !important;
+    line-height: normal !important;
+    text-indent: 0px !important;
+    background-image: none !important;
+    border-radius: 6px !important;
+    color: inherit !important;
+}
+
+/**::::::::::::::::: End of Basic Template Design :::::::::::::::::**/
+
+body.woocommerce-checkout .smart #wdapzipsumit {
+    width: 100%;
+    background-position: left;
+    text-indent: 0px;
+}
+
+/**::::::::::::::::: End of Zip Form Design :::::::::::::::::**/
+.wdap-shortcode-container {
+    position: relative;
+    outline: none;
+}
+
+.wdap-shortcode-parent {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}

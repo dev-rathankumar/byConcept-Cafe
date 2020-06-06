@@ -1,0 +1,51 @@
+<wpml-config>
+    <admin-texts>
+        <key name="arg-mc-options">
+            <key name="btn_next_text" />
+            <key name="btn_prev_text" />
+            <key name="btn_submit_text" />
+            <key name="btn_skip_login_text" />
+            <key name="error_required_text" />
+            <key name="error_required_checkbox" />
+            <key name="error_email" />
+			<key name="error_phone" />
+			<key name="error_zip" />
+            <key name="steps">
+                <key name="login">
+                    <key name="text" />
+                </key>
+                <key name="coupon">
+                    <key name="text" />
+                </key>
+                <key name="billing_shipping">
+                    <key name="text" />
+                </key>                
+                <key name="billing">
+                    <key name="text" />
+                </key>
+                <key name="shipping">
+                    <key name="text" />
+                </key>
+                <key name="order_payment">
+                    <key name="text" />
+                </key>                
+                <key name="order">
+                    <key name="text" />
+                </key>
+                <key name="payment">
+                    <key name="text" />
+                </key>
+                <key name="order_review">
+                    <key name="text" />
+                </key> 				
+            </key>
+            <key name="footer_text" />
+			<key name="login_heading" />
+			<key name="register_heading" />
+			<key name="force_login_message" />
+			<key name="login_register_top_message" />
+			
+			
+        </key>
+    </admin-texts>    
+</wpml-config>

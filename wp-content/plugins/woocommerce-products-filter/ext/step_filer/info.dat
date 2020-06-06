@@ -1,0 +1,5 @@
+title="Step by step filter"
+version="1.0"
+modificated="29-10-2018"
+description="Allows to create wizard where user select necessary filter options step by step. Ex.: [woof_step filter_type=1 by_step="pa_size,by_price"][woof_products display_on_search=1]"
+link="https://www.woocommerce-filter.com/extencion/woocommerce-step-by-step-filter/"

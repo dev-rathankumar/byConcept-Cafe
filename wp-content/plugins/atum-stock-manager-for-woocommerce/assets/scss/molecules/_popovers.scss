@@ -1,0 +1,181 @@
+//
+// Bootstrap Popovers
+// --------------------------------------------------
+
+.popover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: $zindex-popover;
+	display: none;
+	max-width: $popover-max-width;
+	background-color: var(--atum-table-bg);
+	background-clip: padding-box;
+	border: none;
+	border-radius: $popover-border-radius;
+	box-shadow: 0 1px 5px 0 var(--popover-black-shadow);
+	
+	// Offset the popover to account for the popover arrow
+	&.top {
+		margin-top: -$popover-arrow-width;
+	}
+	
+	&.right {
+		margin-left: $popover-arrow-width;
+	}
+	
+	&.bottom {
+		margin-top: $popover-arrow-width;
+	}
+	
+	&.left {
+		margin-left: -$popover-arrow-width;
+	}
+}
+
+.popover-title {
+	margin: 0; // reset heading margin
+	padding: 6px 14px;
+	font-size: 14px;
+	background-color: var(--atum-table-bg);
+	border-radius: ($popover-border-radius - 1) ($popover-border-radius - 1) 0 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--atum-text-color-var1);
+	
+	.atum-list-table & {
+		text-align: center;
+	}
+}
+
+.popover-content {
+	padding: 9px 14px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	button {
+		height: 30px;
+		line-height: 0;
+		margin-left: 5px;
+		color: var(--atum-table-bg);
+	}
+	
+	> input[type=number], > input[type=text] {
+		border-radius: 5px;
+		background-color: var(--atum-table-bg);
+		border: 1px solid var(--gray-200);
+		font-size: 15px;
+		line-height: 1.47px;
+		text-align: left;
+		color: var(--atum-text-color-var1);
+		box-shadow: none;
+		
+		&:focus {
+			border-color: var(--primary);
+		}
+		
+		&:hover {
+			border-color: var(--atum-text-color-var1);
+		}
+	}
+	
+}
+
+// Arrows
+//
+// .popover-arrow is outer, .popover-arrow:after is inner
+
+.popover > .popover-arrow {
+	&,
+	&:after {
+		position: absolute;
+		display: block;
+		width: 0;
+		height: 0;
+		border-color: transparent;
+		border-style: solid;
+	}
+}
+
+.popover > .popover-arrow {
+	border-width: $popover-arrow-outer-width;
+}
+
+.popover > .popover-arrow:after {
+	border-width: $popover-arrow-width;
+	content: "";
+}
+
+.popover {
+	&.top > .popover-arrow {
+		left: 50%;
+		margin-left: -$popover-arrow-outer-width;
+		border-bottom-width: 0;
+		border-top-color: var(--popover-black-shadow);
+		bottom: -$popover-arrow-outer-width;
+		
+		&:after {
+			content: " ";
+			bottom: 1px;
+			margin-left: -$popover-arrow-width;
+			border-bottom-width: 0;
+			border-top-color: var(--gray-100);
+		}
+	}
+	
+	&.right > .popover-arrow {
+		top: 50%;
+		left: -$popover-arrow-outer-width;
+		margin-top: -$popover-arrow-outer-width;
+		border-left-width: 0;
+		border-right-color: var(--popover-black-shadow);
+		
+		&:after {
+			content: " ";
+			left: 1px;
+			bottom: -$popover-arrow-width;
+			border-left-width: 0;
+			border-right-color: var(--gray-100);
+		}
+	}
+	
+	&.bottom > .popover-arrow {
+		left: 50%;
+		margin-left: -$popover-arrow-outer-width;
+		border-top-width: 0;
+		top: -$popover-arrow-outer-width;
+		
+			&:after {
+				content: " ";
+				margin-left: -$popover-arrow-width;
+				z-index: -1;
+				margin-left: -10px;
+				content: "";
+				position: absolute;
+				background: var(--gray-100);
+				transform: rotate(45deg);
+				box-shadow: none;
+				top: 2px;
+		}
+	}
+	
+	&.left > .popover-arrow {
+		top: 50%;
+		right: -$popover-arrow-outer-width;
+		margin-top: -$popover-arrow-outer-width;
+		border-right-width: 0;
+		border-left-color: var(--popover-black-shadow);
+		
+		&:after {
+			content: " ";
+			right: 1px;
+			border-right-width: 0;
+			border-left-color: var(--gray-100);
+			bottom: -$popover-arrow-width;
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 48" class="pp-devices-svg">
+
+    <!-- frame -->
+    <path class="back-shape frame" fill="#000000" x="0" y="0" width="1000" height="48" vector-effect="non-scaling-stroke" d="M0,10.0039454 C0,4.47891891 4.48596128,0 9.9985998,0 L990.0014,0 C995.523474,0 1000,4.47261992 1000,10.0039454 L1000,48 L0,48 L0,10.0039454 Z"></path>
+
+    <!-- circles -->
+    <circle class="overlay-shape close" fill="#6b6a6a" cx="67" cy="24" r="7" vector-effect="non-scaling-stroke"></circle>
+    <circle class="overlay-shape minimize" fill="#6b6a6a" cx="45" cy="24" r="7" vector-effect="non-scaling-stroke"></circle>
+    <circle class="overlay-shape expand" fill="#6b6a6a" cx="23" cy="24" r="7" vector-effect="non-scaling-stroke"></circle>
+
+    <!-- address-bar -->
+    <rect class="overlay-shape address-bar" fill="#6b6a6a" x="106" y="10" width="823.97546" height="27.763875" rx="4" vector-effect="non-scaling-stroke"></rect>
+
+    <!-- menu -->
+    <path class="overlay-shape menu" fill="#6b6a6a" vector-effect="non-scaling-stroke" d="M946,16 C946,14.8954305 946.889674,14 947.991155,14 L966.008845,14 C967.10853,14 968,14.8877296 968,16 C968,17.1045695 967.110326,18 966.008845,18 L947.991155,18 C946.89147,18 946,17.1122704 946,16 Z M946,24 C946,22.8954305 946.889674,22 947.991155,22 L966.008845,22 C967.10853,22 968,22.8877296 968,24 C968,25.1045695 967.110326,26 966.008845,26 L947.991155,26 C946.89147,26 946,25.1122704 946,24 Z M946,32 C946,30.8954305 946.889674,30 947.991155,30 L966.008845,30 C967.10853,30 968,30.8877296 968,32 C968,33.1045695 967.110326,34 966.008845,34 L947.991155,34 C946.89147,34 946,33.1122704 946,32 Z"></path>
+
+</svg>

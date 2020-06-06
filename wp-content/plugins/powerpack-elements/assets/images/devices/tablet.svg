@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 595" class="pp-devices-svg">
+	<!-- frame -->
+	<rect class="back-shape frame" fill="#000000" x="0" y="0" width="430" height="595" rx="20" ry="20" vector-effect="non-scaling-stroke"></rect>
+
+	<!-- home button -->
+	<circle class="overlay-shape home-button" fill="#6b6a6a" cx="215" cy="574" r="10" vector-effect="non-scaling-stroke"></circle>
+
+	<!-- front- camera -->
+	<circle class="overlay-shape camera" fill="#6b6a6a" cx="211" cy="20" r="4" vector-effect="non-scaling-stroke"></circle>
+</svg>

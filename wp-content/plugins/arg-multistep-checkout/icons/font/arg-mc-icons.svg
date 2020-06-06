@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="wms-icons" horiz-adv-x="1000" >
+<font-face font-family="wms-icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ok" unicode="&#xe801;" d="M0 339q0-35 24-60l246-239q24-25 60-25 36 0 60 25l505 495q25 24 25 59t-25 58q-25 25-60 25t-60-25l-445-435-185 181q-25 24-60 24t-61-24q-24-24-24-59z" horiz-adv-x="920.4" />
+
+<glyph glyph-name="up" unicode="&#xe803;" d="M0 354q0 26 18 44l391 390 390-390q18-18 18-44 0-26-18-43-18-18-43-18t-43 18l-243 243v-642q0-25-18-43t-43-18q-26 0-44 18t-17 43v642l-244-243q-18-18-43-18t-43 18q-18 17-18 43z" horiz-adv-x="817.4" />
+</font>
+</defs>
+</svg>

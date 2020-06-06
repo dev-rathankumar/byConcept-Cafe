@@ -1,0 +1,292 @@
+/**
+ * Tabs Square Style
+ * Tabs general
+ * Hide Numbers on Tabs - mobiles
+ * Tabs general > 767px
+ * Tabs Width Auto > 767px
+ * Hide Numbers On Tabs > 767px
+ * Tabs general > 1200px
+ * Tabs Text Under Numbers > 1200px
+ */
+
+
+/*Tabs general*/
+
+.argmc-wrapper .argmc-tab-item {			
+    font-size: 16px !important;
+    line-height: 13px !important;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #b1b1b1;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 3px solid #c9c9c9;
+    background: #eee none repeat scroll 0 0;
+    
+    
+    display: table-cell;
+    position: relative;
+    
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+}
+
+.argmc-wrapper .argmc-tab-item .argmc-tab-item-outer,
+.argmc-wrapper .argmc-tab-item .argmc-tab-item-inner,
+.argmc-wrapper .argmc-tab-item .argmc-tab-number-wrapper,
+.argmc-wrapper .argmc-tab-item .argmc-tab-number {
+	line-height: inherit;
+}
+
+.argmc-wrapper .argmc-tab-item-outer {
+    padding: 20px 0 16px;
+}
+
+.argmc-wrapper .argmc-tab-item:first-child {
+    border-left: medium none;
+}
+
+.argmc-wrapper .argmc-tab-item-inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/*Hide Numbers on Tabs - mobiles*/
+
+.argmc-wrapper.tabs-hide-numbers .argmc-tab-item-outer {
+    text-align: center;
+}
+
+.argmc-wrapper.tabs-hide-numbers .argmc-tab-text {
+    padding: 0;
+}
+
+.argmc-wrapper .argmc-tab-item:before {
+    display: block;
+    content: "";
+	
+    border-bottom: 3px solid transparent;
+    
+    height: 0;
+    
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: -1px;
+
+    z-index: 5;
+
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+.argmc-wrapper .argmc-tab-item.current::after {
+    display: block;
+    content: "";
+	
+    border-color: #e23636 transparent transparent;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    
+    width: 0;
+    height: 0;
+    
+    margin-left: -6px;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+}
+
+.argmc-wrapper .argmc-tab-number  {
+    width: 22px;
+    text-align: center;
+}
+
+.argmc-wrapper .argmc-tab-item.completed .argmc-tab-number {
+    text-align: center;
+}
+
+.argmc-wrapper .argmc-tab-item .number-text {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+/*
+.argmc-wrapper .argmc-tab-item.completed .number-text {
+    display: none;
+}
+*/
+.argmc-wrapper .tab-completed-icon {
+    display: none;
+    margin-right: 4px;
+}
+
+.argmc-wrapper .tab-completed-icon:before {
+    display: inline-block;
+    font-family: "arg-mc-icons";
+
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    content: '\e801';
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: inherit;
+    line-height: inherit;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+
+    position: relative;
+    top: -2px;
+}
+/*
+.argmc-wrapper .argmc-tab-item.completed .tab-completed-icon {
+    display: inline-block;
+}
+*/
+
+
+@media screen and (min-width: 767px) {
+    
+    /*Tabs general > 767px*/
+    
+    .argmc-wrapper .argmc-tab-item-outer {
+        padding: 18px 10px 14px;
+    }
+
+    .argmc-wrapper .argmc-tab-item:hover {
+        cursor: not-allowed;
+    }
+
+    .argmc-wrapper .argmc-tab-item.current + .argmc-tab-item:hover, 
+    .argmc-wrapper .argmc-tab-item.visited:hover {
+        cursor: pointer;
+    }
+    
+    .argmc-wrapper .argmc-tab-item.visited.current:hover {
+        cursor: default;
+    }
+
+    .argmc-wrapper .argmc-tab-item.selected:hover {
+        cursor: default;
+    }
+
+    .argmc-wrapper .argmc-tab-item.completed:hover {
+        cursor: pointer;
+    }
+
+    .argmc-wrapper .argmc-tab-number {
+        display: inline-block;
+    }
+    
+    .argmc-wrapper .argmc-tab-text {
+        display: block;
+        font-size: 12px;
+        line-height: 1.25;
+        padding-top: 10px;
+    }
+    
+    
+    
+    /*Tabs Width Auto > 767px*/
+
+    .argmc-wrapper .argmc-tabs-list.tabs-width-auto .argmc-tab-item {
+        width: auto;
+    }
+
+    .argmc-wrapper .argmc-tabs-list.tabs-width-auto .argmc-tab-item-outer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    /*Hide Numbers On Tabs > 767px*/
+
+    .argmc-wrapper.tabs-hide-numbers .argmc-tab-item-outer {
+        padding: 31px 10px 26px;
+    }
+
+    .argmc-wrapper.tabs-hide-numbers .argmc-tab-number {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    /*Tabs general > 1200px*/
+	
+    .argmc-wrapper .argmc-tab-item-outer {
+        padding: 31px 5px 26px 27px;
+        text-align: left;
+    }
+
+    .argmc-wrapper .argmc-tab-number {
+
+
+    }
+    
+    .argmc-wrapper .argmc-tab-number-wrapper {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .argmc-wrapper .argmc-tab-text {
+        display: table-cell;
+        font-size: 13px;
+        line-height: 1;
+        vertical-align: top;
+        padding-top: 0;
+    }
+    
+    
+    
+    /*Tabs Width Auto > 1200px*/
+
+    .argmc-wrapper .argmc-tabs-list.tabs-width-auto .argmc-tab-item-outer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    
+    
+    /*Tabs Text Under Numbers > 1200px*/
+	
+    .argmc-wrapper.tabs-text-under .argmc-tab-item-outer  {
+        text-align: center;
+        padding: 19px 10px 16px;
+    }
+
+    .argmc-wrapper.tabs-text-under .argmc-tab-number-wrapper {
+        display: block;
+        vertical-align: top;
+    }
+
+    .argmc-wrapper.tabs-text-under .argmc-tab-number {
+        height: auto;
+        margin: 0;
+    }
+
+    .argmc-wrapper.tabs-text-under .argmc-tab-text {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .argmc-wrapper.tabs-text-under .tab-completed-icon {
+        margin-right: 0;
+    }
+    
+}

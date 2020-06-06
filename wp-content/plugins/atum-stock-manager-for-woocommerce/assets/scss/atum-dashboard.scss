@@ -1,0 +1,30 @@
+//
+// ATUM Dashboard
+//---------------
+
+@import "common/functions";
+@import "common/variables";
+@import "common/mixins";
+@import "common/breakpoints";
+@import "common/animations";
+@import "common/utilities";
+@import "common/root";
+
+@import "atoms/atum-icons";
+@import "atoms/buttons";
+@import "atoms/nice-select";
+@import "atoms/tooltip";
+@import "atoms/switchery";
+
+@import "molecules/gridstack";
+@import "molecules/sweet-alert";
+@import "molecules/alert";
+
+@import "organisms/pages/dashboard";
+
+@import "organisms/widgets/statistics";
+@import "organisms/widgets/stats-data";
+@import "organisms/widgets/stock-control";
+@import "organisms/widgets/current-stock-value";
+@import "organisms/widgets/videos";
+@import "organisms/widgets/news";

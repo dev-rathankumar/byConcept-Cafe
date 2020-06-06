@@ -1,0 +1,2239 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 11:12:51
+* VERSION: 3.8.9
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.1.33-16+0~20200514.38+debian9~1.gbp1e5820|7.4.5
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.5 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5
+DOC ROOT____________: "C:/xampp/htdocs/byConcept"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/byConcept/dup-installer/main.installer.php"
+********************************************************************************
+INSTALLER INFO
+PATH_NEW____________: "C:/xampp/htdocs/byConcept"
+URL_NEW_____________: "http://localhost/byConcept"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "C:/xampp/htdocs/byConcept/20200606_conceptcontemporarycafe_[HASH]_20200606101214_archive.zip"
+ARCHIVE SIZE________: 718.28MB
+CREATED_____________: 2020-06-06 10:12:14
+WP VERSION__________: 5.3.3
+DUP VERSION_________: 3.8.9
+DB VERSION__________: 10.1.45
+DB FILE SIZE________: 76.74MB
+DB TABLES___________: 254
+DB ROWS_____________: 27742
+ORIGINAL URL________: https://byconcept.cafe
+PATH HOME___________: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html
+PATH ABS____________: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html
+PATH WPCONFIG_______: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html
+PATH WPCONTENT______: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content
+PATH UPLOADS________: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/uploads
+PATH PLUGINS________: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/themes
+***  SUBSITES ***
+SUBSITE [ID:   1] "byconcept.cafe/"
+SUBSITE [ID:   2] "office.byconcept.cafe/"
+***  PLUGINS ***
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:Array
+(
+    [0] => 1
+)
+] Advanced Custom Fields PRO
+PLUGIN [SLUG:all-in-one-wp-migration/all-in-one-wp-migration.php][ON:Array
+(
+)
+] All-in-One WP Migration
+PLUGIN [SLUG:arg-multistep-checkout/arg-multistep-checkout.php ][ON:Array
+(
+    [0] => 1
+)
+] ARG MultiStep Checkout for WooCommerce
+PLUGIN [SLUG:atum-stock-manager-for-woocommerce/atum-stock-manager-for-woocommerce.php][ON:Array
+(
+    [0] => 1
+)
+] ATUM Inventory Management for WooCommerce
+PLUGIN [SLUG:atum-product-levels/atum-product-levels.php       ][ON:Array
+(
+)
+] ATUM Product Levels
+PLUGIN [SLUG:booster-plus-for-woocommerce/booster-plus-for-woocommerce.php][ON:Array
+(
+    [0] => 1
+)
+] Booster Plus for WooCommerce
+PLUGIN [SLUG:cmb2/init.php                                     ][ON:Array
+(
+    [0] => 1
+)
+] CMB2
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:Array
+(
+)
+] Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:Array
+(
+)
+] Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:Array
+(
+)
+] Elementor Pro
+PLUGIN [SLUG:gravityforms/gravityforms.php                     ][ON:Array
+(
+    [0] => 1
+)
+] Gravity Forms
+PLUGIN [SLUG:gravityformsuserregistration/userregistration.php ][ON:Array
+(
+    [0] => 1
+)
+] Gravity Forms User Registration Add-On
+PLUGIN [SLUG:header-footer-code-manager/99robots-header-footer-code-manager.php][ON:Array
+(
+)
+] Header Footer Code Manager
+PLUGIN [SLUG:ithemes-security-pro/ithemes-security-pro.php     ][ON:Array
+(
+)
+] iThemes Security Pro
+PLUGIN [SLUG:customerly/customerly-plugin.php                  ][ON:Array
+(
+)
+] Live Chat by Customerly - Free Live Chat Suite
+PLUGIN [SLUG:loginpress/loginpress.php                         ][ON:Array
+(
+)
+] LoginPress - Customizing the WordPress Login
+PLUGIN [SLUG:loginpress-login-redirects/loginpress-login-redirects.php][ON:Array
+(
+)
+] LoginPress - Redirect Login
+PLUGIN [SLUG:loginpress-pro/loginpress-pro.php                 ][ON:Array
+(
+)
+] LoginPress Pro
+PLUGIN [SLUG:lordicon-interactive-icons/lord-icon-wp.php       ][ON:Array
+(
+    [0] => 1
+)
+] Lordicon Interactive Icons
+PLUGIN [SLUG:mailchimp-for-wp/mailchimp-for-wp.php             ][ON:Array
+(
+    [0] => 1
+)
+] MC4WP: Mailchimp for WordPress
+PLUGIN [SLUG:multisite-plugin-manager/plugin-manager.php       ][ON:Array
+(
+)
+] Multisite Plugin Manager
+PLUGIN [SLUG:mycred/mycred.php                                 ][ON:Array
+(
+    [0] => 1
+)
+] myCred
+PLUGIN [SLUG:mycred-rest/mycred-rest.php                       ][ON:Array
+(
+    [0] => 1
+)
+] myCred Rest API
+PLUGIN [SLUG:mycred-woocommerce-plus/mycred-woocommerce-plus.php][ON:Array
+(
+    [0] => 1
+)
+] myCRED WooCommerce Plus - WooCommerce
+PLUGIN [SLUG:points-and-rewards-for-woocommerce/points-rewards-for-woocommerce.php][ON:Array
+(
+)
+] Points and Rewards for WooCommerce
+PLUGIN [SLUG:points-rewards-for-woocommerce-addon/points-rewards-for-woocommerce-addon.php][ON:Array
+(
+)
+] Points and Rewards for WooCommerce Addon
+PLUGIN [SLUG:ultimate-woocommerce-points-and-rewards/ultimate-woocommerce-points-and-rewards.php][ON:Array
+(
+)
+] Points and Rewards For WooCommerce Pro
+PLUGIN [SLUG:powerpack-elements/powerpack-elements.php         ][ON:Array
+(
+    [0] => 1
+)
+] PowerPack Elements
+PLUGIN [SLUG:woo-preview-emails/woocommerce-preview-emails.php ][ON:Array
+(
+    [0] => 1
+)
+] Preview E-mails for WooCommerce
+PLUGIN [SLUG:redux-framework/redux-framework.php               ][ON:Array
+(
+    [0] => 1
+    [1] => 2
+)
+] Redux Framework
+PLUGIN [SLUG:shipping-zones-by-drawing-premium/shipping-zones-by-drawing.php][ON:Array
+(
+    [0] => 1
+)
+] Shipping Zones by Drawing Premium for WooCommerce
+PLUGIN [SLUG:shortpixel-image-optimiser/wp-shortpixel.php      ][ON:Array
+(
+    [0] => 1
+)
+] ShortPixel Image Optimizer
+PLUGIN [SLUG:revslider/revslider.php                           ][ON:Array
+(
+    [0] => 1
+)
+] Slider Revolution
+PLUGIN [SLUG:tbay-framework-pro/tbay-framework.php             ][ON:Array
+(
+    [0] => 1
+)
+] Tbay Framework Pro
+PLUGIN [SLUG:unconfirmed/unconfirmed.php                       ][ON:Array
+(
+)
+] Unconfirmed
+PLUGIN [SLUG:updraftplus/updraftplus.php                       ][ON:Array
+(
+    [0] => 1
+)
+] UpdraftPlus - Backup/Restore
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:Array
+(
+    [0] => 1
+)
+] WooCommerce
+PLUGIN [SLUG:woocommerce-composite-products/woocommerce-composite-products.php][ON:Array
+(
+    [0] => 1
+)
+] WooCommerce Composite Products
+PLUGIN [SLUG:woocommerce-delivery-area-pro/woocommerce-delivery-area-pro.php][ON:Array
+(
+    [0] => 1
+)
+] Woocommerce Delivery Area Pro
+PLUGIN [SLUG:woocommerce-openpos/woocommerce-openpos.php       ][ON:Array
+(
+    [0] => 1
+)
+] Woocommerce OpenPos
+PLUGIN [SLUG:woocommerce-order-status-manager/woocommerce-order-status-manager.php][ON:Array
+(
+    [0] => 1
+)
+] WooCommerce Order Status Manager
+PLUGIN [SLUG:woocommerce-product-addons/woocommerce-product-addons.php][ON:Array
+(
+)
+] WooCommerce Product Add-ons
+PLUGIN [SLUG:woocommerce-tm-extra-product-options/tm-woo-extra-product-options.php][ON:Array
+(
+    [0] => 1
+)
+] WooCommerce TM Extra Product Options
+PLUGIN [SLUG:woocommerce-products-filter/index.php             ][ON:Array
+(
+    [0] => 1
+)
+] WOOF - WooCommerce Products Filter
+PLUGIN [SLUG:wordpress-importer/wordpress-importer.php         ][ON:Array
+(
+    [0] => 1
+)
+] WordPress Importer
+PLUGIN [SLUG:e-signature/e-signature.php                       ][ON:Array
+(
+    [0] => 2
+)
+] WP E-Signature
+PLUGIN [SLUG:e-signature-business-add-ons/e-signature-business-add-ons.php][ON:Array
+(
+    [0] => 2
+)
+] WP E-Signature Business add-ons
+PLUGIN [SLUG:wp-file-manager/file_folder_manager.php           ][ON:Array
+(
+    [0] => 1
+)
+] WP File Manager
+PLUGIN [SLUG:wpforms/wpforms.php                               ][ON:Array
+(
+    [0] => 2
+)
+] WPForms
+PLUGIN [SLUG:wp-forms-signature-contract-add-on/wpform-signature-addon.php][ON:Array
+(
+    [0] => 2
+)
+] WP Forms Signature Contract Add-on
+PLUGIN [SLUG:json-mobile-api-wpapp/json-mobile-api-wpapp.php   ][ON:Array
+(
+)
+] WP JSON API - WpApp
+PLUGIN [SLUG:yith-woocommerce-customize-myaccount-page/init.php][ON:Array
+(
+    [0] => 1
+)
+] YITH WooCommerce Customize My Account Page
+PLUGIN [SLUG:yith-woocommerce-custom-order-status-premium/init.php][ON:Array
+(
+)
+] YITH WooCommerce Custom Order Status Premium
+PLUGIN [SLUG:yith-woocommerce-quick-view/init.php              ][ON:Array
+(
+    [0] => 1
+)
+] YITH WooCommerce Quick View
+PLUGIN [SLUG:yith-woocommerce-wishlist/init.php                ][ON:Array
+(
+    [0] => 1
+)
+] YITH WooCommerce Wishlist
+--------------------------------------
+--------------------------------------
+
+LOG-TIME[C:\xampp\htdocs\byConcept\dup-installer\ctrls\ctrl.base.php:225][DELTA:   0.10260]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [validate] START
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:12:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+HOME URL OLD________: "https://byconcept.cafe"
+HOME URL NEW________: "http://localhost/byConcept"
+SITE URL OLD________: "https://byconcept.cafe"
+SITE URL NEW________: "http://localhost/byConcept"
+CONTENT URL OLD_____: "https://byconcept.cafe/wp-content"
+CONTENT URL NEW_____: "http://localhost/byConcept/wp-content"
+UPLOAD URL OLD______: "https://byconcept.cafe/wp-content/uploads"
+UPLOAD URL NEW______: "http://localhost/byConcept/wp-content/uploads"
+PLUGINS URL OLD_____: "https://byconcept.cafe/wp-content/plugins"
+PLUGINS URL NEW_____: "http://localhost/byConcept/wp-content/plugins"
+MUPLUGINS URL OLD___: "https://byconcept.cafe/wp-content/mu-plugins"
+MUPLUGINS URL NEW___: "http://localhost/byConcept/wp-content/mu-plugins"
+HOME PATH OLD_______: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html"
+HOME PATH NEW_______: "C:/xampp/htdocs/byConcept"
+SITE PATH OLD_______: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html"
+SITE PATH NEW_______: "C:/xampp/htdocs/byConcept"
+CONTENT PATH OLD____: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content"
+CONTENT PATH NEW____: "C:/xampp/htdocs/byConcept/wp-content"
+UPLOAD PATH OLD_____: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/uploads"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/byConcept/wp-content/uploads"
+PLUGINS PATH OLD____: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/plugins"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/byConcept/wp-content/plugins"
+MUPLUGINS PATH OLD__: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html/wp-content/mu-plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/byConcept/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchivechunking"
+CLIENT KICKOFF______: false
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+MULTISITE INPUTS
+MULTI SITE INST TYPE: 0
+SUBSITE ID__________: -1
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "C:/xampp/htdocs/byConcept"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0287 sec. - Files processed: 3938 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 3938
+CHUNK COMPLETE - RUNTIME: 5.0243 sec. - Files processed: 7084 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 7084
+CHUNK COMPLETE - RUNTIME: 5.0349 sec. - Files processed: 9966 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 9966
+CHUNK COMPLETE - RUNTIME: 5.0480 sec. - Files processed: 13275 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 13275
+CHUNK COMPLETE - RUNTIME: 5.0270 sec. - Files processed: 17295 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 17295
+CHUNK COMPLETE - RUNTIME: 5.0247 sec. - Files processed: 22276 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 22276
+CHUNK COMPLETE - RUNTIME: 5.0242 sec. - Files processed: 27327 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 27327
+CHUNK COMPLETE - RUNTIME: 5.0208 sec. - Files processed: 32369 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 32369
+CHUNK COMPLETE - RUNTIME: 5.0215 sec. - Files processed: 36627 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 36627
+CHUNK COMPLETE - RUNTIME: 5.0203 sec. - Files processed: 41393 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 41393
+Archive just got done processing last file in list of 45092
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+CHECK CONFG FILES IN CURRENT HOSTS
+
+EXTRACTION COMPLETE @ 11:13:51 - RUNTIME: 56.3531 sec. - Files processed: 44783 of 44783
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\byConcept\dup-installer\ctrls\ctrl.base.php:225][DELTA:   0.12010]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbtest] START
+AJAX ACTION [dbtest] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbtest] START
+AJAX ACTION [dbtest] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 11:14:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: false
+CHARSET FB VAL______: "big5"
+COLLATE_____________: ""
+COLLATE FB__________: false
+COLLATE FB VAL______: "big5_chinese_ci"
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 10.1.45
+FILE SIZE:	dup-database__[HASH].sql (49.74MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+COLLATE FB:	Off
+DB CHUNKING:	enabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 155924
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 28908345
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	483
+
+TABLES ROWS
+
+TABLE "wp_2_actionscheduler_actions"____________________[ROWS:     5]
+TABLE "wp_2_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "wp_2_actionscheduler_groups"_____________________[ROWS:     2]
+TABLE "wp_2_actionscheduler_logs"_______________________[ROWS:    13]
+TABLE "wp_2_commentmeta"________________________________[ROWS:     0]
+TABLE "wp_2_comments"___________________________________[ROWS:     0]
+TABLE "wp_2_csp3_subscribers"___________________________[ROWS:     0]
+TABLE "wp_2_cspv5_pages"________________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_bill_account_details"______________[ROWS:     0]
+TABLE "wp_2_erp_acct_bill_details"______________________[ROWS:     0]
+TABLE "wp_2_erp_acct_bills"_____________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_cash_at_banks"_____________________[ROWS:     0]
+TABLE "wp_2_erp_acct_chart_of_accounts"_________________[ROWS:     7]
+TABLE "wp_2_erp_acct_currency_info"_____________________[ROWS:   162]
+TABLE "wp_2_erp_acct_expense_checks"____________________[ROWS:     0]
+TABLE "wp_2_erp_acct_expense_details"___________________[ROWS:     0]
+TABLE "wp_2_erp_acct_expenses"__________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_financial_years"___________________[ROWS:     1]
+TABLE "wp_2_erp_acct_invoice_account_details"___________[ROWS:     0]
+TABLE "wp_2_erp_acct_invoice_details"___________________[ROWS:     0]
+TABLE "wp_2_erp_acct_invoice_details_tax"_______________[ROWS:     0]
+TABLE "wp_2_erp_acct_invoice_receipts"__________________[ROWS:     0]
+TABLE "wp_2_erp_acct_invoice_receipts_details"__________[ROWS:     0]
+TABLE "wp_2_erp_acct_invoices"__________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_journal_details"___________________[ROWS:     0]
+TABLE "wp_2_erp_acct_journals"__________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_ledger_categories"_________________[ROWS:    16]
+TABLE "wp_2_erp_acct_ledger_details"____________________[ROWS:     0]
+TABLE "wp_2_erp_acct_ledger_settings"___________________[ROWS:     0]
+TABLE "wp_2_erp_acct_ledgers"___________________________[ROWS:   104]
+TABLE "wp_2_erp_acct_opening_balances"__________________[ROWS:     0]
+TABLE "wp_2_erp_acct_pay_bill"__________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_pay_bill_details"__________________[ROWS:     0]
+TABLE "wp_2_erp_acct_pay_purchase"______________________[ROWS:     0]
+TABLE "wp_2_erp_acct_pay_purchase_details"______________[ROWS:     0]
+TABLE "wp_2_erp_acct_payment_methods"___________________[ROWS:     3]
+TABLE "wp_2_erp_acct_people_account_details"____________[ROWS:     0]
+TABLE "wp_2_erp_acct_people_trn"________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_people_trn_details"________________[ROWS:     0]
+TABLE "wp_2_erp_acct_product_categories"________________[ROWS:     0]
+TABLE "wp_2_erp_acct_product_details"___________________[ROWS:     0]
+TABLE "wp_2_erp_acct_product_types"_____________________[ROWS:     2]
+TABLE "wp_2_erp_acct_products"__________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_purchase"__________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_purchase_account_details"__________[ROWS:     0]
+TABLE "wp_2_erp_acct_purchase_details"__________________[ROWS:     0]
+TABLE "wp_2_erp_acct_tax_agencies"______________________[ROWS:     0]
+TABLE "wp_2_erp_acct_tax_agency_details"________________[ROWS:     0]
+TABLE "wp_2_erp_acct_tax_cat_agency"____________________[ROWS:     0]
+TABLE "wp_2_erp_acct_tax_categories"____________________[ROWS:     0]
+TABLE "wp_2_erp_acct_tax_pay"___________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_taxes"_____________________________[ROWS:     0]
+TABLE "wp_2_erp_acct_transfer_voucher"__________________[ROWS:     0]
+TABLE "wp_2_erp_acct_trn_status_types"__________________[ROWS:     8]
+TABLE "wp_2_erp_acct_voucher_no"________________________[ROWS:     0]
+TABLE "wp_2_erp_attendance"_____________________________[ROWS:     0]
+TABLE "wp_2_erp_audit_log"______________________________[ROWS:     0]
+TABLE "wp_2_erp_company_locations"______________________[ROWS:     0]
+TABLE "wp_2_erp_crm_activities_task"____________________[ROWS:     0]
+TABLE "wp_2_erp_crm_contact_group"______________________[ROWS:     0]
+TABLE "wp_2_erp_crm_contact_subscriber"_________________[ROWS:     0]
+TABLE "wp_2_erp_crm_customer_activities"________________[ROWS:     0]
+TABLE "wp_2_erp_crm_customer_companies"_________________[ROWS:     0]
+TABLE "wp_2_erp_crm_save_email_replies"_________________[ROWS:     0]
+TABLE "wp_2_erp_crm_save_search"________________________[ROWS:     0]
+TABLE "wp_2_erp_employee_dir_file_relationship"_________[ROWS:     0]
+TABLE "wp_2_erp_holidays_indv"__________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_announcement"________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_dependents"__________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_depts"_______________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_designations"________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_education"___________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_employee_history"____________________[ROWS:     0]
+TABLE "wp_2_erp_hr_employee_notes"______________________[ROWS:     0]
+TABLE "wp_2_erp_hr_employee_performance"________________[ROWS:     0]
+TABLE "wp_2_erp_hr_employees"___________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_holiday"_____________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_leave_entitlements"__________________[ROWS:     0]
+TABLE "wp_2_erp_hr_leave_policies"______________________[ROWS:     0]
+TABLE "wp_2_erp_hr_leave_requests"______________________[ROWS:     0]
+TABLE "wp_2_erp_hr_leaves"______________________________[ROWS:     0]
+TABLE "wp_2_erp_hr_work_exp"____________________________[ROWS:     0]
+TABLE "wp_2_erp_people_type_relations"__________________[ROWS:     0]
+TABLE "wp_2_erp_people_types"___________________________[ROWS:     5]
+TABLE "wp_2_erp_peoplemeta"_____________________________[ROWS:     0]
+TABLE "wp_2_erp_peoples"________________________________[ROWS:     0]
+TABLE "wp_2_erp_user_leaves"____________________________[ROWS:     0]
+TABLE "wp_2_esign_document_users"_______________________[ROWS:     4]
+TABLE "wp_2_esign_documents"____________________________[ROWS:     6]
+TABLE "wp_2_esign_documents_events"_____________________[ROWS:    26]
+TABLE "wp_2_esign_documents_fields_data"________________[ROWS:     0]
+TABLE "wp_2_esign_documents_meta"_______________________[ROWS:   141]
+TABLE "wp_2_esign_documents_signatures"_________________[ROWS:  2592]
+TABLE "wp_2_esign_documents_signer_field_data"__________[ROWS:     0]
+TABLE "wp_2_esign_documents_stand_alone_docs"___________[ROWS:     1]
+TABLE "wp_2_esign_invitations"__________________________[ROWS:     4]
+TABLE "wp_2_esign_settings"_____________________________[ROWS:    40]
+TABLE "wp_2_esign_signatures"___________________________[ROWS:     7]
+TABLE "wp_2_esign_users"________________________________[ROWS:     4]
+TABLE "wp_2_hfcm_scripts"_______________________________[ROWS:     0]
+TABLE "wp_2_links"______________________________________[ROWS:     0]
+TABLE "wp_2_mtrlwid"____________________________________[ROWS:     9]
+TABLE "wp_2_mtrlwid_online"_____________________________[ROWS:     3]
+TABLE "wp_2_options"____________________________________[ROWS:   610]
+TABLE "wp_2_postmeta"___________________________________[ROWS:   502]
+TABLE "wp_2_posts"______________________________________[ROWS:   121]
+TABLE "wp_2_revslider_css"______________________________[ROWS:   109]
+TABLE "wp_2_revslider_css_bkp"__________________________[ROWS:    47]
+TABLE "wp_2_revslider_layer_animations"_________________[ROWS:     0]
+TABLE "wp_2_revslider_layer_animations_bkp"_____________[ROWS:     0]
+TABLE "wp_2_revslider_navigations"______________________[ROWS:     0]
+TABLE "wp_2_revslider_navigations_bkp"__________________[ROWS:     0]
+TABLE "wp_2_revslider_sliders"__________________________[ROWS:     0]
+TABLE "wp_2_revslider_sliders_bkp"______________________[ROWS:     0]
+TABLE "wp_2_revslider_slides"___________________________[ROWS:     0]
+TABLE "wp_2_revslider_slides_bkp"_______________________[ROWS:     0]
+TABLE "wp_2_revslider_static_slides"____________________[ROWS:     0]
+TABLE "wp_2_revslider_static_slides_bkp"________________[ROWS:     0]
+TABLE "wp_2_term_relationships"_________________________[ROWS:     5]
+TABLE "wp_2_term_taxonomy"______________________________[ROWS:    21]
+TABLE "wp_2_termmeta"___________________________________[ROWS:     0]
+TABLE "wp_2_terms"______________________________________[ROWS:    21]
+TABLE "wp_2_wc_download_log"____________________________[ROWS:     0]
+TABLE "wp_2_wc_product_meta_lookup"_____________________[ROWS:     0]
+TABLE "wp_2_wc_tax_rate_classes"________________________[ROWS:     2]
+TABLE "wp_2_wc_webhooks"________________________________[ROWS:     0]
+TABLE "wp_2_woocommerce_api_keys"_______________________[ROWS:     0]
+TABLE "wp_2_woocommerce_attribute_taxonomies"___________[ROWS:     0]
+TABLE "wp_2_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "wp_2_woocommerce_log"____________________________[ROWS:     0]
+TABLE "wp_2_woocommerce_order_itemmeta"_________________[ROWS:     0]
+TABLE "wp_2_woocommerce_order_items"____________________[ROWS:     0]
+TABLE "wp_2_woocommerce_payment_tokenmeta"______________[ROWS:     0]
+TABLE "wp_2_woocommerce_payment_tokens"_________________[ROWS:     0]
+TABLE "wp_2_woocommerce_sessions"_______________________[ROWS:     1]
+TABLE "wp_2_woocommerce_shipping_zone_locations"________[ROWS:     0]
+TABLE "wp_2_woocommerce_shipping_zone_methods"__________[ROWS:     0]
+TABLE "wp_2_woocommerce_shipping_zones"_________________[ROWS:     0]
+TABLE "wp_2_woocommerce_tax_rate_locations"_____________[ROWS:     0]
+TABLE "wp_2_woocommerce_tax_rates"______________________[ROWS:     0]
+TABLE "wp_2_wpforms_entries"____________________________[ROWS:     4]
+TABLE "wp_2_wpforms_entry_fields"_______________________[ROWS:    20]
+TABLE "wp_2_wpforms_entry_meta"_________________________[ROWS:     0]
+TABLE "wp_2_wpforms_tasks_meta"_________________________[ROWS:     1]
+TABLE "wp_2_yith_wapo_groups"___________________________[ROWS:     0]
+TABLE "wp_2_yith_wapo_types"____________________________[ROWS:     0]
+TABLE "wp_2_yith_wccl_meta"_____________________________[ROWS:     0]
+TABLE "wp_actionscheduler_actions"______________________[ROWS:   371]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     5]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:  1111]
+TABLE "wp_atum_linked_boms"_____________________________[ROWS:     0]
+TABLE "wp_atum_order_boms"______________________________[ROWS:     0]
+TABLE "wp_atum_order_itemmeta"__________________________[ROWS:     0]
+TABLE "wp_atum_order_items"_____________________________[ROWS:     0]
+TABLE "wp_atum_product_data"____________________________[ROWS:   172]
+TABLE "wp_blogmeta"_____________________________________[ROWS:     0]
+TABLE "wp_blogs"________________________________________[ROWS:     2]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:    38]
+TABLE "wp_csp3_subscribers"_____________________________[ROWS:     0]
+TABLE "wp_cspv5_pages"__________________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_gf_addon_feed"________________________________[ROWS:     1]
+TABLE "wp_gf_draft_submissions"_________________________[ROWS:     0]
+TABLE "wp_gf_entry"_____________________________________[ROWS:     3]
+TABLE "wp_gf_entry_meta"________________________________[ROWS:    12]
+TABLE "wp_gf_entry_notes"_______________________________[ROWS:     3]
+TABLE "wp_gf_form"______________________________________[ROWS:     2]
+TABLE "wp_gf_form_meta"_________________________________[ROWS:     2]
+TABLE "wp_gf_form_revisions"____________________________[ROWS:     0]
+TABLE "wp_gf_form_view"_________________________________[ROWS:     8]
+TABLE "wp_gf_rest_api_keys"_____________________________[ROWS:     0]
+TABLE "wp_hfcm_scripts"_________________________________[ROWS:     1]
+TABLE "wp_itsec_distributed_storage"____________________[ROWS:     0]
+TABLE "wp_itsec_fingerprints"___________________________[ROWS:     0]
+TABLE "wp_itsec_geolocation_cache"______________________[ROWS:     0]
+TABLE "wp_itsec_lockouts"_______________________________[ROWS:     5]
+TABLE "wp_itsec_logs"___________________________________[ROWS:  1270]
+TABLE "wp_itsec_mutexes"________________________________[ROWS:     0]
+TABLE "wp_itsec_opaque_tokens"__________________________[ROWS:     0]
+TABLE "wp_itsec_temp"___________________________________[ROWS:    70]
+TABLE "wp_itsec_user_groups"____________________________[ROWS:     5]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_mycred_log"___________________________________[ROWS:    19]
+TABLE "wp_options"______________________________________[ROWS:  1679]
+TABLE "wp_postmeta"_____________________________________[ROWS: 19122]
+TABLE "wp_posts"________________________________________[ROWS:  1926]
+TABLE "wp_registration_log"_____________________________[ROWS:     1]
+TABLE "wp_revslider_css"________________________________[ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     2]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:    40]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:   106]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:    30]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_signups"______________________________________[ROWS:     0]
+TABLE "wp_site"_________________________________________[ROWS:     1]
+TABLE "wp_sitemeta"_____________________________________[ROWS:   131]
+TABLE "wp_term_relationships"___________________________[ROWS:   655]
+TABLE "wp_term_taxonomy"________________________________[ROWS:   179]
+TABLE "wp_termmeta"_____________________________________[ROWS:   226]
+TABLE "wp_terms"________________________________________[ROWS:   179]
+TABLE "wp_ulike"________________________________________[ROWS:     0]
+TABLE "wp_ulike_activities"_____________________________[ROWS:     0]
+TABLE "wp_ulike_comments"_______________________________[ROWS:     0]
+TABLE "wp_ulike_forums"_________________________________[ROWS:     0]
+TABLE "wp_usermeta"_____________________________________[ROWS:   412]
+TABLE "wp_users"________________________________________[ROWS:     9]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    14]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    12]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:    40]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     6]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:    20]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     6]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     5]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:   172]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_wdap_backups"_________________________________[ROWS:     0]
+TABLE "wp_wdap_collection"______________________________[ROWS:     1]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     6]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:   351]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:    39]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     4]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     1]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     1]
+TABLE "wp_woof_query_cache"_____________________________[ROWS:     0]
+TABLE "wp_wpapp_tokens"_________________________________[ROWS:     2]
+TABLE "wp_wpfm_backup"__________________________________[ROWS:     0]
+TABLE "wp_wpforms_entries"______________________________[ROWS:     0]
+TABLE "wp_wpforms_entry_fields"_________________________[ROWS:     0]
+TABLE "wp_wpforms_entry_meta"___________________________[ROWS:     0]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:     2]
+TABLE "wp_yith_wapo_groups"_____________________________[ROWS:     0]
+TABLE "wp_yith_wapo_types"______________________________[ROWS:     0]
+TABLE "wp_yith_wcwl"____________________________________[ROWS:     1]
+TABLE "wp_yith_wcwl_lists"______________________________[ROWS:     1]
+
+DATABASE CACHE/TRANSITIENT [ROWS:   402]
+
+INSERT DATA RUNTIME: 11.3797 sec.
+STEP-2 COMPLETE @ 11:14:24 - RUNTIME: 11.3802 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\byConcept\dup-installer\ctrls\ctrl.base.php:225][DELTA:   0.11422]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+====================================
+ACTION MU MODE START SUBDOMAINS
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:16:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Concept Contemporary Café"
+url_old_______________: "https://byconcept.cafe"
+url_new_______________: "http://localhost/byConcept"
+siteurl_______________: "http://localhost/byConcept"
+path_new______________: "C:/xampp/htdocs/byConcept"
+path_old______________: "/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+    [1] => http://localhost/byConcept
+    [2] => http://office.localhost/byConcept
+)
+
+action_mu_mode________: 1
+DISALLOW_FILE_EDIT____: [value = 1], [inWpConfig = 1]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = ], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 64M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 50
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_2_actionscheduler_actions"____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_2_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_actionscheduler_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_2_actionscheduler_logs"_______________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_2_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_comments"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_csp3_subscribers"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_cspv5_pages"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_bill_account_details"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_bill_details"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_bills"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_cash_at_banks"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_chart_of_accounts"_________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_chart_of_accounts][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_currency_info"_____________________[ROWS:   162][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_currency_info][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_expense_checks"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_expense_details"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_expenses"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_financial_years"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_financial_years][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_invoice_account_details"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_invoice_details"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_invoice_details_tax"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_invoice_receipts"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_invoice_receipts_details"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_invoices"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_journal_details"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_journals"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_ledger_categories"_________________[ROWS:    16][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_ledger_categories][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_ledger_details"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_ledger_settings"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_ledgers"___________________________[ROWS:   104][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_ledgers][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_opening_balances"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_pay_bill"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_pay_bill_details"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_pay_purchase"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_pay_purchase_details"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_payment_methods"___________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_payment_methods][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_people_account_details"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_people_trn"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_people_trn_details"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_product_categories"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_product_details"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_product_types"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_product_types][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_products"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_purchase"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_purchase_account_details"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_purchase_details"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_tax_agencies"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_tax_agency_details"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_tax_cat_agency"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_tax_categories"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_tax_pay"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_taxes"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_transfer_voucher"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_acct_trn_status_types"__________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_acct_trn_status_types][0]
+
+EVALUATE TABLE: "wp_2_erp_acct_voucher_no"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_attendance"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_audit_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_company_locations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_activities_task"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_contact_group"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_contact_subscriber"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_customer_activities"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_customer_companies"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_save_email_replies"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_crm_save_search"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_employee_dir_file_relationship"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_holidays_indv"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_announcement"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_dependents"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_depts"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_designations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_education"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_employee_history"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_employee_notes"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_employee_performance"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_employees"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_holiday"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_leave_entitlements"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_leave_policies"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_leave_requests"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_leaves"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_hr_work_exp"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_people_type_relations"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_people_types"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_erp_people_types][0]
+
+EVALUATE TABLE: "wp_2_erp_peoplemeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_peoples"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_erp_user_leaves"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_esign_document_users"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_document_users][0]
+
+EVALUATE TABLE: "wp_2_esign_documents"____________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents][0]
+
+EVALUATE TABLE: "wp_2_esign_documents_events"_____________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents_events][0]
+
+EVALUATE TABLE: "wp_2_esign_documents_fields_data"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_esign_documents_meta"_______________________[ROWS:   141][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents_meta][0]
+
+EVALUATE TABLE: "wp_2_esign_documents_signatures"_________________[ROWS:  2592][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents_signatures][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents_signatures][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents_signatures][2]
+
+EVALUATE TABLE: "wp_2_esign_documents_signer_field_data"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_esign_documents_stand_alone_docs"___________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_documents_stand_alone_docs][0]
+
+EVALUATE TABLE: "wp_2_esign_invitations"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_invitations][0]
+
+EVALUATE TABLE: "wp_2_esign_settings"_____________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_settings][0]
+
+EVALUATE TABLE: "wp_2_esign_signatures"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_signatures][0]
+
+EVALUATE TABLE: "wp_2_esign_users"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_esign_users][0]
+
+EVALUATE TABLE: "wp_2_hfcm_scripts"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_mtrlwid"____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_mtrlwid][0]
+
+EVALUATE TABLE: "wp_2_mtrlwid_online"_____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_mtrlwid_online][0]
+
+EVALUATE TABLE: "wp_2_options"____________________________________[ROWS:   610][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_options][0]
+
+EVALUATE TABLE: "wp_2_postmeta"___________________________________[ROWS:   502][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_postmeta][0]
+
+EVALUATE TABLE: "wp_2_posts"______________________________________[ROWS:   121][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_posts][0]
+
+EVALUATE TABLE: "wp_2_revslider_css"______________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_revslider_css][0]
+
+EVALUATE TABLE: "wp_2_revslider_css_bkp"__________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_2_revslider_layer_animations"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_layer_animations_bkp"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_navigations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_navigations_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_sliders"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_sliders_bkp"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_slides"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_slides_bkp"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_static_slides"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_revslider_static_slides_bkp"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_term_relationships"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_term_relationships][0]
+
+EVALUATE TABLE: "wp_2_term_taxonomy"______________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_2_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_terms"______________________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_terms][0]
+
+EVALUATE TABLE: "wp_2_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_wc_product_meta_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_2_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_attribute_taxonomies"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_order_itemmeta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_order_items"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_sessions"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_2_woocommerce_shipping_zone_locations"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_shipping_zone_methods"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_shipping_zones"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_wpforms_entries"____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_wpforms_entries][0]
+
+EVALUATE TABLE: "wp_2_wpforms_entry_fields"_______________________[ROWS:    20][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_wpforms_entry_fields][0]
+
+EVALUATE TABLE: "wp_2_wpforms_entry_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_wpforms_tasks_meta"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_2_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_2_yith_wapo_groups"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_yith_wapo_types"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_2_yith_wccl_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   371][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:  1111][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][1]
+
+EVALUATE TABLE: "wp_atum_linked_boms"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_atum_order_boms"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_atum_order_itemmeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_atum_order_items"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_atum_product_data"____________________________[ROWS:   172][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_atum_product_data][0]
+
+EVALUATE TABLE: "wp_blogmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_blogs"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_blogs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_csp3_subscribers"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cspv5_pages"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_addon_feed"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_addon_feed][0]
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry][0]
+	
+STEP-3 CHUNK STOP @ 11:17:00 - RUNTIME: 1.9787 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_meta][0]
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_notes][0]
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form][0]
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form_meta][0]
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form_view][0]
+
+EVALUATE TABLE: "wp_gf_rest_api_keys"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hfcm_scripts"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_hfcm_scripts][0]
+
+EVALUATE TABLE: "wp_itsec_distributed_storage"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_fingerprints"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_geolocation_cache"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_lockouts"_______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_lockouts][0]
+
+EVALUATE TABLE: "wp_itsec_logs"___________________________________[ROWS:  1270][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_logs][1]
+
+EVALUATE TABLE: "wp_itsec_mutexes"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_opaque_tokens"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_temp"___________________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_temp][0]
+
+EVALUATE TABLE: "wp_itsec_user_groups"____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_user_groups][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_myCRED_log"___________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_myCRED_log][0]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:  1679][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+	ENGINE: serialize data serial check error
+	DATA: a:8:{s:13:"receipt_width";s:4:"2.28";s:19:"receipt_padding_top";s:1:"0";s:21:"receipt_padding_right";s:1:"0";s:22:"receipt_padding_bottom";s:1:"0";s:20:"receipt_padding_left";s:1:"0";s:23:"receipt_template_header";s:620:"<div id="top">
+<div class="logo" img align="middle";"> <img class="wp-image-1414 aligncenter" src="http://localhost/byConcept/wp-content/uploads/2020/03/Concept-Full-Colour-Logo-Including-Tag-Line-350px-x-100px.png" alt="" width="221" height="63" align="middle" /></div>
+<div></div>
+<h2><h2>
+<div class="info" style="text-align: center;"><strong>Order : #[order_number]</strong></div>
+</div>
+<h3><h3>
+<div id="top">
+<div class="info">
+<div id="mid">
+<div class="info" style="text-align: left;">
+
+Date : [created_at]
+<br>
+Customer : [customer_name]
+<br>
+Cashier : [sale_person]
+</div>
+</div>
+</div>
+</div>";s:23:"receipt_template_footer";s:321:"<p style="text-align: center;">[order_barcode width="2" height="40"]</p>
+
+<div id="legalcopy">
+<p class="l [...]
+	CHUNK ACTION: CURRENT [search_replace][wp_options][1]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 19122][PG:  20][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][10]
+	
+STEP-3 CHUNK STOP @ 11:17:05 - RUNTIME: 5.0307 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][11]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][12]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][13]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][14]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][15]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][16]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][17]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][18]
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][19]
+
+STEP-3 CHUNK STOP @ 11:17:11 - RUNTIME: 5.2066 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1926][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+
+EVALUATE TABLE: "wp_registration_log"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_registration_log][0]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css][0]
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_navigations][0]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_sliders][0]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:   106][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_slides][0]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_static_slides][0]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_signups"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_site"_________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	--- BASE STRINGS ---
+	SEARCH[url  ]  1:"office.byconcept.cafe" ===========================> "office.localhost"
+	SEARCH[url  ]  2:"byconcept.cafe" ==================================> "localhost"
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_site][0]
+
+EVALUATE TABLE: "wp_sitemeta"_____________________________________[ROWS:   131][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_sitemeta][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   655][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   179][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   226][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   179][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_ulike"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulike_activities"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulike_comments"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulike_forums"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   412][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_category_lookup][0]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_customer_lookup][0]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    20][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_order_product_lookup][0]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_order_stats][0]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_order_tax_lookup][0]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   172][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdap_backups"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdap_collection"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wdap_collection][0]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_api_keys][0]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   351][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_order_itemmeta][0]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    39][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_order_items][0]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_tax_rates][0]
+
+EVALUATE TABLE: "wp_woof_query_cache"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpapp_tokens"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpapp_tokens][0]
+
+EVALUATE TABLE: "wp_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_entries"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_entry_fields"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_entry_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_yith_wapo_groups"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wapo_types"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_yith_wcwl][0]
+
+EVALUATE TABLE: "wp_yith_wcwl_lists"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"https://office.byconcept.cafe" ===================> "http://office.localhost/byConcept"
+	SEARCH[path ]  2:"/home/371040.cloudwaysapps.com/bnpzwvqjws/public_html" => "C:/xampp/htdocs/byConcept"
+	SEARCH[urlnd]  3:"https://byconcept.cafe" ==========================> "http://localhost/byConcept"
+	CHUNK ACTION: CURRENT [search_replace][wp_yith_wcwl_lists][0]
+ENGINE UPDATE BLOGS TABLE
+Array
+(
+    [1] => http://localhost/byConcept
+    [2] => http://office.localhost/byConcept
+)
+
+--------------------------------------
+SCANNED:	Tables:254 	|	 Rows:33277 	|	 Cells:204205 
+UPDATED:	Tables:21 	|	 Rows:3796 	|	 Cells:4245 
+ERRORS:		1 
+RUNTIME:	17.221400 sec
+--------------------------------------
+DATA-REPLACE ERRORS (Serialization):
+ENGINE: serialize data serial check error
+	DATA: a:8:{s:13:"receipt_width";s:4:"2.28";s:19:"receipt_padding_top";s:1:"0";s:21:"receipt_padding_right";s:1:"0";s:22:"receipt_padding_bottom";s:1:"0";s:20:"receipt_padding_left";s:1:"0";s:23:"receipt_template_header";s:620:"<div id="top">
+<div class="logo" img align="middle";"> <img class="wp-image-1414 aligncenter" src="http://localhost/byConcept/wp-content/uploads/2020/03/Concept-Full-Colour-Logo-Including-Tag-Line-350px-x-100px.png" alt="" width="221" height="63" align="middle" /></div>
+<div></div>
+<h2><h2>
+<div class="info" style="text-align: center;"><strong>Order : #[order_number]</strong></div>
+</div>
+<h3><h3>
+<div id="top">
+<div class="info">
+<div id="mid">
+<div class="info" style="text-align: left;">
+
+Date : [created_at]
+<br>
+Customer : [customer_name]
+<br>
+Cashier : [sale_person]
+</div>
+</div>
+</div>
+</div>";s:23:"receipt_template_footer";s:321:"<p style="text-align: center;">[order_barcode width="2" height="40"]</p>
+
+<div id="legalcopy">
+<p class="l [...]
+	TABLE:wp_options COLUMN: option_value WHERE: `option_id` = "2770"
+
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/byConcept/wp-config.php
+New htaccess file created:C:/xampp/htdocs/byConcept/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost/byConcept"
+	UPDATE WP_SITEURL "http://localhost/byConcept"
+	UPDATE DOMAIN_CURRENT_SITE "localhost"
+	UPDATE PATH_CURRENT_SITE "/byConcept/"
+	UPDATE DB_NAME ""byconcept_db""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	WP CONFIG UPDATE DISALLOW_FILE_EDIT true
+	WP CONFIG UPDATE WP_CACHE false
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+Installer Host Htaccess path: 
+- Preparing .htaccess file with multisite subdomain setup.
+- Successfully updated the .htaccess file setting.
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:17:15 - RUNTIME: 4.6371 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] SERIALIZATION NOTICES  (1)
+	SECTIONS: search_replace
+	LONG MSG: Notices should be ignored unless issues are found after you have tested an installed site.
+The SQL below will show data that may have not been updated during the serialization process.
+Best practices for serialization notices is to just re-save the plugin/post/page in question.
+
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG: The following is a list of notices that may need to be fixed in order to finalize your setup.
+These values should only be investigated if you're running into issues with your site.
+For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] DATA-REPLACE ERROR: Serialization
+	SECTIONS: search_replace
+	LONG MSG: ENGINE: serialize data serial check error
+	DATA: a:8:{s:13:"receipt_width";s:4:"2.28";s:19:"receipt_padding_top";s:1:"0";s:21:"receipt_padding_right";s:1:"0";s:22:"receipt_padding_bottom";s:1:"0";s:20:"receipt_padding_left";s:1:"0";s:23:"receipt_template_header";s:620:"<div id="top">
+<div class="logo" img align="middle";"> <img class="wp-image-1414 aligncenter" src="http://localhost/byConcept/wp-content/uploads/2020/03/Concept-Full-Colour-Logo-Including-Tag-Line-350px-x-100px.png" alt="" width="221" height="63" align="middle" /></div>
+<div></div>
+<h2><h2>
+<div class="info" style="text-align: center;"><strong>Order : #[order_number]</strong></div>
+</div>
+<h3><h3>
+<div id="top">
+<div class="info">
+<div id="mid">
+<div class="info" style="text-align: left;">
+
+Date : [created_at]
+<br>
+Customer : [customer_name]
+<br>
+Cashier : [sale_person]
+</div>
+</div>
+</div>
+</div>";s:23:"receipt_template_footer";s:321:"<p style="text-align: center;">[order_barcode width="2" height="40"]</p>
+
+<div id="legalcopy">
+<p class="l [...]
+	TABLE:wp_options COLUMN: option_value WHERE: `option_id` = "2770"
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+LOG-TIME[C:\xampp\htdocs\byConcept\dup-installer\ctrls\ctrl.base.php:225][DELTA:   0.09261]  MESSAGE:END RENDER PAGE

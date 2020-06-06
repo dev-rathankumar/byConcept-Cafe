@@ -1,0 +1,114 @@
+#audit-trail-wrapper .main .info .bio{
+    margin-top: 0px;
+    width: 320px;
+}
+
+#audit-trail-wrapper .main .info .sign{
+    width: 210px;
+}
+
+#audit-trail-wrapper .digital-signature-caption{
+    padding-bottom: 5px;
+}
+
+#audit-trail-wrapper .main .info .sign .sign-text-pdf{
+    padding: 0px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#audit-trail-wrapper .sign-text-pdf span{
+    line-height: 20px;;
+}
+
+#audit-trail-wrapper .header {
+   
+}
+ #audit-trail-wrapper .header .row {
+        display: inline;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    
+   #audit-trail-wrapper .header .row .left {
+        display: inline-block;
+        float:left;
+        width:70%;
+        
+    }
+  #audit-trail-wrapper .header .row  .right {
+        display: inline-block;
+        float:left;
+        width:25%;
+    }
+    
+
+#audit-trail-wrapper .header .subcaption{
+    margin-bottom: -20px;
+}
+
+
+#audit-trail-wrapper .main .checksum .checksum-caption{
+    width: 205px;
+}
+
+
+.audit-pdf-footer{
+	background-color: #F3F3F4;
+	border-top: 4px solid #ccc;
+	padding: 1.5em;
+	margin: 0;
+}
+
+.pdf-qr-code{
+	width: 90px;
+	background-color: #fff;
+	padding: 10px
+}
+
+.pdf-footer-description{
+	width: 400px;
+	padding-left: 25px;
+	font-size: 14px;
+}
+
+.pdf-footer-pages{
+	font-size: 13px;
+	padding-left: 50px;
+}
+
+.audit-pdf-bottom-footer{
+	margin-top: 15px;
+}
+
+.audit-link{
+	color: #575759 !important;
+	font-size: 10px;
+}
+
+.pdf-audit-signature{
+	color: #575759 !important;
+	font-size: 12px;
+}
+
+.audit-pdf-border{
+	position: absolute;
+        top:58px;
+	bottom: 0px;
+	width: 710px;
+	height: 993px;
+	border: 4px solid #ccc;
+	
+}
+
+@page audit_trail {
+        margin-top: 5%;
+	footer: html_Regular_PDF_Footer;
+}
+
+#audit-trail-wrapper{
+        page: audit_trail;
+        color: #575759;
+        
+}

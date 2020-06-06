@@ -1,0 +1,383 @@
+//
+// Atum Meta Boxes
+//------------------
+
+// Common styles
+.atum-meta-box {
+	padding: $grid-gutter-width/2 10px;
+	@include clearfix;
+	
+	.form-field {
+		float: left;
+		clear: left;
+		width: 48%;
+		padding: 0;
+		margin: 9px 0 0;
+		color: $wp-gray-7;
+		
+		label {
+			display: block;
+			padding: 0 0 3px;
+		}
+		
+		> input, > select, > textarea {
+			width: 100%;
+		}
+		
+		input {
+			height: 32px;
+			border-radius: 4px;
+			box-shadow: none;
+		}
+		
+		.select2-container {
+			width: 100% !important;
+		}
+		
+		.atum-datepicker {
+			width: 50%;
+		}
+		
+		.switchery {
+			margin-left: 7px;
+		}
+		
+		&.atum-editor {
+			margin-top: $grid-gutter-width/2;
+			
+			label {
+				margin-bottom: -$grid-gutter-width;
+			}
+		}
+		
+		.date-field {
+			&.with-icon {
+				position: relative;
+				
+				&:after {
+					content: $atmi-calendar-full;
+					font-family: $atum-icon-font;
+					position: absolute;
+					right: 8px;
+				}
+			}
+		}
+		
+		&.form-field-wide {
+			width: 100%;
+			clear: both;
+			
+			> .wc-customer-search, > .wc-enhanced-select, > input, > select, > textarea, .select2-container {
+				width: 100%;
+				max-width: 100%;
+				height: 32px;
+			}
+		
+			> textarea {
+				height: auto;
+			}
+		}
+		
+		.wp-editor-area {
+			border: none;
+		}
+	}
+	
+	&.supplier {
+		
+		label {
+			color: $gray-800;
+		}
+		
+	}
+	
+}
+
+//
+// Backbone modal dialog
+//-----------------------
+.wc-backbone-modal {
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.wc-backbone-modal-content {
+		position: fixed;
+		background: $white;
+		z-index: 100000;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 500px;
+		
+		article {
+			overflow: auto;
+		}
+	}
+	
+	&.wc-backbone-modal-shipping-method-settings {
+		.wc-backbone-modal-content {
+			width: 75%;
+			min-width: 500px;
+		}
+	}
+	
+	.select2-container {
+		width: 100% !important;
+	}
+	
+	.alert {
+		background-color: lighten($primary, 35%);
+		padding: 4px 6px;
+		display: block;
+		font-size: 12px;
+		margin-bottom: 5px;
+		
+		body.allow-multiple-suppliers & {
+			display: none;
+		}
+	}
+	
+}
+
+.wc-backbone-modal-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 360px;
+	background: $black;
+	opacity: 0.7;
+	z-index: 99900;
+}
+
+.wc-backbone-modal-main {
+	padding-bottom: 55px;
+	
+	header,
+	article {
+		display: block;
+		position: relative;
+	}
+	
+	.wc-backbone-modal-header {
+		height: auto;
+		background: #fcfcfc;
+		padding: 1em 1.5em;
+		border-bottom: 1px solid $wp-gray-4;
+		
+		h1 {
+			margin: 0;
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 1.5em;
+		}
+		
+		.modal-close-link {
+			cursor: pointer;
+			color: $wp-gray-7;
+			height: 54px;
+			width: 54px;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			right: 0;
+			text-align: center;
+			border: 0;
+			border-left: 1px solid $wp-gray-4;
+			background-color: transparent;
+			-webkit-transition: color 0.1s ease-in-out, background 0.1s ease-in-out;
+			transition: color 0.1s ease-in-out, background 0.1s ease-in-out;
+			
+			&:before {
+				font: normal 22px/50px $atum-icon-font !important;
+				color: color('gray');
+				display: block;
+				content: $atmi-cross;
+				font-weight: 300;
+			}
+			
+			&:hover, &:focus {
+				background: $wp-gray-4;
+				border-color: #ccc;
+				color: $black;
+			}
+			
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+	
+	article {
+		padding: 1.5em;
+		
+		p {
+			margin: 1.5em 0;
+			
+			&:first-child {
+				margin-top: 0;
+			}
+			
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		
+		.pagination {
+			padding: 10px 0 0;
+			text-align: center;
+		}
+	}
+	
+	footer {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 100;
+		padding: 1em 1.5em;
+		background: #fcfcfc;
+		border-top: 1px solid #dfdfdf;
+		box-shadow: 0 -4px 4px -4px rgba($black, 0.1);
+		
+		.inner {
+			float: right;
+			line-height: 23px;
+			
+			.button {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+//
+// Select2
+//---------
+
+.select2-drop, .select2-dropdown {
+	z-index: 999999 !important;
+}
+
+.select2-results {
+	line-height: 1.5em;
+	
+	.select2-results__option, .select2-results__group {
+		margin: 0;
+		padding: 8px;
+	}
+}
+
+.select2-dropdown {
+	border-color: $wp-gray-4;
+}
+
+.select2-dropdown--below {
+	box-shadow: 0 1px 1px rgba($black, 0.1);
+}
+
+.select2-dropdown--above {
+	box-shadow: 0 -1px 1px rgba($black, 0.1);
+}
+
+.select2-container {
+	
+	&.atum-select2, &.atum-enhanced-select {
+	
+		.select2-selection__rendered.ui-sortable li {
+			cursor: move;
+		}
+		
+		.select2-selection {
+			border-color: $wp-gray-4;
+		}
+		
+		.select2-search__field {
+			min-width: 150px;
+		}
+		
+		.select2-selection--single {
+			height: 32px;
+			
+			.select2-selection__rendered {
+				line-height: 28px;
+				padding-right: 24px;
+			}
+			
+			.select2-selection__arrow {
+				right: 3px;
+				height: 30px;
+				top: 4px;
+			}
+			
+		}
+		
+		.select2-selection--multiple {
+			min-height: 28px;
+			border-radius: 0;
+			line-height: 1.5;
+			
+			li {
+				margin: 0;
+			}
+			
+			.select2-selection__choice {
+				padding: 2px 6px;
+			}
+		}
+		
+		.select2-selection__clear {
+			color: $wp-gray-1;
+			margin-top: -1px;
+		}
+		
+		.select2-search--inline {
+			
+			.select2-search__field {
+				font-family: inherit;
+				font-size: inherit;
+				font-weight: inherit;
+				padding: 3px 0;
+			}
+			
+		}
+		
+		&, .selection, .select2-selection--single {
+			&:focus {
+				outline: none;
+			}
+		}
+		
+	}
+	
+}
+
+//
+// Help tip
+//---------
+
+.atum-help-tip {
+	color: color('gray');
+	display: inline-block;
+	font-size: 1.1em;
+	font-style: normal;
+	height: 16px;
+	line-height: 16px;
+	position: relative;
+	vertical-align: middle;
+	width: 16px;
+	
+	&::after {
+		font-family: $atum-icon-font;
+		content: $atmi-question-circle;
+		cursor: help;
+	}
+}
+
+h2 .atum-help-tip {
+	margin-top: -5px;
+	margin-left: 0.25em;
+}

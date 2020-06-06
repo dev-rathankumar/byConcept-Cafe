@@ -1,0 +1,232 @@
+//
+// BOM Associates tab
+//---------------------
+
+#bom_associates_data {
+	.alert {
+		max-width: 100%;
+		margin: 10px auto;
+	}
+	
+	.atum-section-title {
+		font-size: 1.5em;
+		padding-left: 15px;
+		margin-bottom: 0;
+	}
+}
+
+.bom_associates_options {
+	a {
+		&:before {
+			content: "\f546" !important;
+		}
+	}
+}
+
+.bom-associates-list {
+	padding: $grid-gutter-width/2;
+	
+	.table-legend {
+		margin-bottom: $grid-gutter-width/2;
+		
+		button {
+			margin-left: 5px;
+			text-transform: uppercase;
+		}
+	}
+	
+	.bom-associates-table {
+		width: 100%;
+		border: none;
+		border-collapse: separate;
+		border-spacing: 0 3px;
+		counter-reset: section;
+		
+		tbody {
+			tr {
+				background-color: $gray-200;
+				
+				&.no-items {
+					td {
+						text-align: center;
+					}
+				}
+			}
+		}
+		
+		th, td {
+			padding: 0.3rem;
+			font-size: 14px;
+			text-align: left;
+			
+			&.sort {
+				text-align: center;
+				max-width: 10px;
+			}
+			
+			&.numeric, &.thumb {
+				text-align: center;
+			}
+		}
+		
+		th {
+			border-top: 1px solid $gray-400;
+			border-bottom: 1px solid $gray-400;
+			color: $gray-500;
+			font-weight: 600;
+			line-height: 1.2;
+			
+			.atum-icon {
+				font-size: 17px;
+			}
+		}
+		
+		td {
+			border-bottom: 2px solid $white !important;
+			border-top: 2px solid $white !important;
+			color: $gray-600;
+			
+			&:first-child {
+				@include border-left-radius(5px);
+			}
+			
+			&:last-child {
+				@include border-right-radius(5px);
+			}
+			
+			&.sort {
+				padding-top: 10px;
+				padding-left: 10px;
+				
+				.drag-item {
+					display: inline-block;
+					transform: rotate(90deg);
+					color: rgba($blue-dark, .3);
+					font-size: 30px;
+					font-weight: bold;
+					letter-spacing: -1px;
+					cursor: ns-resize;
+				}
+			}
+			
+			&.name {
+				font-weight: 600;
+				
+				a {
+					max-width: 98px;
+					display: inline-block;
+					@include text-overflow;
+				}
+			}
+			
+			&.type, &.bom-tree, &.status {
+				font-size: 17px;
+			}
+			
+			a, .set-meta {
+				color: $primary;
+				text-decoration: none;
+				cursor: pointer;
+				
+				&:focus {
+					box-shadow: none;
+				}
+			}
+			
+		}
+		
+		.ui-sortable-helper {
+			display: table;
+			background-color: rgba($gray-300, .8);
+			
+			td {
+				border: none;
+			}
+		}
+	}
+}
+
+.woocommerce_variations {
+	
+	.bom-associates-list {
+		padding-left: 0;
+		padding-right: 0;
+		
+		.alert {
+			margin: -$grid-gutter-width/2 0;
+		}
+		
+		.bom-associates-table {
+			padding-left: 0;
+			padding-right: 0;
+			
+			td {
+				padding: 0.3rem;
+				vertical-align: middle;
+			}
+		}
+	}
+	
+}
+
+// Popovers' customisations
+.popover {
+	
+	// Inner content for "Set Field" popovers
+	.popover-content {
+		
+		> input[type=number], > input[type=text], > .button {
+			display: inline-block;
+			vertical-align: middle;
+			height: 30px;
+		}
+		
+		> input[type=number], > input[type=text] {
+			width: 75%;
+		}
+		
+		> .button {
+			margin-left: 3px;
+			
+			&:disabled {
+				color: $light !important;
+				opacity: 0.6;
+			}
+		}
+		
+		.alert {
+			padding: 0.3rem 0.75rem;
+			margin-bottom: .5rem;
+			width: 100%;
+		}
+		
+		@include tablet-max {
+			> input[type=number], > input[type=text], > .button {
+				width: 100%;
+			}
+			
+			> .button {
+				margin-left: 0;
+				margin-top: 5px;
+			}
+		}
+		
+	}
+	
+	// Popover with extra meta fields
+	&.with-meta {
+		
+		.popover-content {
+			input, button {
+				width: 100%;
+				margin: 3px 0;
+			}
+			
+			hr {
+				border-color: $info;
+			}
+		}
+		
+	}
+	
+}

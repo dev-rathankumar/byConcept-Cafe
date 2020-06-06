@@ -1,0 +1,106 @@
+.redux-container{
+	overflow: visible !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+	width: 24%;
+	text-align: center;
+	margin-bottom: 15px !important;
+	float: left;
+}
+.redux-container-image_select .redux-image-select img, 
+.redux-container-image_select .redux-image-select-selected img, 
+.redux-container-image_select .redux-image-select .tiles, 
+.redux-container-image_select .redux-image-select-selected .tiles {
+    border-width: 2px;
+    border-style: solid;
+}
+.admin-color-fresh .redux-container-image_select .redux-image-select-selected img, 
+.wp-customizer .redux-container-image_select .redux-image-select-selected img {
+	border-color: red;
+}
+.redux-container-image_select ul.redux-image-select li:nth-child(4n + 5) {
+	clear: both;
+}
+.vc_element-icon.vc-icon-tbay {
+	background-image: url(../../images/vc-icon-tbay.png);
+}
+.redux-sidebar .redux-group-menu li.divide {
+	display: none;
+}
+.image-large .redux-container-image_select ul.redux-image-select {
+	margin-left: -2% !important;
+}
+.image-large .redux-container-image_select ul.redux-image-select li {
+    width: 27%;
+    margin: 0 !important;
+    padding: 0 3%;
+}
+
+.image-two .redux-container-image_select ul.redux-image-select li {
+    width: 45%;
+    margin-left: 2% !important; 
+    margin-right: 2% !important;
+}
+
+.image-large .redux-container-image_select ul.redux-image-select li:nth-child(2n) {
+	margin-left: 0 !important;
+}
+
+.image-large .redux-container-image_select ul.redux-image-select li span {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.wp-customizer .redux-container-image_select ul.redux-image-select li {
+	width: 44%;
+	margin: 0 2% 30px !important;
+}
+
+.upload_image_action ,.screenshot{
+	clear: both;
+}
+.woocommerce table.form-table .select2-container.redux-select-item {
+	min-width: initial !important;
+}
+
+/*Hidden skins not active*/
+.active_skins.image-large .redux-container-image_select ul.redux-image-select li {
+	width: 100%;
+	text-align: left;
+	padding: 0 15px;
+}
+.active_skins.image-large .redux-container-image_select ul.redux-image-select li span {
+	text-align: center;
+}
+
+.active_skins ul.redux-image-select .redux-image-select .redux-image-select:not(.redux-image-select-selected){
+	display: none;
+}
+.redux-field-container[data-id="active_theme"] ul.redux-image-select li{
+	width: 100%;
+	margin: 0 !important;
+} 
+.redux-field-container[data-id="active_theme"] ul.redux-image-select .redux-image-select .redux-image-select:not(.redux-image-select-selected){
+	display: none;
+}
+/*End skins not active*/
+/*big divide*/
+.redux-main .divide.big-divide .inner {
+	border-top-width: 3px;
+}
+.redux-main .divide.big-divide .inner span {
+	border-width: 3px;
+    margin-top: -7px;
+} 
+.remove-upload-slides .redux_slides_add_remove,
+.remove-upload-slides .upload_button_div,
+.remove-upload-slides .screenshot {
+	display: none !important;
+}
+.screenshot img {
+	max-width: 100%;
+}

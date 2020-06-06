@@ -1,0 +1,154 @@
+/* ================================================
+ * DUPLICATOR PRO STYLE
+ * Common elements shared across the duplicator plugin 
+ * Copyright:Snap Creek LLC 2015 
+ * ================================================ */
+
+/*Global Elements*/
+input[type=button]{cursor:pointer;padding:5px;cursor:pointer;}
+input[type=submit]{cursor:pointer;padding:5px;cursor:pointer;}
+label {font-size:13px !important}
+.no-select {user-select:none; -o-user-select:none;  -moz-user-select:none; -khtml-user-select:none; -webkit-user-select:none;}
+hr {border: 0; border-top: 1px solid #ddd; border-bottom: 1px solid #fafafa; margin: 10px 0 2px 0;}
+i[data-tooltip].fa-question-circle {cursor: pointer; color:#C3C3C3}
+span.btn-separator {content: ''; display: inline-block; background: silver; margin: 2px 3px; height: 25px; width: 1px; vertical-align: top;}
+/*a.gift-icon i.fa {color: #AF5E52 !important}*/
+a.upgrade-link {color:maroon; font-style: italic}
+
+/* UTILS CLASSES */
+.no_display {
+    display: none;
+}
+
+.color_red {
+    color: #d54e21;
+}
+
+/*TABS*/
+ul.category-tabs li {cursor: pointer}
+
+/*BOXES: Expandable sections */
+div.dup-box {padding:0px; display: block; background-color: #fff; border: 1px solid #e5e5e5; box-shadow: 0 1px 1px rgba(0,0,0,.04);}
+div.dup-box-title {font-size: 16px; padding: 10px 0 0 10px; font-weight: bold; cursor: pointer; height:27px; margin:0px; color:#000 }
+div.dup-box-title:hover {background-color: #FCFCFC;}
+div.dup-box-arrow {text-decoration:none!important; float:right; width:27px; height:30px; font-size:16px; cursor:pointer; padding:1px 0 0 0; white-space: nowrap}
+div.dup-box-panel {padding:10px 15px 10px 15px;  border-top:1px solid #EEEEEE; margin:-1px 0 0 0;}
+sup.dup-box-title-badge {display:inline-block; font-weight: normal; margin-top:-3px; font-size: 12px; font-style: italic}
+
+/*PANELS: Boxes that do not exapand */
+div.dpro-panel-optional-txt {text-align: center; font-style: italic; font-size: 12px; color:#777}
+div.dpro-panel-optional-txt {color:maroon}
+
+/*EDIT SCREENS: Common edit settings */
+table.dpro-edit-toolbar {width:100%; margin:0 0 4px 0}
+table.dpro-edit-toolbar td {white-space: nowrap !important; padding:10px 0 0 0}
+table.dpro-edit-toolbar td:last-child {width:100%; text-align:right;  padding-right:0px }
+table.dpro-edit-toolbar td:last-child a {top:0;}
+table.dpro-edit-toolbar .button {box-shadow: none !important}
+table.dpro-edit-toolbar td:last-child span {display:inline-block; font-weight: bold; }
+table.dpro-edit-toolbar .btnnav {font-weight: bold}
+table.dpro-edit-toolbar .btnnav a{margin-top:10px}
+table.dpro-edit-toolbar .btnnav span{padding:0 12px 0 5px;}
+table.dpro-edit-toolbar .tablenav-pages a{margin-top:5px}
+table.dpro-edit-toolbar .tablenav-pages span{ font-weight: normal !important;}
+hr.dpro-edit-toolbar-divider {margin:8px 0 8px 0}
+i.dpro-edit-info {font-size:12px; color:#777; line-height:25px;}
+
+/*INFO-BOX: Simple box with no title */
+div.dup-info-box {padding:8px; border:1px solid #ccc; border-radius:4px; background-color:#F7FCFE;  margin: 0 0 5px 20px; line-height:16px}
+div.dup-info-box small {margin-top:10px; display:block}
+
+/*PACKAGE: Progress Boxes */
+div#dup-progress-bar-area {width:500px; margin:40px auto 0 auto; padding:25px 50px 35px 50px; border:1px solid #ccc; box-shadow:0 8px 6px -6px #999; text-align:center; border-radius:4px;}
+div#dup-progress-bar-area h2 {margin-bottom: 15px}
+
+/*HEADER MESSAGES*/
+div.dup-hdr-success {color:green; font-size: 20px; font-weight: bold}
+div.dup-hdr-error {color:#A62426; font-size: 20px; font-weight: bold}
+
+/*FOOTER MESSAGES*/
+div#dpro-monitor-trace-area {position:absolute; bottom:5px;  padding:5px; border:0px solid red;; text-align: center; border:0 solid red; right: 5px; line-height: 26px}
+div#dpro-monitor-trace-area a{font-style: italic}
+
+/*SCREEN TABS*/
+div.dpro-screen-hlp-info {line-height:26px; padding:10px 0 10px 0}
+
+/*DIALOGS: THICKBOX   */
+#TB_title { padding-bottom: 3px!important; margin-bottom:5px!important; font-size:16px!important;}
+div.dpro-dlg-alert-txt {padding:10px 0; font-size:16px; line-height: 22px}
+div.dpro-dlg-alert-btns {float: right;}
+div.dpro-dlg-confirm-txt {padding:10px 0; font-size:16px}
+div.dpro-dlg-confirm-btns {position:absolute; bottom:20px; right:20px;}
+div.dpro-dlg-confirm-progress {display:none}
+
+/*ADMIN: NOTICES   */
+div#dpro-global-error-reserved-files p {font-size:14px}
+div#dpro-global-error-reserved-files b.pass-msg {color:green; font-size:20px}
+div#dpro-global-error-reserved-files p.pass-lnks {line-height:24px; margin:-7px 0 0 5px}
+div#dpro-global-error-reserved-files div.pass-msg {padding:5px 0 0 10px; font-size:11px; color:#999; font-style: italic}
+div.cleanup-notice b.title {color:green; font-size:20px;}
+div.dpro-wpnotice-box {display:none;}
+div.error-txt {color:maroon; font-style:italic}
+
+/*================================================
+PARSLEY:Overrides*/
+input.parsley-error, textarea.parsley-error, select.parsley-error {
+  color:#B94A48 !important;
+  background-color:#F2DEDE !important;
+  border:1px solid #EED3D7 !important;
+}
+ul.parsley-error-list {margin:1px 0 -7px 0}
+div.qtip-content {line-height:16px}
+
+.duplicator-error-container {margin-top:6px; color:#dd3d36;}
+
+.hidden, .js .closed .inside, .js .hide-if-js, .js .wp-core-ui .hide-if-js, .js.wp-core-ui .hide-if-js, .no-js .hide-if-no-js, .no-js .wp-core-ui .hide-if-no-js, .no-js.wp-core-ui .hide-if-no-js {
+    display: none;
+}
+
+/* TESTS CHECKS */
+.tests_result .test-check {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.tests_result .test-check.fail {
+     background: rgba(255,0,0,0.3);
+}
+
+.tests_result .test-check.pass,
+.tests_result .test-check.info {
+    background: rgba(0,255,0,0.3);
+}
+
+.tests_result .test-check.warning,
+.tests_result .test-check.wait {
+    background: rgba(255,255,0,0.3);
+}
+
+.tests_result fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/** Settings **/
+
+#installer-name-mode-option {
+    line-height:25px;  
+}
+
+#dup-pro-inst-mode-details {
+    display: none;
+    max-width:825px; 
+    padding-left:20px; 
+    line-height:18px;
+}
+
+#dup-pro-inst-mode-details p {
+    margin: 1em 0;
+}
+

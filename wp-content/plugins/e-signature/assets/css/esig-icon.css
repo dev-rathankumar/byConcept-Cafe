@@ -1,0 +1,217 @@
+/* Custom Font */
+@font-face 
+{
+	        font-family: "wp-e-signature";
+	        src:url("../fonts/wp-e-signature.eot");
+	        src:url("../fonts/wp-e-signature.eot?#iefix") format("embedded-opentype"),
+	        url("../fonts/wp-e-signature.woff") format("woff"),
+	        url("../fonts/wp-e-signature.ttf") format("truetype"),
+	        url("../fonts/wp-e-signature.svg#wp-e-signature") format("svg");
+	        font-weight: normal;
+	        font-style: normal;
+}
+
+
+[data-icon]:before 
+{
+	        font-family: "wp-e-signature" !important;
+	        content: attr(data-icon);
+	        font-style: normal !important;
+	        font-weight: normal !important;
+	        font-variant: normal !important;
+	        text-transform: none !important;
+	        speak: none;
+	        line-height: 1;
+	        -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before 
+{
+	        font-family: "wp-e-signature" !important;
+	        font-style: normal !important;
+	        font-weight: normal !important;
+	        font-variant: normal !important;
+	        text-transform: none !important;
+	        speak: none;
+	        -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+}
+.icon-next:before 
+{
+	        content: "a";
+}
+.icon-save:before 
+{
+	        content: "b";
+}
+.icon-sign-icon-1:before 
+{
+	        content: "c";
+}
+.icon-idea:before 
+{
+	        content: "d";
+}
+.icon-chat:before 
+{
+	        content: "e";
+}
+.icon-credit-card:before 
+{
+	        content: "f";
+}
+.icon-bug:before 
+{
+	        content: "g";
+}
+.icon-exit:before 
+{
+	        content: "h";
+}
+.icon-settings:before 
+{
+	        content: "i";
+}
+.icon-pdf:before 
+{
+	        content: "j";
+}
+.icon-check:before 
+{
+	        content: "l";
+}
+.icon-lock:before 
+{
+	        content: "m";
+}
+.icon-boss:before
+ {
+	        content: "n";
+}
+.icon-sign-icon-2:before
+ {
+	        content: "o";
+}
+.icon-pause:before 
+{
+	        content: "p";
+}
+.icon-lost:before
+ {
+	        content: "q";
+}
+.icon-play:before 
+{
+	        content: "r";
+}
+.icon-play-next:before
+ {
+	        content: "s";
+}
+.icon-support:before 
+{
+	        content: "t";
+}
+.icon-chevron-down:before 
+{
+	        content: "u";
+}
+.icon-chevron-left:before
+ {
+	        content: "v";
+}
+.icon-chevron-right:before 
+{
+	        content: "w";
+}
+.icon-chevron-up:before 
+{
+	        content: "x";
+}
+.icon-caret-up:before
+ {
+	        content: "y";
+}
+.icon-caret-up-down:before
+ {
+	        content: "z";
+}
+.icon-caret-down:before
+ {
+	        content: "A";
+}
+.icon-pause-1:before 
+{
+	        content: "B";
+}
+.icon-minus:before
+ {
+	        content: "C";
+}
+.icon-plus:before 
+{
+	        content: "D";
+}
+.icon-approveme-badge:before 
+{
+	        content: "F";
+}
+.icon-approveme-logo:before 
+{
+	        content: "k";
+}
+.icon-wp-esign-logo:before 
+{
+	        content: "E";
+}
+.icon-key:before 
+{
+	        content: "G";
+}
+.icon-cloud-upload:before 
+{
+	        content: "H";
+}
+.icon-delete-circle:before 
+{
+	        content: "K";
+}
+.icon-page-csv:before {
+  			content: "I";
+}
+.icon-success-check:before {
+  			content: "J";
+}
+.icon-signature-type:before {
+  content: "L";
+}
+.icon-t:before {
+  content: "M";
+}
+.icon-esig-alert:before {
+  content: "N";
+}
+.icon-trash-bin:before {
+  content: "O";
+}
+.icon-wp-e-signature:before {
+  content: "c";
+}
+.icon-print-icon:before {
+  content: "P";
+}
+.icon-zoom-icons:before {
+  content: "Q";
+}
+.icon-download-icon:before {
+  content: "R";
+}
+.icon-doorkey:before {
+  content: "S";
+}
+
+.s_logo .icon-success-check:before{
+			font-size: 7em;
+			color: #64bc51;
+}

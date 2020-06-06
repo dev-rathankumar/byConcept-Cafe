@@ -1,0 +1,412 @@
+
+.esig-verified-logo {
+    height:60px;
+}
+.input-field:focus {
+    border:3px solid #3F7FCC;
+}
+#lock-icon{
+    position: absolute;
+    top:4px;
+    left: 2px;
+}
+.esig-access-form{
+    width: 70% ;
+    position: relative;
+    top:25px;
+}
+.esig-documentation{
+    border: 2px #EAEAEA solid;
+    height:125px;
+    position: relative;
+    left: 15px;
+    width:440px;
+}
+
+.document-section-title{
+   
+    position: relative;
+    left: 21px !important;
+   
+  
+}
+.lock-icon-head{
+   position: relative;
+    left: 16px !important;  
+     top:3px !important;
+}
+.esig-documentationcon{
+    border: 2px #EAEAEA solid;
+    height:140px;
+    position: relative;
+    left: 15px;
+    width:440px;
+}
+
+.esig-documentation-popup{
+
+    border: 2px #EAEAEA solid;
+    height:120px;
+    position: relative;
+    top:10px;
+    left: 15px;
+    width:420px;
+    /*width:200px */
+
+}
+
+
+.esig-documentation-confirmation{
+
+    border: 2px #EAEAEA solid;
+    height:120px;
+    position: relative;
+    left: 15px;
+    width:400px;
+
+
+}
+
+
+.access_code_login{
+    background:#3F7FCC;
+    border:none;
+    padding: 8px 40px;
+    color:white;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+#reset-password{
+    background:#3D7ECB;
+    padding: 8px 25px;
+    color:white;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border:none;   
+}
+.login{
+    font-size: 22px;
+    position: absolute;
+    bottom: 10px;
+    left:340px;
+
+}
+#access_code_login_popup{
+
+    background: #3D7ECB;
+
+    padding:5px 15px;
+    color:white;
+
+    font-size:20px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+}
+#access_login{
+    background: #F9F9F9;
+    padding: 10px;
+    width:440px;
+
+}
+#access_login_popup{
+    background: #F9F9F9;
+    padding: 11px;
+
+}
+#access-email{
+    color:#797878;font-size:14px;
+}
+/*#esig-footer{
+    visibility: hidden;
+}*/
+#doc-pic{
+    position: relative;
+    top:7px;   
+}
+
+#esig-approveme{
+    position: absolute;
+    top:6px;
+    left:0px;   
+
+}
+#esig-verify{
+
+    position: relative;
+    left:330px;
+}
+#verify-logo{
+
+    position: absolute;
+    top:10px;
+    left:342px;
+}
+#password-reset{
+
+    position: absolute;
+    top:11px;
+    left:15px;
+    font-size:16px ;
+}
+#password-resett{
+
+    position: absolute;
+    top:8px;
+    left:5px;
+}
+#verify-logoo{
+
+    position: absolute;
+    top:1px;
+    left:310px;
+}
+#sending_shortly{
+
+    position: absolute;
+    top:3px;
+    bottom: 3px;
+    left:4px;
+    right:4px;
+}
+.esig-cc-template{
+    position: relative;
+    top:15 px;
+
+}
+#forget_access_password{
+    position: relative;
+    top:1px;
+    right:160px;
+    text-decoration: none;
+    color: #787878;
+    color:#B6B6B6;font-size:12px;
+
+}
+
+.popup-heading{
+    position: absolute;
+    top:2px;
+}
+#go-back{
+
+    position: absolute;
+    bottom:18px;
+    left:40px;
+    text-decoration: none;
+    color:#9D9D9D;font-size:12px;
+}
+.input-field{
+    width:440px;
+    height:35px;
+    border: 2px #EAEAEA solid;
+}
+#document-section{
+    position:absolute;
+    right:1px;
+    top:10px;  
+
+}
+#doc-png{
+    position:absolute;
+    left:4px;
+    top:12px;
+}
+#document-section-popup{
+    position:absolute;
+    right:1px;
+    top:10px;
+}
+#popup-field{
+    width:421px;
+    height:35px;
+    border: 2px #EAEAEA solid;
+}
+#document_text{
+    color:#9D9D9D;
+    font-size:12px;
+}
+#esig-slv-reset-password{
+    background:#3F7FCC;
+    border:none;
+    padding: 8px 20px;
+    color:white;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;   
+}
+#slv-go-back{
+    position: absolute;
+    left:30px;
+    bottom: 20px;
+    text-decoration: none;
+    color:#B6B6B6;
+
+}
+.esig-documentation-popupre{
+    border: 2px #EAEAEA solid;
+    height:120px;
+
+    position: relative;
+    top:50px;
+    left: 15px;
+    width:420px;
+}
+#reset-password-email{
+
+    position: relative;
+    top:50px;   
+}
+.confirm-heading{
+    position: relative;
+    top:50px;
+}
+#slv_reset_confirmation{
+    position: relative;
+    left:120px;
+    top:100px;
+}
+#document_textcon{
+
+    width:450px;
+    margin: auto;
+    font-weight: 30px;
+    color:#797878;
+
+}
+.icon-esig-alert{
+    font-size:50px;
+    position: relative;
+    left:12px;
+    bottom:5px;
+
+}
+.error-email-password{
+    position:absolute;
+    left:80px;
+    bottom:4px;
+    font-size:14px; 
+}
+.esigalert{
+    display:block;
+    left: 12px;
+    bottom:5px;
+}
+.error-password{
+    position:absolute;
+    left:80px;
+    bottom:14px; 
+}
+.error-reset{
+    display:none;
+    border:2px solid red;
+    width:440px;
+    height:70px;
+    position:relative;
+    top: 30px;
+}
+.sending-error{
+    position:relative;
+    left:45px;
+    top:10px;
+}
+.document-error{
+    position:relative;
+    left:45px;
+    top:10px;
+}
+.text-error{
+    color:red;
+}
+
+.invalid-email{
+    position: relative;
+    left:20px !important;  
+
+}
+#login_text{
+
+    position: relative;
+    left:10px !important; 
+    font-size: 16px;
+
+}
+#error-access-code{
+
+    position:relative;
+    left:80px;
+    bottom:25px;
+
+}
+#esig-show-error{
+    display:none;
+    border:2px solid red;
+    width:440px;
+    height:70px;
+    position:relative;
+    top: 30px;
+}
+#esig-set-error{
+    display:none;
+    border:2px solid red;
+    width:440px;
+    height:70px;
+    position:relative;
+    bottom: -25px;
+}
+#esig-confirm-error{
+    display:none;
+    border:2px solid red;
+    width:420px;
+    height:70px;
+    position:relative;
+    bottom: 18px; 
+}
+
+/******** spacing ****************/
+.esig-space {
+    display:block;
+    position: relative;
+    margin-top:2% !important;
+    margin-bottom:2% !important;
+}
+.esig-space-login{
+    display:block;
+    position: relative;
+    margin-top:4.5% !important;
+    margin-bottom:4.5% !important;
+}
+.esig-space-con{
+ display:block;
+    position: relative;
+    margin-top:3% !important;
+    margin-bottom:3% !important;   
+}
+.set-login{
+    position: relative;
+    left:10px !important;
+    font-size: 16px;
+}
+.password-text{
+    color:#797878;
+    font-size:14px;
+}
+.access-text{
+    color:#797878;
+    font-size:14px;
+}
+.email-text{
+    color:#797878;
+    font-size:12px;
+}
+.esig-slv-create-pass{
+	border: 2px solid #3F7FCC;
+    padding: 14px 25px;
+    margin: 4px 0 17px;
+    width: 440px;
+    border-radius: 4px;
+    color: #3F7FCC;
+}

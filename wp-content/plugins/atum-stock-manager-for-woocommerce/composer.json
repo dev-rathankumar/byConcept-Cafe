@@ -1,0 +1,23 @@
+{
+	"name": "stock-management-labs/atum-stock-manager-for-woocommerce",
+	"description": "ATUM Stock Manager for WooCommerce",
+	"license": "Copyrighted",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"preferred-install": "dist"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"mpdf/mpdf": "^8.0.0",
+		"madcoda/php-youtube-api": "^1.2",
+		"jimmiw/php-time-ago": "^2.0"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Atum\\": "classes/"
+		}
+	}
+}

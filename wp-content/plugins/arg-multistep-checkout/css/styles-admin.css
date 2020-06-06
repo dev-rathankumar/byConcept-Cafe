@@ -1,0 +1,297 @@
+/**
+ * Table of Contents
+ *
+ *Admin Tabs general
+ *Steps tables
+ *Styles tables
+ *Radio Buttons
+ */
+
+
+
+/*Admin Tabs general*/
+
+.argmc-wrapper {
+    margin: 27px 8px;
+}
+
+.argmc-tab-wrapper {
+    margin-bottom: 65px;
+}
+
+.argmc-wrapper .nav-tab {
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 1;
+    border: none;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 3px solid #c9c9c9;
+    background: #e9e9e9;
+    min-width: 153px;
+    margin: 0;
+    padding: 22px 20px;
+    position: relative;
+}
+
+.argmc-wrapper .nav-tab:first-child {
+    border-left: none;	
+}
+
+.argmc-wrapper .nav-tab.nav-tab-active {
+    color: #000;
+    background: #fff;
+    border-bottom: 3px solid #000;
+}
+
+.argmc-wrapper .nav-tab:after {
+    display: none;
+    content: "";
+	
+    border-color: #000 transparent transparent;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    
+    width: 0;
+    height: 0;
+    
+    margin-left: -6px;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+}
+
+.argmc-wrapper .nav-tab.nav-tab-active:after {
+    display: block;
+}
+
+.argmc-wrapper .nav-tab:focus {
+    box-shadow: none;	
+}
+
+.argmc-wrapper .argmc-form {
+    margin: 0 0 0 7px;
+}
+
+.argmc-wrapper .form-table {
+    margin: 0 0 50px;
+}
+
+.argmc-wrapper .form-table th,
+.argmc-wrapper .form-table td {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.argmc-wrapper .argmc-table-buttons td > * {
+    margin-top: 1px;
+}
+
+.argmc-wrapper .argmc-table-style td > * {
+    margin-top: 4px;
+}
+
+
+.argmc-wrapper .form-table > tbody > tr > th {
+    padding-right: 70px;
+    width: 420px;
+	
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.argmc-wrapper .form-table.argmc-table-buttons > tbody > tr > th {
+    width: 350px;
+}
+
+.argmc-top-heading {
+    font-size: 18px;
+    margin-bottom: 7px; 
+}
+
+.argmc-wrapper h3 {
+    font-size: 16px;
+}
+ 
+.argmc-top-text {
+    margin-top: 0;
+    margin-bottom: 58px;
+    max-width: 580px;
+}
+
+.argmc-top-text.argmc-text-general-settings {
+    margin-bottom: 39px;
+}
+
+.argmc-wrapper .argmc-description {
+    display: block;
+    font-size: 13px;
+    line-height: 1.3;
+    font-style: italic;
+    font-weight: 400;
+    color: #555;
+    margin-top: 3px;
+}
+
+.argmc-wrapper table input {
+    min-width: 210px;
+    padding: 5px 8px;
+
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.argmc-wrapper table textarea {
+    height: 67px;
+    min-width: 210px;
+    resize: none;
+}
+
+.argmc-wrapper table select[name="secondary_font_weight"] {
+    min-width: 210px;
+}
+
+.argmc-wrapper input.readonly,
+.argmc-wrapper input[readonly],
+.argmc-wrapper textarea.readonly,
+.argmc-wrapper textarea[readonly] {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+
+
+/*Steps tables*/
+
+.form-table.argmc-table-steps {
+    width: auto;
+    margin: -5px 0 70px;
+}
+
+.form-table.argmc-table-steps th {
+    padding: 6px 0;
+    line-height: 1;
+    width: auto;
+}
+
+.form-table.argmc-table-steps td {
+    padding: 0 2px 2px 0;
+}
+
+.form-table.argmc-table-steps th:last-child,
+.form-table.argmc-table-steps td:last-child {
+    width: 200px;
+    padding-left: 15px;
+}
+
+.form-table.argmc-table-steps input {
+    min-width: 210px;
+}
+
+.argmc-wrapper .combine-tabs-table.form-table {
+    margin-bottom: 70px;
+}
+
+.argmc-wrapper .combine-tabs-table.form-table > tbody > tr > th {
+    font-size: 15px;
+    width: 437px;
+    padding: 22px 50px 0 0;
+    vertical-align: top;
+}
+
+.argmc-wrapper .combine-tabs-table.form-table > tbody > tr > td {
+    padding-bottom: 0;
+}
+
+.combine-tabs-table .second-row td {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.argmc-wrapper .combine-tabs-table input {
+    min-width: 209px;
+    padding: 5px;
+}
+
+.argmc-wrapper .combine-tabs-table input:nth-child(2) {
+    min-width: 0;
+    width: 125px;
+    margin-right: -2px;
+}
+
+.combine-tables-step-name {
+    font-size: 14px;
+    line-height: 1;
+    font-style: italic;
+    padding: 0px 0 12px;
+}
+
+
+
+/*Styles tables*/
+
+.argmc-wrapper .argmc-table-style input[type="text"] {
+    min-width: 0;
+    max-width: 107px;
+}
+
+.argmc-wrapper table select {
+    width: 107px;
+    box-shadow: none;
+}
+
+
+
+/*Radio Buttons*/
+
+.argmc-wrapper .radio-buttons-wrapper li {
+    float: left;
+    margin: 0;
+}
+
+.argmc-wrapper .input-radio-button {
+    display: none;
+}
+
+.argmc-wrapper .input-label-button {
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+
+    color: #333;
+    background: #f9f9f9;
+
+    cursor: pointer;
+    margin: 2px 0 0;
+    overflow: visible;
+    padding: 4px 13px 5px;
+    
+	
+    float: left;
+    -webkit-transition: background-image 0.1s;
+    transition: background-image 0.1s;
+}
+
+.argmc-wrapper .input-radio-button:checked + .input-label-button {
+    color: #fff;
+    background-color: #0073aa;
+}
+
+.wp-core-ui .argmc-wrapper .button {
+    border: medium none;
+    border-radius: 0;
+    height: 36px;
+    line-height: 1;
+    margin-right: 0;
+    min-width: 150px;
+    padding: 8px 20px;
+    text-shadow: none;
+    background: #fff;
+    box-shadow: none;
+}
+
+.wp-core-ui .argmc-wrapper .button-primary {
+    background: #0085ba
+}

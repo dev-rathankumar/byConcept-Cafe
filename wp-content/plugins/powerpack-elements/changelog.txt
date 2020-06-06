@@ -1,0 +1,684 @@
+== 1.4.14.2 ==
+Release date: May 1, 2020
+* Fixed: Woo Mini Cart - Cart button alignment issue with dropdown position
+* Added: Advanced Accordion - Title HTML Tag option
+* Fixed: Advanced Menu - Issue with toggle button thickness option
+
+== 1.4.14.1 ==
+Release date: April 24, 2020
+* Fixed: Advanced Menu - Minor CSS fix in toggle button
+
+== 1.4.14 ==
+Release date: April 22, 2020
+* New: Cross Domain Copy Paste feature
+* Fixed: Buttons - WPML translation issue
+* Added: Gravity Forms - Focus text color option
+* Fixed: Gravity Forms - Focus background color option
+* Enhancement: Gravity Forms - Added custom style to dropdown option
+* Enhancement: Toggle - Replaced Headings Spacing text with Labels Spacing
+* Enhancement: Toggle - Updated Switch button CSS
+* Added: Posts - Default Active Filter option
+* Enhancement: Posts - Added ability to choose more than one taxonomy for filters
+* Fixed: Posts - Pagination issue with offset
+* Fixed: Posts - ACF custom fields data in Posts Skin template
+* Fixed: Image Gallery - Load more button was showing even when there were no more photos to load
+* Fixed: Image Hotspots - Hotspot icon was not showing in editor
+* Enhancement: Woo Checkout - Added responsive controls to border radius and padding controls
+* Fixed: Album - Fancybox lightbox thumbnails were not working
+* Fixed: Woo Products - Carousel arrows in RTL layout
+* Fixed: Woo Mini Cart - Not able to click on mini cart when margin top is set
+* Fixed: Offcanvas cart conflict with advanced menu off canvas layout
+* Fixed: Advanced Menu - Dropdown style controls in case of off-canvas and full-screen layouts
+* Fixed: Advanced Menu - Close icon color and size options were not working
+* Added: Buttons - Button width option
+* Enhancement: Magazine Slider - Updated Choose Arrow control type
+* Added: Tiled Posts - Text alignment option
+* Added: Advanced Menu - Offcanvas Width option
+* Added: Advanced Menu - Dropdown Minimum width option
+* Added: Advanced Menu - Toggle Button padding option
+* Enhancement: Advanced Menu - Improved the Toggle Button size option
+* Added: Advanced Menu - Toggle Button hover border color option
+* Added: Advanced Menu - Toggle Button Box Shadow option
+* Fixed: Offcanvas Cart - Image width option was not working on frontend
+* Added: Offcanvas Cart - Close button icon size option
+* Added: Offcanvas Cart - Empty Cart Message style options
+* Added: Offcanvas Cart - Buttons position option
+* Added: Products - Link to Product options for Title and Image
+* Added: Woo Cart - Coupon Input Width option
+* Added: Woo Cart - Coupon Button Spacing option
+* Added: Timeline - Option to turn on/off Infinite Loop in horizontal layout
+* Enhancement: Woo Checkout - Updated Headings selector to avoid conflict with some themes
+
+== 1.4.13.4 ==
+Release date: April 1, 2020
+* Added: New Checkerboard layout in Posts widget
+* Enhancement: Updated saved template controls in widgets to ajax based controls
+* Added: Option to change default display section in Toggle widget
+* Enhancement: Moved Switch Style option to settings section in Toggle widget
+* Added: Toggle Position option in Toggle widget
+* Added: Image Size option in Toggle widget
+* Added: Background, border and padding options for content in Toggle widget
+* Fixed: Label style options were not appearing in Toggle widget
+* Added: Option to randomize logos in Logo Carousel widget
+* Enhancement: Menu toggle button hides when full screen menu is open in Advanced Menu widget
+* Fixed: Layout style options were not appearing for Masonry layout in Instagram Feed widget
+* Added: Option to close offcanvas bar on links click in Offcanvas Content widget
+* Fixed: Quick view slider arrow icons were not appearing in Woo - Products widget
+* Enhancement: Updated description textarea control to WYSIWYG control in Info Box widget
+* Fixed: PHP notice for back button in Flip Box widget
+* Added: Pause on Interaction option in Team member carousel, Info box carousel, Instagram Feed, Logo carousel, Card slider and Content ticker widgets
+* Enhancement: Update default value of autoplay speed to 3000 in Team member carousel, Info box carousel, Instagram Feed, Logo carousel, Card slider and Content ticker widgets
+* Added: Active filter style options in Video Gallery widget
+* Enhancement: Renamed 'Content' label to 'Content Container' in Posts widget
+* Enhancement: Renamed 'Excerpt' label to 'Content' in Posts widget
+
+== 1.4.13.3 ==
+Release date: March 19, 2020
+* Fixed: Fatal error in Faq schema file in last version
+
+== 1.4.13.2 ==
+Release date: March 18, 2020
+* Fixed: Row background was not applying to mobile layout in Table widget
+* Fixed: Editor was not opening when button is enabled in Info List widget
+* Added: Option to turn on/off schema in FAQ widget
+* Added: Default active tabs option for posts and ACF source type in FAQ widget
+* Enhancement: Support for multiple FAQ schema widgets on same page
+* Fixed: Overlay was not working in video and video gallery widgets
+* Enhancement: Added conditions to query controls in Posts widget
+* Fixed: Remove item icon color option was not working in Offcanvas Cart and Mini Cart widgets
+* Fixed: Autoplay option was not working in Instagram Feed widget
+
+== 1.4.13.1 ==
+Release date: March 11, 2020
+* Fixed: Swiper sliders breakpoints issue after updating to Elementor 2.9.5
+* Added: Slider speed option in Team Member Carousel and Instafeed widgets
+* Fixed: Search form loader was not working in Posts widget
+* Enhancement: Added empty gallery message in editor in Album, Image Gallery and Image Slider widgets
+* Enhancement: Added notice if no form is selected in forms widgets
+* Added: Ajax search form button position option in Posts widget
+* Added: Menu Order and Relevance option for Order By option in Posts widget
+* Fixed: Close button margin and padding options were not working in Popup Box widget
+* Fixed: Slick slider issue when used as template in Toggle widget
+* Enhancement: Added query controls in Posts widget for improved loading speed in editor
+
+== 1.4.13 ==
+Release date: February 20, 2020
+* New: Categories widget
+* Added: Review Order table cell padding option in Woo Checkout widget
+* Added: Option to hide additional information box in Woo Checkout widget
+* Added: Coupon bar toggle typography option in Woo Checkout widget
+* Added: Border, border radius, box shadow and padding options for coupon form in Woo Checkout widget
+* Added: Style options for columns in Woo Checkout widget
+* Added: Active link color options for dropdown menu in Advanced Menu widget
+* Fixed: Box background option was not working for Carousel layout in Overlap skin in Posts widget
+* Added: Option to show filter posts count in Posts widget
+* Added: Meta items spacing option in Posts widget
+* Fixed: PHP error in filters in Posts widget
+* Added: Ajax Search Form in Posts widget
+* Tweak: Updated default length of limited content to 30 words in Posts widget
+* Added: Main query option in Products widget
+* Added: Related products option in Products widget
+* Fixed: Width option for checkout button in Woo Cart widget
+* Added: Option to show or hide sortable dropdown in Table widget
+* Enhancement: Improved stying of sortable header in Table widget
+* Added: Sortable Icon Color option in Table widget
+* Added: Options to change style for first and last cells in Table widget
+* Fixed: Cell icon image option stopped working after Elementor version 2.9.0 in Table widget
+* Tweak: Set the default value of Icon Vertical Align to Center in Table widget
+* Fixed: Button Icon Position and Icon Spacing options in Add to Cart widget
+* Fixed: Carousel disappearing issue when arrow border color is set in Woo Categories widget
+* Fixed: Lightbox option in Instagram Feed widget
+* Added: Image link option in Instagram Feed widget
+* Fixed: Icon color option was not working for SVG icons in Offcanvas Cart widget
+* Fixed: Horizontal timeline in Timeline widget was not working properly when used inside Tabs or Toggle widget
+* Added: Error field label color and typography options in Formidable Forms widget
+* Added: Error field border option in Formidable Forms widget
+* Added: Error fields background color option in Caldera Forms widget
+* Added: Error fields box shadow option in Caldera Forms widget
+* Added: Error typography options in all Forms widgets
+* Added: Support for Elementor custom attributes for links in all widgets with link option
+* Tweak: Removed Google+ icon option from Team Member Carousel widget
+* Fixed: PHP error in Offcanvas WPML file
+
+== 1.4.12.3 ==
+Release date: January 24, 2020
+* Added: HTML tag options for heading and sub heading in Promo Box widget
+* Enhancement: Moved icon rotation option to content tab in Info Box widget
+* Fixed: Cart table border option in Woo Cart widget
+* Added: Border collapse option for Cart Table in Woo Cart widget
+* Enhancement: Added WPML compatibility for new widgets
+
+== 1.4.12.2 ==
+Release date: January 14, 2020
+* Added: Posts link option in Showcase widget
+* Fixed: Some of the style controls were not responsive in Timeline widget
+* Added: Auto zoom feature in Google Maps widget
+* Fixed: Youtube video controls were not working in Devices widget
+* Added: Pagination position option in Posts widget
+* Added: Option to turn on or off ajax pagination in Posts widget
+* Renamed Excerpt section to Content in Posts widget
+* Added: Content Type option in Posts widget
+* Fixed: Filters were not working for Saved Template skin in Posts widget
+* Enhancement: Added support for multiple filter taxonomies in Posts widget
+* Enhancement: Added support for multiple post terms in Posts widget
+* Fixed: Icon positions top and bottom were not working in Advanced Tabs widget
+* Enhancement: Moved alignment and space between tabs options to Tabs section in Advanced Tabs widget
+* Fixed: Close button Position options (Window - Top Left and Window - Top Right) were not working in Popup Box widget
+* Added: option to Prevent Page Scroll in Popup Box widget
+* Added: option to disable popup on tablet and mobile in Popup Box widget
+* Added: none option for animation in Popup Box widget
+* Fixed: Spaces in body classes in case of CSV file in Table widget
+* Fixed: Tabs layout on mobile in case of more than 3-4 tabs in Tabbed Gallery widget
+* Added: Horizontal Spacing and Vertical Spacing options for tiles in Magazine Slider widget
+* Added: Arrows border option in Products widget
+* Added: Arrows padding option in Products widget
+* Added: Dots spacing option in Products widget
+* Added: Currency Format option in Price Table widget
+* Enhancement: Moved Additional Info option into Button section in Price Table widget
+* Enhancement: Moved Alignment option to Style tab in Price Table widget
+* Added: Option to change title HTML tag in Card Slider widget
+* Fixed: Query filters in Card Slider widget
+* Enhancement: Updated maximum limit for autoplay speed in Card Slider widget
+* Added: Custom style option in Advanced Tabs widget
+* Fixed: Tabs alignment option for responsive layouts in Advanced Tabs widget
+* Fixed: Space between tabs option for responsive layouts in Advanced Tabs widget
+* Added: Vertical align option in Showcase widget
+* Added: Description Visibility option in Showcase widget
+
+== 1.4.12.1 ==
+Release date: December 18, 2019
+* Added: Loading animation color option in Image Gallery widget
+* Added: Option to to change size of submenu indicator in Advanced Menu widget
+* Fixed: Show Buttons option was not working in Devices widget
+* Fixed: Video play button was not changing to pause button while video was playing in Devices widget
+* Fixed: Video progress bar in Devices widget
+* Fixed: Default mute icon was not working in Devices widget
+* Fixed: Removed option to change play icon in Devices widget
+* Fixed: Question icon option was not working
+* Enhancement: Updated dynamic option of CSV upload function to support ACF fields in Table widget
+* Fixed: Custom currency option was not working in Price Table widget
+* Added: Option to change currency size in Price Table widget
+* Added: Option to change currency position in Price Table widget
+* Fixed: Breadcrumbs were not showing product categories on single product page in Breadcrumbs widget
+* Added: Support for Yoast, Rank math, Breadcrumb NavXT and SEOPress plugins in Breadcrumbs widget
+
+== 1.4.12.0 ==
+Release date: December 11, 2019
+* New: Background effects
+* Fixed: Link was not working when fade effect is selected in Flipbox widget
+* Fixed: Loop option was not working for self hosted videos in Devices widget
+* Fixed: Post terms were not appearing for related query in Posts widget
+* Added: Query Type option in Posts widget
+* Added: Query ID option in Posts widget
+* Added: Image stack option for News Skin in Posts widget
+* Added: Carousel layout for News Skin in Posts widget
+
+== 1.4.11.2 ==
+Release date: December 5, 2019
+* Added: Google Map Localization Language option
+* Added: Onepage Menu option in Advanced Menu widget
+* Enhancement: Removed maximum limit from excerpt length option in Posts widget
+* Enhancement: Renamed Space Between option of filters to Horizontal Spacing in Posts widget
+* Added: Vertical spacing option for filters in Posts widget
+* Added: 3 new date format options in Posts widget
+* Added: Coupon form style options in Woo Checkout widget
+* Added: Responsive Support option in Advanced Tabs widget
+* Added: Open by URL support in Advanced Tabs widget
+* Added: Title HTML tag option in Image Accordion widget
+* Fixed: Error and confirmation message style options in Fluent Forms widget
+* Fixed: Image spacing was appearing even if image was removed in Team Member widget
+
+== 1.4.11.1 ==
+Release date: November 21, 2019
+* Added: Masonry layout in Instagram Feed widget in Instagram Feed widget
+* Added: Option to show images without using API in Instagram Feed widget
+* Fix: Added empty faqs check in FAQ widget
+
+== 1.4.11.0 ==
+Release date: November 20, 2019
+* New: Fluent Forms widget
+* New: Formidable Forms widget
+* Added: Title HTML tag in Info List widget
+* Added: Typography option for icon type number in Info List widget
+* Added: Description option for captions in Image Gallery and Image Slider widget
+* Fix: Custom link option was not working in Showcase widget
+* Added: Dynamic support to latitude, longitude and address title fields in Google Maps widget
+* Added: Saved Template Skin option in Posts widget
+* Added: Related posts option in Posts widget
+* Added: Options to show message and search form when no posts are found in Posts widget
+* Added: Action and filter hooks for Posts widget
+* Added: Post body parts and meta items order option in Posts widget
+* Added: Thumbnail Location option in Posts widget
+* Added: Justified layout option in Image Gallery widget
+* Fixed: Dynamic tags were not working in Timeline widget
+* Added: Day of Week option in Display Conditions extension
+* Added: Date format option in Timeline widget
+* Added: More styling options for Toggle Icon in Advanced Accordion widget
+* Fixed: Icon for tab set as active by default was not changing in Advanced Accordion widget
+* Fixed: Percentage width for image for left and right alignment in Info Box widget
+* Fixed: Lightbox was showing all photos in active filters in Image Gallery widget
+* Added: Border type and border width options for content in Advanced Tabs widget
+* Fixed: Icon size option was not working for SVG icons in Advanced Tabs widget
+* Fixed: Column option was not working in Woo Categories widget
+* Fixed: Number rating format in editor in Review Box widget
+
+== 1.4.10.1 ==
+Release date: November 2, 2019
+* Fix: Merge conflict for how to widget
+
+== 1.4.10.0 ==
+Release date: October 25, 2019
+* New: Coupons widget
+* Fix: Turning Post Meta off was turning off Post Terms in news and portfolio skins in Posts widget
+* Fix: Image spacing option was applying spacing on wrong side for right aligned image in news Skin in Posts widget
+* Added: Width option for images in news skin in Posts widget
+* Fix: Image Comparison widget was not loading if it was used multiple time on same page
+* Fix: rel=nofollow tag was not working for button link in Price Table widget
+* Enhancement: Renamed label of Offcanvas Bar ‘Width’ option to ‘Size’ option in Offcanvas Content widget
+* Added: Percentage value support for Size option in Offcanvas Content widget
+
+== 1.4.9.2 ==
+Release date: October 17, 2019
+* Fix: Display Conditions extension was not working without saving settings on fresh installation
+
+== 1.4.9.1 ==
+Release date: October 17, 2019
+* Fix: Advanced Menu - Menu was not being closed by clicking on on-page link
+* Fix: Widgets were being disabled in admin settings after recent update
+* Fix: Conflict with Bigcommerce plugin
+
+== 1.4.9 ==
+Release date: October 16, 2019
+* New: How To widget
+* Fix: Icon custom number option was not working on frontend in Icon List widget
+* Fix: Bug with Display Conditions extension and Elementor forms widget
+* Added: Style options for Confirmation Message in WPForms widget
+* Fix: Icon color option in Info List widget
+* Added: Centre mode and centre padding options in Testimonials widget
+
+== 1.4.8.1 ==
+Release date: September 27, 2019
+* Fix: Breadcrumbs CSS issue
+
+== 1.4.8 ==
+Release date: September 25, 2019
+* New: Added FAQ widget
+* Enhancement: Added help document links to widgets
+* Enhancement: Rearranged display conditions options
+* Fix: Woo Product Grid - Add-to-Cart button AJAX issue in skin 2, 3, 4, and 5
+
+== 1.4.7 ==
+Release date: September 18, 2019
+New: Added Display Conditions (visibility rules) to widgets and sections
+Added: Empty cart message style options in Woo Mini Cart widget
+Fixed: Responsive alignment issues in Woo Mini Cart widget
+Added: Distance option for tooltip in One Page Nav widget
+Fixed: Minor CSS issue in top/bottom position in One Page Nav widget
+Added: Link option for hotspots in Hotspots widget
+
+== 1.4.6 ==
+Release date: September 4, 2019
+Enhancement: Updated icon controls in all widgets
+Added: Trigger icon and trigger image alignment options in Popup Box widget
+Fixed: Amount was not auto updating when a new product was added to cart in Offcanvas Cart and Mini Cart widgets
+Added: Option to add icon text in Icon List widget
+Added: Image size option in Table widget
+Added: Link option in Table widget
+Added: Text vertical align option in Table widget
+Fixed: 1 column layout issue in Woo Checkout widget
+Added: Icon spacing option in Instagram Feed widget
+Added: Image width option in Logo Grid widget
+Added: Typography option for date in Timeline widget
+Fixed: Toggle button typography option was not showing in Offcanvas Content widget
+Added: Image size option in Woo Products widget
+
+== 1.4.5.1 ==
+Release date: August 24, 2019
+Fixed: Typography option was not showing for full screen and off canvas menu type in Advanced Menu widget
+Enhancement: Moved typography options to separate section in Advanced Menu widget
+Added: Border widget option in Woo Products widget
+
+== 1.4.5 ==
+Release date: August 22, 2019
+New: Devices widget
+New: Review Box widget
+New: Fancy Heading widget
+Fixed: Woo checkout widget was not working properly on non-checkout pages
+Fixed: Dropdown menu icon issue in Advanced Menu widget
+
+== 1.4.4 ==
+Release date: July 31, 2019
+New: Mini Cart widget
+New: Off Canvas Cart widget
+Added: Icon option for load more button in Posts widget
+Fixed: Font size option was not working for load more button in Posts widget
+Fixed: Image link was not working in portfolio skin in Posts widget
+Added: Filters spacing option in Posts widget
+Update: Removed direction option and added right direction by default for RTL languages in all slider widgets
+Added: Scrollable option in Table widget
+Added: Option to turn off responsiveness in Table widget
+Added: Starting Number option in Counter widget
+Fixed: Price with value zero was not showing in Price Table widget
+Added: button position option in Price Table widget
+Added: Bottom position option for preview in Showcase widget
+Added: Centre mode option for scrollable navigation in Showcase widget
+Fixed: 2 column layout in Woo Checkout widget
+
+== 1.4.3 ==
+Release date: June 20, 2019
+New: Posts widget
+Added: 2 new layouts for Counter widget
+Added: Direction option for horizontal layout in Timeline widget
+Fixed: PHP error in case of content type image in Toggle widget
+Fixed: Alignment of Load more button after load more action in case of heavy images in Image Gallery widget
+Fixed: Add new item button was not working in Google Maps widget
+Fixed: Card arrow was getting hidden beneath the box shadow of the card in Timeline widget
+
+== 1.4.2 ==
+Release date: May 30, 2019
+New: Woo Products widget
+New: Woo Add to Cart widget
+New: Woo Categories widget
+New: Woo Cart widget
+New: Woo Checkout widget
+Added: Option to choose title HTML tag in content ticker widget
+Fixed: Body overflow issue in Offcanvas Widget
+
+== 1.4.1 ==
+Release date: May 21, 2019
+New: Tabbed Gallery widget
+
+== 1.4.0.2 ==
+Release date: May 10, 2019
+Fixed: Album cover button icon was not appearing in Album widget
+Fixed: Autoplay option was not working in Instagram Feed widget
+Added: Added Gallery Type option in Image Gallery widget
+Updated: Full screen menu now closes automatically when links are clicked in Advanced Menu widget
+
+== 1.4.0.1 ==
+Release date: May 10, 2019
+Fixed: Columns option was not working for carousel layout in Video Gallery widget
+
+== 1.4.0 ==
+Release date: May 6, 2019
+New: Twitter Buttons widget
+New: Twitter Grid widget
+New: Twitter Timeline widget
+New: Twitter Tweet widget
+Added: Video title option in Video Gallery widget
+Fixed: Dropdown menu position in Vertical Layout option in Advanced Menu widget
+Fixed: Instagram Feed widget was giving error when user ID or access token field was empty
+Added: Tiles border, border radius and box shadow options in Tiled Posts widget
+Updated: Content textarea field to WYSIWYG field in Advanced Tabs widget
+
+== 1.3.12 ==
+Release date: April 20, 2019
+Improved: Query options in all posts widgets
+Added: Dynamic support in Advanced Tabs widget
+Updated: Text editor to WYSIWYG editor in team member widget
+Added: Preview overlay option in Showcase widget
+Added: 2 new pointer effects in Advanced Menu widget
+
+== 1.3.11 ==
+Release date: April 1, 2019
+* New: Album widget
+* New: Scroll Image widget
+* Added: Posts support in Showcase widget
+* Added: Option to upload CSV files in Table widget
+* Fixed: Info box carousel was not working inside tabs widget
+* Added: Link option was not working in Timeline widget
+* Fixed: Dots were not working when arrows were disabled in Logo Carousel widget
+* Added: Dynamic content option to icon image and link options in Icon List widget
+
+== 1.3.10.1 ==
+Release date: March 13, 2019
+* Fixed: RTL issue in Image Slider widget
+* Fixed: Spacing issue for feature image top position in Image Slider widget
+* Added: Option to trigger off canvas bar using element ID or element class in Offcanvas Content widget
+* Added: WPML compatibility in Image Accordion, Advanced Accordion, Advanced Tabs, Breadcrumbs, Video, Video Gallery, Testimonials, Buttons, Flip Box and Image Gallery widgets
+* Added: Icon vertical alignment option in Icon List widget
+* Added: Icon image option in Timeline widget
+
+== 1.3.10 ==
+Release date: March 5, 2019
+* New: Testimonials widget
+* Fixed: Lightbox was showing wrong images when random order was selected in Image Gallery widget
+* Added options to link images to custom URL or attachment pages in Image Gallery widget
+* Fixed: Styling was not working for parent categories on single post in Breadcrumbs widget
+* Added: Breadcrumb support for blog page in Breadcrumbs widget
+* Added off canvas bar width option in Offcanvas widget
+* Added close button alignment option in Offcanvas widget
+* Added: Burger icon label spacing option in Offcanvas widget
+* Added: Image size option in Logo Grid widget
+
+== 1.3.9.1 ==
+Release date: February 13, 2019
+* Added: Caption hover effects in Image Gallery widget
+* Added: Icon align options in Info List widget
+* Enhancement: Added inline editing in Info List widget
+
+== 1.3.9 ==
+Release date: February 6, 2019
+* New: Advanced Accordion widget
+* New: Breadcrumbs widget
+* New: Content Ticker widget
+* New: Flip Box widget
+* New: Image Accordion widget
+* New: Magazine Slider widget
+* New: Video widget
+* New: Video Gallery widget
+* Added: 2 new layouts to counter widget
+* Added: Subtitle option to counter widget
+* Added: Admin label option to hotspots widget
+* Added: Keyboard navigation option to card slider widget
+* Added: Lightbox option to card slider widget
+
+== 1.3.8.3 ==
+Release date: January 7, 2019
+* Enhancement: Divided content options into section in Promo Box widget
+* Fixed: Breakpoint mobile option was not working properly in Advanced Menu widget
+* Enhancement: Moved icon divider and number divider options to Counter section in Counter widget
+* Added: Style options for icon and image in table widget
+* Fixed: Icon position was not appearing for image icon type for table footer in table widget
+* Renamed 'Team Member Settings' section to 'General Settings' in Team Member Carousel widget
+* Moved 'Show Social Icons' option to 'General Settings Section' in Team Member Carousel widget
+* Enhancement: Added Tabs for content and social links options in Team Member Carousel widget
+* Added: Image Size option in Logo Carousel, Info Box, Info Box Carousel, Info List, Recipe, Team Member Carousel, Price Table, Price Menu, Counter, Icon List, Divider, Promo Box and Info Table widgets
+* Added: Alt text to images in Logo Carousel, Info Box, Info Box Carousel, Info List, Recipe, Team Member Carousel, Price Table, Price Menu, Table, Counter, Icon List, Divider, Showcase, Promo Box and Info Table widgets
+* Enhancement: Updated Dots label to Pagination in Team Member Carousel widget
+* Fixed: Coverflow effect in Info Box Carousel and Logo Carousel widgets
+* Added: Columns gap and rows gap options in Instagram Feed widget
+* Fixed: Icon size issue in icon list widget
+* Added: Dynamic image support in team member widget
+* Fixed: WPForms widget was not showing on some servers
+
+== 1.3.8.2 ==
+Release date: December 4, 2018
+* Fixed: WPForms widget was not showing for latest version of WPForms plugin
+* Fixed: JS error in Showcase widget
+* Fixed: Load more button issue in Image Gallery widget
+
+== 1.3.8.1 ==
+Release date: November 29, 2018
+* Fixed: Text, icon and image dividers width was fixed at maximum 600px in Divider widget
+* Enhancement: Third party CSS files now load only when required
+* Fixed: Image icon alignment for responsive layout in Info Box widget
+* Added: Lightbox library option in Image Gallery, Image Slider and Showcase widgets. It is now possible to show captions in lightbox.
+* Added: Top and bottom positions in Offcanvas Content widget
+* Added: Hamburger icon option in Offcanvas Content widget
+
+== 1.3.8 ==
+Release date: October 25, 2018
+* New: Card Slider widget
+* New: Buttons widget
+
+== 1.3.7.4 ==
+Release date: October 23, 2018
+* Fixed: Multiple info windows were showing same content in Google Maps widget
+* Added: Missing WPML strings for Offcanvas Content, Showcase and Timeline widgets
+
+== 1.3.7.3 ==
+Release date: October 8, 2018
+* Fixed: Advanced Menu Dropdown issue
+
+== 1.3.7.2 ==
+Release date: September 27, 2018
+* Fixed: Minor issue with Plugin activation
+
+== 1.3.7.1 ==
+Release date: September 27, 2018
+* Fixed: WPForms plugin activation check
+
+== 1.3.7 ==
+Release date: September 26, 2018
+* New: Timeline widget
+* New: Advanced Tabs widget
+* Added: Scrollable navigation option in showcase widget
+* Enhancement: Moved Navigation Columns option to Additional Options section in showcase widget
+* Added: Overlay color and opacity options in Offcanvas Content widget
+* Added: Box styling options in Offcanvas Content widget
+* Added: Features icon color and size options in pricing table widget
+* Updated: Overlay opacity step size in image gallery widget
+* Added: Marker animation option in Google Maps widget
+* Added: Info window max width option in Google Maps widget
+* Added: Link option for title and image in Team Member widget
+* Added: Email and phone number fields in Team Member Carousel widget
+* Added: Link option for title and image in Team Member Carousel widget
+* Updated: Table JS files
+
+== 1.3.6 ==
+Release date: September 11, 2018
+* New: Showcase widget
+* Added: Responsive breakpoint option for top layout in Info List widget
+* Fixed: Image size option was not working in editor in Image Hotspots widget
+
+== 1.3.5.3 ==
+Release date: September 5, 2018
+* Fixed: Alignment option was not working inline layout style in Icon List widget
+* Fixed: Closed text option was not working in business hours widget
+* Fixed: Bug with Show Image switch button in price menu widget
+* Enhancement: Moved Position option from Icon section to List section in Style tab to avoid confusion in info list widget
+* Fixed: Depth property of tilt effect was not working in image gallery widget
+* Fixed: Elementor icons were not displaying in Offcanvas Content widget
+
+== 1.3.5.2 ==
+Release date: August 21, 2018
+* Fixed: Adding a new widget to the page does nothing.
+
+== 1.3.5.1 ==
+Release date: August 17, 2018
+* Fixed: Issue with plugin activation
+
+== 1.3.5 ==
+Release date: August 17, 2018
+* New: Offcanvas Content widget
+* Fixed: Submit button styling options were not working for multi page forms in gravity forms widget
+* Fixed: Alignment option was not working for custom form title and description in gravity forms widget
+* Added: Style options for progress bar in gravity forms widget
+* Added: Style options for pagination in gravity forms widget
+* Added: Auto width option to submit button in gravity forms widget
+* Fixed: Menu items padding and spacing options were not available for mobile layout
+* Fixed: Layout was breaking when breakpoint none option was selected
+
+== 1.3.4.1 ==
+Release date: August 10, 2018
+* Fix: Broken JS link in Advanced Menu widget
+
+== 1.3.4 ==
+Release date: August 2, 2018
+* Added: Load more button to Instagram Feed widget
+* New: Image Gallery widget
+* New: Image Slider widget
+
+== 1.3.3 ==q
+Release date: July 8, 2018
+* Fix: Arrow was not showing on tooltip in hotspot widget
+
+== 1.3.2.1 ==
+* Fix: Box link option was not working in info table widget
+* Fix: Navigation and pagination issue in info box carousel, logo carousel, team member carousel and instafeed widgets
+* Added: Fraction pagination option in info box carousel, logo carousel, team member carousel and instafeed widgets
+* Added: Direction option in info box carousel, logo carousel, team member carousel and instafeed widgets
+* Added: Layout option in icon list widget
+
+== 1.3.2 ==
+Release date: June 27, 2018
+* New: Advanced Menu Widget
+* Added: Ribbon option in pricing table widget
+* Fix: Col span width issue in table widget
+* Fix: Label color was not working for radio and checkbox fields
+* Fix: Button styling options were not showing when button text field was kept empty
+* Fix: PHP bug in countdown widget
+
+== 1.3.1.1 ==
+* Fix: Arrow was not showing on tooltip in hotspot widget
+* Fix: Link was not working on box type option in info table widget
+
+== 1.3.1 ==
+Release date: May 21, 2018
+* New: Countdown Widget
+* Added: Option to add link to box and icon in info box carousel widget
+* Added: Option to add link to icon in info box widget
+* Added: Options to vertically and horizontally align logos in logo grid widget
+* Added: Alignment options for days and hours in business hours widget
+* Added: Options to add custom days and timings in business hours widget
+* Fix: Icon spacing issue in table widget in editor window
+
+== 1.3.0 ==
+Release date: May 3, 2018
+* New: One Page Navigation Widget
+* New: Info Table Widget
+* New: Toggle Widget
+
+== 1.2.3 ==
+Release date: May 2, 2018
+* Added: Support for dynamic content in supported fields in all the widgets
+* Fix: Animation issue in popup box widget
+
+== 1.2.2.2 ==
+Release date: March 30, 2018
+* Added: Support for shortcodes in text and textarea fields in all the widgets
+
+== 1.2.2.1 ==
+Release date: March 29, 2018
+* Fix: PHP Warning message when using Elementor 2.0 
+
+== 1.2.2 ==
+Release date: March 19, 2018
+* New: Modal Popup Widget
+* New: Info List Widget
+* Enhancement: Added option to hide labels in contact form 7 widget
+* Fix: Input field spacing issue in contact form 7 widget
+
+== 1.2.1 ==
+Release date: January 30, 2018
+* Enhancement: Added Thank you message styling options for Gravity Forms widget
+* Fix: Link option was not working on button field in Promo Box widget
+* Fix: Plugin activation issue on some servers
+* Enhancement: Added option to change icon position for tablets and mobiles in info box
+
+== 1.2.0 ==
+Release date: December 20, 2017
+* New: Google Maps Widget
+* New: WPForms Widget
+* Fix: Responsive issue with Table widget
+* Fix: Padding was not working on textarea field in Gravity Forms widget
+* Fix: One dot navigation was working on all widgets in Info Box carousel widget
+* Fix: One dot navigation was working on all widgets in Team Member carousel widget
+* Fix: White Label for plugin was stopped working
+* Fix: Plugin settings issues in multisite network
+* Fix: License deactivation was not working
+
+== 1.1.0.1 ==
+Release date: December 3, 2017
+* Fix: White Label settings was not being saved sometimes
+
+== 1.1.0 ==
+Release date: November 28, 2017
+* Enhancement: Added Radio Button and Checkbox Styling options for Gravity Forms widget
+* New: Ninja Forms Widget
+* New: Caldera Forms Widget
+
+== 1.0.0 ==
+Release date: November 17, 2017
+* Initial Release

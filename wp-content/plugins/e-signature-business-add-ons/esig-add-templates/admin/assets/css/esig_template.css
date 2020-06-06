@@ -1,0 +1,59 @@
+
+
+#template_signer_container{
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+    vertical-align: middle;
+    position: relative;
+    height: auto;
+    padding:10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(214, 211, 211, 1);
+    font-size: 14px;
+    color: #aaa;
+    background: #FAFAFA;
+    font-weight: 100;
+}
+
+
+#signer_main_pop 
+{
+    display: block;
+    width: 100%;
+}
+#second_layer_temp{
+
+    position: absolute;
+    right:-25px;
+    top:1px;
+}
+
+
+
+#no_of_signer input 
+{
+    border-radius:4px ; 
+    padding: 10px;
+}
+
+.esig-button-large 
+{
+    padding: 8px 20px 10px !important;
+    height: 46px !important;
+    font-size: 14px;
+    line-height: 28px !important;
+}
+#template_top #esig_template_basic_next:after{
+    font-family: "wp-e-signature";
+    content: "s";
+    font-size: 18px;
+    color: #fff;
+    margin: 1px 0 0 7px;
+    display: inline-block;	
+}
+#template_top #esig_template_basic_next{
+    display:inline-flex;
+    display: -webkit-flex;
+    display: -webkit-inline-flex;
+}

@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2017, 12:04:49 AM
+    Author     : Rupom
+*/
+
+.esig-system-btnclose {
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    right:4px;
+    top: 4px;
+    cursor: pointer;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+
+
+.esig-export-alert-text {
+    border: 3px solid #EC3838 !important;
+    padding: 10px 19px;
+    border-radius: 6px;
+    color: #EC3838;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 700;
+    margin-top:50px;
+}
+
+.esig-db-update-now-btn #esig-db-btn-update-now{
+    margin-top:40px;
+   /* height: 100%;
+    padding: 9px 36px;
+    font-size: 15px;*/
+}
+
+.migration-running {
+    text-align: center;
+    padding:30px;
+}
+
+.donot-close{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.esig-notice {
+    margin-top:40px !important;
+}
+#esig-notice .esig-db-migration-alert{
+	padding: 13px;
+}
+.esig-db-migration-alert a.learn-more{
+	text-decoration:underline;	
+}
+
+.esig-migrate-complete-message{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.esig-update-btn {
+    background: #ffb900 !important;
+    border: none;
+    color: #fff;
+    border-radius: 3px !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 8px 20px;
+    height: auto;
+    width:auto;
+    font-weight: bold !important;
+    letter-spacing: .02em;
+    transition: all 0.3s ease 0s;
+    text-decoration: none !important;
+}
+.esig-update-btn:hover{
+    background: #ffb900; 
+    color: #fff;
+	cursor:pointer;
+}
+
+a.esig-migrate-anyway, a.esig-migrate-anyway:link, a.esig-migrate-anyway:visited, a.esig-migrate-anyway:hover, a.esig-migrate-anyway:focus, a.esig-migrate-anyway:active{
+    color: #444444;
+    font-family: sans-serif;
+}
+
+.esig-dialog-header h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ui-widget-overlay
+{
+    z-index:1 !important;
+}
+.update-main-container{
+    width:100%;
+    height:150px;
+}
+.search-logo {
+   width:28%;
+   display:inline-block;
+   text-align: right;
+}
+.parent-description {
+    vertical-align: top;
+    margin-top:40px;
+    height: 75px;
+    width:70%;
+    display:inline-block;
+    text-align:justify; 
+}
+.esig-migrate-now-description {
+    width:90%;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight:700;
+}
+
+#TB_window{
+    height:auto !important;
+}
+
+#TB_closeWindowButton{
+    right:0 !important;
+}

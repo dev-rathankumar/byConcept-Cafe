@@ -1,0 +1,58 @@
+<% if(final_items_discount_amount && final_items_discount_amount > 0) {%>
+
+<table>
+    <tr class="tabletitle">
+        <td class="item"><h2>Item</h2></td>
+
+        <td class="qty"><h2>Qty</h2></td>
+
+    </tr>
+    <% items.forEach(function(item){ %>
+    <tr class="service">
+        <td class="tableitem item-name">
+            <p class="itemtext"><%= item.name %></p>
+            <% if(item.sub_name.length > 0){ %>
+
+                   <p class="option-item"> <%- item.sub_name  %> </p>
+
+            <% }; %>
+
+        </td>
+
+        <td class="tableitem item-qty"><p class="itemtext"><%= item.qty %></p></td>
+
+    </tr>
+    <% }); %>
+
+</table>
+
+<% } else{ %>
+
+<table>
+    <tr class="tabletitle">
+        <td class="item"><h2>Item</h2></td>
+
+        <td class="qty"><h2>Qty</h2></td>
+
+    </tr>
+    <% items.forEach(function(item){ %>
+    <tr class="service">
+        <td class="tableitem item-name">
+            <p class="itemtext"><%= item.name %></p>
+            <% if(item.sub_name.length > 0){ %>
+
+                   <p class="option-item"> <%- item.sub_name  %> </p>
+
+            <% }; %>
+
+        </td>
+
+        <td class="tableitem item-qty"><p class="itemtext"><%= item.qty %></p></td>
+
+
+    </tr>
+    <% }); %>
+
+</table>
+
+<% } %>

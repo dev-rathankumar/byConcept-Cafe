@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2017, 11:40:38 AM
+    Author     : Rupom
+*/
+.esig-section-title {
+    height: 40px !important;
+}
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none !important;
+}
+
+.esig-popup-header {
+    font-size: 1.3em !important;
+    padding: 10px;
+}
+
+.padding {
+    padding:15px !important;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.leftPadding{
+    padding-left: 15px !important;
+}
+
+.leftPadding-5 {
+   padding-left: 5px !important;  
+   font-weight: normal !important;
+}
+
+.leftPadding-10 {
+   padding-left: 10px !important;  
+   font-weight: normal !important;
+}
+.leftPadding-30 {
+   padding-left: 30px !important;  
+}
+.rightPadding{
+    padding-right: 15px !important;
+}
+
+.noLeftMargin {
+    margin-left: 0px !important;
+}
+
+.positionRelative{
+    position: relative !important;
+}
+
+.esig-checkbox {
+    position: relative !important;
+}
+.esig-input {
+    width:100% !important;
+   
+}
+.esig-inside h4 {
+    font-size: 13px !important;
+}
+
+.topPadding , .bottomPadding{
+    padding-top:3px !important;
+    padding-bottom: 3px !important;
+}
+
+.topMargin{
+    margin-top:10px !important;
+}
+.bottomMargin {
+    margin-bottom: 10px !important;
+}
+
+#wpfooter {
+  position: absolute !important ;
+}
+/*input[type=checkbox], input[type=radio] {
+   margin: 4px 7px !important;  
+}*/

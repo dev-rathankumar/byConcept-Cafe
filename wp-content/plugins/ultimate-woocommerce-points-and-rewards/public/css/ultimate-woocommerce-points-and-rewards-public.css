@@ -1,0 +1,11 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#mwb_wpr_pro_cost_to_points{
+	padding: 8px;
+	border: 1px solid #d5d5d5;
+	margin-right: 10px;
+    vertical-align: middle;
+    -webkit-appearance: checkbox;
+}
