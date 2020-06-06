@@ -14,3 +14,9 @@
     background-color: #FEC608;
     color: #152B3B;
 }
+.content-right.ng-star-inserted{
+	max-width: 400px !important;
+	min-width: 400px !important;
+}
+.seller-info mat-icon, .seller-info-value span{color: #152B3B;}
+.seller-info mat-divider{border-top-style: none !important;}
