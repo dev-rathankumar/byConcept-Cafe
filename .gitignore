@@ -14,6 +14,9 @@ wp-content/uploads/
 wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-content/plugins/atum-stock-manager-for-woocommerce
+wp-content/plugins/lordicon-interactive-icons
+wp-content/plugins/atum-product-levels
 
 /.htaccess
 /license.txt
