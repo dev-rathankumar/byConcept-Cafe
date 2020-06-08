@@ -20,3 +20,4 @@
 }
 .seller-info mat-icon, .seller-info-value span{color: #152B3B;}
 .seller-info mat-divider{border-top-style: none !important;}
+.product-paged-items .product-sku{display: none;}

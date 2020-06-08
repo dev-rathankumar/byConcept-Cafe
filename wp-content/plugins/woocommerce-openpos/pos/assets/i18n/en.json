@@ -149,7 +149,7 @@
   },
   "DASHBOARD": {
     "LABEL_OPEN_CASH" : "Open Cash",
-    "LABEL_BOARD" : "Board",
+    "LABEL_BOARD" : "Products",
     "LABEL_SAVEDCART" : "Saved Cart",
     "LABEL_ORDERS" : "Orders",
     "LABEL_TRANSACTIONS" : "Transactions",
