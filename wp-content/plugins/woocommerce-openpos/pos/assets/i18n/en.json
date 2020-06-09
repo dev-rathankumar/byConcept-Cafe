@@ -49,7 +49,7 @@
     "CLEARCART_MSG": "Are you sure  ?",
     "CLEARCART_BTN_CANCEL": "Cancel",
     "CLEARCART_BTN_CLEAR": "Clear Cart",
-    "MSG_SEARCH_CUSTOMER" : "Search customer",
+    "MSG_SEARCH_CUSTOMER" : "Search customer by name",
     "SHIPPING_TITLE" : "Shipping Informations",
     "SHIPPING_METHOD" : "Shipping method",
     "SHIPPING_METHOD_STORE_PICKUP" : "Store Pickup",
