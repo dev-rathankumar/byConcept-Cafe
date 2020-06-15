@@ -52,3 +52,22 @@ background: #152B3B !important;
 	color: #fff;
 }
 .grid-top-menu .mat-icon{color:#152B3B;}
+.mat-list[_ngcontent-c14] .mat-list-item[_ngcontent-c14]:nth-child(odd) :hover{
+	background-color: #152B3B !important;
+	color: #fff !important;
+}
+.desk-page[_ngcontent-c14] .cart-item-row[_ngcontent-c14] :hover{
+	background-color: #152B3B !important;
+	color: #fff !important;
+}
+.mat-raised-button[disabled][disabled]{color:#716f6f !important;}
+.pagination div:nth-child(4){display: none;}
+.available-desk-details.desk-free.ng-star-inserted p{
+	color: #152B3B !important;
+}
+mat-list-item.mat-list-item.ng-star-inserted :hover{
+	background: #152B3B !important;
+	color: #fff !important;
+}
+.mat-list-item .order-number p{margin-bottom: 2px !important;}
+.top-menu-nav mat-icon{color:#152B3B !important;}

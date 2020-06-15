@@ -174,7 +174,7 @@ $all_area = $op_woo->getListRestaurantArea();
 
     <div class="row">
         <div class="col-md-12 text-center">
-            <h3><?php echo __('KitChen View','openpos'); ?></h3>
+            <h3><?php echo __('KitChen View','openpos'); ?><span style="float:right;"><a id="btnFullscreen" href='#'"><span class="glyphicon glyphicon-fullscreen"></span></a></span></h3>
         </div>
     </div>
     <div class="row">
@@ -182,6 +182,7 @@ $all_area = $op_woo->getListRestaurantArea();
             <form class="form-horizontal">
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-3 control-label"><?php echo __('View Type','openpos'); ?></label>
+					
                     <div class="col-sm-8">
                         <select class="form-control" name="kitchen_type">
                             <option value="<?php echo OPENPOS_URL.'/kitchen/index.php?type=all&id='.$id; ?>" <?php echo ($kitchen_type == 'all') ? 'selected':'';?> > <?php echo __('All','openpos'); ?></option>
@@ -193,8 +194,10 @@ $all_area = $op_woo->getListRestaurantArea();
 
                     </div>
                     <div class="col-sm-1 pull-left">
-                        <p><a href="javascript:void(0);" data-id="<?php echo $id; ?>" id="refresh-kitchen"> <span class="glyphicon glyphicon-retweet" aria-hidden="true"></span> </a></p>
+                        <p><a href="javascript:void(0);" data-id="<?php echo $id; ?>" id="refresh-kitchen"> <span class="glyphicon glyphicon-trash" aria-hidden="true" title="Reset" style="color: red;font-size:22px;"></span> </a></p>
+						
                     </div>
+
                 </div>
 
             </form>
@@ -208,7 +211,7 @@ $all_area = $op_woo->getListRestaurantArea();
                 <th><?php echo __('Item','openpos'); ?></th>
                 <th class="text-center"><?php echo __('Qty','openpos'); ?></th>
                 <th><?php echo __('Order Time','openpos'); ?></th>
-                <th><?php echo __('Table','openpos'); ?></th>
+                <th><?php echo __('Order Number / Table','openpos'); ?></th>
                 <th class="text-center"><?php echo __('Ready ?','openpos'); ?></th>
             </tr>
             </thead>
@@ -243,6 +246,38 @@ wp_print_scripts($handes);
 
         });
     }(jQuery));
+	
+	
+	function toggleFullscreen(elem) {
+	  elem = elem || document.documentElement;
+
+	  if (!document.fullscreenElement && !document.mozFullScreenElement &&
+		!document.webkitFullscreenElement && !document.msFullscreenElement) {
+		if (elem.requestFullscreen) {
+		  elem.requestFullscreen();
+		} else if (elem.msRequestFullscreen) {
+		  elem.msRequestFullscreen();
+		} else if (elem.mozRequestFullScreen) {
+		  elem.mozRequestFullScreen();
+		} else if (elem.webkitRequestFullscreen) {
+		  elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+		}
+	  } else {
+		if (document.exitFullscreen) {
+		  document.exitFullscreen();
+		} else if (document.msExitFullscreen) {
+		  document.msExitFullscreen();
+		} else if (document.mozCancelFullScreen) {
+		  document.mozCancelFullScreen();
+		} else if (document.webkitExitFullscreen) {
+		  document.webkitExitFullscreen();
+		}
+	  }
+	}
+
+	document.getElementById('btnFullscreen').addEventListener('click', function() {
+	  toggleFullscreen();
+	});
 
 
 </script>
