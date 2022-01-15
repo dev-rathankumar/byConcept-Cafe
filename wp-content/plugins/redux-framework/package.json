@@ -39,7 +39,7 @@
     "lodash": "^4.17.13",
     "minimatch": "^3.0.4",
     "recess": "^1.1.9",
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.5"
   },
   "engines": {
     "node": ">=0.10.33",
